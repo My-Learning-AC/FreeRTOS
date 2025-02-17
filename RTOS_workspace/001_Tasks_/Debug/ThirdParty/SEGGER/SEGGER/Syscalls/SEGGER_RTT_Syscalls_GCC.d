@@ -1,0 +1,8 @@
+ThirdParty/SEGGER/SEGGER/Syscalls/SEGGER_RTT_Syscalls_GCC.o: \
+ ../ThirdParty/SEGGER/SEGGER/Syscalls/SEGGER_RTT_Syscalls_GCC.c \
+ C:/RTOS_STM32F407_DISCOVERY/RTOS_workspace/001_Tasks_/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.h \
+ C:/RTOS_STM32F407_DISCOVERY/RTOS_workspace/001_Tasks_/ThirdParty/SEGGER/Config/SEGGER_RTT_Conf.h
+
+C:/RTOS_STM32F407_DISCOVERY/RTOS_workspace/001_Tasks_/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.h:
+
+C:/RTOS_STM32F407_DISCOVERY/RTOS_workspace/001_Tasks_/ThirdParty/SEGGER/Config/SEGGER_RTT_Conf.h:

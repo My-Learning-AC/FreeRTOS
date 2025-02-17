@@ -1,0 +1,28 @@
+20:00:39 **** Incremental Build of configuration Debug for project 001_Tasks_ ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../Inc -I"C:/RTOS_STM32F407_DISCOVERY/RTOS_workspace/001_Tasks_/ThirdParty/SEGGER/Config" -I"C:/RTOS_STM32F407_DISCOVERY/RTOS_workspace/001_Tasks_/ThirdParty/SEGGER/OS" -I"C:/RTOS_STM32F407_DISCOVERY/RTOS_workspace/001_Tasks_/ThirdParty/SEGGER/SEGGER" -I"C:/RTOS_STM32F407_DISCOVERY/RTOS_workspace/001_Tasks_/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/RTOS_STM32F407_DISCOVERY/RTOS_workspace/001_Tasks_/ThirdParty/FreeRTOS" -I"C:/RTOS_STM32F407_DISCOVERY/RTOS_workspace/001_Tasks_/ThirdParty/FreeRTOS/include" -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/stm32f4xx_hal_msp.d" -MT"Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc -o "001_Tasks_.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\RTOS_STM32F407_DISCOVERY\RTOS_workspace\001_Tasks_\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_Tasks_.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_Tasks_.elf
+ 
+arm-none-eabi-objdump -h -S  001_Tasks_.elf  > "001_Tasks_.list"
+arm-none-eabi-size   001_Tasks_.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28904	    128	  84624	 113656	  1bbf8	001_Tasks_.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_Tasks_.list
+ 
+20:00:48 **** Incremental Build of configuration Debug for project 001_Tasks_ ****
+make -j8 all 
+arm-none-eabi-size   001_Tasks_.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28904	    128	  84624	 113656	  1bbf8	001_Tasks_.elf
+Finished building: default.size.stdout
+ 
+20:08:44 **** Incremental Build of configuration Debug for project 001_Tasks_ ****
+make -j8 all 
+arm-none-eabi-size   001_Tasks_.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28904	    128	  84624	 113656	  1bbf8	001_Tasks_.elf
+Finished building: default.size.stdout
+ 

@@ -1,0 +1,10 @@
+06:03:13 **** Incremental Build of configuration Debug for project 000_Printf2 ****
+make -j8 all 
+arm-none-eabi-size   000_Printf2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32560	    152	   3520	  36232	   8d88	000_Printf2.elf
+Finished building: default.size.stdout
+ 
+
+06:03:14 Build Finished. 0 errors, 0 warnings. (took 1s.78ms)
+
