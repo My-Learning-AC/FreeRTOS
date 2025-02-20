@@ -1,0 +1,3078 @@
+Open On-Chip Debugger 0.10.0+dev-1.1.0.901 (2020-06-09-06:04)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+DUT NAME_2 : 0x60
+DUT NAME_2 : 0x60
+DUT NAME_2 : 0x60
+Acquiring using acquire_TestMode_SROM
+DUT name: 0x60
+INIT_ACQUIRE_COUNT: 0
+DUT name: 0x60
+kitprog done
+
+adapter speed: 2000 kHz
+adapter srst delay: 25
+adapter srst pulse_width: 5
+** Auto-acquire enabled, use "set ENABLE_ACQUIRE 0" to disable
+cortex_m reset_config sysresetreq
+adapter srst delay: 100
+adapter srst delay: 100
+traveo2_c2d_4m
+All done
+Info : CMSIS-DAP: SWD  Supported
+Info : CMSIS-DAP: FW Version = 2.0.0
+Info : CMSIS-DAP: Interface Initialised (SWD)
+Info : SWCLK/TCK = 1 SWDIO/TMS = 1 TDI = 0 TDO = 0 nTRST = 0 nRESET = 1
+Info : CMSIS-DAP: Interface ready
+Info : KitProg3: FW version: 1.1.127
+Info : KitProg3: Pipelined transfers disabled, please update the firmware
+Info : VTarget = 5.067 V
+Info : kitprog3: acquiring the device...
+Info : clock speed 2000 kHz
+Info : SWD DPIDR 0x6ba02477
+Info : Listening on port 3333 for gdb connections
+Info : Listening on port 3334 for gdb connections
+Info : kitprog3: acquiring the device...
+###############################################################################################
+
+THE DEVICE UNDER TEST IS: TVIIC2D4M_SILICON
+TEST ID FOR DEVICE UNDER TEST IS: 0x60
+###############################################################################################
+
+Acquire Check:
+0xdeadbeef
+IOR (0x 28002000, 0x deadbeef) n.e.d.
+IOW (0x 28002000, 0x deadbeef)
+0xdeadbeef
+IOR (0x 28002000, 0x deadbeef) n.e.d.
+Acquire Check PASS !!
+NAR:
+0x00000080
+IOR (0x 17001a00, 0x 00000080) n.e.d.
+NDAR:
+0x00000000
+IOR (0x 17001a04, 0x 00000000) n.e.d.
+CPUSS WOUNDING:
+0x00000000
+IOR (0x 402020c0, 0x 00000000) n.e.d.
+AP_CTL:
+0x00000007
+IOR (0x 40201414, 0x 00000007) n.e.d.
+PROTECTION:
+0x00000002
+IOR (0x 402020c4, 0x 00000002) n.e.d.
+IPC0 DATA0:
+0x280010f0
+IOR (0x 4022000c, 0x 280010f0) n.e.d.
+IPC0 DATA1:
+0xca61d59f
+IOR (0x 40220010, 0x ca61d59f) n.e.d.
+IPC3 DATA0:
+0x0b1e11f4
+IOR (0x 4022006c, 0x 0b1e11f4) n.e.d.
+IPC3 DATA1:
+0xb543c43c
+IOR (0x 40220070, 0x b543c43c) n.e.d.
+PROTECTION STATE
+0x00000002
+IOR (0x 402020c4, 0x 00000002) n.e.d.
+NAR
+0x00000080
+IOR (0x 17001a00, 0x 00000080) n.e.d.
+NDAR
+0x00000000
+IOR (0x 17001a04, 0x 00000000) n.e.d.
+SYS CALL TABLE ADDR:
+0x17001c04
+IOR (0x 17000004, 0x 17001c04) n.e.d.
+0x00003e00
+IOR (0x 17002000, 0x 00003e00) n.e.d.
+Reading eFuse Values..!!
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000001)
+0x03000001
+IOR (0x 4022004c, 0x 03000001) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000e9
+IOR (0x 4022004c, 0x a00000e9) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:0, actual: 233 ,DefaultData:0x29 F_BOOT_KEY
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000401)
+0x03000401
+IOR (0x 4022004c, 0x 03000401) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000ad
+IOR (0x 4022004c, 0x a00000ad) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:4, actual: 173 ,DefaultData:0x85 V CLK_IMO_TCTRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000801)
+0x03000801
+IOR (0x 4022004c, 0x 03000801) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000e6
+IOR (0x 4022004c, 0x a00000e6) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:8, actual: 230 ,DefaultData:0x20 V CCO_RCTRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000c01)
+0x03000c01
+IOR (0x 4022004c, 0x 03000c01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000c8
+IOR (0x 4022004c, 0x a00000c8) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:12, actual: 200 ,DefaultData:0x00 V BODVDD_TRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001001)
+0x03001001
+IOR (0x 4022004c, 0x 03001001) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000025
+IOR (0x 4022004c, 0x a0000025) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:16, actual: 37 ,DefaultData:0x00 V OVDVCCD_TRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001401)
+0x03001401
+IOR (0x 4022004c, 0x 03001401) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:20, actual: 0 ,DefaultData:0x00 V RAM_WOUND
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001801)
+0x03001801
+IOR (0x 4022004c, 0x 03001801) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000011
+IOR (0x 4022004c, 0x a0000011) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:24, actual: 17 ,DefaultData:0x4e V FACTORY_HASH_WORD0_0
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001c01)
+0x03001c01
+IOR (0x 4022004c, 0x 03001c01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa000006c
+IOR (0x 4022004c, 0x a000006c) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:28, actual: 108 ,DefaultData:0x22 V FACTORY_HASH_WORD1_0
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002001)
+0x03002001
+IOR (0x 4022004c, 0x 03002001) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000bc
+IOR (0x 4022004c, 0x a00000bc) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:32, actual: 188 ,DefaultData:0x3f V FACTORY_HASH_WORD2_0
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002401)
+0x03002401
+IOR (0x 4022004c, 0x 03002401) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000013
+IOR (0x 4022004c, 0x a0000013) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:36, actual: 19 ,DefaultData:0xda V FACTORY_HASH_WORD3_0
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002801)
+0x03002801
+IOR (0x 4022004c, 0x 03002801) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:40, actual: 0 ,DefaultData:0x00 V FACTORY_DEAD_ACCESS_AP_RESTRICT
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002c01)
+0x03002c01
+IOR (0x 4022004c, 0x 03002c01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:44, actual: 0 ,DefaultData:0x4e F SECURE_HASH_WORD0_0
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003001)
+0x03003001
+IOR (0x 4022004c, 0x 03003001) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:48, actual: 0 ,DefaultData:0x22 F SECURE_HASH_WORD1_0
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003401)
+0x03003401
+IOR (0x 4022004c, 0x 03003401) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:52, actual: 0 ,DefaultData:0x3f F SECURE_HASH_WORD2_0
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003801)
+0x03003801
+IOR (0x 4022004c, 0x 03003801) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:56, actual: 0 ,DefaultData:0xda F SECURE_HASH_WORD3_0
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003c01)
+0x03003c01
+IOR (0x 4022004c, 0x 03003c01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:60, actual: 0 ,DefaultData:0x00 F SECURE_ACCESS_AP_RESTRICT
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004001)
+0x03004001
+IOR (0x 4022004c, 0x 03004001) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:64, actual: 0 ,DefaultData:0x00 F SECURE_DEAD_ACCESS_AP_RESTRICT
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004401)
+0x03004401
+IOR (0x 4022004c, 0x 03004401) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:68, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_0
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004801)
+0x03004801
+IOR (0x 4022004c, 0x 03004801) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:72, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_4
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004c01)
+0x03004c01
+IOR (0x 4022004c, 0x 03004c01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:76, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_8
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005001)
+0x03005001
+IOR (0x 4022004c, 0x 03005001) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:80, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_12
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005401)
+0x03005401
+IOR (0x 4022004c, 0x 03005401) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:84, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_16
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005801)
+0x03005801
+IOR (0x 4022004c, 0x 03005801) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:88, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_20
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005c01)
+0x03005c01
+IOR (0x 4022004c, 0x 03005c01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:92, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_24
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006001)
+0x03006001
+IOR (0x 4022004c, 0x 03006001) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:96, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_28
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006401)
+0x03006401
+IOR (0x 4022004c, 0x 03006401) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:100, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_ZEROS
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006801)
+0x03006801
+IOR (0x 4022004c, 0x 03006801) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:104, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006c01)
+0x03006c01
+IOR (0x 4022004c, 0x 03006c01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:108, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007001)
+0x03007001
+IOR (0x 4022004c, 0x 03007001) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:112, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007401)
+0x03007401
+IOR (0x 4022004c, 0x 03007401) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:116, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007801)
+0x03007801
+IOR (0x 4022004c, 0x 03007801) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:120, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007c01)
+0x03007c01
+IOR (0x 4022004c, 0x 03007c01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:124, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000101)
+0x03000101
+IOR (0x 4022004c, 0x 03000101) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000c0
+IOR (0x 4022004c, 0x a00000c0) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:1, actual: 192 ,DefaultData:0x00 V BOOT_LIFECYCLE
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000501)
+0x03000501
+IOR (0x 4022004c, 0x 03000501) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000050
+IOR (0x 4022004c, 0x a0000050) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:5, actual: 80 ,DefaultData:0x80 V CLK_IMO_FCNTRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000901)
+0x03000901
+IOR (0x 4022004c, 0x 03000901) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000ec
+IOR (0x 4022004c, 0x a00000ec) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:9, actual: 236 ,DefaultData:0x6C V CCO_FCTRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000d01)
+0x03000d01
+IOR (0x 4022004c, 0x 03000d01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000060
+IOR (0x 4022004c, 0x a0000060) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:13, actual: 96 ,DefaultData:0x00 V BODVDD_VCCD_TRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001101)
+0x03001101
+IOR (0x 4022004c, 0x 03001101) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000dd
+IOR (0x 4022004c, 0x a00000dd) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:17, actual: 221 ,DefaultData:0x2E V OVDVCCD_ACT_REG_TRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001501)
+0x03001501
+IOR (0x 4022004c, 0x 03001501) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:21, actual: 0 ,DefaultData:0x00 V FLASH_WOUND
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001901)
+0x03001901
+IOR (0x 4022004c, 0x 03001901) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000be
+IOR (0x 4022004c, 0x a00000be) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:25, actual: 190 ,DefaultData:0x71 V FACTORY_HASH_WORD0_1
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001d01)
+0x03001d01
+IOR (0x 4022004c, 0x 03001d01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000049
+IOR (0x 4022004c, 0x a0000049) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:29, actual: 73 ,DefaultData:0x0b V FACTORY_HASH_WORD1_1
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002101)
+0x03002101
+IOR (0x 4022004c, 0x 03002101) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000e4
+IOR (0x 4022004c, 0x a00000e4) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:33, actual: 228 ,DefaultData:0x15 V FACTORY_HASH_WORD2_1
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002501)
+0x03002501
+IOR (0x 4022004c, 0x 03002501) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000060
+IOR (0x 4022004c, 0x a0000060) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:37, actual: 96 ,DefaultData:0x10 V FACTORY_HASH_WORD3_1
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002901)
+0x03002901
+IOR (0x 4022004c, 0x 03002901) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:41, actual: 0 ,DefaultData:0x00 F FACTORY_DEAD_ACCESS_MEM_RESTRICT
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002d01)
+0x03002d01
+IOR (0x 4022004c, 0x 03002d01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:45, actual: 0 ,DefaultData:0x71 F SECURE_HASH_WORD0_1
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003101)
+0x03003101
+IOR (0x 4022004c, 0x 03003101) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:49, actual: 0 ,DefaultData:0x0b F SECURE_HASH_WORD1_1
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003501)
+0x03003501
+IOR (0x 4022004c, 0x 03003501) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:53, actual: 0 ,DefaultData:0x15 F SECURE_HASH_WORD2_1
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003901)
+0x03003901
+IOR (0x 4022004c, 0x 03003901) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:57, actual: 0 ,DefaultData:0x10 F SECURE_HASH_WORD3_1
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003d01)
+0x03003d01
+IOR (0x 4022004c, 0x 03003d01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:61, actual: 0 ,DefaultData:0x00 F SECURE_ACCESS_MEM_RESTRICT
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004101)
+0x03004101
+IOR (0x 4022004c, 0x 03004101) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:65, actual: 0 ,DefaultData:0x00 F SECURE_DEAD_ACCESS_MEM_RESTRICT
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004501)
+0x03004501
+IOR (0x 4022004c, 0x 03004501) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:69, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_1
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004901)
+0x03004901
+IOR (0x 4022004c, 0x 03004901) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:73, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_5
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004d01)
+0x03004d01
+IOR (0x 4022004c, 0x 03004d01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:77, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_9
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005101)
+0x03005101
+IOR (0x 4022004c, 0x 03005101) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:81, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_13
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005501)
+0x03005501
+IOR (0x 4022004c, 0x 03005501) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:85, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_17
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005901)
+0x03005901
+IOR (0x 4022004c, 0x 03005901) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:89, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_21
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005d01)
+0x03005d01
+IOR (0x 4022004c, 0x 03005d01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:93, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_25
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006101)
+0x03006101
+IOR (0x 4022004c, 0x 03006101) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:97, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_29
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006501)
+0x03006501
+IOR (0x 4022004c, 0x 03006501) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:101, actual: READFUSEBYTE FAILED! ,DefaultData:0x01 F DEVICE_SECRET_KEY_ZEROS
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006901)
+0x03006901
+IOR (0x 4022004c, 0x 03006901) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:105, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006d01)
+0x03006d01
+IOR (0x 4022004c, 0x 03006d01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:109, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007101)
+0x03007101
+IOR (0x 4022004c, 0x 03007101) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:113, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007501)
+0x03007501
+IOR (0x 4022004c, 0x 03007501) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:117, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007901)
+0x03007901
+IOR (0x 4022004c, 0x 03007901) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:121, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007d01)
+0x03007d01
+IOR (0x 4022004c, 0x 03007d01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:125, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000201)
+0x03000201
+IOR (0x 4022004c, 0x 03000201) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:2, actual: 0 ,DefaultData:0x00 V BOOT_BOD_TRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000601)
+0x03000601
+IOR (0x 4022004c, 0x 03000601) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa000009a
+IOR (0x 4022004c, 0x a000009a) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:6, actual: 154 ,DefaultData:0x80 V CLK_IMO_FCNTRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000a01)
+0x03000a01
+IOR (0x 4022004c, 0x 03000a01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa000008e
+IOR (0x 4022004c, 0x a000008e) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:10, actual: 142 ,DefaultData:0x6F V REF_VTRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000e01)
+0x03000e01
+IOR (0x 4022004c, 0x 03000e01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000099
+IOR (0x 4022004c, 0x a0000099) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:14, actual: 153 ,DefaultData:0x00 V BODVCCD_OVDVDDD_TRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001201)
+0x03001201
+IOR (0x 4022004c, 0x 03001201) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000099
+IOR (0x 4022004c, 0x a0000099) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:18, actual: 153 ,DefaultData:0x80 V ACT_REG_TRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001601)
+0x03001601
+IOR (0x 4022004c, 0x 03001601) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:22, actual: 0 ,DefaultData:0x00 F BOOT_VIRGIN_CONFIG
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001a01)
+0x03001a01
+IOR (0x 4022004c, 0x 03001a01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000093
+IOR (0x 4022004c, 0x a0000093) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:26, actual: 147 ,DefaultData:0x81 V FACTORY_HASH_WORD0_2
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001e01)
+0x03001e01
+IOR (0x 4022004c, 0x 03001e01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa000006c
+IOR (0x 4022004c, 0x a000006c) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:30, actual: 108 ,DefaultData:0xb8 V FACTORY_HASH_WORD1_2
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002201)
+0x03002201
+IOR (0x 4022004c, 0x 03002201) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000089
+IOR (0x 4022004c, 0x a0000089) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:34, actual: 137 ,DefaultData:0x3d V FACTORY_HASH_WORD2_2
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002601)
+0x03002601
+IOR (0x 4022004c, 0x 03002601) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000c4
+IOR (0x 4022004c, 0x a00000c4) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:38, actual: 196 ,DefaultData:0xf2 V FACTORY_HASH_WORD3_2
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002a01)
+0x03002a01
+IOR (0x 4022004c, 0x 03002a01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:42, actual: 0 ,DefaultData:0x00 F FACTORY_DEAD_ACCESS_MMIO_RESTRICT
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002e01)
+0x03002e01
+IOR (0x 4022004c, 0x 03002e01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:46, actual: 0 ,DefaultData:0x81 F SECURE_HASH_WORD0_2
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003201)
+0x03003201
+IOR (0x 4022004c, 0x 03003201) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:50, actual: 0 ,DefaultData:0xb8 F SECURE_HASH_WORD1_2
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003601)
+0x03003601
+IOR (0x 4022004c, 0x 03003601) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:54, actual: 0 ,DefaultData:0x3d F SECURE_HASH_WORD2_2
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003a01)
+0x03003a01
+IOR (0x 4022004c, 0x 03003a01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:58, actual: 0 ,DefaultData:0xf2 F SECURE_HASH_WORD3_2
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003e01)
+0x03003e01
+IOR (0x 4022004c, 0x 03003e01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:62, actual: 0 ,DefaultData:0x00 F SECURE_ACCESS_MMIO_RESTRICT
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004201)
+0x03004201
+IOR (0x 4022004c, 0x 03004201) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:66, actual: 0 ,DefaultData:0x00 F SECURE_DEAD_ACCESS_MMIO_RESTRICT
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004601)
+0x03004601
+IOR (0x 4022004c, 0x 03004601) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:70, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_2
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004a01)
+0x03004a01
+IOR (0x 4022004c, 0x 03004a01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:74, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_6
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004e01)
+0x03004e01
+IOR (0x 4022004c, 0x 03004e01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:78, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_10
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005201)
+0x03005201
+IOR (0x 4022004c, 0x 03005201) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:82, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_14
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005601)
+0x03005601
+IOR (0x 4022004c, 0x 03005601) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:86, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_18
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005a01)
+0x03005a01
+IOR (0x 4022004c, 0x 03005a01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:90, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_22
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005e01)
+0x03005e01
+IOR (0x 4022004c, 0x 03005e01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:94, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_26
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006201)
+0x03006201
+IOR (0x 4022004c, 0x 03006201) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:98, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_30
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006601)
+0x03006601
+IOR (0x 4022004c, 0x 03006601) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:102, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F Reserved for boot
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006a01)
+0x03006a01
+IOR (0x 4022004c, 0x 03006a01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:106, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006e01)
+0x03006e01
+IOR (0x 4022004c, 0x 03006e01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:110, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007201)
+0x03007201
+IOR (0x 4022004c, 0x 03007201) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:114, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007601)
+0x03007601
+IOR (0x 4022004c, 0x 03007601) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:118, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007a01)
+0x03007a01
+IOR (0x 4022004c, 0x 03007a01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:122, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007e01)
+0x03007e01
+IOR (0x 4022004c, 0x 03007e01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:126, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000301)
+0x03000301
+IOR (0x 4022004c, 0x 03000301) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000ff
+IOR (0x 4022004c, 0x a00000ff) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:3, actual: 255 ,DefaultData:0xFF V BOOT_BOD_TRIM_INV
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000701)
+0x03000701
+IOR (0x 4022004c, 0x 03000701) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000080
+IOR (0x 4022004c, 0x a0000080) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:7, actual: 128 ,DefaultData:0x80 V CLK_IMO_FCPTRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000b01)
+0x03000b01
+IOR (0x 4022004c, 0x 03000b01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000055
+IOR (0x 4022004c, 0x a0000055) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:11, actual: 85 ,DefaultData:0x55 V REF_ITRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000f01)
+0x03000f01
+IOR (0x 4022004c, 0x 03000f01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000048
+IOR (0x 4022004c, 0x a0000048) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:15, actual: 72 ,DefaultData:0x00 V OVDDD_TRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001301)
+0x03001301
+IOR (0x 4022004c, 0x 03001301) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000001
+IOR (0x 4022004c, 0x a0000001) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:19, actual: 1 ,DefaultData:0x01 V ACT_REG_INRUSH_TRIM
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001701)
+0x03001701
+IOR (0x 4022004c, 0x 03001701) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000061
+IOR (0x 4022004c, 0x a0000061) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:23, actual: 97 ,DefaultData:0x7D V VIRGIN_GROUP_ZEROS
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001b01)
+0x03001b01
+IOR (0x 4022004c, 0x 03001b01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000bc
+IOR (0x 4022004c, 0x a00000bc) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:27, actual: 188 ,DefaultData:0x8f V FACTORY_HASH_WORD0_3
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001f01)
+0x03001f01
+IOR (0x 4022004c, 0x 03001f01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000d9
+IOR (0x 4022004c, 0x a00000d9) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:31, actual: 217 ,DefaultData:0x13 V FACTORY_HASH_WORD1_3
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002301)
+0x03002301
+IOR (0x 4022004c, 0x 03002301) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000e9
+IOR (0x 4022004c, 0x a00000e9) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:35, actual: 233 ,DefaultData:0x28 V FACTORY_HASH_WORD2_3
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002701)
+0x03002701
+IOR (0x 4022004c, 0x 03002701) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000b1
+IOR (0x 4022004c, 0x a00000b1) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:39, actual: 177 ,DefaultData:0x80 V FACTORY_HASH_WORD3_3
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002b01)
+0x03002b01
+IOR (0x 4022004c, 0x 03002b01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa000005a
+IOR (0x 4022004c, 0x a000005a) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:43, actual: 90 ,DefaultData:0x61 F FACTORY_GROUP_ZEROS
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03002f01)
+0x03002f01
+IOR (0x 4022004c, 0x 03002f01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:47, actual: 0 ,DefaultData:0x8f F SECURE_HASH_WORD0_3
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003301)
+0x03003301
+IOR (0x 4022004c, 0x 03003301) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:51, actual: 0 ,DefaultData:0x13 F SECURE_HASH_WORD1_3
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003701)
+0x03003701
+IOR (0x 4022004c, 0x 03003701) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:55, actual: 0 ,DefaultData:0x28 F SECURE_HASH_WORD2_3
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003b01)
+0x03003b01
+IOR (0x 4022004c, 0x 03003b01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:59, actual: 0 ,DefaultData:0x80 F SECURE_HASH_WORD3_3
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03003f01)
+0x03003f01
+IOR (0x 4022004c, 0x 03003f01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:63, actual: 0 ,DefaultData:0x49 F SECURE_HASH_ZEROS
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004301)
+0x03004301
+IOR (0x 4022004c, 0x 03004301) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:67, actual: 0 ,DefaultData:0x7E F SECURE_GROUP_ZEROS
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004701)
+0x03004701
+IOR (0x 4022004c, 0x 03004701) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:71, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_3
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004b01)
+0x03004b01
+IOR (0x 4022004c, 0x 03004b01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:75, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_7
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03004f01)
+0x03004f01
+IOR (0x 4022004c, 0x 03004f01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:79, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_11
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005301)
+0x03005301
+IOR (0x 4022004c, 0x 03005301) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:83, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_15
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005701)
+0x03005701
+IOR (0x 4022004c, 0x 03005701) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:87, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_19
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005b01)
+0x03005b01
+IOR (0x 4022004c, 0x 03005b01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:91, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_23
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03005f01)
+0x03005f01
+IOR (0x 4022004c, 0x 03005f01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:95, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_27
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006301)
+0x03006301
+IOR (0x 4022004c, 0x 03006301) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:99, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F DEVICE_SECRET_KEY_31
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006701)
+0x03006701
+IOR (0x 4022004c, 0x 03006701) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf0000005
+IOR (0x 4022004c, 0x f0000005) n.e.d.
+Srom_ReturnCheck: END
+Row Protected !
+SROM_ReadFuseByte: End
+EFUSE addr:103, actual: READFUSEBYTE FAILED! ,DefaultData:0x00 F Reserved for boot
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006b01)
+0x03006b01
+IOR (0x 4022004c, 0x 03006b01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:107, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03006f01)
+0x03006f01
+IOR (0x 4022004c, 0x 03006f01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:111, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007301)
+0x03007301
+IOR (0x 4022004c, 0x 03007301) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:115, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007701)
+0x03007701
+IOR (0x 4022004c, 0x 03007701) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:119, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007b01)
+0x03007b01
+IOR (0x 4022004c, 0x 03007b01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:123, actual: 0 ,DefaultData:0x00 F Customer data
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03007f01)
+0x03007f01
+IOR (0x 4022004c, 0x 03007f01) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000000
+IOR (0x 4022004c, 0x a0000000) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+EFUSE addr:127, actual: 0 ,DefaultData:0x00 F Customer data
+EFUSEBytes/{  0:  3/} : 0xe9 0xc0 0x00 0xff
+EFUSEBytes/{  4:  7/} : 0xad 0x50 0x9a 0x80
+EFUSEBytes/{  8: 11/} : 0xe6 0xec 0x8e 0x55
+EFUSEBytes/{ 12: 15/} : 0xc8 0x60 0x99 0x48
+EFUSEBytes/{ 16: 19/} : 0x25 0xdd 0x99 0x01
+EFUSEBytes/{ 20: 23/} : 0x00 0x00 0x00 0x61
+EFUSEBytes/{ 24: 27/} : 0x11 0xbe 0x93 0xbc
+EFUSEBytes/{ 28: 31/} : 0x6c 0x49 0x6c 0xd9
+EFUSEBytes/{ 32: 35/} : 0xbc 0xe4 0x89 0xe9
+EFUSEBytes/{ 36: 39/} : 0x13 0x60 0xc4 0xb1
+EFUSEBytes/{ 40: 43/} : 0x00 0x00 0x00 0x5a
+EFUSEBytes/{ 44: 47/} : 0x00 0x00 0x00 0x00
+EFUSEBytes/{ 48: 51/}	: 0x00 0x00 0x00 0x00
+EFUSEBytes/{ 52: 55/}	: 0x00 0x00 0x00 0x00
+EFUSEBytes/{ 56: 59/}	: 0x00 0x00 0x00 0x00
+EFUSEBytes/{ 60: 63/}	: 0x00 0x00 0x00 0x00
+EFUSEBytes/{ 64: 67/} : 0x00 0x00 0x00 0x00
+EFUSEBytes/{ 68: 71/} : 0x05 0x05 0x05 0x05
+EFUSEBytes/{ 72: 75/} : 0x05 0x05 0x05 0x05
+EFUSEBytes/{ 76: 79/} : 0x05 0x05 0x05 0x05
+EFUSEBytes/{ 80: 83/} : 0x05 0x05 0x05 0x05
+EFUSEBytes/{ 84: 87/} : 0x05 0x05 0x05 0x05
+EFUSEBytes/{ 88: 91/} : 0x05 0x05 0x05 0x05
+EFUSEBytes/{ 92: 95/} : 0x05 0x05 0x05 0x05
+EFUSEBytes/{ 96: 99/} : 0x05 0x05 0x05 0x05
+EFUSEBytes/{100:103/} : 0x05 0x05 0x05 0x05
+EFUSEBytes/{104:107/} : 0x00 0x00 0x00 0x00
+EFUSEBytes/{108:111/} : 0x00 0x00 0x00 0x00
+EFUSEBytes/{112:115/} : 0x00 0x00 0x00 0x00
+EFUSEBytes/{116:119/} : 0x00 0x00 0x00 0x00
+EFUSEBytes/{120:123/} : 0x00 0x00 0x00 0x00
+EFUSEBytes/{124:127/} : 0x00 0x00 0x00 0x00
+0x0000000b
+IORap (0x f0000fe0, 0x 0000000b) n.e.d.
+0x00000041
+IORap (0x f0000fe4, 0x 00000041) n.e.d.
+0x0000001b
+IORap (0x f0000fe8, 0x 0000001b) n.e.d.
+0x00000010
+IORap (0x f0000fec, 0x 00000010) n.e.d.
+ Here
+0x0000000b
+IORap (0x f0000fe0, 0x 0000000b) n.e.d.
+0x00000041
+IORap (0x f0000fe4, 0x 00000041) n.e.d.
+0x0000001b
+IORap (0x f0000fe8, 0x 0000001b) n.e.d.
+0x00000010
+IORap (0x f0000fec, 0x 00000010) n.e.d.
+2685468939
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Running Test AA008: SILICON ID: VALIDATE TYPE 0 CALL TO SILICON ID  API WITH SYS_CALL_LESS32BIT
+START
+-----------------------------------------------------------------------------------
+
+SiliconID API: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 00000001)
+0x00000001
+IOR (0x 4022004c, 0x 00000001) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa011010b
+IOR (0x 4022004c, 0x a011010b) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SiliconID API: End
+INFO: 0x a011010b, PASS
+
+Execution time is 1 s
+-----------------------------------------------------------------------------------
+
+END
+Completed Test AA008: SILICON ID: VALIDATE TYPE 0 CALL TO SILICON ID  API WITH SYS_CALL_LESS32BIT
+___________________________________________________________________________________
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Running Test AA008: SILICON ID: VALIDATE TYPE 0 CALL TO SILICON ID  API WITH SYSCALL_GREATER32BIT
+START
+-----------------------------------------------------------------------------------
+
+SiliconID API: Start
+Executing API with SYSCALL_GreaterThan32bits
+IOW (0x 28002000, 0x 00000000)
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 28002000)
+0x28002000
+IOR (0x 4022004c, 0x 28002000) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa011010b
+IOR (0x 28002000, 0x a011010b) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SiliconID API: End
+INFO: 0x a011010b, PASS
+
+Execution time is 1 s
+-----------------------------------------------------------------------------------
+
+END
+Completed Test AA008: SILICON ID: VALIDATE TYPE 0 CALL TO SILICON ID  API WITH SYSCALL_GREATER32BIT
+___________________________________________________________________________________
+
+traveo2_c2d_4m
+0xe85011ff
+IORb (0x 17000002, 0x 50)
+traveo2_c2d_4m
+0xe85011ff
+IORb (0x 17000003, 0x e8)
+SiliconID API: Start
+Executing API with SYSCALL_GreaterThan32bits
+IOW (0x 28002000, 0x 00000100)
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 28002000)
+0x28002000
+IOR (0x 4022004c, 0x 28002000) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa072e850
+IOR (0x 28002000, 0x a072e850) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SiliconID API: End
+
+****Part is in NORMAL_PROVISIONED Life Cycle Stage****
+
+0x00000002
+IOR (0x 402020c4, 0x 00000002) n.e.d.
+
+****Part is in NORMAL Protection State****
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Running Test AA009: SILICON ID: VALIDATE TYPE 1 CALL TO SILICON ID  API WITH SYS_CALL_LESS32BIT
+START
+-----------------------------------------------------------------------------------
+
+SiliconID API: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 00000101)
+0x00000101
+IOR (0x 4022004c, 0x 00000101) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa072e850
+IOR (0x 4022004c, 0x a072e850) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SiliconID API: End
+INFO: 0x a072e850, PASS
+
+Execution time is 1 s
+-----------------------------------------------------------------------------------
+
+END
+Completed Test AA009: SILICON ID: VALIDATE TYPE 1 CALL TO SILICON ID  API WITH SYS_CALL_LESS32BIT
+___________________________________________________________________________________
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Running Test AA009: SILICON ID: VALIDATE TYPE 1 CALL TO SILICON ID  API WITH SYSCALL_GREATER32BIT
+START
+-----------------------------------------------------------------------------------
+
+SiliconID API: Start
+Executing API with SYSCALL_GreaterThan32bits
+IOW (0x 28002000, 0x 00000100)
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 28002000)
+0x28002000
+IOR (0x 4022004c, 0x 28002000) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa072e850
+IOR (0x 28002000, 0x a072e850) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SiliconID API: End
+INFO: 0x a072e850, PASS
+
+Execution time is 1 s
+-----------------------------------------------------------------------------------
+
+END
+Completed Test AA009: SILICON ID: VALIDATE TYPE 1 CALL TO SILICON ID  API WITH SYSCALL_GREATER32BIT
+___________________________________________________________________________________
+
+traveo2_c2d_4m
+0x23018001
+IORb (0x 17002006, 0x 01)
+traveo2_c2d_4m
+0x23018001
+IORb (0x 17002007, 0x 23)
+traveo2_c2d_4m
+0xe85011ff
+IORb (0x 17000003, 0x e8)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Running Test AA010: SILICON ID: VALIDATE TYPE 2 CALL TO SILICON ID  API WITH SYS_CALL_LESS32BIT
+START
+-----------------------------------------------------------------------------------
+
+SiliconID API: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 00000201)
+0x00000201
+IOR (0x 4022004c, 0x 00000201) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa3010701
+IOR (0x 4022004c, 0x a3010701) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SiliconID API: End
+INFO: 0x a3010701, PASS
+
+Execution time is 1 s
+-----------------------------------------------------------------------------------
+
+END
+Completed Test AA010: SILICON ID: VALIDATE TYPE 2 CALL TO SILICON ID  API WITH SYS_CALL_LESS32BIT
+___________________________________________________________________________________
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Running Test AA010: SILICON ID: VALIDATE TYPE 2 CALL TO SILICON ID  API WITH SYSCALL_GREATER32BIT
+START
+-----------------------------------------------------------------------------------
+
+SiliconID API: Start
+Executing API with SYSCALL_GreaterThan32bits
+IOW (0x 28002000, 0x 00000200)
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 28002000)
+0x28002000
+IOR (0x 4022004c, 0x 28002000) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa3010701
+IOR (0x 28002000, 0x a3010701) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SiliconID API: End
+INFO: 0x a3010701, PASS
+
+Execution time is 1 s
+-----------------------------------------------------------------------------------
+
+END
+Completed Test AA010: SILICON ID: VALIDATE TYPE 2 CALL TO SILICON ID  API WITH SYSCALL_GREATER32BIT
+___________________________________________________________________________________
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Running Test AA011: SILICON ID: NEGATIVE: VALIDATE INVALID TYPE(OTHER THAN 0,1,2)CALL TO SILICON ID  API WITH SYSCALL_LESS32BIT
+START
+-----------------------------------------------------------------------------------
+
+SiliconID API: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 00000301)
+0x00000301
+IOR (0x 4022004c, 0x 00000301) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf000000f
+IOR (0x 4022004c, 0x f000000f) n.e.d.
+Srom_ReturnCheck: END
+Status Invalid Arguments !
+SiliconID API: End
+INFO: 0x f000000f, PASS
+
+SiliconID API: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 00000401)
+0x00000401
+IOR (0x 4022004c, 0x 00000401) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf000000f
+IOR (0x 4022004c, 0x f000000f) n.e.d.
+Srom_ReturnCheck: END
+Status Invalid Arguments !
+SiliconID API: End
+INFO: 0x f000000f, PASS
+
+SiliconID API: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 00000501)
+0x00000501
+IOR (0x 4022004c, 0x 00000501) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf000000f
+IOR (0x 4022004c, 0x f000000f) n.e.d.
+Srom_ReturnCheck: END
+Status Invalid Arguments !
+SiliconID API: End
+INFO: 0x f000000f, PASS
+
+Execution time is 1 s
+-----------------------------------------------------------------------------------
+
+END
+Completed Test AA011: SILICON ID: NEGATIVE: VALIDATE INVALID TYPE(OTHER THAN 0,1,2)CALL TO SILICON ID  API WITH SYSCALL_LESS32BIT
+___________________________________________________________________________________
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Running Test AA011: SILICON ID: NEGATIVE: VALIDATE INVALID TYPE(OTHER THAN 0,1,2)CALL TO SILICON ID  API WITH SYSCALL_GREATER32BIT
+START
+-----------------------------------------------------------------------------------
+
+SiliconID API: Start
+Executing API with SYSCALL_GreaterThan32bits
+IOW (0x 28002000, 0x 00000300)
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 28002000)
+0x28002000
+IOR (0x 4022004c, 0x 28002000) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf000000f
+IOR (0x 28002000, 0x f000000f) n.e.d.
+Srom_ReturnCheck: END
+Status Invalid Arguments !
+SiliconID API: End
+INFO: 0x f000000f, PASS
+
+SiliconID API: Start
+Executing API with SYSCALL_GreaterThan32bits
+IOW (0x 28002000, 0x 00000400)
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 28002000)
+0x28002000
+IOR (0x 4022004c, 0x 28002000) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf000000f
+IOR (0x 28002000, 0x f000000f) n.e.d.
+Srom_ReturnCheck: END
+Status Invalid Arguments !
+SiliconID API: End
+INFO: 0x f000000f, PASS
+
+SiliconID API: Start
+Executing API with SYSCALL_GreaterThan32bits
+IOW (0x 28002000, 0x 00000500)
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 28002000)
+0x28002000
+IOR (0x 4022004c, 0x 28002000) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xf000000f
+IOR (0x 28002000, 0x f000000f) n.e.d.
+Srom_ReturnCheck: END
+Status Invalid Arguments !
+SiliconID API: End
+INFO: 0x f000000f, PASS
+
+Execution time is 1 s
+-----------------------------------------------------------------------------------
+
+END
+Completed Test AA011: SILICON ID: NEGATIVE: VALIDATE INVALID TYPE(OTHER THAN 0,1,2)CALL TO SILICON ID  API WITH SYSCALL_GREATER32BIT
+___________________________________________________________________________________
+
+SiliconID API: Start
+Executing API with SYSCALL_GreaterThan32bits
+IOW (0x 28002000, 0x 00000100)
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 28002000)
+0x28002000
+IOR (0x 4022004c, 0x 28002000) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa072e850
+IOR (0x 28002000, 0x a072e850) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SiliconID API: End
+retrunVal = 0xa072e850
+protectionState = 2
+lifeCycleStage = 7
+
+****Part is in NORMAL Protection State****
+
+
+
+****Part is in NORMAL_PROVISIONED Lifecycle State****
+
+0x00003e00
+IOR (0x 17002000, 0x 00003e00) n.e.d.
+IOW (0x 28001000, 0x deadbeef)
+0xdeadbeef
+IOR (0x 28001000, 0x deadbeef) n.e.d.
+0x81000190
+IOR (0x 40261530, 0x 81000190) n.e.d.
+0x03130020
+IOR (0x 40261534, 0x 03130020) n.e.d.
+0x00000879
+IOR (0x 40261538, 0x 00000879) n.e.d.
+0x80ac02ff
+IOR (0x 4026153c, 0x 80ac02ff) n.e.d.
+0x80ac02ff
+IOR (0x 4026153c, 0x 80ac02ff) n.e.d.
+0x00000005
+IOR (0x 40261540, 0x 00000005) n.e.d.
+0x921f004a
+IOR (0x 17007036, 0x 921f004a) n.e.d.
+0x00000000
+IOR (0x 402020c0, 0x 00000000) n.e.d.
+0x17001c04
+IOR (0x 17000004, 0x 17001c04) n.e.d.
+0x00000200
+IOR (0x 17002018, 0x 00000200) n.e.d.
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_GreaterThan32bits
+IOW (0x 28002000, 0x 03002b00)
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 28002000)
+0x28002000
+IOR (0x 4022004c, 0x 28002000) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa000005a
+IOR (0x 28002000, 0x a000005a) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+LifeCycle State: RMA
+Execution time is 5 s
+shutdown command invoked
+Info : Powering down Debug Domains...

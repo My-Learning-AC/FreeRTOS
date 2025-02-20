@@ -1,0 +1,107 @@
+Open On-Chip Debugger 0.10.0+dev-1.1.0.901 (2020-06-09-06:04)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+DUT NAME_2 : 0x60
+DUT NAME_2 : 0x60
+DUT NAME_2 : 0x60
+Acquiring using acquire_TestMode_SROM
+DUT name: 0x60
+INIT_ACQUIRE_COUNT: 0
+DUT name: 0x60
+kitprog done
+
+adapter speed: 2000 kHz
+adapter srst delay: 25
+adapter srst pulse_width: 5
+** Auto-acquire enabled, use "set ENABLE_ACQUIRE 0" to disable
+cortex_m reset_config sysresetreq
+adapter srst delay: 100
+adapter srst delay: 100
+traveo2_c2d_4m
+All done
+Info : CMSIS-DAP: SWD  Supported
+Info : CMSIS-DAP: FW Version = 2.0.0
+Info : CMSIS-DAP: Interface Initialised (SWD)
+Info : SWCLK/TCK = 1 SWDIO/TMS = 1 TDI = 0 TDO = 0 nTRST = 0 nRESET = 1
+Info : CMSIS-DAP: Interface ready
+Info : KitProg3: FW version: 1.1.127
+Info : KitProg3: Pipelined transfers disabled, please update the firmware
+Info : VTarget = 5.067 V
+Info : kitprog3: acquiring the device...
+Info : clock speed 2000 kHz
+Info : SWD DPIDR 0x6ba02477
+Info : Listening on port 3333 for gdb connections
+Info : Listening on port 3334 for gdb connections
+Info : kitprog3: acquiring the device...
+###############################################################################################
+
+THE DEVICE UNDER TEST IS: TVIIC2D4M_SILICON
+TEST ID FOR DEVICE UNDER TEST IS: 0x60
+###############################################################################################
+
+Acquire Check:
+0xa000005a
+IOR (0x 28002000, 0x a000005a) n.e.d.
+IOW (0x 28002000, 0x deadbeef)
+0xdeadbeef
+IOR (0x 28002000, 0x deadbeef) n.e.d.
+Acquire Check PASS !!
+IOW (0x 4024f400, 0x 00000001)
+0x00000001
+IOR (0x 4024f400, 0x 00000001) n.e.d.
+IOW (0x 4024f400, 0x 00000001)
+0x00000001
+IOR (0x 4024f400, 0x 00000001) n.e.d.
+0x00000002
+IOR (0x 402020c4, 0x 00000002) n.e.d.
+
+Read Back Magic Key to verify...
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03000001)
+0x03000001
+IOR (0x 4022004c, 0x 03000001) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa00000e9
+IOR (0x 4022004c, 0x a00000e9) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+
+Blow Magic Key bits(Blown and Read Back bits do not matches): FAIL!!
+
+
+Read Virgin Group Zeros to verify...
+
+SROM_ReadFuseByte: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 03001701)
+0x03001701
+IOR (0x 4022004c, 0x 03001701) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa0000061
+IOR (0x 4022004c, 0x a0000061) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SROM_ReadFuseByte: End
+HelperScripts\VirginToSort_ApplyTrimsFromSflash.tcl:57: Error: syntax error in expression "0xA0000000 + ": premature end of expression
+in procedure 'script' 
+at file "embedded:startup.tcl", line 26
+at file "HelperScripts\VirginToSort_ApplyTrimsFromSflash.tcl", line 57
+Info : Powering down Debug Domains...

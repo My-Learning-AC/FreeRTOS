@@ -1,0 +1,188 @@
+
+[Board Specifics]
+
+FlashToolPath = C:\Program Files (x86)\Infineon\Auto Flash Utility 1.3\bin
+
+PathForReport = C:\Test_Reports\
+
+BoardFamily = (
+                ("CYTVII-B-E-1M","1M-100","1M-176"),
+                ("CYTVII-B-E-2M","2M-100","2M-176","2M-SK"),
+		("CYTVII-B-E-4M","4M-100-LITE"),
+                ("CYTVII-B-H-4M","4M-176","4M-272"),
+                ("CYTVII-B-H-8M","8M-176","8M-176-LITE","8M-320"),
+                ("CYTVII-C-2D-6M","6M-500"),
+		("CYTVII-C-2D-4M","4M-216"),
+                ("CYTVII-B-E-BB","TVII_Baseboard")
+              )
+
+BoardsList  = (
+               ("TVII_Baseboard","C:/MTP_SREC_FILES/TVII-B-E-BB/TVII_Baseboard","traveo2_00.cfg",
+                 (       
+                   "GPIO",
+		   "LED",
+		   "BUTTON",
+		   "POT",
+		   "SPI_CAN",
+		   "NORMAL_CAN",
+		   "LIN",
+	           "EEPROM"
+                 )
+               ),
+               ("1M-100","C:/MTP_SREC_FILES/TVII-B-E-1M/1M-100","traveo2_00.cfg",
+                 (
+                   "Reset Button",
+                   "User Button & User-LED",
+                   "Soft UART GPIO",
+                   "UART"
+                 )
+               ),
+               ("1M-176","C:/MTP_SREC_FILES/TVII-B-E-1M/1M-176","traveo2_00.cfg",
+		 (
+                   "Reset Button",
+                   "User Button & User-LED",
+                   "Soft UART GPIO",
+                   "UART"
+                 )
+	       ),
+               ("2M-100","C:/MTP_SREC_FILES/TVII-B-E-2M/2M-100","traveo2_2m.cfg",
+                 (
+                   "Reset Button",
+                   "User Button & User-LED",
+                   "Soft UART GPIO",
+                   "UART"
+                 )
+               ),
+               ("2M-176","C:/MTP_SREC_FILES/TVII-B-E-2M/2M-176","traveo2_2m.cfg",
+                 (
+                   "Reset Button",
+                   "User Button & User-LED",
+                   "Soft UART GPIO",
+                   "UART"
+                 )
+               ),
+               ("2M-SK","C:/MTP_SREC_FILES/TVII-B-E-2M/2M-SK","traveo2_2m.cfg",
+		 (
+		   "Reset Button",
+		   "User-LED",
+		   "User-SW1",
+		   "Pot",
+		   "Soft-UART GPIO"	
+		 )
+	       ),
+               ("4M-100-LITE","C:/MTP_SREC_FILES/TVII-B-E-4M/4M-100-LITE","traveo2_be_4m.cfg",
+                 (	
+                   "GPIO",
+		   "USER-LED1",
+		   "USER-LED2",
+		   "USER-LED3",
+		   "USER-BUTTON1",
+		   "USER-BUTTON2",
+		   "POT",
+		   "CAN-FD",
+                 )
+               ),
+
+               ("4M-272","C:/MTP_SREC_FILES/TVII-B-H-4M/4M-272","traveo2_4m.cfg",
+                 ( "",
+		   "GPIO",
+		   "USER-BUTTON",
+		   "USER-LED",
+		   "I2S",
+		   "SDCARD",
+		   "HYPERFLASH",
+		   "QSPI",
+		   "AUTO_ETH",
+		   "WCO"
+                 )
+               ),
+               ("8M-176","C:/MTP_SREC_FILES/TVII-B-H-8M/8M-176","traveo2_8m.cfg",
+                 ( "",
+		   "GPIO",
+		   "USER-BUTTON",
+		   "USER-LED",
+		   "I2S",
+		   "SDCARD",
+	  	   "HYPERFLASH",
+		   "QSPI",
+		   "AUTO_ETH",
+		   "WCO"
+                 )
+               ),
+               ("8M-176-LITE","C:/MTP_SREC_FILES/TVII-B-H-8M/8M-176-LITE","traveo2_8m.cfg",
+                 ( 
+		   "GPIO",
+		   "USER-LED1",
+		   "USER-LED2",
+		   "USER-LED3",
+		   "USER-BUTTON1",
+		   "USER-BUTTON2",
+		   "POT",
+		   "QSPI",
+		   "CAN-FD",
+	  	   "ETH",		   
+                 )
+               ),
+               ("8M-320","C:/MTP_SREC_FILES/TVII-B-H-8M/8M-320","traveo2_8m.cfg",
+                 ( "",
+		   "GPIO",
+		   "USER-BUTTON",
+		   "USER-LED",
+		   "I2S",
+		   "SDCARD",
+		   "HYPERFLASH",
+		   "QSPI",
+		   "AUTO_ETH",
+		   "WCO"
+                 )
+               ),
+               ("6M-500","C:/MTP_SREC_FILES/TVII-C-2D-6M/6M-500","traveo2_6m.cfg",
+		 ( "",
+		   "TEST_FPD_LINK_0",
+		   "TEST_FPD_LINK_1",
+		   "TEST_BUTTON",
+		   "TEST_LED",
+		   "TEST_POT_1",
+		   "TEST_POT_2",
+		   "TEST_I2S",
+		   "TEST_SEMPERFLASH",
+		   "TEST_HYPERRAM",
+		   "TEST_GIG_ETH",
+		   "TEST_CAN",
+		   "TEST_LIN",
+		   "TEST_WCO",
+                 )
+               ),
+               ("4M-216","C:/MTP_SREC_FILES/TVII-C-2D-4M/4M-216","traveo2_c2d_4m.cfg",
+		 ( 
+		   "TEST_USER_LEDs",
+		   "TEST_USER_BUTTONs",
+		   "TEST_POTENTIOMETER",
+		   "TEST_HYPER_FLASH",
+		   "TEST_HYPER_RAM",
+		   "TEST_AUDIO_TDM",
+		   "TEST_CANFD",
+		   "TEST_LIN",
+		   "TEST_GIGABIT_ETHERNET",
+		   "TEST_FPD_DISPLAY",
+                 )
+               )
+              )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

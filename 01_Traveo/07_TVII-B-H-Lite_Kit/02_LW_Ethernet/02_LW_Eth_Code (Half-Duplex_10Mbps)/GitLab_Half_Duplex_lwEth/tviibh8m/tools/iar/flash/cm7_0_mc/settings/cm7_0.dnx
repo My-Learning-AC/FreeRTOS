@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <PlDriver>
+        <FirstRun>0</FirstRun>
+        <MemConfigValue>C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\CONFIG\debugger\Infineon\CYT4BF_M7.ddf</MemConfigValue>
+    </PlDriver>
+    <Jet>
+        <JetConnSerialNo>KitProg3 CMSIS-DAP:1914043C03272400</JetConnSerialNo>
+        <JetConnFoundProbes />
+        <PrevWtdReset>System</PrevWtdReset>
+        <DisableInterrupts>0</DisableInterrupts>
+        <LeaveRunning>0</LeaveRunning>
+        <MultiCoreRunAll>0</MultiCoreRunAll>
+        <OnlineReset>Software</OnlineReset>
+    </Jet>
+    <ArmDriver>
+        <EnableCache>1</EnableCache>
+        <EnforceMemoryConfiguration>1</EnforceMemoryConfiguration>
+    </ArmDriver>
+    <DebugChecksum>
+        <Checksum>1350039341</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <SWOManager>
+        <SamplingDivider>8192</SamplingDivider>
+        <OverrideClock>0</OverrideClock>
+        <CpuClock>1398101057</CpuClock>
+        <SwoClock>1381319470</SwoClock>
+        <DataLogMode>0</DataLogMode>
+        <ItmPortsEnabled>63</ItmPortsEnabled>
+        <ItmTermIOPorts>1</ItmTermIOPorts>
+        <ItmLogPorts>0</ItmLogPorts>
+        <ItmLogFile>$PROJ_DIR$\ITM.log</ItmLogFile>
+        <PowerForcePC>1</PowerForcePC>
+        <PowerConnectPC>1</PowerConnectPC>
+    </SWOManager>
+    <FlashMemory>
+        <FlashEraseSelection>0 1 </FlashEraseSelection>
+    </FlashMemory>
+    <PowerLog>
+        <GraphEnabled>0</GraphEnabled>
+        <LogEnabled>0</LogEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <Title_0>ITrgPwr</Title_0>
+        <Symbol_0>0 4 0</Symbol_0>
+        <LiveEnabled>0</LiveEnabled>
+        <LiveFile />
+    </PowerLog>
+    <PowerProbe>
+        <Frequency>10000</Frequency>
+        <Probe0>ITrgPwr</Probe0>
+        <ProbeSetup0>2 1 1 2 0 0</ProbeSetup0>
+    </PowerProbe>
+    <watch_formats>
+        <Fmt0>{W}1:BMSR1	4	0</Fmt0>
+        <Fmt1>{W}1:BMSR2	4	0</Fmt1>
+        <Fmt2>{W}1:MDIO_ALNPAR	4	0</Fmt2>
+        <Fmt3>{W}1:MDIO_BMSR	4	0</Fmt3>
+        <Fmt4>{W}1:MDIO_PHYIDR2	4	0</Fmt4>
+        <Fmt5>{W}1:PHYSTS	4	0</Fmt5>
+        <Fmt6>{W}1:PHYSTS1	4	0</Fmt6>
+        <Fmt7>{W}1:PHYSTS2	4	0</Fmt7>
+        <Fmt8>{W}1:dest_rx_add	4	0</Fmt8>
+        <Fmt9>{W}1:dest_rx_add1	4	0</Fmt9>
+        <Fmt10>{W}1:dest_rx_add2	4	0</Fmt10>
+        <Fmt11>{W}1:dest_tx_add	4	0</Fmt11>
+        <Fmt12>{W}1:dest_tx_add1	4	0</Fmt12>
+        <Fmt13>{W}1:dest_tx_add2	4	0</Fmt13>
+        <Fmt14>{W}1:rxDesc[i_desc].word0.bitField.addr	4	0</Fmt14>
+        <Fmt15>{W}1:src_rx_add	4	0</Fmt15>
+        <Fmt16>{W}1:src_tx_add	4	0</Fmt16>
+    </watch_formats>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ "$PROJ_DIR$\LogFile1.log"</LogFile>
+        <Category2>_ 2</Category2>
+    </LogFile>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <ETMTraceWindow>
+        <PortWidth>4</PortWidth>
+        <PortMode>0</PortMode>
+        <CaptureDataValues>0</CaptureDataValues>
+        <CaptureDataAddresses>0</CaptureDataAddresses>
+        <CaptureDataRange>0</CaptureDataRange>
+        <DataFirst>0</DataFirst>
+        <DataLast>4294967295</DataLast>
+        <StopWhen>0</StopWhen>
+        <StallCPU>0</StallCPU>
+        <NoPCCapture>0</NoPCCapture>
+    </ETMTraceWindow>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <SWOTraceWindow>
+        <ForcedPcSampling>0</ForcedPcSampling>
+        <ForcedInterruptLogs>0</ForcedInterruptLogs>
+        <ForcedItmLogs>0</ForcedItmLogs>
+        <EventCPI>0</EventCPI>
+        <EventEXC>0</EventEXC>
+        <EventFOLD>0</EventFOLD>
+        <EventLSU>0</EventLSU>
+        <EventSLEEP>0</EventSLEEP>
+    </SWOTraceWindow>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\..\src\drivers\ethernet\cy_ethif.c}.391.5" 0 0 1 "" 0 "" 0</Bp0>
+        <Bp1>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\..\src\drivers\ethernet\cy_ethif.c}.304.18" 0 0 1 "" 0 "" 0</Bp1>
+        <Bp2>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\..\src\drivers\ethernet\cy_ethif.c}.304.18" 0 0 1 "" 0 "" 0</Bp2>
+        <Bp3>_ 1 "EMUL_CODE" "{C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\src\main_cm7_0.c}.290.5" 0 0 1 "" 0 "" 0</Bp3>
+        <Bp4>_ 1 "EMUL_CODE" "{C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\src\main_cm7_0.c}.273.13" 0 0 1 "" 0 "" 0</Bp4>
+        <Bp5>_ 1 "EMUL_CODE" "{C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\src\main_cm7_0.c}.366.8" 0 0 1 "" 0 "" 0</Bp5>
+        <Count>6</Count>
+    </Breakpoints2>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <Aliases>
+        <Count>0</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+</settings>

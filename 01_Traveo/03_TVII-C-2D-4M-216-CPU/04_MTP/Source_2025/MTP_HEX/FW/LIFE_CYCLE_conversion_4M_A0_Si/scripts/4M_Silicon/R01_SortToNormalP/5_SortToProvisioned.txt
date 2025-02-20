@@ -1,0 +1,57 @@
+Open On-Chip Debugger 0.10.0+dev-1.1.0.901 (2020-06-09-06:04)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+DUT NAME_2 : 0x60
+DUT NAME_2 : 0x60
+DUT NAME_2 : 0x60
+Acquiring using acquire_TestMode_SROM
+DUT name: 0x60
+INIT_ACQUIRE_COUNT: 0
+DUT name: 0x60
+kitprog done
+
+adapter speed: 2000 kHz
+adapter srst delay: 25
+adapter srst pulse_width: 5
+** Auto-acquire enabled, use "set ENABLE_ACQUIRE 0" to disable
+cortex_m reset_config sysresetreq
+adapter srst delay: 100
+adapter srst delay: 100
+traveo2_c2d_4m
+All done
+Info : CMSIS-DAP: SWD  Supported
+Info : CMSIS-DAP: FW Version = 2.0.0
+Info : CMSIS-DAP: Interface Initialised (SWD)
+Info : SWCLK/TCK = 1 SWDIO/TMS = 1 TDI = 0 TDO = 0 nTRST = 0 nRESET = 1
+Info : CMSIS-DAP: Interface ready
+Info : KitProg3: FW version: 1.1.127
+Info : KitProg3: Pipelined transfers disabled, please update the firmware
+Info : VTarget = 5.062 V
+Info : kitprog3: acquiring the device...
+Info : clock speed 2000 kHz
+Info : SWD DPIDR 0x6ba02477
+Info : Listening on port 3333 for gdb connections
+Info : Listening on port 3334 for gdb connections
+Info : kitprog3: acquiring the device...
+###############################################################################################
+
+THE DEVICE UNDER TEST IS: TVIIC2D4M_SILICON
+TEST ID FOR DEVICE UNDER TEST IS: 0x60
+###############################################################################################
+
+Acquire Check:
+0xa000005a
+IOR (0x 28002000, 0x a000005a) n.e.d.
+IOW (0x 28002000, 0x deadbeef)
+0xdeadbeef
+IOR (0x 28002000, 0x deadbeef) n.e.d.
+Acquire Check PASS !!
+IOW (0x 4024f400, 0x 00000001)
+0x00000001
+IOR (0x 4024f400, 0x 00000001) n.e.d.
+0x00000002
+IOR (0x 402020c4, 0x 00000002) n.e.d.
+Execution time is 1 s
+shutdown command invoked
+Info : Powering down Debug Domains...

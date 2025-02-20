@@ -1,0 +1,1175 @@
+###############################################################################
+#
+# IAR ELF Linker V9.32.1.338/W64 for ARM                  25/Oct/2024  08:07:48
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Exe\cm0plus.out
+#    Map file     =
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\List\cm0plus.map
+#    Command line =
+#        -f
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Exe\cm0plus.out.rsp
+#        (C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\adc\cy_adc.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\aic261\cy_aic261.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\button\cy_button.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\canfd\cy_canfd.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\cpu\cy_cpu.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\crypto\cy_crypto_config.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\eth_phy\cy_dp83867.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\ethernet\cy_ethif.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\evtgen\cy_evtgen.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flash\cy_flash.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\api\cy_fr_api_control_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\api\cy_fr_api_init.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\api\cy_fr_api_interrupt_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\api\cy_fr_api_rx_handler.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\api\cy_fr_api_status_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\api\cy_fr_api_time_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\api\cy_fr_api_timer_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\api\cy_fr_api_tx_handler.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\ccal\cy_fr_ccal_control_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\ccal\cy_fr_ccal_init.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\ccal\cy_fr_ccal_interrupt_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\ccal\cy_fr_ccal_rx_handler.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\ccal\cy_fr_ccal_status_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\ccal\cy_fr_ccal_time_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\ccal\cy_fr_ccal_timer_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\ccal\cy_fr_ccal_tx_handler.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\gpio\cy_gpio.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\audioss\cy_i2s.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\interrupts\rev_d\cy_interrupt_map.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\ipc\cy_ipc_drv.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\ipc\cy_ipc_pipe.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\ipc\cy_ipc_sema.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\lin\cy_lin.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\lvd\cy_lvd.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\mcwdt\cy_mcwdt.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\dma\cy_mdma.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\mpu\cy_mpu.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\flash\cy_mw_flash.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\dma\cy_pdma.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\power\cy_power.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\prot\cy_prot.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\scb\cy_scb_common.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\scb\cy_scb_ezi2c.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\scb\cy_scb_i2c.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\scb\cy_scb_spi.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\scb\cy_scb_uart.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sd_host\cy_sd_host.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\semihosting\cy_semihosting.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\smartio\cy_smartio.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\smif\cy_smif.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\smif_mem\cy_smif_device_common.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\smif_mem\cy_smif_hb_flash.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\smif\cy_smif_memslot.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\smif_mem\cy_smif_s25fl.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\smif_mem\cy_smif_s25fs.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\smif_mem\cy_smif_semp.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\smif\cy_smif_ver_specific.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\srom\cy_srom.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\sw_timer\cy_sw_tmr.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysclk\cy_sysclk.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysflt\cy_sysflt.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysint\cy_sysint.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\syslib\cy_syslib.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\syslib\cy_syslib_iar.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\syspm\cy_syspm.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysreghc\cy_sysreghc.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysreset\cy_sysreset.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysrtc\cy_sysrtc.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\systick\cy_systick.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\syswdt\cy_syswdt.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\tcpwm\cy_tcpwm.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\tcpwm\cy_tcpwm_counter.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\tcpwm\cy_tcpwm_pwm.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\tcpwm\cy_tcpwm_quaddec.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\tcpwm\cy_tcpwm_sr.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\trigmux\cy_trigmux.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\ethernet\edd.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\ethernet\edd_rx.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\ethernet\edd_tx.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\main_cm0plus.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\startup\startup.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\startup\startup_cm0plus.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\system\rev_d\system_tviibh8m_cm0plus.o
+#        --no_out_extension -o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Exe\cm0plus.out
+#        --config_def _CORE_cm0plus_=0 --config_def _LINK_flash_=0 --map
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\List\cm0plus.map
+#        --config
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\..\..\linker_directives_tviibh_rev_c.icf
+#        --semihosting
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\..\..\..\..\src\drivers\crypto\libs\libcrypto_server_cm0plus_iar.a
+#        --entry __iar_program_start --vfe --text_out locale --cpu=Cortex-M0+
+#        --fpu=None)
+#
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x2'a2c8 bytes (max align 0x100) in
+                      <[0x2800'0800-0x2801'ffff]> (total uncommitted space
+                      0x1'f400).
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at start of [from 0x1000'0000 to 0x1007'ffff] { section .intvec };
+"P1":  place in [from 0x1000'0000 to 0x1007'ffff] { ro };
+"P2":  place in [from 0x2800'0800 to 0x2801'ffff] { rw };
+define block HEAP with size = 1K, alignment = 8 { };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP_STACK { block HEAP, last block CSTACK };
+"A3":  place at end of [from 0x2800'0800 to 0x2801'ffff] { block HEAP_STACK };
+do not initialize { section .intvec_ram };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section .sflash_app_prot  in "P6"
+  ro section .sflash_nar       in "P4"
+  ro section .sflash_pkey      in "P5"
+  ro section .sflash_toc2      in "P7"
+  ro section .sflash_uf_rows   in "P3"
+  ro section .work_flash       in "P8"
+  section .cm7_0_rom           in "A1"
+  section .cm7_1_rom           in "A2"
+
+
+  Section            Kind         Address      Size  Object
+  -------            ----         -------      ----  ------
+"A0":                                          0x80
+  .intvec            ro code  0x1000'0000      0x80  startup_cm0plus.o [46]
+                            - 0x1000'0080      0x80
+
+"P1":                                        0xccde
+  .text              ro code  0x1000'0080    0x4854  edd.o [8]
+  .text              ro code  0x1000'48d4      0x94  cy_syslib.o [28]
+  .text              ro code  0x1000'4968     0xfbe  edd_tx.o [8]
+  .text              ro code  0x1000'5928    0x3b44  edd_rx.o [8]
+  .text              ro code  0x1000'946c      0x52  ABImemset.o [50]
+  .text              ro code  0x1000'94c0      0x4e  ABImemcpy.o [50]
+  .text              ro code  0x1000'9510      0x1e  cy_syslib_iar.o [28]
+  .text              ro code  0x1000'952e       0x4  cy_syslib.o [28]
+  .text              ro code  0x1000'9532      0xe0  I32DivModFast.o [50]
+  .text              ro code  0x1000'9614       0x2  IntDivZer.o [50]
+  .text              ro code  0x1000'9618    0x12f4  cy_ethif.o [8]
+  .text              ro code  0x1000'a90c      0xc0  strncpy.o [50]
+  .text              ro code  0x1000'a9cc     0x832  cy_sysclk.o [25]
+  .text              ro code  0x1000'b200      0x32  I64Mul.o [50]
+  .text              ro code  0x1000'b232      0x7c  I64DivMod.o [50]
+  .text              ro code  0x1000'b2b0       0x2  I64DivZer.o [50]
+  .text              ro code  0x1000'b2b4     0x540  system_tviibh8m_cm0plus.o [47]
+  .text              ro code  0x1000'b7f4      0x5c  cy_syswdt.o [34]
+  .text              ro code  0x1000'b850     0x23c  cy_power.o [42]
+  .text              ro code  0x1000'ba8c      0x48  cy_sysreghc.o [30]
+  .text              ro code  0x1000'bad4     0x1dc  cy_srom.o [24]
+  .text              ro code  0x1000'bcb0      0x68  cy_ipc_drv.o [14]
+  .text              ro code  0x1000'bd18     0x3b0  main_cm0plus.o [1]
+  .text              ro code  0x1000'c0c8     0x18c  cy_gpio.o [13]
+  .text              ro code  0x1000'c254      0x64  cy_sysint.o [27]
+  .text              ro code  0x1000'c2b8     0x288  startup.o [46]
+  .text              ro code  0x1000'c540     0x184  cy_interrupt_map.o [37]
+  .text              ro code  0x1000'c6c4      0x80  lz77_init_single.o [50]
+  .text              ro code  0x1000'c744      0x6c  startup_cm0plus.o [46]
+  .rodata            const    0x1000'c7b0      0x58  system_tviibh8m_cm0plus.o [47]
+  .rodata            const    0x1000'c808      0x4c  cy_ethif.o [8]
+  .rodata            const    0x1000'c854      0x4c  cy_sysclk.o [25]
+  .rodata            const    0x1000'c8a0      0x4c  cy_sysclk.o [25]
+  .text              ro code  0x1000'c8ec      0x3c  zero_init3.o [50]
+  .rodata            const    0x1000'c928      0x30  main_cm0plus.o [1]
+  .text              ro code  0x1000'c958      0x28  data_init.o [50]
+  .iar.init_table    const    0x1000'c980      0x10  - Linker created -
+  .rodata            const    0x1000'c9a0      0x20  main_cm0plus.o [1]
+  .text              ro code  0x1000'c9c0      0x20  startup_cm0plus.o [46]
+  .text              ro code  0x1000'c9e0      0x1e  cmain.o [50]
+  .text              ro code  0x1000'ca00       0x4  startup_cm0plus.o [46]
+  .text              ro code  0x1000'ca04       0x8  exit.o [48]
+  .text              ro code  0x1000'ca0c       0xa  cexit.o [50]
+  .text              ro code  0x1000'ca18      0x14  exit.o [51]
+  .text              ro code  0x1000'ca2c      0x1c  startup_cm0plus.o [46]
+  .text              ro code  0x1000'ca48      0x1c  cstartup_M.o [50]
+  .rodata            const    0x1000'ca64      0x18  system_tviibh8m_cm0plus.o [47]
+  .rodata            const    0x1000'ca7c      0x10  system_tviibh8m_cm0plus.o [47]
+  .text              ro code  0x1000'ca8c       0xc  cy_syslib.o [28]
+  .rodata            const    0x1000'ca98       0x8  main_cm0plus.o [1]
+  .rodata            const    0x1000'caa0       0x8  startup.o [46]
+  .rodata            const    0x1000'caa8       0x4  cy_ethif.o [8]
+  .rodata            const    0x1000'caac       0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'cab0       0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'cab4       0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'cab8       0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'cabc       0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'cac0       0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'cac4       0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'cac8       0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'cacc       0x4  cy_ipc_drv.o [14]
+  .rodata            const    0x1000'cad0       0x4  cy_sysint.o [27]
+  .rodata            const    0x1000'cad4       0x4  main_cm0plus.o [1]
+  .text              ro code  0x1000'cad8       0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'cadc       0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'cae0       0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'cae4       0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'cae8       0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'caec       0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'caf0       0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'caf4       0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'caf8       0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'cafc       0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'cb00       0x2  startup_cm0plus.o [46]
+  .rodata            const    0x1000'cb02       0x0  zero_init3.o [50]
+  .rodata            const    0x1000'cb02       0x0  lz77_init_single.o [50]
+  Initializer bytes  const    0x1000'cb02       0x1  <for P2-1>
+                            - 0x1000'cb03    0xca83
+
+"A3":                                         0x400
+  HEAP_STACK                  0x2801'fc00     0x400  <Block>
+    CSTACK                    0x2801'fc00     0x400  <Block>
+      CSTACK         uninit   0x2801'fc00     0x400  <Block tail>
+                            - 0x2802'0000     0x400
+
+"P2", part 1 of 3 (*** FAILED ***):           0xe78
+                                                0x0
+
+"P2", part 2 of 3 (*** FAILED ***):        0x2'93bd
+                                                0x0
+
+"P2", part 3 of 3 (*** FAILED ***):            0x80
+                                                0x0
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+  0x1000'cd5e  0x1007'ffff  0x7'32a2
+  0x2800'0800  0x2801'fbff  0x1'f400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x1:
+          0x1000'cb02   0x1
+    1 destination range, total size 0x0:
+                  0x0   0x0
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                     ro code  ro data  rw data
+    ------                     -------  -------  -------
+command line/config:
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src: [1]
+    main_cm0plus.o                 944       92
+    ----------------------------------------------------
+    Total:                         944       92
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\adc: [2]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\audioss: [3]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\canfd: [4]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\cpu: [5]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\crypto: [6]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\dma: [7]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\ethernet: [8]
+    cy_ethif.o                   4'852       80
+    edd.o                       18'516
+    edd_rx.o                    15'172
+    edd_tx.o                     4'030
+    ----------------------------------------------------
+    Total:                      42'570       80
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\evtgen: [9]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flash: [10]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\api: [11]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\ccal: [12]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\gpio: [13]
+    cy_gpio.o                      396
+    ----------------------------------------------------
+    Total:                         396
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\ipc: [14]
+    cy_ipc_drv.o                   104        4
+    ----------------------------------------------------
+    Total:                         104        4
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\lin: [15]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\lvd: [16]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\mcwdt: [17]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\mpu: [18]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\prot: [19]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\scb: [20]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sd_host: [21]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\smartio: [22]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\smif: [23]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\srom: [24]
+    cy_srom.o                      476
+    ----------------------------------------------------
+    Total:                         476
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysclk: [25]
+    cy_sysclk.o                  2'098      152
+    ----------------------------------------------------
+    Total:                       2'098      152
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysflt: [26]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysint: [27]
+    cy_sysint.o                    100        4
+    ----------------------------------------------------
+    Total:                         100        4
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\syslib: [28]
+    cy_syslib.o                    164
+    cy_syslib_iar.o                 30
+    ----------------------------------------------------
+    Total:                         194
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\syspm: [29]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysreghc: [30]
+    cy_sysreghc.o                   72
+    ----------------------------------------------------
+    Total:                          72
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysreset: [31]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysrtc: [32]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\systick: [33]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\syswdt: [34]
+    cy_syswdt.o                     92
+    ----------------------------------------------------
+    Total:                          92
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\tcpwm: [35]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\trigmux: [36]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\interrupts\rev_d: [37]
+    cy_interrupt_map.o             388       32
+    ----------------------------------------------------
+    Total:                         388       32
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\aic261: [38]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\button: [39]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\eth_phy: [40]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\flash: [41]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\power: [42]
+    cy_power.o                     572
+    ----------------------------------------------------
+    Total:                         572
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\semihosting: [43]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\smif_mem: [44]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\sw_timer: [45]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\startup: [46]
+    startup.o                      648        8
+    startup_cm0plus.o              322
+    ----------------------------------------------------
+    Total:                         970        8
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\system\rev_d: [47]
+    system_tviibh8m_cm0plus.o    1'344      128
+    ----------------------------------------------------
+    Total:                       1'344      128
+
+dl6M_tln.a: [48]
+    exit.o                           8
+    ----------------------------------------------------
+    Total:                           8
+
+m6M_tl.a: [49]
+    ----------------------------------------------------
+    Total:
+
+rt6M_tl.a: [50]
+    ABImemcpy.o                     78
+    ABImemset.o                     82
+    I32DivModFast.o                224
+    I64DivMod.o                    124
+    I64DivZer.o                      2
+    I64Mul.o                        50
+    IntDivZer.o                      2
+    cexit.o                         10
+    cmain.o                         30
+    cstartup_M.o                    28
+    data_init.o                     40
+    lz77_init_single.o             128
+    strncpy.o                      192
+    zero_init3.o                    60
+    ----------------------------------------------------
+    Total:                       1'050
+
+shb_l.a: [51]
+    exit.o                          20
+    ----------------------------------------------------
+    Total:                          20
+
+    Gaps                            40
+    Linker created                           17    1'024
+--------------------------------------------------------
+    Grand Total:                51'438      517    1'024
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base   0x1000'c980          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x1000'c9a0          --   Gb  - Linker created -
+?main                   0x1000'c9e1         Code  Gb  cmain.o [50]
+CEDI_GetInstance        0x1000'48bf    0x4  Code  Gb  edd.o [8]
+CPS_UncachedRead32      0x1000'0081   0x10  Code  Gb  edd.o [8]
+CPS_UncachedWrite32     0x1000'0091    0xc  Code  Gb  edd.o [8]
+CSTACK$$Base            0x2801'fc00          --   Gb  - Linker created -
+CSTACK$$Limit           0x2802'0000          --   Gb  - Linker created -
+CopyVectorTable         0x1000'c491   0x32  Code  Lc  startup.o [46]
+CpuUserInt0_Handler     0x1000'c55d   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt10_Handler    0x1000'caed         Code  Wk  startup_cm0plus.o [46]
+CpuUserInt11_Handler    0x1000'caf1         Code  Wk  startup_cm0plus.o [46]
+CpuUserInt12_Handler    0x1000'caf5         Code  Wk  startup_cm0plus.o [46]
+CpuUserInt13_Handler    0x1000'caf9         Code  Wk  startup_cm0plus.o [46]
+CpuUserInt14_Handler    0x1000'cafd         Code  Wk  startup_cm0plus.o [46]
+CpuUserInt15_Handler    0x1000'cb01         Code  Wk  startup_cm0plus.o [46]
+CpuUserInt1_Handler     0x1000'c581   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt2_Handler     0x1000'c5a5   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt3_Handler     0x1000'c5c9   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt4_Handler     0x1000'c5ed   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt5_Handler     0x1000'c611   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt6_Handler     0x1000'c635   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt7_Handler     0x1000'c659   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt8_Handler     0x1000'cae5         Code  Wk  startup_cm0plus.o [46]
+CpuUserInt9_Handler     0x1000'cae9         Code  Wk  startup_cm0plus.o [46]
+Cy_App_Init_EthernetPortpins
+                        0x1000'bf31   0x64  Code  Lc  main_cm0plus.o [1]
+Cy_DefaultUserHandler   0x1000'c559    0x4  Code  Gb  cy_interrupt_map.o [37]
+Cy_EthIF_ClearReleasedBuf
+                        0x1000'a6f1   0x50  Code  Gb  cy_ethif.o [8]
+Cy_EthIf00_DecodeEvent  0x1000'a0c1   0x10  Code  Gb  cy_ethif.o [8]
+Cy_EthIf_AssignMemory   0x1000'a017   0xaa  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_DisableQueues  0x1000'98c7   0xd0  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EnableInterrupts
+                        0x1000'9a65  0x1ba  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EventAn        0x1000'a43d    0x2  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EventExternalInt
+                        0x1000'a4dd    0x2  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EventLinkChange
+                        0x1000'a43f    0x2  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EventLpPageRx  0x1000'a43b    0x2  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EventLpi       0x1000'a4e1    0x2  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EventPauseFrame
+                        0x1000'a4d9    0x2  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EventPhyManComplete
+                        0x1000'a437    0x2  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EventPtp       0x1000'a4db    0x2  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EventRxError   0x1000'a435    0x2  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EventRxFrame   0x1000'a299  0x188  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EventTsu       0x1000'a441   0x98  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EventTx        0x1000'a0f1   0xb0  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EventTxError   0x1000'a1b9   0xc2  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EventWol       0x1000'a4df    0x2  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_EventhrespError
+                        0x1000'a439    0x2  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_FreeAllReleasedRxBuffer
+                        0x1000'a663   0x3a  Code  Gb  cy_ethif.o [8]
+Cy_EthIf_FreeAllReleasedTxBuffer
+                        0x1000'a5ef   0x3a  Code  Gb  cy_ethif.o [8]
+Cy_EthIf_FreeOneReleasedRxBuffer
+                        0x1000'a6a1   0x36  Code  Gb  cy_ethif.o [8]
+Cy_EthIf_FreeOneReleasedTxBuffer
+                        0x1000'a62d   0x36  Code  Gb  cy_ethif.o [8]
+Cy_EthIf_GetEthInstanceByIdx
+                        0x1000'a8a1   0x1a  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_GetEtherInstanceIndex
+                        0x1000'a8bb   0x24  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_GetFreeRxBuffer
+                        0x1000'a5ad   0x42  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_GetFreeTxBuffer
+                        0x1000'a561   0x48  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_GetPrivateDataIndex
+                        0x1000'a8e1   0x24  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_GetTxBufferIndexFromAddress
+                        0x1000'a0d1   0x10  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_IPDisable      0x1000'98bb    0xc  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_IPEnable       0x1000'98ad    0xe  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_Init           0x1000'9619  0x1f8  Code  Gb  cy_ethif.o [8]
+Cy_EthIf_InitializeBuffers
+                        0x1000'a4e3   0x6c  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_PhyRegRead     0x1000'9f41   0x80  Code  Gb  cy_ethif.o [8]
+Cy_EthIf_PhyRegWrite    0x1000'9fc5   0x52  Code  Gb  cy_ethif.o [8]
+Cy_EthIf_PrepareConfiguration
+                        0x1000'9c39  0x2fe  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_SetCopyAllFrames
+                        0x1000'a869   0x2e  Code  Gb  cy_ethif.o [8]
+Cy_EthIf_TSUInit        0x1000'99ad   0x9e  Code  Lc  cy_ethif.o [8]
+Cy_EthIf_TransmitFrame  0x1000'a741  0x102  Code  Gb  cy_ethif.o [8]
+Cy_EthIf_WrapperConfig  0x1000'9811   0x94  Code  Lc  cy_ethif.o [8]
+Cy_Ethx_InterruptHandler
+                        0x1000'bde9    0x8  Code  Gb  main_cm0plus.o [1]
+Cy_GPIO_ClearInterrupt  0x1000'c195    0xc  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_Inv             0x1000'bde1    0x8  Code  Lc  main_cm0plus.o [1]
+Cy_GPIO_Pin_Init        0x1000'c1d7   0x72  Code  Gb  cy_gpio.o [13]
+Cy_GPIO_SetDriveSel     0x1000'c177   0x1e  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_SetDrivemode    0x1000'c127   0x1c  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_SetHSIOM        0x1000'c0c9   0x48  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_SetInterruptEdge
+                        0x1000'c1bb   0x1c  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_SetInterruptMask
+                        0x1000'c1a1   0x1a  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_SetSlewRate     0x1000'c15d   0x1a  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_SetVtrip        0x1000'c143   0x1a  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_Write           0x1000'c111   0x16  Code  Lc  cy_gpio.o [13]
+Cy_IPC_Drv_AcquireNotify
+                        0x1000'bcb1   0x10  Code  Lc  cy_ipc_drv.o [14]
+Cy_IPC_Drv_IsLockAcquired
+                        0x1000'bad5    0x8  Code  Lc  cy_srom.o [24]
+Cy_IPC_Drv_LockAcquire  0x1000'bcc9   0x12  Code  Gb  cy_ipc_drv.o [14]
+Cy_IPC_Drv_SendMsgWord_2
+                        0x1000'bcdb   0x34  Code  Gb  cy_ipc_drv.o [14]
+Cy_IPC_Drv_WriteData1Value
+                        0x1000'bcc5    0x4  Code  Lc  cy_ipc_drv.o [14]
+Cy_IPC_Drv_WriteDataValue
+                        0x1000'bcc1    0x4  Code  Lc  cy_ipc_drv.o [14]
+Cy_Power_SwitchToTransistor
+                        0x1000'ba61   0x14  Code  Gb  cy_power.o [42]
+Cy_Srom_CallApi         0x1000'badd   0xae  Code  Gb  cy_srom.o [24]
+Cy_Srom_CallApi_2       0x1000'bb8b   0xd4  Code  Gb  cy_srom.o [24]
+Cy_Srom_GetResponseType
+                        0x1000'bc61   0x34  Code  Gb  cy_srom.o [24]
+Cy_SysClk_ClkPathGetSource
+                        0x1000'ab51   0x4c  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_EcoGetStatus  0x1000'a9cd   0x1a  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_FllGetConfiguration
+                        0x1000'abb1   0x72  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_FllGetLockStatus
+                        0x1000'a9e7    0xc  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_GetClkMemFrequency
+                        0x1000'b19d   0x30  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetClkSlowFrequency
+                        0x1000'b1cd   0x2a  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetCoreFrequency
+                        0x1000'b1f7    0x8  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetEcoFrequency
+                        0x1000'ad4d   0x2e  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetExtFrequency
+                        0x1000'ad7b   0x1c  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetFllInputFrequency
+                        0x1000'ae89    0xc  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetFllOutputFrequency
+                        0x1000'aeb1   0x72  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetHfClkFrequency
+                        0x1000'b107   0x7a  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetIlo0Frequency
+                        0x1000'ad99   0x2e  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetIlo1Frequency
+                        0x1000'adc9   0x2e  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetImoFrequency
+                        0x1000'ad1d   0x2e  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetPathFrequency
+                        0x1000'b0d5   0x32  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetPathSourceFrequency
+                        0x1000'ae29   0x60  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetPll400MNo  0x1000'aa2f   0x16  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_GetPllInputFrequency
+                        0x1000'ae95   0x1c  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetPllNo      0x1000'a9f3   0x14  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_GetPllOutputFrequency
+                        0x1000'af39  0x196  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetWcoFrequency
+                        0x1000'adf9   0x2e  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_HfClockGetDivider
+                        0x1000'aad5   0x3a  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_HfClockGetSource
+                        0x1000'aa89   0x4c  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_InitGetFreqParams
+                        0x1000'ad05   0x16  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_MemClkGetDivider
+                        0x1000'ab15    0xa  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_Pll400MGetConfiguration
+                        0x1000'ac81   0x80  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_Pll400MGetLockStatus
+                        0x1000'aa45   0x2a  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_PllGetConfiguration
+                        0x1000'ac31   0x48  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_PllGetLockStatus
+                        0x1000'aa07   0x28  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_SlowClkGetDivider
+                        0x1000'ab3d    0xa  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_WcoOkay       0x1000'aa75    0xe  Code  Lc  cy_sysclk.o [25]
+Cy_SysInt_InitIRQ       0x1000'c255   0x3e  Code  Gb  cy_sysint.o [27]
+Cy_SysInt_SetSystemIrqVector
+                        0x1000'c293   0x14  Code  Gb  cy_sysint.o [27]
+Cy_SysLib_CleanCoreDCacheByAddr
+                        0x1000'4967    0x2  Code  Gb  cy_syslib.o [28]
+Cy_SysLib_Delay         0x1000'48d5   0x26  Code  Gb  cy_syslib.o [28]
+Cy_SysLib_DelayCycles   0x1000'9511         Code  Gb  cy_syslib_iar.o [28]
+Cy_SysLib_DelayUs       0x1000'48fb   0x12  Code  Gb  cy_syslib.o [28]
+Cy_SysLib_EnterCriticalSection
+                        0x1000'9521         Code  Gb  cy_syslib_iar.o [28]
+Cy_SysLib_ExitCriticalSection
+                        0x1000'9529         Code  Gb  cy_syslib_iar.o [28]
+Cy_SysLib_FaultHandler  0x1000'4913   0x34  Code  Gb  cy_syslib.o [28]
+Cy_SysLib_Halt          0x1000'490d    0x6  Code  Gb  cy_syslib.o [28]
+Cy_SysLib_InvalidateCoreDCacheByAddr
+                        0x1000'4965    0x2  Code  Gb  cy_syslib.o [28]
+Cy_SysLib_ProcessingFault
+                        0x1000'952f    0x4  Code  Wk  cy_syslib.o [28]
+Cy_SysLib_SvcHandler    0x1000'ca8d    0xc  Code  Wk  cy_syslib.o [28]
+Cy_SysReghc_IsConfigured
+                        0x1000'baa3    0xa  Code  Gb  cy_sysreghc.o [30]
+Cy_SysReghc_IsEnabled   0x1000'baad    0xc  Code  Gb  cy_sysreghc.o [30]
+Cy_SysReghc_IsSequencerBusy
+                        0x1000'bab9    0xa  Code  Gb  cy_sysreghc.o [30]
+Cy_SysReghc_SetPmicStatusWaitTime
+                        0x1000'ba8d   0x16  Code  Gb  cy_sysreghc.o [30]
+Cy_WDT_Disable          0x1000'b831   0x16  Code  Gb  cy_syswdt.o [34]
+Cy_WDT_Lock             0x1000'b7f5   0x16  Code  Gb  cy_syswdt.o [34]
+Cy_WDT_Unlock           0x1000'b80b   0x26  Code  Gb  cy_syswdt.o [34]
+Cy_u32StartupStackEndAddress
+                        0x1000'c7ac         Data  Gb  startup_cm0plus.o [46]
+Cy_u32StartupStackStartAddress
+                        0x1000'c7a8         Data  Gb  startup_cm0plus.o [46]
+Ethx_RxFrameCB          0x1000'bf1d   0x14  Code  Lc  main_cm0plus.o [1]
+HEAP_STACK$$Base        0x2801'fc00          --   Gb  - Linker created -
+HEAP_STACK$$Limit       0x2802'0000          --   Gb  - Linker created -
+HardFault_Handler       0x1000'c9c1         Code  Wk  startup_cm0plus.o [46]
+InitRamEcc              0x1000'c373  0x10a  Code  Lc  startup.o [46]
+InitRamEccClearArea     0x1000'c47d   0x14  Code  Lc  startup.o [46]
+NMI_Handler             0x1000'cad9         Code  Wk  startup_cm0plus.o [46]
+PendSV_Handler          0x1000'cadd         Code  Wk  startup_cm0plus.o [46]
+Phy_Dp83825i_init       0x1000'bfc9   0x3e  Code  Lc  main_cm0plus.o [1]
+Phy_Dp83825i_link_status
+                        0x1000'c007   0x18  Code  Lc  main_cm0plus.o [1]
+Phy_Dp83825i_mdio_validation
+                        0x1000'c02d   0x34  Code  Lc  main_cm0plus.o [1]
+Phy_Dp83825i_reset      0x1000'bf95   0x34  Code  Lc  main_cm0plus.o [1]
+PrepareSystemCallInfrastructure
+                        0x1000'c4c3   0x44  Code  Lc  startup.o [46]
+Region$$Table$$Base     0x1000'c980          --   Gb  - Linker created -
+Region$$Table$$Limit    0x1000'c9a0          --   Gb  - Linker created -
+Reset_Handler           0x1000'c745         Code  Wk  startup_cm0plus.o [46]
+SVC_Handler             0x1000'ca2d         Code  Wk  startup_cm0plus.o [46]
+Startup_Init            0x1000'c349   0x2a  Code  Gb  startup.o [46]
+SwitchToExternal        0x1000'b851  0x210  Code  Lc  cy_power.o [42]
+SysTick_Handler         0x1000'cae1         Code  Wk  startup_cm0plus.o [46]
+SystemCoreClockUpdate   0x1000'b6f5   0x98  Code  Gb  system_tviibh8m_cm0plus.o [47]
+SystemInit              0x1000'b2b5  0x3d4  Code  Gb  system_tviibh8m_cm0plus.o [47]
+__NVIC_ClearPendingIRQ  0x1000'c541   0x18  Code  Lc  cy_interrupt_map.o [37]
+__NVIC_ClearPendingIRQ  0x1000'bd51   0x18  Code  Lc  main_cm0plus.o [1]
+__NVIC_DisableIRQ       0x1000'bd31   0x20  Code  Lc  main_cm0plus.o [1]
+__NVIC_EnableIRQ        0x1000'bd19   0x18  Code  Lc  main_cm0plus.o [1]
+__NVIC_EnableIRQ        0x1000'c2b9   0x18  Code  Lc  startup.o [46]
+__NVIC_SetPriority      0x1000'bd69   0x78  Code  Lc  main_cm0plus.o [1]
+__NVIC_SetPriority      0x1000'c2d1   0x78  Code  Lc  startup.o [46]
+__Vectors               0x1000'0000          --   Gb  startup_cm0plus.o [46]
+__Vectors_End           0x1000'0080         Data  Gb  startup_cm0plus.o [46]
+__Vectors_Size {Abs}           0x80          --   Gb  startup_cm0plus.o [46]
+__aeabi_idiv            0x1000'955f         Code  Gb  I32DivModFast.o [50]
+__aeabi_idiv0           0x1000'9615         Code  Gb  IntDivZer.o [50]
+__aeabi_idivmod         0x1000'955f         Code  Gb  I32DivModFast.o [50]
+__aeabi_ldiv0           0x1000'b2b1         Code  Gb  I64DivZer.o [50]
+__aeabi_lmul            0x1000'b201         Code  Gb  I64Mul.o [50]
+__aeabi_memclr4         0x1000'948d         Code  Gb  ABImemset.o [50]
+__aeabi_memclr8         0x1000'948d         Code  Gb  ABImemset.o [50]
+__aeabi_memcpy          0x1000'94f5         Code  Gb  ABImemcpy.o [50]
+__aeabi_memcpy4         0x1000'94c1         Code  Gb  ABImemcpy.o [50]
+__aeabi_memcpy8         0x1000'94c1         Code  Gb  ABImemcpy.o [50]
+__aeabi_memset          0x1000'946d         Code  Gb  ABImemset.o [50]
+__aeabi_uidiv           0x1000'9565         Code  Gb  I32DivModFast.o [50]
+__aeabi_uidivmod        0x1000'9565         Code  Gb  I32DivModFast.o [50]
+__aeabi_uldivmod        0x1000'b233         Code  Gb  I64DivMod.o [50]
+__cm7_0_vector_base_linker_symbol {Abs}
+                        0x1008'0000         Data  Gb  <internal module>
+__cm7_1_vector_base_linker_symbol {Abs}
+                        0x1028'0000         Data  Gb  <internal module>
+__cmain                 0x1000'c9e1         Code  Gb  cmain.o [50]
+__ecc_init_sram_end_address {Abs}
+                        0x2801'ffff         Data  Gb  <internal module>
+__ecc_init_sram_start_address {Abs}
+                        0x2800'0800         Data  Gb  <internal module>
+__exit                  0x1000'ca19   0x14  Code  Gb  exit.o [51]
+__iar_Memcpy            0x1000'9501         Code  Gb  ABImemcpy.o [50]
+__iar_Memset4_word      0x1000'9491         Code  Gb  ABImemset.o [50]
+__iar_Memset_word       0x1000'9479         Code  Gb  ABImemset.o [50]
+__iar_data_init3        0x1000'c959   0x28  Code  Gb  data_init.o [50]
+__iar_lz77_init_single3
+                        0x1000'c6c5   0x80  Code  Gb  lz77_init_single.o [50]
+__iar_program_start     0x1000'ca49         Code  Gb  cstartup_M.o [50]
+__iar_zero_init3        0x1000'c8ed   0x3c  Code  Gb  zero_init3.o [50]
+__low_level_init        0x1000'ca01         Code  Gb  startup_cm0plus.o [46]
+__vector_table          0x1000'0000         Data  Gb  startup_cm0plus.o [46]
+__vector_table_0x1c     0x1000'001c         Data  Gb  startup_cm0plus.o [46]
+_call_main              0x1000'c9ed         Code  Gb  cmain.o [50]
+_exit                   0x1000'ca0d         Code  Gb  cexit.o [50]
+calcDescriptorSizes     0x1000'009d   0x3a  Code  Lc  edd.o [8]
+callbacksNullCheck      0x1000'05a5  0x264  Code  Lc  edd.o [8]
+clearAllInterrupts      0x1000'030b   0x80  Code  Lc  edd.o [8]
+dec_txbd                0x1000'498d   0x3a  Code  Lc  edd_tx.o [8]
+disableAllInterrupts    0x1000'02c9   0x42  Code  Lc  edd.o [8]
+emacAbortTx             0x1000'54fb   0x1c  Code  Gb  edd_tx.o [8]
+emacAddRxBuf            0x1000'59db  0x112  Code  Gb  edd_rx.o [8]
+emacAdjust1588Timer     0x1000'32bb   0x54  Code  Gb  edd.o [8]
+emacCalcMaxRxFrameSize  0x1000'5929   0xb2  Code  Gb  edd_rx.o [8]
+emacCalcMaxTxFrameSize  0x1000'49c7  0x1b2  Code  Gb  edd_tx.o [8]
+emacClearRxStatus       0x1000'6309   0x46  Code  Gb  edd_rx.o [8]
+emacClearStats          0x1000'42c5   0x2c  Code  Gb  edd.o [8]
+emacClearTxStatus       0x1000'55c9   0x7c  Code  Gb  edd_tx.o [8]
+emacDeQTxBuf            0x1000'4e59   0x96  Code  Gb  edd_tx.o [8]
+emacDestroy             0x1000'155f   0x1c  Code  Gb  edd.o [8]
+emacDisableCbs          0x1000'5793   0x44  Code  Gb  edd_tx.o [8]
+emacDisableRx           0x1000'5f4f   0x1c  Code  Gb  edd_rx.o [8]
+emacDisableSpecAddr     0x1000'7a7f  0x2b6  Code  Gb  edd_rx.o [8]
+emacEnableCbs           0x1000'56f9   0x9a  Code  Gb  edd_tx.o [8]
+emacEnableRx            0x1000'5f35   0x1a  Code  Gb  edd_rx.o [8]
+emacEnableTx            0x1000'5533   0x1a  Code  Gb  edd_tx.o [8]
+emacFindQBaseAddr       0x1000'600b   0x56  Code  Gb  edd_rx.o [8]
+emacFreeTxDesc          0x1000'4f1b  0x16e  Code  Gb  edd_tx.o [8]
+emacGet1536ByteFramesRx
+                        0x1000'2819   0x26  Code  Gb  edd.o [8]
+emacGet1588OneStepTxSyncEnable
+                        0x1000'3709   0x32  Code  Gb  edd.o [8]
+emacGet1588SyncStrobeTime
+                        0x1000'35e3   0x52  Code  Gb  edd.o [8]
+emacGet1588Timer        0x1000'3231   0x8a  Code  Gb  edd.o [8]
+emacGet1588TimerInc     0x1000'339d   0x62  Code  Gb  edd.o [8]
+emacGetAnAdvPage        0x1000'3c21   0x54  Code  Gb  edd.o [8]
+emacGetAnComplete       0x1000'3b45   0x2e  Code  Gb  edd.o [8]
+emacGetAnRemoteFault    0x1000'3b0b   0x2e  Code  Gb  edd.o [8]
+emacGetAutoNegEnable    0x1000'3a79   0x36  Code  Gb  edd.o [8]
+emacGetCbsQSetting      0x1000'57d7   0x80  Code  Gb  edd_tx.o [8]
+emacGetCollisionTest    0x1000'468f   0x3a  Code  Gb  edd.o [8]
+emacGetCopyAllFrames    0x1000'8085   0x26  Code  Gb  edd_rx.o [8]
+emacGetCopyPauseDisable
+                        0x1000'2e11   0x26  Code  Gb  edd.o [8]
+emacGetDescTimeStampMode
+                        0x1000'37d1   0x56  Code  Gb  edd.o [8]
+emacGetDesignConfig     0x1000'4519   0x20  Code  Gb  edd.o [8]
+emacGetEnableMultiPfcPauseQuantum
+                        0x1000'2f7b   0x26  Code  Gb  edd.o [8]
+emacGetEventEnable      0x1000'2219  0x282  Code  Gb  edd.o [8]
+emacGetExtTsuPortEnable
+                        0x1000'3689   0x36  Code  Gb  edd.o [8]
+emacGetFcsRemove        0x1000'28d1   0x26  Code  Gb  edd.o [8]
+emacGetFullDuplex       0x1000'29ff   0x26  Code  Gb  edd.o [8]
+emacGetHashAddr         0x1000'80d1   0x30  Code  Gb  edd_rx.o [8]
+emacGetHdrDataSplit     0x1000'639b   0x34  Code  Gb  edd_rx.o [8]
+emacGetIfCapabilities   0x1000'2ae7   0x1e  Code  Gb  edd.o [8]
+emacGetIfSpeed          0x1000'258d   0x3a  Code  Gb  edd.o [8]
+emacGetIgnoreFcsRx      0x1000'2a61   0x26  Code  Gb  edd.o [8]
+emacGetIntrptModerate   0x1000'24f5   0x3e  Code  Gb  edd.o [8]
+emacGetIpgStretch       0x1000'58d1   0x56  Code  Gb  edd_tx.o [8]
+emacGetJumboFrameRxMaxLen
+                        0x1000'268d   0x22  Code  Gb  edd.o [8]
+emacGetJumboFramesRx    0x1000'25ff   0x26  Code  Gb  edd.o [8]
+emacGetLenErrDiscard    0x1000'8137   0x26  Code  Gb  edd_rx.o [8]
+emacGetLinkStatus       0x1000'3add   0x2e  Code  Gb  edd.o [8]
+emacGetLoopback         0x1000'305d   0x4a  Code  Gb  edd.o [8]
+emacGetLpAbilityPage    0x1000'3c75   0x98  Code  Gb  edd.o [8]
+emacGetLpNextPage       0x1000'3df9   0x48  Code  Gb  edd.o [8]
+emacGetLpiStats         0x1000'44c3   0x56  Code  Gb  edd.o [8]
+emacGetLpiTxEnable      0x1000'449f   0x24  Code  Gb  edd.o [8]
+emacGetMdioEnable       0x1000'3e87   0x1a  Code  Gb  edd.o [8]
+emacGetMdioIdle         0x1000'3fab   0x1c  Code  Gb  edd.o [8]
+emacGetMdioInState      0x1000'4855   0x26  Code  Gb  edd.o [8]
+emacGetMdioReadData     0x1000'3f8d   0x1e  Code  Gb  edd.o [8]
+emacGetMulticastEnable  0x1000'7f0f   0x26  Code  Gb  edd_rx.o [8]
+emacGetNextPageTx       0x1000'3dbd   0x3c  Code  Gb  edd.o [8]
+emacGetNoBroadcast      0x1000'7f65   0x26  Code  Gb  edd_rx.o [8]
+emacGetNumScreenRegs    0x1000'815d   0x32  Code  Gb  edd_rx.o [8]
+emacGetPageRx           0x1000'3d0d   0x2c  Code  Gb  edd.o [8]
+emacGetPauseEnable      0x1000'2b51   0x26  Code  Gb  edd.o [8]
+emacGetPcsReady         0x1000'38f5   0x38  Code  Gb  edd.o [8]
+emacGetPfcPriorityBasedPauseRx
+                        0x1000'2e69   0x24  Code  Gb  edd.o [8]
+emacGetPhyId            0x1000'3e41   0x12  Code  Gb  edd.o [8]
+emacGetPtpFrameRxTime   0x1000'34f9   0x4e  Code  Gb  edd.o [8]
+emacGetPtpFrameTxTime   0x1000'34ab   0x4e  Code  Gb  edd.o [8]
+emacGetPtpPeerFrameRxTime
+                        0x1000'3595   0x4e  Code  Gb  edd.o [8]
+emacGetPtpPeerFrameTxTime
+                        0x1000'3547   0x4e  Code  Gb  edd.o [8]
+emacGetPtpRxUnicastIpAddr
+                        0x1000'3143   0x1e  Code  Gb  edd.o [8]
+emacGetPtpTxUnicastIpAddr
+                        0x1000'3197   0x1e  Code  Gb  edd.o [8]
+emacGetReadSnapshot     0x1000'4377   0x38  Code  Gb  edd.o [8]
+emacGetRetryTest        0x1000'4705   0x26  Code  Gb  edd.o [8]
+emacGetRscEnable        0x1000'6451   0x5a  Code  Gb  edd_rx.o [8]
+emacGetRxBackPressure   0x1000'4615   0x24  Code  Gb  edd.o [8]
+emacGetRxBadPreamble    0x1000'29a1   0x26  Code  Gb  edd.o [8]
+emacGetRxBufOffset      0x1000'27b9   0x24  Code  Gb  edd.o [8]
+emacGetRxChecksumOffload
+                        0x1000'2875   0x26  Code  Gb  edd.o [8]
+emacGetRxDescSize       0x1000'5f07   0x14  Code  Gb  edd_rx.o [8]
+emacGetRxDescStat       0x1000'5dbd  0x14a  Code  Gb  edd_rx.o [8]
+emacGetRxDmaDataAddrMask
+                        0x1000'2939   0x2e  Code  Gb  edd.o [8]
+emacGetRxHalfDuplexInTx
+                        0x1000'2ac1   0x26  Code  Gb  edd.o [8]
+emacGetRxPartialStFwd   0x1000'6583   0x3e  Code  Gb  edd_rx.o [8]
+emacGetRxPauseQuantum   0x1000'2baf   0x1e  Code  Gb  edd.o [8]
+emacGetRxStatus         0x1000'62c5   0x44  Code  Gb  edd_rx.o [8]
+emacGetSpecificAddr     0x1000'72a5  0x732  Code  Gb  edd_rx.o [8]
+emacGetSpecificAddr1Mask
+                        0x1000'7a2f   0x50  Code  Gb  edd_rx.o [8]
+emacGetStackedVlanReg   0x1000'8029   0x24  Code  Gb  edd_rx.o [8]
+emacGetStoreRxTimeStamp
+                        0x1000'3871   0x36  Code  Gb  edd.o [8]
+emacGetTsuTimerCompVal  0x1000'3465   0x46  Code  Gb  edd.o [8]
+emacGetTxChecksumOffload
+                        0x1000'2751   0x26  Code  Gb  edd.o [8]
+emacGetTxDescSize       0x1000'50bf   0x14  Code  Gb  edd_tx.o [8]
+emacGetTxDescStat       0x1000'5089   0x36  Code  Gb  edd_tx.o [8]
+emacGetTxEnabled        0x1000'554d   0x1a  Code  Gb  edd_tx.o [8]
+emacGetTxPartialStFwd   0x1000'56bb   0x3e  Code  Gb  edd_tx.o [8]
+emacGetTxPauseQuantum   0x1000'2d11   0xce  Code  Gb  edd.o [8]
+emacGetTxPfcPauseFrameFields
+                        0x1000'2efd   0x2c  Code  Gb  edd.o [8]
+emacGetTxStatus         0x1000'5567   0x62  Code  Gb  edd_tx.o [8]
+emacGetType1ScreenReg   0x1000'8325  0x15c  Code  Gb  edd_rx.o [8]
+emacGetType2CompareReg  0x1000'8fa9  0x454  Code  Gb  edd_rx.o [8]
+emacGetType2EthertypeReg
+                        0x1000'89d9   0xc8  Code  Gb  edd_rx.o [8]
+emacGetType2ScreenReg   0x1000'8761  0x190  Code  Gb  edd_rx.o [8]
+emacGetTypeIdMatch      0x1000'7ded   0x8c  Code  Gb  edd_rx.o [8]
+emacGetUniDirEnable     0x1000'26e5   0x20  Code  Gb  edd.o [8]
+emacGetUnicastEnable    0x1000'7eb1   0x26  Code  Gb  edd_rx.o [8]
+emacGetUnicastPtpDetect
+                        0x1000'30e9   0x24  Code  Gb  edd.o [8]
+emacGetUserInPin        0x1000'480f   0x46  Code  Gb  edd.o [8]
+emacGetVlanOnly         0x1000'7fc3   0x26  Code  Gb  edd_rx.o [8]
+emacGetWakeOnLanReg     0x1000'4425   0x3e  Code  Gb  edd.o [8]
+emacGetWriteStatsEnable
+                        0x1000'4583   0x30  Code  Gb  edd.o [8]
+emacIncStatsRegs        0x1000'45b3   0x2c  Code  Gb  edd.o [8]
+emacInit                0x1000'1169  0x3f6  Code  Gb  edd.o [8]
+emacIsr                 0x1000'15f9  0x762  Code  Gb  edd.o [8]
+emacNumRxBufs           0x1000'5aed   0x2a  Code  Gb  edd_rx.o [8]
+emacNumRxUsed           0x1000'5b17   0x5a  Code  Gb  edd_rx.o [8]
+emacPhyStartMdioRead    0x1000'3f0d   0x70  Code  Gb  edd.o [8]
+emacPhyStartMdioWrite   0x1000'3ea1   0x6c  Code  Gb  edd.o [8]
+emacProbe               0x1000'101f  0x146  Code  Gb  edd.o [8]
+emacQTxBuf              0x1000'4cc1  0x18e  Code  Gb  edd_tx.o [8]
+emacQueueTxBuf          0x1000'4b7d  0x144  Code  Gb  edd_tx.o [8]
+emacReadReg             0x1000'487b   0x24  Code  Gb  edd.o [8]
+emacReadRxBuf           0x1000'5b75  0x23a  Code  Gb  edd_rx.o [8]
+emacReadStats           0x1000'3fc7  0x2fe  Code  Gb  edd.o [8]
+emacReadUserInputs      0x1000'47e3   0x2c  Code  Gb  edd.o [8]
+emacReadUserOutputs     0x1000'4759   0x2a  Code  Gb  edd.o [8]
+emacRemoveRxBuf         0x1000'5f6b   0xa0  Code  Gb  edd_rx.o [8]
+emacResetPcs            0x1000'38a7   0x46  Code  Gb  edd.o [8]
+emacResetRxQ            0x1000'6069  0x254  Code  Gb  edd_rx.o [8]
+emacResetTxQ            0x1000'50d9  0x382  Code  Gb  edd_tx.o [8]
+emacRxEnabled           0x1000'5f1b   0x1a  Code  Gb  edd_rx.o [8]
+emacSet1536ByteFramesRx
+                        0x1000'27dd   0x36  Code  Gb  edd.o [8]
+emacSet1588OneStepTxSyncEnable
+                        0x1000'36bf   0x4a  Code  Gb  edd.o [8]
+emacSet1588Timer        0x1000'31b5   0x7c  Code  Gb  edd.o [8]
+emacSet1588TimerInc     0x1000'3315   0x7a  Code  Gb  edd.o [8]
+emacSetAnAdvPage        0x1000'3b73   0x96  Code  Gb  edd.o [8]
+emacSetAutoNegEnable    0x1000'39f5   0x80  Code  Gb  edd.o [8]
+emacSetCollisionTest    0x1000'4639   0x56  Code  Gb  edd.o [8]
+emacSetCopyAllFrames    0x1000'804d   0x38  Code  Gb  edd_rx.o [8]
+emacSetCopyPauseDisable
+                        0x1000'2ddf   0x2e  Code  Gb  edd.o [8]
+emacSetDescTimeStampMode
+                        0x1000'373b   0x96  Code  Gb  edd.o [8]
+emacSetEnableMultiPfcPauseQuantum
+                        0x1000'2f29   0x52  Code  Gb  edd.o [8]
+emacSetEventEnable      0x1000'1d75  0x49e  Code  Gb  edd.o [8]
+emacSetExtTsuPortEnable
+                        0x1000'3635   0x4a  Code  Gb  edd.o [8]
+emacSetFcsRemove        0x1000'289b   0x36  Code  Gb  edd.o [8]
+emacSetFullDuplex       0x1000'29c7   0x38  Code  Gb  edd.o [8]
+emacSetHashAddr         0x1000'80ab   0x26  Code  Gb  edd_rx.o [8]
+emacSetHdrDataSplit     0x1000'634f   0x4c  Code  Gb  edd_rx.o [8]
+emacSetIfSpeed          0x1000'2533   0x54  Code  Gb  edd.o [8]
+emacSetIgnoreFcsRx      0x1000'2a25   0x36  Code  Gb  edd.o [8]
+emacSetIntrptModerate   0x1000'249b   0x56  Code  Gb  edd.o [8]
+emacSetIpgStretch       0x1000'5857   0x6e  Code  Gb  edd_tx.o [8]
+emacSetJumboFrameRxMaxLen
+                        0x1000'2625   0x68  Code  Gb  edd.o [8]
+emacSetJumboFramesRx    0x1000'25c7   0x38  Code  Gb  edd.o [8]
+emacSetLenErrDiscard    0x1000'8101   0x36  Code  Gb  edd_rx.o [8]
+emacSetLoopback         0x1000'2fa1   0xbc  Code  Gb  edd.o [8]
+emacSetLpiTxEnable      0x1000'4463   0x3c  Code  Gb  edd.o [8]
+emacSetMdioEnable       0x1000'3e53   0x34  Code  Gb  edd.o [8]
+emacSetMulticastEnable  0x1000'7ed7   0x38  Code  Gb  edd_rx.o [8]
+emacSetNextPageTx       0x1000'3d39   0x84  Code  Gb  edd.o [8]
+emacSetNoBroadcast      0x1000'7f35   0x30  Code  Gb  edd_rx.o [8]
+emacSetPauseEnable      0x1000'2b05   0x36  Code  Gb  edd.o [8]
+emacSetPfcPriorityBasedPauseRx
+                        0x1000'2e37   0x32  Code  Gb  edd.o [8]
+emacSetPtpRxUnicastIpAddr
+                        0x1000'310d   0x36  Code  Gb  edd.o [8]
+emacSetPtpTxUnicastIpAddr
+                        0x1000'3161   0x36  Code  Gb  edd.o [8]
+emacSetReadSnapshot     0x1000'4327   0x50  Code  Gb  edd.o [8]
+emacSetRetryTest        0x1000'46c9   0x36  Code  Gb  edd.o [8]
+emacSetRscClearMask     0x1000'64ab   0x4a  Code  Gb  edd_rx.o [8]
+emacSetRscEnable        0x1000'63cf   0x7c  Code  Gb  edd_rx.o [8]
+emacSetRxBackPressure   0x1000'45df   0x32  Code  Gb  edd.o [8]
+emacSetRxBadPreamble    0x1000'2967   0x36  Code  Gb  edd.o [8]
+emacSetRxBufOffset      0x1000'2777   0x3e  Code  Gb  edd.o [8]
+emacSetRxChecksumOffload
+                        0x1000'283f   0x36  Code  Gb  edd.o [8]
+emacSetRxDmaDataAddrMask
+                        0x1000'28f7   0x42  Code  Gb  edd.o [8]
+emacSetRxHalfDuplexInTx
+                        0x1000'2a87   0x36  Code  Gb  edd.o [8]
+emacSetRxPartialStFwd   0x1000'6519   0x6a  Code  Gb  edd_rx.o [8]
+emacSetSpecificAddr     0x1000'65c1  0xcdc  Code  Gb  edd_rx.o [8]
+emacSetSpecificAddr1Mask
+                        0x1000'79d7   0x58  Code  Gb  edd_rx.o [8]
+emacSetStackedVlanReg   0x1000'7fe9   0x40  Code  Gb  edd_rx.o [8]
+emacSetStoreRxTimeStamp
+                        0x1000'3827   0x4a  Code  Gb  edd.o [8]
+emacSetTsuTimerCompVal  0x1000'33ff   0x66  Code  Gb  edd.o [8]
+emacSetTxChecksumOffload
+                        0x1000'2705   0x4c  Code  Gb  edd.o [8]
+emacSetTxPartialStFwd   0x1000'5645   0x76  Code  Gb  edd_tx.o [8]
+emacSetTxPauseQuantum   0x1000'2bcd  0x144  Code  Gb  edd.o [8]
+emacSetTxPfcPauseFrameFields
+                        0x1000'2ed3   0x2a  Code  Gb  edd.o [8]
+emacSetType1ScreenReg   0x1000'818f  0x18e  Code  Gb  edd_rx.o [8]
+emacSetType2CompareReg  0x1000'8ab1  0x484  Code  Gb  edd_rx.o [8]
+emacSetType2EthertypeReg
+                        0x1000'8909   0xc8  Code  Gb  edd_rx.o [8]
+emacSetType2ScreenReg   0x1000'84ad  0x290  Code  Gb  edd_rx.o [8]
+emacSetTypeIdMatch      0x1000'7d35   0xb8  Code  Gb  edd_rx.o [8]
+emacSetUniDirEnable     0x1000'26af   0x36  Code  Gb  edd.o [8]
+emacSetUnicastEnable    0x1000'7e79   0x38  Code  Gb  edd_rx.o [8]
+emacSetUnicastPtpDetect
+                        0x1000'30a7   0x32  Code  Gb  edd.o [8]
+emacSetUserOutPin       0x1000'4783   0x60  Code  Gb  edd.o [8]
+emacSetVlanOnly         0x1000'7f8b   0x38  Code  Gb  edd_rx.o [8]
+emacSetWakeOnLanReg     0x1000'43af   0x76  Code  Gb  edd.o [8]
+emacSetWriteStatsEnable
+                        0x1000'4539   0x4a  Code  Gb  edd.o [8]
+emacStart               0x1000'157b   0x22  Code  Gb  edd.o [8]
+emacStartAutoNegotiation
+                        0x1000'392d   0xc8  Code  Gb  edd.o [8]
+emacStartTx             0x1000'547d   0x62  Code  Gb  edd_tx.o [8]
+emacStop                0x1000'159d   0x40  Code  Gb  edd.o [8]
+emacStopTx              0x1000'54df   0x1c  Code  Gb  edd_tx.o [8]
+emacTakeSnapshot        0x1000'42f1   0x36  Code  Gb  edd.o [8]
+emacTransmitting        0x1000'5517   0x1c  Code  Gb  edd_tx.o [8]
+emacTxDescFree          0x1000'4eef   0x2c  Code  Gb  edd_tx.o [8]
+emacTxPauseFrame        0x1000'2b77   0x1c  Code  Gb  edd.o [8]
+emacTxPfcPriorityBasedPause
+                        0x1000'2e8d   0x46  Code  Gb  edd.o [8]
+emacTxZeroQPause        0x1000'2b93   0x1c  Code  Gb  edd.o [8]
+emacWriteReg            0x1000'489f   0x20  Code  Gb  edd.o [8]
+emacWriteUserOutputs    0x1000'472b   0x2e  Code  Gb  edd.o [8]
+exit                    0x1000'ca05    0x8  Code  Gb  exit.o [48]
+inc_txbd                0x1000'4969   0x24  Code  Lc  edd_tx.o [8]
+initAllRegs             0x1000'0395  0x1f2  Code  Lc  edd.o [8]
+initAxiMaxPipelineReg   0x1000'0831   0x86  Code  Lc  edd.o [8]
+initDmaConfigReg        0x1000'0951   0xfe  Code  Lc  edd.o [8]
+initNetConfigReg        0x1000'0a6d  0x170  Code  Lc  edd.o [8]
+initNetControlReg       0x1000'08dd   0x74  Code  Lc  edd.o [8]
+initRxDescLists         0x1000'0161   0xbc  Code  Gb  edd.o [8]
+initTxDescLists         0x1000'012b   0x36  Code  Lc  edd.o [8]
+initUpper32BuffQAddr    0x1000'0809   0x24  Code  Lc  edd.o [8]
+main                    0x1000'bdf1  0x12c  Code  Gb  main_cm0plus.o [1]
+maxHwQs                 0x1000'021d   0xac  Code  Lc  edd.o [8]
+numRxDescriptors        0x1000'0101   0x2a  Code  Lc  edd.o [8]
+numTxDescriptors        0x1000'00d7   0x2a  Code  Lc  edd.o [8]
+offloadsSupport         0x1000'0c45   0x34  Code  Gb  edd.o [8]
+readDesignConfig        0x1000'0cc9  0x356  Code  Gb  edd.o [8]
+readPcsStatus           0x1000'3aaf   0x2e  Code  Gb  edd.o [8]
+setRxQBufferSizes       0x1000'0bdd   0x4c  Code  Lc  edd.o [8]
+strncpy                 0x1000'a90d         Code  Gb  strncpy.o [50]
+subNsTsuInc24bSupport   0x1000'0c79   0x50  Code  Gb  edd.o [8]
+
+
+[1] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src
+[2] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\adc
+[3] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\audioss
+[4] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\canfd
+[5] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\cpu
+[6] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\crypto
+[7] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\dma
+[8] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\ethernet
+[9] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\evtgen
+[10] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flash
+[11] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\api
+[12] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\flexray\ccal
+[13] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\gpio
+[14] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\ipc
+[15] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\lin
+[16] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\lvd
+[17] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\mcwdt
+[18] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\mpu
+[19] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\prot
+[20] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\scb
+[21] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sd_host
+[22] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\smartio
+[23] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\smif
+[24] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\srom
+[25] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysclk
+[26] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysflt
+[27] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysint
+[28] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\syslib
+[29] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\syspm
+[30] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysreghc
+[31] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysreset
+[32] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\sysrtc
+[33] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\systick
+[34] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\syswdt
+[35] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\tcpwm
+[36] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\drivers\trigmux
+[37] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\interrupts\rev_d
+[38] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\aic261
+[39] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\button
+[40] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\eth_phy
+[41] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\flash
+[42] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\power
+[43] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\semihosting
+[44] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\smif_mem
+[45] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\mw\sw_timer
+[46] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\startup
+[47] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_d\Obj\src\system\rev_d
+[48] = dl6M_tln.a
+[49] = m6M_tl.a
+[50] = rt6M_tl.a
+[51] = shb_l.a
+
+  51'438 bytes of readonly  code memory
+     517 bytes of readonly  data memory
+   1'024 bytes of readwrite data memory
+
+Errors: 1
+Warnings: none

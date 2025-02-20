@@ -1,0 +1,12 @@
+Ensure the R739, R740 and R741 jumpers are connected.
+Ensure the R736, R737 and R738 jumpers are connected.
+Ensure the R735 jumper is connected and keep the Potentiometer nob in one of it's end.
+Ensure the jumper R119 is connected.
+Remove the jumpers R504 and R505 and ensure the jumper R514 is connected.
+Connect the Jumpers (R641-1 + R642-2) and (R641-2 + R642-1) if you are using CTIA headphones (Android mobile Headphones). For CY Provided Headphone, connect R641(1-2) and R642(1-2). Also insert R662, R660, R661, R659, R657, R658, R672, R677, R678. If continuous beep sound is heard, then press Pass button on the GUI otherwise press Fail button.
+Insert R751, R750, R749, R748, R747, R746 jumpers.
+Remove the jumpers R735, R736, R737, R738, R739, R740, R741 and Insert R742, R743, R744, R745.
+Connect the jumpers J91(2-3), J92(2-3), J93(2-3), J94(2-3), J97(2-3), J98(2-3), J99(2-3), J100(2-3), R711(2-3).
+Remove R742, R743, R744, R745 and insert R735, R736, R737, R738, R739, R740, R741. Press PASS button if you see the IRIS patter on the FPD display, otherwise press FAIL button.
+
+

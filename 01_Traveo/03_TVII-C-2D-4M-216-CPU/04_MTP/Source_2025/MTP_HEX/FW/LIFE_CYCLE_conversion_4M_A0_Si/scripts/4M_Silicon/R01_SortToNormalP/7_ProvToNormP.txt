@@ -1,0 +1,145 @@
+Open On-Chip Debugger 0.10.0+dev-1.1.0.901 (2020-06-09-06:04)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+DUT NAME_2 : 0x60
+DUT NAME_2 : 0x60
+DUT NAME_2 : 0x60
+Acquiring using acquire_TestMode_SROM
+DUT name: 0x60
+INIT_ACQUIRE_COUNT: 0
+DUT name: 0x60
+kitprog done
+
+adapter speed: 2000 kHz
+adapter srst delay: 25
+adapter srst pulse_width: 5
+** Auto-acquire enabled, use "set ENABLE_ACQUIRE 0" to disable
+cortex_m reset_config sysresetreq
+adapter srst delay: 100
+adapter srst delay: 100
+traveo2_c2d_4m
+All done
+Info : CMSIS-DAP: SWD  Supported
+Info : CMSIS-DAP: FW Version = 2.0.0
+Info : CMSIS-DAP: Interface Initialised (SWD)
+Info : SWCLK/TCK = 1 SWDIO/TMS = 1 TDI = 0 TDO = 0 nTRST = 0 nRESET = 1
+Info : CMSIS-DAP: Interface ready
+Info : KitProg3: FW version: 1.1.127
+Info : KitProg3: Pipelined transfers disabled, please update the firmware
+Info : VTarget = 5.067 V
+Info : kitprog3: acquiring the device...
+Info : clock speed 2000 kHz
+Info : SWD DPIDR 0x6ba02477
+Info : Listening on port 3333 for gdb connections
+Info : Listening on port 3334 for gdb connections
+Info : kitprog3: acquiring the device...
+###############################################################################################
+
+THE DEVICE UNDER TEST IS: TVIIC2D4M_SILICON
+TEST ID FOR DEVICE UNDER TEST IS: 0x60
+###############################################################################################
+
+Acquire Check:
+0xdeadbeef
+IOR (0x 28002000, 0x deadbeef) n.e.d.
+IOW (0x 28002000, 0x deadbeef)
+0xdeadbeef
+IOR (0x 28002000, 0x deadbeef) n.e.d.
+Acquire Check PASS !!
+IOW (0x 4024f400, 0x 00000001)
+0x00000001
+IOR (0x 4024f400, 0x 00000001) n.e.d.
+0x00000002
+IOR (0x 402020c4, 0x 00000002) expected 0x00000000
+0x0b1e11f4
+IOR (0x 4022006c, 0x 0b1e11f4) n.e.d.
+IOW (0x 28000100, 0x 11223344)
+Could not write to 0x28000100 via AP #0
+Info : SWD DPIDR 0x6ba02477
+IOR (0x 28000100, 0x a5a5a500) n.e.d.
+Could not read data, so returning 0xA5A5A500 as error code
+Info : SWD DPIDR 0x6ba02477
+IOW (0x 40201340, 0x fa050003)
+After power up
+
+IOW (0x 28000100, 0x 55443322)
+Could not write to 0x28000100 via AP #0
+Info : SWD DPIDR 0x6ba02477
+IOR (0x 28000100, 0x a5a5a500) n.e.d.
+Could not read data, so returning 0xA5A5A500 as error code
+SiliconID API: Start
+Executing API with SYSCALL_LessThan32bits
+Info : SWD DPIDR 0x6ba02477
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 00000001)
+0x00000001
+IOR (0x 4022004c, 0x 00000001) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa011010b
+IOR (0x 4022004c, 0x a011010b) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SiliconID API: End
+a011010b 
+
+SiliconID API: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 00000101)
+0x00000101
+IOR (0x 4022004c, 0x 00000101) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa072e850
+IOR (0x 4022004c, 0x a072e850) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SiliconID API: End
+a072e850 
+
+SiliconID API: Start
+Executing API with SYSCALL_LessThan32bits
+0x00000f22
+IOR (0x 40220040, 0x 00000f22) n.e.d.
+IOW (0x 40220040, 0x 80000f22)
+IOW (0x 4022004c, 0x 00000201)
+0x00000201
+IOR (0x 4022004c, 0x 00000201) n.e.d.
+IOW (0x 40220048, 0x 00000001)
+0x00000f22
+IOR (0x 4022005c, 0x 00000f22) n.e.d.
+Srom_ReturnCheck: START
+Return status of the SROM API
+0xa3010701
+IOR (0x 4022004c, 0x a3010701) n.e.d.
+Srom_ReturnCheck: END
+API Call Success!
+SiliconID API: End
+a3010701 
+
+
+Protection State Is NOT as Expected!!!
+
+
+
+********** DEVICE INFO *******
+
+FailCount: 0.
+
+0x00000002
+IOR (0x 402020c4, 0x 00000002) n.e.d.
+Execution time is 1 s
+shutdown command invoked
+Info : Powering down Debug Domains...

@@ -1,0 +1,82 @@
+/*
+Configure MAC as Full Duplex
+Init PHY, do autonegotiation and get the speed and duplex.
+Reconfigure MAC with the new Speed and Duplex.
+Only support 10Mbps half-duplex else we roll-back to full-duplex.
+*/
+
+sint32 Dp83825i_reset(ETH_PHY_t *const handle)
+{
+    uint16 value, phyID1, phyID2;
+
+    do
+    {
+        handle->ethPhyFunc.mdio_read(DP83825I_PHYADDR, IFXGETH_PHY_DP83825I_MDIO_BMCR, &value);
+        for(uint32 i = 0; i < 10000000; i++);
+    } while(value & 0x8000);
+
+    value |= 0x8000;
+    handle->ethPhyFunc.mdio_write(DP83825I_PHYADDR, IFXGETH_PHY_DP83825I_MDIO_BMCR, value);
+    for(uint32 i = 0; i < 10000000; i++);
+    value = 0xFFFF;
+    do
+    {
+        handle->ethPhyFunc.mdio_read(DP83825I_PHYADDR, IFXGETH_PHY_DP83825I_MDIO_BMCR, &value);
+        for(uint32 i = 0; i < 10000000; i++);
+    } while(value & 0x8000);
+
+    handle->ethPhyFunc.mdio_read(DP83825I_PHYADDR, IFXGETH_PHY_DP83825I_MDIO_PHYIDR1, &phyID1);
+    handle->ethPhyFunc.mdio_read(DP83825I_PHYADDR, IFXGETH_PHY_DP83825I_MDIO_PHYIDR2, &phyID2);
+
+    if((phyID1 == 0x2000)  && (phyID2 == 0xA140)){
+       return SUCCESS;
+    }
+    return FAILURE;
+}
+
+sint32 Dp83825i_init(ETH_PHY_t *const handle)
+{
+
+    uint16 value;
+    uint32 status;
+    /* reset PHY, wait till reset to finish */
+    status = Dp83825i_reset(handle);
+    if(status == FAILURE) return FAILURE;
+
+    value = 0x8000;
+    handle->ethPhyFunc.mdio_write(DP83825I_PHYADDR, DP83825I_PHYADDR, value);
+    /* wait for reset to finish */
+
+    value = 0xA050;
+    do
+    {
+       handle->ethPhyFunc.mdio_read(DP83825I_PHYADDR, IFXGETH_PHY_DP83825I_MDIO_BMCR, &value);
+    } while(value & 0x8000);
+
+    handle->ethPhyFunc.mdio_read(DP83825I_PHYADDR, IFXGETH_PHY_DP83825I_MDIO_BMCR, &value);
+    value |= 0x1200;        /* enable auto-negotiation, restart auto-negotiation */
+    handle->ethPhyFunc.mdio_write(DP83825I_PHYADDR, IFXGETH_PHY_DP83825I_MDIO_BMCR, value);
+
+    //Wait for auto-negotiation to complete
+    do {
+       handle->ethPhyFunc.mdio_read(DP83825I_PHYADDR, IFXGETH_PHY_DP83825I_MDIO_BMSR, &value);
+    } while (!(value & 0x20));
+
+    return SUCCESS;
+}
+
+
+sint32 Dp83825i_linkup(ETH_PHY_t *const handle, uint16 * const linkSpeed)
+{
+    uint16 value;
+
+    do {
+        handle->ethPhyFunc.mdio_read(DP83825I_PHYADDR, IFXGETH_PHY_DP83825I_MDIO_BMSR, &value);
+    } while (!(value & 0x4));
+
+    handle->ethPhyFunc.mdio_read(DP83825I_PHYADDR, IFXGETH_PHY_DP83825I_MDIO_PHYSTS, &value);
+    printf("Value = 0x%x\n\r", value);
+    *linkSpeed = (value & 0x2) ? IfxGeth_PhyInterfaceMode_rmii_10 : IfxGeth_PhyInterfaceMode_rmii_100;
+
+    return SUCCESS;
+}

@@ -1,0 +1,822 @@
+###############################################################################
+#
+# IAR ELF Linker V9.32.1.338/W64 for ARM                  06/Sep/2024  17:55:14
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Exe\cm0plus.out
+#    Map file     =
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\List\cm0plus.map
+#    Command line =
+#        -f
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Exe\cm0plus.out.rsp
+#        (C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\adc\cy_adc.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\aic261\cy_aic261.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\button\cy_button.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\canfd\cy_canfd.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\cpu\cy_cpu.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\crypto\cy_crypto_config.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\eth_phy\cy_dp83867.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\ethernet\cy_ethif.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\evtgen\cy_evtgen.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flash\cy_flash.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\api\cy_fr_api_control_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\api\cy_fr_api_init.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\api\cy_fr_api_interrupt_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\api\cy_fr_api_rx_handler.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\api\cy_fr_api_status_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\api\cy_fr_api_time_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\api\cy_fr_api_timer_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\api\cy_fr_api_tx_handler.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\ccal\cy_fr_ccal_control_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\ccal\cy_fr_ccal_init.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\ccal\cy_fr_ccal_interrupt_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\ccal\cy_fr_ccal_rx_handler.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\ccal\cy_fr_ccal_status_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\ccal\cy_fr_ccal_time_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\ccal\cy_fr_ccal_timer_service.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\ccal\cy_fr_ccal_tx_handler.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\gpio\cy_gpio.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\audioss\cy_i2s.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\interrupts\rev_b\cy_interrupt_map.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\ipc\cy_ipc_drv.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\ipc\cy_ipc_pipe.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\ipc\cy_ipc_sema.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\lin\cy_lin.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\lvd\cy_lvd.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\mcwdt\cy_mcwdt.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\dma\cy_mdma.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\mpu\cy_mpu.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\flash\cy_mw_flash.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\dma\cy_pdma.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\power\cy_power.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\prot\cy_prot.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\scb\cy_scb_common.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\scb\cy_scb_ezi2c.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\scb\cy_scb_i2c.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\scb\cy_scb_spi.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\scb\cy_scb_uart.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sd_host\cy_sd_host.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\semihosting\cy_semihosting.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\smartio\cy_smartio.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\smif\cy_smif.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\smif_mem\cy_smif_device_common.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\smif_mem\cy_smif_hb_flash.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\smif\cy_smif_memslot.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\smif_mem\cy_smif_s25fl.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\smif_mem\cy_smif_s25fs.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\smif_mem\cy_smif_semp.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\smif\cy_smif_ver_specific.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\srom\cy_srom.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\sw_timer\cy_sw_tmr.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysclk\cy_sysclk.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysflt\cy_sysflt.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysint\cy_sysint.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\syslib\cy_syslib.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\syslib\cy_syslib_iar.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\syspm\cy_syspm.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysreghc\cy_sysreghc.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysreset\cy_sysreset.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysrtc\cy_sysrtc.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\systick\cy_systick.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\syswdt\cy_syswdt.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\tcpwm\cy_tcpwm.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\tcpwm\cy_tcpwm_counter.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\tcpwm\cy_tcpwm_pwm.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\tcpwm\cy_tcpwm_quaddec.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\tcpwm\cy_tcpwm_sr.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\trigmux\cy_trigmux.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\ethernet\edd.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\ethernet\edd_rx.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\ethernet\edd_tx.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\main_cm0plus.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\startup\startup.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\startup\startup_cm0plus.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\system\rev_b\system_tviibh8m_cm0plus.o
+#        --no_out_extension -o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Exe\cm0plus.out
+#        --config_def _CORE_cm0plus_=0 --config_def _LINK_flash_=0 --map
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\List\cm0plus.map
+#        --config
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\..\..\linker_directives_tviibh.icf
+#        --semihosting
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\..\..\..\..\src\drivers\crypto\libs\libcrypto_server_cm0plus_iar.a
+#        --entry __iar_program_start --vfe --text_out locale --cpu=Cortex-M0+
+#        --fpu=None)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at start of [from 0x1000'0000 to 0x1007'ffff] { section .intvec };
+"P1":  place in [from 0x1000'0000 to 0x1007'ffff] { ro };
+"P2":  place in [from 0x2800'0000 to 0x2801'ffff] { rw };
+define block HEAP with size = 1K, alignment = 8 { };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP_STACK { block HEAP, last block CSTACK };
+"A3":  place at end of [from 0x2800'0000 to 0x2801'ffff] { block HEAP_STACK };
+do not initialize { section .intvec_ram };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  section .cm7_0_rom  in "A1"
+  section .cm7_1_rom  in "A2"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0x80
+  .intvec            ro code  0x1000'0000    0x80  startup_cm0plus.o [46]
+                            - 0x1000'0080    0x80
+
+"P1":                                      0x233e
+  .text              ro code  0x1000'0080   0x832  cy_sysclk.o [25]
+  .text              ro code  0x1000'08b4    0xc0  strncpy.o [50]
+  .text              ro code  0x1000'0974    0x48  cy_syslib.o [28]
+  .text              ro code  0x1000'09bc    0x4e  ABImemcpy.o [50]
+  .text              ro code  0x1000'0a0a    0xae  I32DivModFast.o [50]
+  .text              ro code  0x1000'0ab8    0x32  I64Mul.o [50]
+  .text              ro code  0x1000'0aea    0x7c  I64DivMod.o [50]
+  .text              ro code  0x1000'0b68    0x46  ABImemset.o [50]
+  .text              ro code  0x1000'0bae     0x4  cy_syslib.o [28]
+  .text              ro code  0x1000'0bb4     0x2  IntDivZer.o [50]
+  .text              ro code  0x1000'0bb8     0x2  I64DivZer.o [50]
+  .text              ro code  0x1000'0bbc   0x5a8  system_tviibh8m_cm0plus.o [47]
+  .text              ro code  0x1000'1164    0x5c  cy_syswdt.o [34]
+  .text              ro code  0x1000'11c0    0xf4  cy_systick.o [33]
+  .text              ro code  0x1000'12b4   0x23c  cy_power.o [42]
+  .text              ro code  0x1000'14f0    0x1e  cy_syslib_iar.o [28]
+  .text              ro code  0x1000'1510    0x48  cy_sysreghc.o [30]
+  .text              ro code  0x1000'1558   0x1dc  cy_srom.o [24]
+  .text              ro code  0x1000'1734    0x68  cy_ipc_drv.o [14]
+  .text              ro code  0x1000'179c   0x288  startup.o [46]
+  .text              ro code  0x1000'1a24   0x18c  cy_gpio.o [13]
+  .text              ro code  0x1000'1bb0   0x184  cy_interrupt_map.o [37]
+  .text              ro code  0x1000'1d34   0x11c  main_cm0plus.o [1]
+  .text              ro code  0x1000'1e50    0x80  lz77_init_single.o [50]
+  .text              ro code  0x1000'1ed0    0x6c  startup_cm0plus.o [46]
+  .rodata            const    0x1000'1f3c    0x58  system_tviibh8m_cm0plus.o [47]
+  .rodata            const    0x1000'1f94    0x4c  cy_sysclk.o [25]
+  .rodata            const    0x1000'1fe0    0x4c  cy_sysclk.o [25]
+  .rodata            const    0x1000'202c    0x4c  cy_systick.o [33]
+  .text              ro code  0x1000'2078    0x3c  zero_init3.o [50]
+  .text              ro code  0x1000'20b4    0x28  data_init.o [50]
+  .iar.init_table    const    0x1000'20dc    0x20  - Linker created -
+  .text              ro code  0x1000'20fc    0x20  startup_cm0plus.o [46]
+  .text              ro code  0x1000'211c    0x1e  cmain.o [50]
+  .text              ro code  0x1000'213c     0x4  startup_cm0plus.o [46]
+  .text              ro code  0x1000'2140     0x8  exit.o [48]
+  .text              ro code  0x1000'2148     0xa  cexit.o [50]
+  .text              ro code  0x1000'2154    0x14  exit.o [51]
+  .text              ro code  0x1000'2168    0x1c  startup_cm0plus.o [46]
+  .text              ro code  0x1000'2184    0x1c  cstartup_M.o [50]
+  .rodata            const    0x1000'21a0    0x18  system_tviibh8m_cm0plus.o [47]
+  .rodata            const    0x1000'21b8    0x10  system_tviibh8m_cm0plus.o [47]
+  .text              ro code  0x1000'21c8     0xc  cy_syslib.o [28]
+  .rodata            const    0x1000'21d4     0x8  startup.o [46]
+  .rodata            const    0x1000'21dc     0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'21e0     0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'21e4     0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'21e8     0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'21ec     0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'21f0     0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'21f4     0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'21f8     0x4  cy_interrupt_map.o [37]
+  .rodata            const    0x1000'21fc     0x4  cy_ipc_drv.o [14]
+  .text              ro code  0x1000'2200     0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'2204     0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'2208     0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'220c     0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'2210     0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'2214     0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'2218     0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'221c     0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'2220     0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'2224     0x2  startup_cm0plus.o [46]
+  .text              ro code  0x1000'2228     0x2  startup_cm0plus.o [46]
+  .rodata            const    0x1000'222a     0x0  zero_init3.o [50]
+  .rodata            const    0x1000'222a     0x0  lz77_init_single.o [50]
+  Initializer bytes  const    0x1000'222a    0x28  <for P2-1>
+                            - 0x1000'2252  0x21d2
+
+"P2", part 1 of 3:                          0x910
+  P2-1                        0x2800'0000   0x910  <Init block>
+    .data            inited   0x2800'0000   0x8dc  cy_interrupt_map.o [37]
+    .data            inited   0x2800'08dc    0x34  main_cm0plus.o [1]
+                            - 0x2800'0910   0x910
+
+"P2", part 2 of 3:                           0xc0
+  .bss               zero     0x2800'0910    0x24  cy_syslib.o [28]
+  .bss               zero     0x2800'0934    0x18  cy_sysclk.o [25]
+  .bss               zero     0x2800'094c    0x18  cy_syslib.o [28]
+  .bss               zero     0x2800'0980    0x10  cy_srom.o [24]
+  .bss               zero     0x2800'09a0    0x10  cy_srom.o [24]
+  .bss               zero     0x2800'09b0     0x4  cy_srom.o [24]
+  .bss               zero     0x2800'09b4     0x4  cy_syslib.o [28]
+  .bss               zero     0x2800'09b8     0x4  system_tviibh8m_cm0plus.o [47]
+  .bss               zero     0x2800'09bc     0x4  system_tviibh8m_cm0plus.o [47]
+  .bss               zero     0x2800'09c0     0x4  system_tviibh8m_cm0plus.o [47]
+  .bss               zero     0x2800'09c4     0x4  system_tviibh8m_cm0plus.o [47]
+  .bss               zero     0x2800'09c8     0x4  system_tviibh8m_cm0plus.o [47]
+  .bss               zero     0x2800'09cc     0x1  cy_sysclk.o [25]
+  .bss               zero     0x2800'09cd     0x1  cy_systick.o [33]
+                            - 0x2800'09ce    0xbe
+
+"P2", part 3 of 3:                           0x80
+  .intvec_ram        uninit   0x2800'0a00    0x80  startup_cm0plus.o [46]
+                            - 0x2800'0a80    0x80
+
+"A3":                                       0x400
+  HEAP_STACK                  0x2801'fc00   0x400  <Block>
+    CSTACK                    0x2801'fc00   0x400  <Block>
+      CSTACK         uninit   0x2801'fc00   0x400  <Block tail>
+                            - 0x2802'0000   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+  0x1000'23be  0x1007'ffff  0x7'dc42
+  0x2800'09d0  0x2800'09ff      0x30
+  0x2800'0a80  0x2801'fbff  0x1'f180
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xbe:
+          0x2800'0910   0xbe
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x28 (1% of destination):
+          0x1000'222a   0x28
+    1 destination range, total size 0x910:
+          0x2800'0000  0x910
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                     ro code  ro data  rw data
+    ------                     -------  -------  -------
+command line/config:
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src: [1]
+    main_cm0plus.o                 284        1       52
+    ----------------------------------------------------
+    Total:                         284        1       52
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\adc: [2]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\audioss: [3]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\canfd: [4]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\cpu: [5]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\crypto: [6]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\dma: [7]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\ethernet: [8]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\evtgen: [9]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flash: [10]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\api: [11]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\ccal: [12]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\gpio: [13]
+    cy_gpio.o                      396
+    ----------------------------------------------------
+    Total:                         396
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\ipc: [14]
+    cy_ipc_drv.o                   104        4
+    ----------------------------------------------------
+    Total:                         104        4
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\lin: [15]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\lvd: [16]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\mcwdt: [17]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\mpu: [18]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\prot: [19]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\scb: [20]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sd_host: [21]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\smartio: [22]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\smif: [23]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\srom: [24]
+    cy_srom.o                      476                36
+    ----------------------------------------------------
+    Total:                         476                36
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysclk: [25]
+    cy_sysclk.o                  2'098      152       25
+    ----------------------------------------------------
+    Total:                       2'098      152       25
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysflt: [26]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysint: [27]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\syslib: [28]
+    cy_syslib.o                     88                64
+    cy_syslib_iar.o                 30
+    ----------------------------------------------------
+    Total:                         118                64
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\syspm: [29]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysreghc: [30]
+    cy_sysreghc.o                   72
+    ----------------------------------------------------
+    Total:                          72
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysreset: [31]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysrtc: [32]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\systick: [33]
+    cy_systick.o                   244       76        1
+    ----------------------------------------------------
+    Total:                         244       76        1
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\syswdt: [34]
+    cy_syswdt.o                     92
+    ----------------------------------------------------
+    Total:                          92
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\tcpwm: [35]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\trigmux: [36]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\interrupts\rev_b: [37]
+    cy_interrupt_map.o             388       71    2'268
+    ----------------------------------------------------
+    Total:                         388       71    2'268
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\aic261: [38]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\button: [39]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\eth_phy: [40]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\flash: [41]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\power: [42]
+    cy_power.o                     572
+    ----------------------------------------------------
+    Total:                         572
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\semihosting: [43]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\smif_mem: [44]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\sw_timer: [45]
+    ----------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\startup: [46]
+    startup.o                      648        8
+    startup_cm0plus.o              322               128
+    ----------------------------------------------------
+    Total:                         970        8      128
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\system\rev_b: [47]
+    system_tviibh8m_cm0plus.o    1'448      128       20
+    ----------------------------------------------------
+    Total:                       1'448      128       20
+
+dl6M_tln.a: [48]
+    exit.o                           8
+    ----------------------------------------------------
+    Total:                           8
+
+m6M_tl.a: [49]
+    ----------------------------------------------------
+    Total:
+
+rt6M_tl.a: [50]
+    ABImemcpy.o                     78
+    ABImemset.o                     70
+    I32DivModFast.o                174
+    I64DivMod.o                    124
+    I64DivZer.o                      2
+    I64Mul.o                        50
+    IntDivZer.o                      2
+    cexit.o                         10
+    cmain.o                         30
+    cstartup_M.o                    28
+    data_init.o                     40
+    lz77_init_single.o             128
+    strncpy.o                      192
+    zero_init3.o                    60
+    ----------------------------------------------------
+    Total:                         988
+
+shb_l.a: [51]
+    exit.o                          20
+    ----------------------------------------------------
+    Total:                          20
+
+    Gaps                            36                44
+    Linker created                           32    1'024
+--------------------------------------------------------
+    Grand Total:                 8'314      472    3'662
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base   0x1000'20dc          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x1000'20fc          --   Gb  - Linker created -
+?main                   0x1000'211d         Code  Gb  cmain.o [50]
+CSTACK$$Base            0x2801'fc00          --   Gb  - Linker created -
+CSTACK$$Limit           0x2802'0000          --   Gb  - Linker created -
+CopyVectorTable         0x1000'1975   0x32  Code  Lc  startup.o [46]
+CpuUserInt0_Handler     0x1000'1bcd   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt10_Handler    0x1000'2215         Code  Wk  startup_cm0plus.o [46]
+CpuUserInt11_Handler    0x1000'2219         Code  Wk  startup_cm0plus.o [46]
+CpuUserInt12_Handler    0x1000'221d         Code  Wk  startup_cm0plus.o [46]
+CpuUserInt13_Handler    0x1000'2221         Code  Wk  startup_cm0plus.o [46]
+CpuUserInt14_Handler    0x1000'2225         Code  Wk  startup_cm0plus.o [46]
+CpuUserInt15_Handler    0x1000'2229         Code  Wk  startup_cm0plus.o [46]
+CpuUserInt1_Handler     0x1000'1bf1   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt2_Handler     0x1000'1c15   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt3_Handler     0x1000'1c39   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt4_Handler     0x1000'1c5d   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt5_Handler     0x1000'1c81   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt6_Handler     0x1000'1ca5   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt7_Handler     0x1000'1cc9   0x24  Code  Gb  cy_interrupt_map.o [37]
+CpuUserInt8_Handler     0x1000'220d         Code  Wk  startup_cm0plus.o [46]
+CpuUserInt9_Handler     0x1000'2211         Code  Wk  startup_cm0plus.o [46]
+Cy_DefaultUserHandler   0x1000'1bc9    0x4  Code  Gb  cy_interrupt_map.o [37]
+Cy_GPIO_ClearInterrupt  0x1000'1af1    0xc  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_Inv             0x1000'1d35    0x8  Code  Lc  main_cm0plus.o [1]
+Cy_GPIO_Pin_Init        0x1000'1b33   0x72  Code  Gb  cy_gpio.o [13]
+Cy_GPIO_SetDriveSel     0x1000'1ad3   0x1e  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_SetDrivemode    0x1000'1a83   0x1c  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_SetHSIOM        0x1000'1a25   0x48  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_SetInterruptEdge
+                        0x1000'1b17   0x1c  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_SetInterruptMask
+                        0x1000'1afd   0x1a  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_SetSlewRate     0x1000'1ab9   0x1a  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_SetVtrip        0x1000'1a9f   0x1a  Code  Lc  cy_gpio.o [13]
+Cy_GPIO_Write           0x1000'1a6d   0x16  Code  Lc  cy_gpio.o [13]
+Cy_IPC_Drv_AcquireNotify
+                        0x1000'1735   0x10  Code  Lc  cy_ipc_drv.o [14]
+Cy_IPC_Drv_IsLockAcquired
+                        0x1000'1559    0x8  Code  Lc  cy_srom.o [24]
+Cy_IPC_Drv_LockAcquire  0x1000'174d   0x12  Code  Gb  cy_ipc_drv.o [14]
+Cy_IPC_Drv_SendMsgWord_2
+                        0x1000'175f   0x34  Code  Gb  cy_ipc_drv.o [14]
+Cy_IPC_Drv_WriteData1Value
+                        0x1000'1749    0x4  Code  Lc  cy_ipc_drv.o [14]
+Cy_IPC_Drv_WriteDataValue
+                        0x1000'1745    0x4  Code  Lc  cy_ipc_drv.o [14]
+Cy_Power_SwitchToPmic   0x1000'14c5   0x14  Code  Gb  cy_power.o [42]
+Cy_Srom_CallApi         0x1000'1561   0xae  Code  Gb  cy_srom.o [24]
+Cy_Srom_CallApi_2       0x1000'160f   0xd4  Code  Gb  cy_srom.o [24]
+Cy_Srom_GetResponseType
+                        0x1000'16e5   0x34  Code  Gb  cy_srom.o [24]
+Cy_SysClk_ClkPathGetSource
+                        0x1000'0205   0x4c  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_EcoGetStatus  0x1000'0081   0x1a  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_FllGetConfiguration
+                        0x1000'0265   0x72  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_FllGetLockStatus
+                        0x1000'009b    0xc  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_GetClkMemFrequency
+                        0x1000'0851   0x30  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetClkSlowFrequency
+                        0x1000'0881   0x2a  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetCoreFrequency
+                        0x1000'08ab    0x8  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetEcoFrequency
+                        0x1000'0401   0x2e  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetExtFrequency
+                        0x1000'042f   0x1c  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetFllInputFrequency
+                        0x1000'053d    0xc  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetFllOutputFrequency
+                        0x1000'0565   0x72  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetHfClkFrequency
+                        0x1000'07bb   0x7a  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetIlo0Frequency
+                        0x1000'044d   0x2e  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetIlo1Frequency
+                        0x1000'047d   0x2e  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetImoFrequency
+                        0x1000'03d1   0x2e  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetPathFrequency
+                        0x1000'0789   0x32  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetPathSourceFrequency
+                        0x1000'04dd   0x60  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetPll400MNo  0x1000'00e3   0x16  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_GetPllInputFrequency
+                        0x1000'0549   0x1c  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetPllNo      0x1000'00a7   0x14  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_GetPllOutputFrequency
+                        0x1000'05ed  0x196  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_GetWcoFrequency
+                        0x1000'04ad   0x2e  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_HfClockGetDivider
+                        0x1000'0189   0x3a  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_HfClockGetSource
+                        0x1000'013d   0x4c  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_InitGetFreqParams
+                        0x1000'03b9   0x16  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_MemClkGetDivider
+                        0x1000'01c9    0xa  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_Pll400MGetConfiguration
+                        0x1000'0335   0x80  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_Pll400MGetLockStatus
+                        0x1000'00f9   0x2a  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_PllGetConfiguration
+                        0x1000'02e5   0x48  Code  Gb  cy_sysclk.o [25]
+Cy_SysClk_PllGetLockStatus
+                        0x1000'00bb   0x28  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_SlowClkGetDivider
+                        0x1000'01f1    0xa  Code  Lc  cy_sysclk.o [25]
+Cy_SysClk_WcoOkay       0x1000'0129    0xe  Code  Lc  cy_sysclk.o [25]
+Cy_SysLib_CleanCoreDCacheByAddr
+                        0x1000'09bb    0x2  Code  Gb  cy_syslib.o [28]
+Cy_SysLib_DelayCycles   0x1000'14f1         Code  Gb  cy_syslib_iar.o [28]
+Cy_SysLib_EnterCriticalSection
+                        0x1000'1501         Code  Gb  cy_syslib_iar.o [28]
+Cy_SysLib_ExitCriticalSection
+                        0x1000'1509         Code  Gb  cy_syslib_iar.o [28]
+Cy_SysLib_FaultHandler  0x1000'097b   0x34  Code  Gb  cy_syslib.o [28]
+Cy_SysLib_Halt          0x1000'0975    0x6  Code  Gb  cy_syslib.o [28]
+Cy_SysLib_InvalidateCoreDCacheByAddr
+                        0x1000'09b9    0x2  Code  Gb  cy_syslib.o [28]
+Cy_SysLib_ProcessingFault
+                        0x1000'0baf    0x4  Code  Wk  cy_syslib.o [28]
+Cy_SysLib_SvcHandler    0x1000'21c9    0xc  Code  Wk  cy_syslib.o [28]
+Cy_SysReghc_IsConfigured
+                        0x1000'1527    0xa  Code  Gb  cy_sysreghc.o [30]
+Cy_SysReghc_IsEnabled   0x1000'1531    0xc  Code  Gb  cy_sysreghc.o [30]
+Cy_SysReghc_IsSequencerBusy
+                        0x1000'153d    0xa  Code  Gb  cy_sysreghc.o [30]
+Cy_SysReghc_SetPmicStatusWaitTime
+                        0x1000'1511   0x16  Code  Gb  cy_sysreghc.o [30]
+Cy_SysTick_DelayCoreCycle
+                        0x1000'11c1   0x80  Code  Gb  cy_systick.o [33]
+Cy_SysTick_DelayCoreCycle::isThisBeingCalled
+                        0x2800'09cd    0x1  Data  Lc  cy_systick.o [33]
+Cy_SysTick_DelayInUs    0x1000'1241   0x44  Code  Gb  cy_systick.o [33]
+Cy_SystemIrqUserTable   0x2800'0000  0x8dc  Data  Gb  cy_interrupt_map.o [37]
+Cy_WDT_Disable          0x1000'11a1   0x16  Code  Gb  cy_syswdt.o [34]
+Cy_WDT_Lock             0x1000'1165   0x16  Code  Gb  cy_syswdt.o [34]
+Cy_WDT_Unlock           0x1000'117b   0x26  Code  Gb  cy_syswdt.o [34]
+Cy_u32StartupStackEndAddress
+                        0x1000'1f38         Data  Gb  startup_cm0plus.o [46]
+Cy_u32StartupStackStartAddress
+                        0x1000'1f34         Data  Gb  startup_cm0plus.o [46]
+HEAP_STACK$$Base        0x2801'fc00          --   Gb  - Linker created -
+HEAP_STACK$$Limit       0x2802'0000          --   Gb  - Linker created -
+HardFault_Handler       0x1000'20fd         Code  Wk  startup_cm0plus.o [46]
+InitRamEcc              0x1000'1857  0x10a  Code  Lc  startup.o [46]
+InitRamEccClearArea     0x1000'1961   0x14  Code  Lc  startup.o [46]
+NMI_Handler             0x1000'2201         Code  Wk  startup_cm0plus.o [46]
+PendSV_Handler          0x1000'2205         Code  Wk  startup_cm0plus.o [46]
+PrepareSystemCallInfrastructure
+                        0x1000'19a7   0x44  Code  Lc  startup.o [46]
+Region$$Table$$Base     0x1000'20dc          --   Gb  - Linker created -
+Region$$Table$$Limit    0x1000'20fc          --   Gb  - Linker created -
+Reset_Handler           0x1000'1ed1         Code  Wk  startup_cm0plus.o [46]
+SVC_Handler             0x1000'2169         Code  Wk  startup_cm0plus.o [46]
+Startup_Init            0x1000'182d   0x2a  Code  Gb  startup.o [46]
+SwitchToExternal        0x1000'12b5  0x210  Code  Lc  cy_power.o [42]
+SysTick_Handler         0x1000'2209         Code  Wk  startup_cm0plus.o [46]
+SystemCoreClock         0x2800'09b8    0x4  Data  Gb  system_tviibh8m_cm0plus.o [47]
+SystemCoreClockUpdate   0x1000'1071   0x98  Code  Gb  system_tviibh8m_cm0plus.o [47]
+SystemInit              0x1000'0bbd  0x460  Code  Gb  system_tviibh8m_cm0plus.o [47]
+__NVIC_ClearPendingIRQ  0x1000'1bb1   0x18  Code  Lc  cy_interrupt_map.o [37]
+__NVIC_EnableIRQ        0x1000'179d   0x18  Code  Lc  startup.o [46]
+__NVIC_SetPriority      0x1000'17b5   0x78  Code  Lc  startup.o [46]
+__Vectors               0x1000'0000          --   Gb  startup_cm0plus.o [46]
+__Vectors_End           0x1000'0080         Data  Gb  startup_cm0plus.o [46]
+__Vectors_Size {Abs}           0x80          --   Gb  startup_cm0plus.o [46]
+__aeabi_idiv0           0x1000'0bb5         Code  Gb  IntDivZer.o [50]
+__aeabi_ldiv0           0x1000'0bb9         Code  Gb  I64DivZer.o [50]
+__aeabi_lmul            0x1000'0ab9         Code  Gb  I64Mul.o [50]
+__aeabi_memclr4         0x1000'0b7d         Code  Gb  ABImemset.o [50]
+__aeabi_memclr8         0x1000'0b7d         Code  Gb  ABImemset.o [50]
+__aeabi_memcpy          0x1000'09f1         Code  Gb  ABImemcpy.o [50]
+__aeabi_memcpy4         0x1000'09bd         Code  Gb  ABImemcpy.o [50]
+__aeabi_memcpy8         0x1000'09bd         Code  Gb  ABImemcpy.o [50]
+__aeabi_uidiv           0x1000'0a0b         Code  Gb  I32DivModFast.o [50]
+__aeabi_uidivmod        0x1000'0a0b         Code  Gb  I32DivModFast.o [50]
+__aeabi_uldivmod        0x1000'0aeb         Code  Gb  I64DivMod.o [50]
+__cm7_0_vector_base_linker_symbol {Abs}
+                        0x1008'0000         Data  Gb  <internal module>
+__cm7_1_vector_base_linker_symbol {Abs}
+                        0x1028'0000         Data  Gb  <internal module>
+__cmain                 0x1000'211d         Code  Gb  cmain.o [50]
+__ecc_init_sram_end_address {Abs}
+                        0x2801'ffff         Data  Gb  <internal module>
+__ecc_init_sram_start_address {Abs}
+                        0x2800'0000         Data  Gb  <internal module>
+__exit                  0x1000'2155   0x14  Code  Gb  exit.o [51]
+__iar_Memcpy            0x1000'09fd         Code  Gb  ABImemcpy.o [50]
+__iar_Memset4_word      0x1000'0b81         Code  Gb  ABImemset.o [50]
+__iar_Memset_word       0x1000'0b69         Code  Gb  ABImemset.o [50]
+__iar_data_init3        0x1000'20b5   0x28  Code  Gb  data_init.o [50]
+__iar_lz77_init_single3
+                        0x1000'1e51   0x80  Code  Gb  lz77_init_single.o [50]
+__iar_program_start     0x1000'2185         Code  Gb  cstartup_M.o [50]
+__iar_zero_init3        0x1000'2079   0x3c  Code  Gb  zero_init3.o [50]
+__low_level_init        0x1000'213d         Code  Gb  startup_cm0plus.o [46]
+__ramVectors            0x2800'0a00         Data  Gb  startup_cm0plus.o [46]
+__vector_table          0x1000'0000         Data  Gb  startup_cm0plus.o [46]
+__vector_table_0x1c     0x1000'001c         Data  Gb  startup_cm0plus.o [46]
+_call_main              0x1000'2129         Code  Gb  cmain.o [50]
+_exit                   0x1000'2149         Code  Gb  cexit.o [50]
+cy_assertFileName       0x2800'094c   0x18  Data  Gb  cy_syslib.o [28]
+cy_assertLine           0x2800'09b4    0x4  Data  Gb  cy_syslib.o [28]
+cy_delay32kMs           0x2800'09c8    0x4  Data  Gb  system_tviibh8m_cm0plus.o [47]
+cy_delayFreqHz          0x2800'09bc    0x4  Data  Gb  system_tviibh8m_cm0plus.o [47]
+cy_delayFreqKhz         0x2800'09c0    0x4  Data  Gb  system_tviibh8m_cm0plus.o [47]
+cy_delayFreqMhz         0x2800'09c4    0x4  Data  Gb  system_tviibh8m_cm0plus.o [47]
+cy_faultFrame           0x2800'0910   0x24  Data  Gb  cy_syslib.o [28]
+exit                    0x1000'2141    0x8  Code  Gb  exit.o [48]
+g_dummy                 0x2800'09b0    0x4  Data  Lc  cy_srom.o [24]
+g_scratch               0x2800'0980   0x10  Data  Lc  cy_srom.o [24]
+g_scratch2              0x2800'09a0   0x10  Data  Lc  cy_srom.o [24]
+intFreqInitialized      0x2800'09cc    0x1  Data  Gb  cy_sysclk.o [25]
+internalBaseFreqInfo    0x2800'0934   0x18  Data  Gb  cy_sysclk.o [25]
+main                    0x1000'1d3d   0xfa  Code  Gb  main_cm0plus.o [1]
+strncpy                 0x1000'08b5         Code  Gb  strncpy.o [50]
+user_led_port_pin_cfg   0x2800'08dc   0x34  Data  Gb  main_cm0plus.o [1]
+
+
+[1] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src
+[2] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\adc
+[3] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\audioss
+[4] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\canfd
+[5] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\cpu
+[6] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\crypto
+[7] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\dma
+[8] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\ethernet
+[9] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\evtgen
+[10] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flash
+[11] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\api
+[12] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\flexray\ccal
+[13] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\gpio
+[14] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\ipc
+[15] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\lin
+[16] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\lvd
+[17] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\mcwdt
+[18] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\mpu
+[19] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\prot
+[20] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\scb
+[21] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sd_host
+[22] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\smartio
+[23] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\smif
+[24] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\srom
+[25] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysclk
+[26] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysflt
+[27] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysint
+[28] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\syslib
+[29] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\syspm
+[30] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysreghc
+[31] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysreset
+[32] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\sysrtc
+[33] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\systick
+[34] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\syswdt
+[35] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\tcpwm
+[36] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\drivers\trigmux
+[37] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\interrupts\rev_b
+[38] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\aic261
+[39] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\button
+[40] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\eth_phy
+[41] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\flash
+[42] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\power
+[43] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\semihosting
+[44] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\smif_mem
+[45] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\mw\sw_timer
+[46] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\startup
+[47] = C:\T2G_Sample_Driver_Library_8.1.0\tviibh8m\tools\iar\flash\cm0plus\rev_b\Obj\src\system\rev_b
+[48] = dl6M_tln.a
+[49] = m6M_tl.a
+[50] = rt6M_tl.a
+[51] = shb_l.a
+
+  8'314 bytes of readonly  code memory
+    472 bytes of readonly  data memory
+  3'662 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

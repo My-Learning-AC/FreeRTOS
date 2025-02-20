@@ -1,0 +1,111 @@
+
+
+
+
+#include "cy_project.h"
+#include "cy_device_headers.h"
+
+
+volatile uint32_t *SFLASH_TOC2_FLAGS = (uint32_t *)0x17007DF8ul;
+volatile uint32_t value, value2;
+
+
+int main(void)
+{
+    SystemInit();
+  
+    __enable_irq();
+    
+    
+    //*SFLASH_TOC2_FLAGS = 0x243;
+    
+    
+    value = (uint32_t)*SFLASH_TOC2_FLAGS;
+    
+    value2 = value;
+    
+
+    for(;;)
+    {
+  
+    }
+}
+
+
+
+/* [] END OF FILE */
+
+/***********************************************************************************************************/
+
+/***********************************************************************************************************/
+
+
+
+/***************************************************************************//**
+* \file main_cm0plus.c
+*
+* \version 1.0
+*
+* \brief Main file for CM0+
+*
+********************************************************************************
+* \copyright
+* Copyright 2016-2020, Cypress Semiconductor Corporation. All rights reserved.
+* You may use this file only in accordance with the license, terms, conditions,
+* disclaimers, and limitations in the end user license agreement accompanying
+* the software package with which this file was provided.
+*******************************************************************************/
+
+#include "cy_project.h"
+#include "cy_device_headers.h"
+
+cy_stc_gpio_pin_config_t user_led_port_pin_cfg =
+{
+    .outVal    = 0ul,
+    .driveMode = CY_GPIO_DM_STRONG_IN_OFF,
+    .hsiom     = CY_LED0_PIN_MUX,
+    .intEdge   = 0ul,
+    .intMask   = 0ul,
+    .vtrip     = 0ul,
+    .slewRate  = 0ul,
+    .driveSel  = 0ul,
+};
+
+
+
+volatile uint32_t *SFLASH_TOC2_FLAGS = (uint32_t *)0x17007DF8ul;
+volatile uint32_t value, value2;
+
+
+int main(void)
+{
+    SystemInit();
+  
+    __enable_irq();
+    
+    /* Place your initialization/startup code here (e.g. MyInst_Start()) */
+    user_led_port_pin_cfg.hsiom = CY_LED0_PIN_MUX;
+    Cy_GPIO_Pin_Init(CY_LED0_PORT, CY_LED0_PIN, &user_led_port_pin_cfg);
+    
+    
+    //*SFLASH_TOC2_FLAGS = 0x243;
+    
+    
+    value = (uint32_t)*SFLASH_TOC2_FLAGS;
+    
+    value2 = value;
+    
+
+    for(;;)
+    {
+      // Wait 0.05 [s]
+        Cy_SysTick_DelayInUs(50000ul);
+
+        Cy_GPIO_Inv(CY_LED0_PORT, CY_LED0_PIN);
+    }
+}
+
+
+
+/* [] END OF FILE */
+/* [] END OF FILE */

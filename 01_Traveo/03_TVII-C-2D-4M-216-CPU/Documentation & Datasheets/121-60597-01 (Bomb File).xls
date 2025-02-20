@@ -1,0 +1,6934 @@
+<html><head><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><title>Report</title></head><body style="font-family:Arial,Helvetica"><span style="font-size:12pt"><strong>Item Export</strong></span><br/><br/><br/><span style="font-size:8pt"><strong>Run by</strong><br/>Name: Avnendra Kumar<br/>Email: avnendra.kumar@infineon.com<br/>Workspace: Dev Kits Production<br/>Date: Aug 26, 2024<br/></span><br/><span style="font-size:8pt"><strong>Run Description: </strong>Item Number:121-60597-01, Item Name:ASSY, PCBA, CYTVII-C-2D-4M-216-CPU, Revision:14</span><br/><br/>
+<table border="1" cellpadding="0" cellspacing="0"><tr style="font-size:10pt;background:#CCC"><th align="left" valign="bottom">level</th><th align="left" valign="bottom">item number</th><th align="left" valign="bottom">item name</th><th align="left" valign="bottom">revision</th><th align="left" valign="bottom">item phase</th><th align="left" valign="bottom">item category</th><th align="left" valign="bottom">description</th><th align="left" valign="bottom">unit of measure</th><th align="left" valign="bottom">line number</th><th align="left" valign="bottom">quantity</th><th align="left" valign="bottom">reference designator</th><th align="left" valign="bottom">bom notes</th><th align="left" valign="bottom">vendor_1</th><th align="left" valign="bottom">vendor item number_1</th><th align="left" valign="bottom">vendor item name_1</th><th align="left" valign="bottom">vendor_2</th><th align="left" valign="bottom">vendor item number_2</th><th align="left" valign="bottom">vendor item name_2</th><th align="left" valign="bottom">vendor_3</th><th align="left" valign="bottom">vendor item number_3</th><th align="left" valign="bottom">vendor item name_3</th><th align="left" valign="bottom">vendor_4</th><th align="left" valign="bottom">vendor item number_4</th><th align="left" valign="bottom">vendor item name_4</th><th align="left" valign="bottom">vendor_5</th><th align="left" valign="bottom">vendor item number_5</th><th align="left" valign="bottom">vendor item name_5</th><th align="left" valign="bottom">vendor_6</th><th align="left" valign="bottom">vendor item number_6</th><th align="left" valign="bottom">vendor item name_6</th><th align="left" valign="bottom">vendor_7</th><th align="left" valign="bottom">vendor item number_7</th><th align="left" valign="bottom">vendor item name_7</th><th align="left" valign="bottom">manufacturer_1</th><th align="left" valign="bottom">manufacturer item number_1</th><th align="left" valign="bottom">manufacturer item name_1</th><th align="left" valign="bottom">manufacturer_2</th><th align="left" valign="bottom">manufacturer item number_2</th><th align="left" valign="bottom">manufacturer item name_2</th><th align="left" valign="bottom">manufacturer_3</th><th align="left" valign="bottom">manufacturer item number_3</th><th align="left" valign="bottom">manufacturer item name_3</th><th align="left" valign="bottom">manufacturer_4</th><th align="left" valign="bottom">manufacturer item number_4</th><th align="left" valign="bottom">manufacturer item name_4</th><th align="left" valign="bottom">manufacturer_5</th><th align="left" valign="bottom">manufacturer item number_5</th><th align="left" valign="bottom">manufacturer item name_5</th><th align="left" valign="bottom">manufacturer_6</th><th align="left" valign="bottom">manufacturer item number_6</th><th align="left" valign="bottom">manufacturer item name_6</th><th align="left" valign="bottom">manufacturer_7</th><th align="left" valign="bottom">manufacturer item number_7</th><th align="left" valign="bottom">manufacturer item name_7</th></tr>
+<tr style="font-size:10pt; background:transparent" valign="top">
+<td>0</td>
+<td>121-60597-01</td>
+<td>ASSY, PCBA, CYTVII-C-2D-4M-216-CPU</td>
+<td>14</td>
+<td>In Production</td>
+<td>Printed Circuit Assembly</td>
+<td>ASSY, PCBA, CYTVII-C-2D-4M-216-CPU</td>
+<td>each</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>450-60307-01</td>
+<td>IC, BUS SWITCH, TSSOP-24</td>
+<td>01</td>
+<td>In Production</td>
+<td>Miscellaneous</td>
+<td>IC, BUS SWITCH, TSSOP-24</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>U24,U25</td>
+<td></td>
+<td>TI</td>
+<td>SN74CB3T3384PWR</td>
+<td>IC, BUS SWITCH, TSSOP-24</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TI</td>
+<td>SN74CB3T3384PWR</td>
+<td>IC, BUS SWITCH, TSSOP-24</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>450-60316-01</td>
+<td>IC, TRANSCEIVER, CAN, HS, 8SOIC</td>
+<td>02</td>
+<td>In Production</td>
+<td>Miscellaneous</td>
+<td>IC, TRANSCEIVER, CAN, HS, 8SOIC</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>U18,U27</td>
+<td></td>
+<td>Infineon Technologies</td>
+<td>TLE9251SJ</td>
+<td>IC, TRANSCEIVER, CAN, HS, 8SOIC</td>
+<td>NXP Semiconductors</td>
+<td>TJA1462BT</td>
+<td>IC, TRANSCEIVER, CAN, HS, 8SOIC</td>
+<td>NXP Semiconductors</td>
+<td>TJA1057GTJ</td>
+<td>IC, TRANSCEIVER, CAN, HS, 8SOIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>NXP Semiconductors</td>
+<td>TJA1462BT</td>
+<td>IC, TRANSCEIVER, CAN, HS, 8SOIC</td>
+<td>NXP Semiconductors</td>
+<td>TJA1057GTJ</td>
+<td>IC, TRANSCEIVER, CAN, HS, 8SOIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>450-60327-01</td>
+<td>IC, VOLT, SUPERVISOR, ADJ, SOT23-6</td>
+<td>01</td>
+<td>In Production</td>
+<td>Miscellaneous</td>
+<td>IC, VOLT, SUPERVISOR, ADJ, SOT23-6</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>U4</td>
+<td></td>
+<td>TI</td>
+<td>TPS3808G01QDBVRQ1</td>
+<td>IC, VOLT, SUPERVISOR, ADJ, SOT23-6</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TI</td>
+<td>TPS3808G01QDBVRQ1</td>
+<td>IC, VOLT, SUPERVISOR, ADJ, SOT23-6</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>450-60344-01</td>
+<td>IC, TRNSLTR, BIDIRECTIONAL, SM8, SSOP</td>
+<td>02</td>
+<td>In Production</td>
+<td>Miscellaneous</td>
+<td>IC, TRNSLTR, BIDIRECTIONAL, SM8, SSOP</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>U13</td>
+<td></td>
+<td>TI</td>
+<td>SN74AVCH2T45DCTR</td>
+<td>IC, TRNSLTR, BIDIRECTIONAL, SM8, SSOP</td>
+<td>TI</td>
+<td>SN74LVC2T45DCTR</td>
+<td>IC, TRNSLTR, BIDIRECTIONAL, SM8, SSOP</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TI</td>
+<td>SN74AVCH2T45DCTR</td>
+<td>IC, TRNSLTR, BIDIRECTIONAL, SM8, SSOP</td>
+<td>TI</td>
+<td>SN74LVC2T45DCTR</td>
+<td>IC, TRNSLTR, BIDIRECTIONAL, SM8, SSOP</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>450-60352-01</td>
+<td>IC, CODEC, 108DB, 192KHZ, 64LQFP</td>
+<td>01</td>
+<td>In Production</td>
+<td>Miscellaneous</td>
+<td>IC, CODEC, 108DB, 192KHZ, 64LQFP</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>U38</td>
+<td></td>
+<td>Cirrus Logic Inc</td>
+<td>CS42448-CQZ</td>
+<td>IC, CODEC, 108DB, 192KHZ, 64LQFP</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Cirrus Logic Inc</td>
+<td>CS42448-CQZ</td>
+<td>IC, CODEC, 108DB, 192KHZ, 64LQFP</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>450-60353-01</td>
+<td>IC, EEPROM, 2MBIT, 1MHZ, 8SOIC</td>
+<td>01</td>
+<td>In Production</td>
+<td>Miscellaneous</td>
+<td>IC, EEPROM, 2MBIT, 1MHZ, 8SOIC</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>U44</td>
+<td></td>
+<td>ST Microelectronics</td>
+<td>M24C64-RMN6P</td>
+<td>IC, EEPROM, 2MBIT, 1MHZ, 8SOIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ST Microelectronics</td>
+<td>M24C64-RMN6P</td>
+<td>IC, EEPROM, 2MBIT, 1MHZ, 8SOIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>450-60366-01</td>
+<td>IC, INFINEON, PSRAM, 3.0V, 64Mbit, 166MHz, FBGA24</td>
+<td>02</td>
+<td>In Production</td>
+<td>CY_Parts</td>
+<td>IC, INFINEON, PSRAM, 3.0V, 64Mbit, 166MHz, FBGA24</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>U32</td>
+<td></td>
+<td>Infineon Technologies</td>
+<td>S27KL0642DPBHB020</td>
+<td>IC, INFINEON, PSRAM, 3.0V, 64Mbit, 166MHz, FBGA24</td>
+<td>Infineon Technologies</td>
+<td>S27KL0642DPBHA020</td>
+<td>IC, INFINEON, PSRAM, 3.0V, 64Mbit, 166MHz, FBGA24</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infineon Technologies</td>
+<td>S27KL0642DPBHB020</td>
+<td>IC, INFINEON, PSRAM, 3.0V, 64Mbit, 166MHz, FBGA24</td>
+<td>Infineon Technologies</td>
+<td>S27KL0642DPBHA020</td>
+<td>IC, INFINEON, PSRAM, 3.0V, 64Mbit, 166MHz, FBGA24</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>455-60028-01</td>
+<td>IC, TXRX, LIN, 2.1/SAE, J2602, 8SOIC</td>
+<td>02</td>
+<td>In Production</td>
+<td>ICPR</td>
+<td>IC, TXRX, LIN, 2.1/SAE, J2602, 8SOIC</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>U1</td>
+<td></td>
+<td>Infineon Technologies</td>
+<td>TLE72593GEXUMA3</td>
+<td>IC TRANSCEIVER LIN 1/1 DSO-8</td>
+<td>NXP Semiconductors</td>
+<td>TJA1021T/20/C,118</td>
+<td>IC, TXRX, LIN, 2.1/SAE, J2602, 8SOIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infineon Technologies</td>
+<td>TLE72593GEXUMA3</td>
+<td>IC TRANSCEIVER LIN 1/1 DSO-8</td>
+<td>NXP Semiconductors</td>
+<td>TJA1021T/20/C,118</td>
+<td>IC, TXRX, LIN, 2.1/SAE, J2602, 8SOIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>455-60033-01</td>
+<td>IC, TRANSLATOR, BIDIRECTIONAL, 8VSSOP</td>
+<td>02</td>
+<td>In Production</td>
+<td>ICPR</td>
+<td>IC, TRANSLATOR, BIDIRECTIONAL, 8VSSOP</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>U6</td>
+<td></td>
+<td>TI</td>
+<td>PCA9306DCUT</td>
+<td>IC, TRANSLATOR, BIDIRECTIONAL, 8VSSOP</td>
+<td>TI</td>
+<td>PCA9306TDCURQ1</td>
+<td>IC, TRANSLATOR, BIDIRECTIONAL, 8VSSOP</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TI</td>
+<td>PCA9306DCUT</td>
+<td>IC, TRANSLATOR, BIDIRECTIONAL, 8VSSOP</td>
+<td>TI</td>
+<td>PCA9306TDCURQ1</td>
+<td>IC, TRANSLATOR, BIDIRECTIONAL, 8VSSOP</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>455-60038-01</td>
+<td>IC, TRANSCEIVER, 1/1 40FN</td>
+<td>01</td>
+<td>In Production</td>
+<td>ICPR</td>
+<td>IC, TRANSCEIVER, 1/1 40FN</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>U40</td>
+<td></td>
+<td>TI</td>
+<td>DP83848QSQ/NOPB</td>
+<td>IC, TRANSCEIVER, 1/1 40FN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TI</td>
+<td>DP83848QSQ/NOPB</td>
+<td>IC, TRANSCEIVER, 1/1 40FN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>471-60021-01</td>
+<td>REG, LINEAR, IC, 2.8V, 200MA, 6WSON</td>
+<td>01</td>
+<td>In Production</td>
+<td>Regulator, Linear</td>
+<td>REG, LINEAR, IC, 2.8V, 200MA, 6WSON</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>U11</td>
+<td></td>
+<td>TI</td>
+<td>TLV70028DSER</td>
+<td>REG, LINEAR, IC, 2.8V, 200MA, 6WSON</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TI</td>
+<td>TLV70028DSER</td>
+<td>REG, LINEAR, IC, 2.8V, 200MA, 6WSON</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>471-60022-01</td>
+<td>REG, LINEAR, IC, 1.5V, 200MA, 6WSON</td>
+<td>02</td>
+<td>In Production</td>
+<td>Regulator, Linear</td>
+<td>REG, LINEAR, IC, 1.5V, 200MA, 6WSON</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>U10</td>
+<td></td>
+<td>TI</td>
+<td>TLV70015DSET</td>
+<td>REG, LINEAR, IC, 1.5V, 200MA, 6WSON</td>
+<td>TI</td>
+<td>TLV70015DSER</td>
+<td>REG, LINEAR, IC, 1.5V, 200MA, 6WSON</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TI</td>
+<td>TLV70015DSET</td>
+<td>REG, LINEAR, IC, 1.5V, 200MA, 6WSON</td>
+<td>TI</td>
+<td>TLV70015DSER</td>
+<td>REG, LINEAR, IC, 1.5V, 200MA, 6WSON</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60007-01</td>
+<td>RES, 0 OHM, JUMPER, 0.63A, 0402</td>
+<td>03</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 0 OHM, JUMPER, 1/10W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>124</td>
+<td>R9,R14,R15,R19,R21,R24,R25,R30,R31,R74,R120,R121,R153,R154,R155,R158,R159,R160,R210,R211,R212,R213,R215,R216,R217,R218,R254,R255,R256,R257,R258,R259,R260,R261,R262,R263,R277,R278,R279,R280,R281,R282,R283,R284,R285,R286,R335,R340,R341,R342,R344,R345,R351,R421,R425,R428,R429,R430,R466,R467,R474,R489,R490,R491,R492,R493,R496,R497,R498,R499,R531,R532,R533,R534,R535,R536,R537,R538,R539,R542,R587,R596,R597,R598,R599,R600,R603,R604,R605,R606,R615,R654,R684,R687,R688,R689,R693,R694,R697,R698,R710,R712,R713,R716,R717,R718,R719,R720,R721,R722,R723,R114,R115,R122,R156,R157,R161,R163,R373, R734, R728, R729, R675, R676</td>
+<td></td>
+<td>VIKING TECH</td>
+<td>CR-02FL6----0R</td>
+<td>RES, 0 OHM, 1/10W, 0402, SMD</td>
+<td>Vishay</td>
+<td>MCS04020Z0000ZE000</td>
+<td>RES, 0 OHM, JUMPER, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>VIKING TECH</td>
+<td>CR-02FL6----0R</td>
+<td>RES, 0 OHM, 1/10W, 0402, SMD</td>
+<td>Vishay</td>
+<td>MCS04020Z0000ZE000</td>
+<td>RES, 0 OHM, JUMPER, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60037-01</td>
+<td>RES, 0.0 OHM, 1/10W, JUMPER, 0603, SMD</td>
+<td>02</td>
+<td>In Production</td>
+<td>Fixed Resistor</td>
+<td>RES, 0.0 OHM, 1/10W, JUMPER, 0603, SMD</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>R152,R165</td>
+<td></td>
+<td>Yageo</td>
+<td>RC0603JR-070RL</td>
+<td>RES, 0.0 OHM, JUMP,1/10W, 0603, SMD</td>
+<td>Panasonic</td>
+<td>ERJ-3GEY0R00V</td>
+<td>RES, 0.0 OHM, 1/10W, JUMPER, 0603, SMD</td>
+<td>Stackpole</td>
+<td>RMCF0603ZT0R00</td>
+<td>RES, 0 OHM, JUMPER, 1A, 0603</td>
+<td>VIKING TECH</td>
+<td>CR-03JL7----0R</td>
+<td>RES, 0.0 OHM, 1/10W, JUMPER, 0603, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Yageo</td>
+<td>RC0603JR-070RL</td>
+<td>RES, 0.0 OHM, JUMP,1/10W, 0603, SMD</td>
+<td>Panasonic</td>
+<td>ERJ-3GEY0R00V</td>
+<td>RES, 0.0 OHM, 1/10W, JUMPER, 0603, SMD</td>
+<td>Stackpole</td>
+<td>RMCF0603ZT0R00</td>
+<td>RES, 0 OHM, JUMPER, 1A, 0603</td>
+<td>VIKING TECH</td>
+<td>CR-03JL7----0R</td>
+<td>RES, 0.0 OHM, 1/10W, JUMPER, 0603, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60095-01</td>
+<td>RES, 4.7K OHM, 5%, 1/16W, 0402</td>
+<td>02</td>
+<td>In Production</td>
+<td>Fixed Resistor</td>
+<td>RES, 4.7K OHM, 5%, 100PPM, 1/16W, 0402</td>
+<td>each</td>
+<td></td>
+<td>8</td>
+<td>R32,R33,R34,R363,R663,R664,R665,R666</td>
+<td></td>
+<td>Walsin</td>
+<td>WR04X4701FTL</td>
+<td>RES, 4.7K OHM, 5%, 100PPM, 1/16W, 0402</td>
+<td>VIKING TECH</td>
+<td>CR-02JL6---4K7</td>
+<td>RES, 4.7K OHM, 5%, 100PPM, 1/16W, 0402</td>
+<td>KOA</td>
+<td>RK73B1ETQTP472J - OBSOLETE</td>
+<td>RES, 4.7K OHM, 5%, 100PPM, 1/16W, 0402 - OBSOLETE</td>
+<td>Vishay</td>
+<td>CRCW04024K70JNED</td>
+<td>RES, 4.7K OHM, 5%, 100PPM, 1/16W, 0402</td>
+<td>Yageo</td>
+<td>RC0402JR-074K7L</td>
+<td>RES, 4.7K OHM, 5%, 100PPM, 1/16W, 0402</td>
+<td>Walsin</td>
+<td>WR04X472 JTL</td>
+<td>RES, 4.7K OHM, 5%, 1/16W, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Walsin</td>
+<td>WR04X4701FTL</td>
+<td>RES, 4.7K OHM, 5%, 100PPM, 1/16W, 0402</td>
+<td>VIKING TECH</td>
+<td>CR-02JL6---4K7</td>
+<td>RES, 4.7K OHM, 5%, 100PPM, 1/16W, 0402</td>
+<td>KOA</td>
+<td>RK73B1ETQTP472J - OBSOLETE</td>
+<td>RES, 4.7K OHM, 5%, 100PPM, 1/16W, 0402 - OBSOLETE</td>
+<td>Vishay</td>
+<td>CRCW04024K70JNED</td>
+<td>RES, 4.7K OHM, 5%, 100PPM, 1/16W, 0402</td>
+<td>Yageo</td>
+<td>RC0402JR-074K7L</td>
+<td>RES, 4.7K OHM, 5%, 100PPM, 1/16W, 0402</td>
+<td>Walsin</td>
+<td>WR04X472 JTL</td>
+<td>RES, 4.7K OHM, 5%, 1/16W, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60144-01</td>
+<td>RES, 0 OHM, JUMPER, 1/4 W, 1206</td>
+<td>01</td>
+<td>In Production</td>
+<td>Fixed Resistor</td>
+<td>RES, 0 OHM, JUMPER, 1/4 W, 1206</td>
+<td>each</td>
+<td></td>
+<td>5</td>
+<td>R274,R298,R318,R350,R365</td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-8GEY0R00V</td>
+<td>RES, 0 OHM, 1/4 W, 1206</td>
+<td>Yageo</td>
+<td>AC1206JR-070RL</td>
+<td>RES, 0 OHM, JUMPER, 1/4 W, 1206</td>
+<td>Yageo</td>
+<td>RC1206JR-070RL</td>
+<td>RES, 0 OHM, JUMPER, 1/4 W, 1206</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-8GEY0R00V</td>
+<td>RES, 0 OHM, 1/4 W, 1206</td>
+<td>Yageo</td>
+<td>AC1206JR-070RL</td>
+<td>RES, 0 OHM, JUMPER, 1/4 W, 1206</td>
+<td>Yageo</td>
+<td>RC1206JR-070RL</td>
+<td>RES, 0 OHM, JUMPER, 1/4 W, 1206</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60305-01</td>
+<td>RES, 100 OHM, 1%, 1/16W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 100 OHM, 1%, 1/16W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>R370</td>
+<td></td>
+<td>KOA</td>
+<td>RK73H1ETTD1000F</td>
+<td>RES, 100 OHM, 1%, 1/16W, 0402, SMD</td>
+<td>Yageo</td>
+<td>RC1005F101CS</td>
+<td>RES, 100 OHM, 1%, 1/16W, 0402, SMD</td>
+<td>Yageo</td>
+<td>RC0402FR-07100RL</td>
+<td>RES, 100 OHM, 1%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>KOA</td>
+<td>RK73H1ETTD1000F</td>
+<td>RES, 100 OHM, 1%, 1/16W, 0402, SMD</td>
+<td>Yageo</td>
+<td>RC1005F101CS</td>
+<td>RES, 100 OHM, 1%, 1/16W, 0402, SMD</td>
+<td>Yageo</td>
+<td>RC0402FR-07100RL</td>
+<td>RES, 100 OHM, 1%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60307-01</td>
+<td>RES, 560 OHM, 5%, 1/16W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 560 OHM, 5%, 1/16W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>R8</td>
+<td></td>
+<td>Yageo</td>
+<td>RC0402JR-07560RL</td>
+<td>RES, 560 OHM, 5%, 1/16W, 0402, SMD</td>
+<td>Walsin</td>
+<td>WR04X561 JTL</td>
+<td>RES, 560 OHM, 5%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Yageo</td>
+<td>RC0402JR-07560RL</td>
+<td>RES, 560 OHM, 5%, 1/16W, 0402, SMD</td>
+<td>Walsin</td>
+<td>WR04X561 JTL</td>
+<td>RES, 560 OHM, 5%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60338-01</td>
+<td>RES, 100K OHM, 1%, 1/10W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 100K OHM, 1%, 1/10W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>R375</td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2RKF1003X</td>
+<td>RES, 100K OHM, 1%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2RKF1003X</td>
+<td>RES, 100K OHM, 1%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60342-01</td>
+<td>RES, 2.00K OHM, 1%, 1/16W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 2.00K OHM, 1%, 1/16W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>R186,R724</td>
+<td></td>
+<td>Vishay/Dale</td>
+<td>CRCW04022K00FKED</td>
+<td>RES, 2.00K OHM, 1%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Vishay/Dale</td>
+<td>CRCW04022K00FKED</td>
+<td>RES, 2.00K OHM, 1%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60433-01</td>
+<td>RES, 10K OHM, 5%, 1/16W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 10K OHM, 5%, 1/16W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>34</td>
+<td>R27,R29,R51,R52,R110,R112,R113,R125,R126,R180,R189,R198,R269,R275,R346,R347,R356,R358,R367,R369,R426,R431,R437,R440,R447,R451,R500,R501,R502,R503,R516,R572,R573,R617</td>
+<td></td>
+<td>TE Connectivity</td>
+<td>CRG0402J10K/10</td>
+<td>RES, 10K OHM, 5%, 1/16W, 0402, SMD</td>
+<td>Yageo</td>
+<td>RC0402JR-0710KL</td>
+<td>RES, 10K OHM, 5%, 1/16W, 0402, SMD</td>
+<td>Walsin</td>
+<td>WR04X103 JTL</td>
+<td>RES, 10K OHM, 5%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TE Connectivity</td>
+<td>CRG0402J10K/10</td>
+<td>RES, 10K OHM, 5%, 1/16W, 0402, SMD</td>
+<td>Yageo</td>
+<td>RC0402JR-0710KL</td>
+<td>RES, 10K OHM, 5%, 1/16W, 0402, SMD</td>
+<td>Walsin</td>
+<td>WR04X103 JTL</td>
+<td>RES, 10K OHM, 5%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60461-01</td>
+<td>RES, 10K OHM, 1%, 1/10W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 10K OHM, 1%, 1/10W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>R319,R334</td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2RKF1002X</td>
+<td>RES, 10K OHM, 1%, 1/10W, 0402, SMD</td>
+<td>Vishay</td>
+<td>MCS04020C1002FE000</td>
+<td>RES, 10K OHM, 1%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2RKF1002X</td>
+<td>RES, 10K OHM, 1%, 1/10W, 0402, SMD</td>
+<td>Vishay</td>
+<td>MCS04020C1002FE000</td>
+<td>RES, 10K OHM, 1%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60471-01</td>
+<td>RES, 22K OHM, 5%, 1/10W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 22K OHM, 5%, 1/10W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>R368</td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2GEJ223X</td>
+<td>RES, 22K OHM, 5%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2GEJ223X</td>
+<td>RES, 22K OHM, 5%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60498-01</td>
+<td>RES, 470 OHM, 5%, 1/10W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 470 OHM, 5%, 1/10W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>R7</td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2GEJ471X</td>
+<td>RES, 470 OHM, 5%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2GEJ471X</td>
+<td>RES, 470 OHM, 5%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60678-01</td>
+<td>RES, 1K OHM, 5%, 1/16W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 1K OHM, 5%, 1/16W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>16</td>
+<td>R22,R60,R73,R77,R78,R130,R150,R151,R237,R238,R239,R353,R389,R390,R393,R396</td>
+<td></td>
+<td>Samsung</td>
+<td>RCS1005J102CS</td>
+<td>RES, 1K OHM, 5%, 1/16W, 0402, SMD</td>
+<td>Yageo</td>
+<td>RC0402JR-071KL</td>
+<td>RES, 1K OHM, 5%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Samsung</td>
+<td>RCS1005J102CS</td>
+<td>RES, 1K OHM, 5%, 1/16W, 0402, SMD</td>
+<td>Yageo</td>
+<td>RC0402JR-071KL</td>
+<td>RES, 1K OHM, 5%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60868-01</td>
+<td>RES, 15K OHM, 1%, 1/16W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 15K OHM, 1%, 1/16W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>R582</td>
+<td></td>
+<td>Yageo</td>
+<td>RC0402FR-0715KL</td>
+<td>RES, 15K OHM, 1%, 1/16W, 0402, SMD</td>
+<td>Walsin</td>
+<td>WR04X1502FTL</td>
+<td>RES, 15K OHM, 1%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Yageo</td>
+<td>RC0402FR-0715KL</td>
+<td>RES, 15K OHM, 1%, 1/16W, 0402, SMD</td>
+<td>Walsin</td>
+<td>WR04X1502FTL</td>
+<td>RES, 15K OHM, 1%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60880-01</td>
+<td>RES, 2.2K OHM, 5%, 1/16W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 2.2K OHM, 5%, 1/16W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>R709</td>
+<td></td>
+<td>Walsin</td>
+<td>WR04X222 JTL</td>
+<td>RES, 2.2K OHM, 5%, 1/16W, 0402, SMD</td>
+<td>Yageo</td>
+<td>RC0402JR-072K2L</td>
+<td>RES, 2.2K OHM, 5%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Walsin</td>
+<td>WR04X222 JTL</td>
+<td>RES, 2.2K OHM, 5%, 1/16W, 0402, SMD</td>
+<td>Yageo</td>
+<td>RC0402JR-072K2L</td>
+<td>RES, 2.2K OHM, 5%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60885-01</td>
+<td>RES, 200K OHM, 5%, 1/10W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 200K OHM, 5%, 1/10W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>R374</td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2GEJ204X</td>
+<td>RES, 200K OHM, 5%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2GEJ204X</td>
+<td>RES, 200K OHM, 5%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60931-01</td>
+<td>RES, 20K OHM, 5%, 1/10W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 20K OHM, 5%, 1/10W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>R364</td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2GEJ203X</td>
+<td>RES, 20K OHM, 5%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2GEJ203X</td>
+<td>RES, 20K OHM, 5%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60932-01</td>
+<td>RES, 120 OHM, 5%, 1/10W, 0603, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 120 OHM, 5%, 1/10W, 0603, SMD</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>R236,R432</td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-3GEYJ121V</td>
+<td>RES, 120 OHM, 5%, 1/10W, 0603, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-3GEYJ121V</td>
+<td>RES, 120 OHM, 5%, 1/10W, 0603, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60965-01</td>
+<td>RES, 1 OHM, 1%, 1/5W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 1 OHM, 1%, 1/5W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>R287</td>
+<td></td>
+<td>Vishay</td>
+<td>CRCW04021R00FKEDHP</td>
+<td>RES, 1 OHM, 1%, 1/5W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Vishay</td>
+<td>CRCW04021R00FKEDHP</td>
+<td>RES, 1 OHM, 1%, 1/5W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60991-01</td>
+<td>RES, 20 OHM, 5%, 1/10W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 20 OHM, 5%, 1/10W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>6</td>
+<td>R28,R54,R343,R436,R446,R450</td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2GEJ200X</td>
+<td>RES, 20 OHM, 5%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2GEJ200X</td>
+<td>RES, 20 OHM, 5%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-60993-01</td>
+<td>RES, 220 OHM, 5%, 1/10W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 220 OHM, 5%, 1/10W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>7</td>
+<td>R3,R4,R5,R6,R69,R144,R149</td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2GEJ221X</td>
+<td>RES, 220 OHM, 5%, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2GEJ221X</td>
+<td>RES, 220 OHM, 5%, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-61010-01</td>
+<td>RES, 0 OHM, JUMPER, 1/8W, 0805, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 0 OHM, JUMPER, 1/8W, 0805, SMD</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>R79,R133</td>
+<td></td>
+<td>Yageo</td>
+<td>RC0805FR-070RL</td>
+<td>RES, 0 OHM, JUMPER, 1/8W, 0805, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Yageo</td>
+<td>RC0805FR-070RL</td>
+<td>RES, 0 OHM, JUMPER, 1/8W, 0805, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-61060-01</td>
+<td>RES, 4.87K OHM, 1%, 1/16W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 4.87K OHM, 1%, 1/16W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>R439</td>
+<td></td>
+<td>Vishay</td>
+<td>CRCW04024K87FKED</td>
+<td>RES, 4.87K OHM, 1%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Vishay</td>
+<td>CRCW04024K87FKED</td>
+<td>RES, 4.87K OHM, 1%, 1/16W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-61061-01</td>
+<td>RES, 49.9 OHM, 1%, 1/10W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 49.9 OHM, 1%, 1/10W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>8</td>
+<td>R695,R696,R700,R701,R702,R703,R704,R705</td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2RKF49R9X</td>
+<td>RES, 49.9 OHM, 1%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Panasonic</td>
+<td>ERJ-2RKF49R9X</td>
+<td>RES, 49.9 OHM, 1%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-61062-01</td>
+<td>RES, 2.49K OHM, 0.5%, 1/16W, 0402</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 2.49K OHM, 0.5%, 1/16W, 0402</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>R699</td>
+<td></td>
+<td>Stackpole</td>
+<td>RNCF0402DTE2K49</td>
+<td>RES, 2.49K OHM, 0.5%, 1/16W, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Stackpole</td>
+<td>RNCF0402DTE2K49</td>
+<td>RES, 2.49K OHM, 0.5%, 1/16W, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-61063-01</td>
+<td>RES, 165 OHM, 1%, 1/10W, 0402, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Resistor</td>
+<td>RES, 165 OHM, 1%, 1/10W, 0402, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>R706</td>
+<td></td>
+<td>KOA</td>
+<td>RK73H1ETTP1650F</td>
+<td>RES, 165 OHM, 1%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>KOA</td>
+<td>RK73H1ETTP1650F</td>
+<td>RES, 165 OHM, 1%, 1/10W, 0402, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>500-61075-01</td>
+<td>RES, TRIMMER, 10K OHM, 0.500W, THROUGHOLE, TOP</td>
+<td>01</td>
+<td>In Production</td>
+<td>VARIABLE RESISTOR</td>
+<td>RES, TRIMMER, 10K OHM, 0.500W, THROUGHOLE, TOP</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>VR2</td>
+<td></td>
+<td>Bourns</td>
+<td>3296W-1-103LF</td>
+<td>RES, TRIMMER, 10K OHM, 0.500W, THROUGHOLE, TOP</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Bourns</td>
+<td>3296W-1-103LF</td>
+<td>RES, TRIMMER, 10K OHM, 0.500W, THROUGHOLE, TOP</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60058-01</td>
+<td>CAP, CER, 4.7uF, 10%, X5R, 16V, 0603</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 4.7uF, 10%, 16V, X5R, 0603</td>
+<td>each</td>
+<td></td>
+<td>8</td>
+<td>C20,C23,C24,C38,C39,C122,C130,C340</td>
+<td></td>
+<td>Samsung Electro-Mechanics</td>
+<td>CL10A475KO8NNNC</td>
+<td>CAP, CER, 4.7uF, 10%, 16V, X5R, 0603</td>
+<td>TDK Corporation</td>
+<td>C1608X5R1C475K080AC</td>
+<td>CAP, CER, 4.7uF, 10%, 16V, X5R, 0603</td>
+<td>Taiyo Yuden</td>
+<td>EMK107ABJ475KA-T</td>
+<td>CAP, CER, 4.7uF, 10%, 16V, X5R, 0603</td>
+<td>Murata</td>
+<td>GRM185R61C475KE11D</td>
+<td>CAP, CER, 4.7uF, 10%, 16V, X5R, 0603</td>
+<td>Murata</td>
+<td>GRM188R61C475KAAJD</td>
+<td>CAP, CER, 4.7uF, 10%, 16V, X5R, 0603</td>
+<td>Yageo</td>
+<td>CC0603KRX5R7BB475</td>
+<td>CAP, CER, 4.7uF, 10%, 16V, X5R, 0603</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Samsung Electro-Mechanics</td>
+<td>CL10A475KO8NNNC</td>
+<td>CAP, CER, 4.7uF, 10%, 16V, X5R, 0603</td>
+<td>TDK Corporation</td>
+<td>C1608X5R1C475K080AC</td>
+<td>CAP, CER, 4.7uF, 10%, 16V, X5R, 0603</td>
+<td>Taiyo Yuden</td>
+<td>EMK107ABJ475KA-T</td>
+<td>CAP, CER, 4.7uF, 10%, 16V, X5R, 0603</td>
+<td>Murata</td>
+<td>GRM185R61C475KE11D</td>
+<td>CAP, CER, 4.7uF, 10%, 16V, X5R, 0603</td>
+<td>Murata</td>
+<td>GRM188R61C475KAAJD</td>
+<td>CAP, CER, 4.7uF, 10%, 16V, X5R, 0603</td>
+<td>Yageo</td>
+<td>CC0603KRX5R7BB475</td>
+<td>CAP, CER, 4.7uF, 10%, 16V, X5R, 0603</td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60064-01</td>
+<td>CAP, CER, 1uF, 10%, X7R, 25V, 0603</td>
+<td>02</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 1uF, 10%, X7R, 25V, 0603</td>
+<td>each</td>
+<td></td>
+<td>4</td>
+<td>C12,C36,C40,C54</td>
+<td></td>
+<td>Wurth Elektronik Group</td>
+<td>885012206076</td>
+<td>CAP, CER, 1uF, 10%, X7R, 25V, 0603</td>
+<td>TDK Corporation</td>
+<td>CGA3E1X7R1E105K080AC</td>
+<td>CAP, CER, 1uF, 10%, X7R, 25V, 0603</td>
+<td>Samsung</td>
+<td>CL10B105KA8VPNC</td>
+<td>CAP, CER, 1uF, 10%, X7R, 25V, 0603</td>
+<td>Samsung</td>
+<td>CL10B105KA8NFNC</td>
+<td>CAP, CER, 1uF, 10%, X7R, 25V, 0603</td>
+<td>Taiyo Yuden</td>
+<td>TMK107B7105KA-T</td>
+<td>CAP, CER, 1uF, 10%, X7R, 25V, 0603</td>
+<td>Yageo</td>
+<td>CC0603KRX7R8BB105</td>
+<td>CAP, CER, 1uF, 10%, X7R, 25V, 0603</td>
+<td>Murata</td>
+<td>GRM188R71E105KA12D</td>
+<td>CAP, CER, 1.0uF, 10%, X7R, 25V, 0603</td>
+<td>Wurth Elektronik Group</td>
+<td>885012206076</td>
+<td>CAP, CER, 1uF, 10%, X7R, 25V, 0603</td>
+<td>TDK Corporation</td>
+<td>CGA3E1X7R1E105K080AC</td>
+<td>CAP, CER, 1uF, 10%, X7R, 25V, 0603</td>
+<td>Samsung</td>
+<td>CL10B105KA8VPNC</td>
+<td>CAP, CER, 1uF, 10%, X7R, 25V, 0603</td>
+<td>Samsung</td>
+<td>CL10B105KA8NFNC</td>
+<td>CAP, CER, 1uF, 10%, X7R, 25V, 0603</td>
+<td>Taiyo Yuden</td>
+<td>TMK107B7105KA-T</td>
+<td>CAP, CER, 1uF, 10%, X7R, 25V, 0603</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60108-01</td>
+<td>CAP, CER, 22uF, 10%, 16V, X5R, 0805</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 22uF, 10%, 16V, X5R, 0805</td>
+<td>each</td>
+<td></td>
+<td>4</td>
+<td>C281,C287,C288,C298</td>
+<td></td>
+<td>TDK Corporation</td>
+<td>C2012X5R1C226K125AC</td>
+<td>CAP, CER, 22uF, 10%, 16V, X5R, 0805</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TDK Corporation</td>
+<td>C2012X5R1C226K125AC</td>
+<td>CAP, CER, 22uF, 10%, 16V, X5R, 0805</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60109-01</td>
+<td>CAP, CER, 0.1UF, 10%, 16V, X7R, 0402</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 0.1UF, 10%, 16V, X7R, 0402</td>
+<td>each</td>
+<td></td>
+<td>69</td>
+<td>C27,C43,C44,C45,C50,C51,C52,C82,C83,C103,C105,C112,C137,C139,C144,C151,C152,C154,C155,C156,C178,C179,C182,C191,C197,C204,C230,C240,C242,C280,C284,C286,C289,C291,C292,C293,C295,C296,C297,C299,C300,C302,C303,C304,C307,C308,C310,C311,C312,C313,C343,C344,C134,C212,C6,C30,C65,C67,C79,C317,C318,C332,C333,C335,C336,C337,C351,C353,C55</td>
+<td></td>
+<td>Yageo</td>
+<td>CC0402KRX7R7BB104</td>
+<td>CAP, CER, 0.1UF, 10%, 16V, X7R, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Yageo</td>
+<td>CC0402KRX7R7BB104</td>
+<td>CAP, CER, 0.1UF, 10%, 16V, X7R, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60385-01</td>
+<td>CAP, CER, 4.7UF, 10%, X7R, 16V, 0805</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 4.7UF, 10%, X7R, 16V, 0805</td>
+<td>each</td>
+<td></td>
+<td>7</td>
+<td>C104,C131,C80,C81,C25, C37, C145</td>
+<td></td>
+<td>Murata</td>
+<td>GRM21BR71C475KE51L</td>
+<td>CAP, CER, 4.7UF, 10%, X7R, 16V, 0805</td>
+<td>TDK Corporation</td>
+<td>CGA4J3X7R1C475K125AB</td>
+<td>CAP, CER, 4.7UF, 10%, X7R, 16V, 0805</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Murata</td>
+<td>GRM21BR71C475KE51L</td>
+<td>CAP, CER, 4.7UF, 10%, X7R, 16V, 0805</td>
+<td>TDK Corporation</td>
+<td>CGA4J3X7R1C475K125AB</td>
+<td>CAP, CER, 4.7UF, 10%, X7R, 16V, 0805</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60410-01</td>
+<td>CAP, CER, 47UF, 20%, X5R, 25V, 1206</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 47UF, 20%, X5R, 25V, 1206</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>C11</td>
+<td></td>
+<td>Murata</td>
+<td>GRM31CR61E476ME44K</td>
+<td>CAP, CER, 47UF, 20%, X5R, 25V, 1206</td>
+<td>TDK Corporation</td>
+<td>C3216X5R1E476M160AC</td>
+<td>CAP, CER, 47UF, 20%, X5R, 25V, 1206</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Murata</td>
+<td>GRM31CR61E476ME44K</td>
+<td>CAP, CER, 47UF, 20%, X5R, 25V, 1206</td>
+<td>TDK Corporation</td>
+<td>C3216X5R1E476M160AC</td>
+<td>CAP, CER, 47UF, 20%, X5R, 25V, 1206</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60415-01</td>
+<td>CAP, CER, 1000PF, 10%, X7R, 50V, 0402</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 1000PF, 10%, X7R, 50V, 0402</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>C19</td>
+<td></td>
+<td>Murata</td>
+<td>GRM15XR71H102KA86D</td>
+<td>CAP, CER, 1000PF, 10%, X7R, 50V, 0402</td>
+<td>Murata</td>
+<td>GRM155R71H102KA01D</td>
+<td>CAP, CER, 1000PF, 10%, X7R, 50V, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Murata</td>
+<td>GRM15XR71H102KA86D</td>
+<td>CAP, CER, 1000PF, 10%, X7R, 50V, 0402</td>
+<td>Murata</td>
+<td>GRM155R71H102KA01D</td>
+<td>CAP, CER, 1000PF, 10%, X7R, 50V, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60431-01</td>
+<td>CAP, TANT, 22UF, 20%, 20V, 1210</td>
+<td>01</td>
+<td>In Production</td>
+<td>Capacitor</td>
+<td>CAP, TANT, 22UF, 20%, 20V, 1210</td>
+<td>each</td>
+<td></td>
+<td>3</td>
+<td>C2,C70,C84</td>
+<td></td>
+<td>AVX</td>
+<td>F951D226MBAAQ2</td>
+<td>CAP, TANT, 22UF, 20%, 20V, 1210</td>
+<td>AVX</td>
+<td>TAJB226K020RNJ</td>
+<td>CAP, TANT, 22UF, 20%, 20V, 1210</td>
+<td>AVX</td>
+<td>TCJB226M020R0150</td>
+<td>CAP, TANT, 22UF, 20%, 20V, 1210</td>
+<td>AVX</td>
+<td>TPSB226K020T0600</td>
+<td>CAP, TANT, 22UF, 20%, 20V, 1210</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>AVX</td>
+<td>F951D226MBAAQ2</td>
+<td>CAP, TANT, 22UF, 20%, 20V, 1210</td>
+<td>AVX</td>
+<td>TAJB226K020RNJ</td>
+<td>CAP, TANT, 22UF, 20%, 20V, 1210</td>
+<td>AVX</td>
+<td>TCJB226M020R0150</td>
+<td>CAP, TANT, 22UF, 20%, 20V, 1210</td>
+<td>AVX</td>
+<td>TPSB226K020T0600</td>
+<td>CAP, TANT, 22UF, 20%, 20V, 1210</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60468-01</td>
+<td>CAP, CER, 33pF, 5%, NP0, 50V, 0402</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 33PF, 50V, NP0, 0402</td>
+<td>each</td>
+<td></td>
+<td>3</td>
+<td>C5,C95,C100</td>
+<td></td>
+<td>Murata</td>
+<td>GJM1555C1H330JB01D</td>
+<td>CAP, CER, 33PF, 5%, NP0, 50V, 0402</td>
+<td>Murata</td>
+<td>GRM1555C1H330JA01D</td>
+<td>CAP, CER, 33PF, 50V, NP0, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Murata</td>
+<td>GJM1555C1H330JB01D</td>
+<td>CAP, CER, 33PF, 5%, NP0, 50V, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60505-01</td>
+<td>CAP, ALUM, 10UF, 20%, 16V, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Capacitor</td>
+<td>CAP, ALUM, 10UF, 20%, 16V, SMD</td>
+<td>each</td>
+<td></td>
+<td>5</td>
+<td>C66,C71,C325,C328,C334</td>
+<td></td>
+<td>Cornell Dubilier Electronics (CDE)</td>
+<td>AVE106M16A12T-F</td>
+<td>CAP, ALUM, 10UF, 20%, 16V, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Cornell Dubilier Electronics (CDE)</td>
+<td>AVE106M16A12T-F</td>
+<td>CAP, ALUM, 10UF, 20%, 16V, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60767-01</td>
+<td>CAP, CER, 220PF, 5%, C0G, 100V, 0603</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 220PF, 5%, C0G, 100V, 0603</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>C7</td>
+<td></td>
+<td>Kemet</td>
+<td>C0603C221J1GACTU</td>
+<td>CAP, CER, 220PF, 5%, C0G, 100V, 0603</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Kemet</td>
+<td>C0603C221J1GACTU</td>
+<td>CAP, CER, 220PF, 5%, C0G, 100V, 0603</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60768-01</td>
+<td>CAP, CER, 1000PF, 10%, X7R, 25V, 0402</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 1000PF, 10%, X7R, 25V, 0402</td>
+<td>each</td>
+<td></td>
+<td>4</td>
+<td>C8,C162,C326,C330</td>
+<td></td>
+<td>AVX</td>
+<td>04023C102KAT2A</td>
+<td>CAP, CER, 1000PF, 10%, X7R, 25V, 0402</td>
+<td>Samsung</td>
+<td>CL05B102KA5NNNC</td>
+<td>CAP, CER, 1000PF, 10%, X7R, 25V, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>AVX</td>
+<td>04023C102KAT2A</td>
+<td>CAP, CER, 1000PF, 10%, X7R, 25V, 0402</td>
+<td>Samsung</td>
+<td>CL05B102KA5NNNC</td>
+<td>CAP, CER, 1000PF, 10%, X7R, 25V, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60784-01</td>
+<td>CAP, CER, 12PF, 2%, C0G, 50V, 0402</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 12PF, 2%, C0G, 50V, 0402</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>C46,C47</td>
+<td></td>
+<td>Murata</td>
+<td>GJM1555C1H120GB01D</td>
+<td>CAP, CER, 12PF, 2%, C0G, 50V, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Murata</td>
+<td>GJM1555C1H120GB01D</td>
+<td>CAP, CER, 12PF, 2%, C0G, 50V, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60786-01</td>
+<td>CAP, TANT, 100UF, 10%, 25V, 2924</td>
+<td>01</td>
+<td>In Production</td>
+<td>TANTALUM</td>
+<td>CAP, TANT, 100UF, 10%, 25V, 2924</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>C10</td>
+<td></td>
+<td>AVX</td>
+<td>TAJV107K025A</td>
+<td>CAP, TANT, 100UF, 10%, 25V, 2924</td>
+<td>AVX</td>
+<td>TAJV107K025RNJ</td>
+<td>CAP, TANT, 100UF, 10%, 25V, 2924</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>AVX</td>
+<td>TAJV107K025A</td>
+<td>CAP, TANT, 100UF, 10%, 25V, 2924</td>
+<td>AVX</td>
+<td>TAJV107K025RNJ</td>
+<td>CAP, TANT, 100UF, 10%, 25V, 2924</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60795-01</td>
+<td>CAP, CER, 10UF, 10%, 10V, X7S, 0805</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 10UF, 10%, 10V, X7S, 0805</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>C251</td>
+<td></td>
+<td>TDK Corporation</td>
+<td>CGA4J3X7S1A106K125AB</td>
+<td>CAP, CER, 10UF, 10%, 10V, X7S, 0805</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TDK Corporation</td>
+<td>CGA4J3X7S1A106K125AB</td>
+<td>CAP, CER, 10UF, 10%, 10V, X7S, 0805</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60798-01</td>
+<td>CAP, CER, 0.1UF, 10%, X7R, 25V, 0603</td>
+<td>02</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 0.1UF, 10%, X7R, 25V, 0603</td>
+<td>each</td>
+<td></td>
+<td>23</td>
+<td>C1,C9,C13,C14,C26,C35,C91,C92,C93,C94,C102,C213,C219,C221,C244,C248,C249,C254,C255,C256,C257,C258,C339</td>
+<td></td>
+<td>KYOCERA</td>
+<td>KAM15AR71E104KM</td>
+<td>CAP, CER, 0.1UF, 10%, X7R, 25V, 0603</td>
+<td>TDK Corporation</td>
+<td>CGA3E2X7R1E104K080AA</td>
+<td>CAP, CER, 0.1UF, 10%, X7R, 25V, 0603</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>KYOCERA</td>
+<td>KAM15AR71E104KM</td>
+<td>CAP, CER, 0.1UF, 10%, X7R, 25V, 0603</td>
+<td>TDK Corporation</td>
+<td>CGA3E2X7R1E104K080AA</td>
+<td>CAP, CER, 0.1UF, 10%, X7R, 25V, 0603</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60799-01</td>
+<td>CAP, CER, 10PF, 5%, C0G/NP0, 25V, 0402</td>
+<td>02</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 10PF, 5%, C0G/NP0, 25V, 0402</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>C41,C42</td>
+<td></td>
+<td>Kemet</td>
+<td>C0402T100J3GAC7867</td>
+<td>CAP, CER, 10PF, 5%, C0G/NP0, 25V, 0402</td>
+<td>Murata</td>
+<td>GRM1555C1E100JA01D</td>
+<td>CAP, CER, 10PF, 5%, C0G/NP0, 25V, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Kemet</td>
+<td>C0402T100J3GAC7867</td>
+<td>CAP, CER, 10PF, 5%, C0G/NP0, 25V, 0402</td>
+<td>Murata</td>
+<td>GRM1555C1E100JA01D</td>
+<td>CAP, CER, 10PF, 5%, C0G/NP0, 25V, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60804-01</td>
+<td>CAP, CER, 10000PF, 10%, X7R, 25V, 0402</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 10000PF, 10%, X7R, 25V, 0402</td>
+<td>each</td>
+<td></td>
+<td>8</td>
+<td>C28,C69,C315,C316,C319,C324,C329,C352</td>
+<td></td>
+<td>Murata</td>
+<td>GCM155R71E103KA37D</td>
+<td>CAP, CER, 10000PF, 10%, X7R, 25V, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Murata</td>
+<td>GCM155R71E103KA37D</td>
+<td>CAP, CER, 10000PF, 10%, X7R, 25V, 0402</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60805-01</td>
+<td>CAP, CER, 47UF, 10%, X7R, 6.3V, 1210</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 47UF, 10%, X7R, 6.3V, 1210</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>C56,C68</td>
+<td></td>
+<td>Murata</td>
+<td>GCJ32ER70J476KE01L</td>
+<td>CAP, CER, 47UF, 10%, X7R, 6.3V, 1210</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Murata</td>
+<td>GCJ32ER70J476KE01L</td>
+<td>CAP, CER, 47UF, 10%, X7R, 6.3V, 1210</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60807-01</td>
+<td>CONN, JACK, 4COND, 3.5MM, R/A, SMD</td>
+<td>02</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, JACK, 4COND, 3.5MM, R/A, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>J53</td>
+<td></td>
+<td>CUI Inc</td>
+<td>SJ-43515TS-SMT-TR</td>
+<td>CONN JACK 4COND 3.5MM SMD R/A</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>CUI Inc</td>
+<td>SJ-43515TS-SMT-TR</td>
+<td>CONN JACK 4COND 3.5MM SMD R/A</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60821-01</td>
+<td>CAP, CER, 2.2UF, 10%, X7R, 16V, 0805</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 2.2UF, 10%, X7R, 16V, 0805</td>
+<td>each</td>
+<td></td>
+<td>7</td>
+<td>C124,C132,C135,C177,C283,C285,C301</td>
+<td></td>
+<td>TDK Corporation</td>
+<td>CGA4J3X7R1C225K125AB</td>
+<td>CAP, CER, 2.2UF, 10%, X7R, 16V, 0805</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TDK Corporation</td>
+<td>CGA4J3X7R1C225K125AB</td>
+<td>CAP, CER, 2.2UF, 10%, X7R, 16V, 0805</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60868-01</td>
+<td>CAP, ALUM, 100UF, 20%, 10V, SMD - AUTO</td>
+<td>02</td>
+<td>In Production</td>
+<td>Capacitor</td>
+<td>CAP, ALUM, 100UF, 20%, 10V, SMD - AUTO</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>C63, C64</td>
+<td></td>
+<td>Panasonic</td>
+<td>EEE-1AA101WAR</td>
+<td>CAP, ALUM, 100UF, 20%, 10V, SMD - AUTO</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Panasonic</td>
+<td>EEE-1AA101WAR</td>
+<td>CAP, ALUM, 100UF, 20%, 10V, SMD - AUTO</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60869-01</td>
+<td>CAP, ALUM, 4.7UF, 20%, 16V, SMD - AUTO</td>
+<td>01</td>
+<td>In Production</td>
+<td>Capacitor</td>
+<td>CAP, ALUM, 4.7UF, 20%, 16V, SMD - AUTO</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>C72</td>
+<td></td>
+<td>Panasonic</td>
+<td>EEE-1CA4R7NR</td>
+<td>CAP, ALUM, 4.7UF, 20%, 16V, SMD - AUTO</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Panasonic</td>
+<td>EEE-1CA4R7NR</td>
+<td>CAP, ALUM, 4.7UF, 20%, 16V, SMD - AUTO</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60870-01</td>
+<td>CAP, CER, 100PF, 10%, X7R, 50V, 0402 - AUTO</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 100PF, 10%, X7R, 50V, 0402 - AUTO</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>C327,C331</td>
+<td></td>
+<td>Kemet</td>
+<td>C0402C101K5RACAUTO</td>
+<td>CAP, CER, 100PF, 10%, X7R, 50V, 0402 - AUTO</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Kemet</td>
+<td>C0402C101K5RACAUTO</td>
+<td>CAP, CER, 100PF, 10%, X7R, 50V, 0402 - AUTO</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>510-60871-01</td>
+<td>CAP, CER, 1800PF, 5%, C0G/NP0, 50V, 0603</td>
+<td>01</td>
+<td>In Production</td>
+<td>Ceramic Capacitor</td>
+<td>CAP, CER, 1800PF, 5%, C0G/NP0, 50V, 0603</td>
+<td>each</td>
+<td></td>
+<td>8</td>
+<td>C341,C342,C345,C346,C347,C348,C349,C350</td>
+<td></td>
+<td>Kemet</td>
+<td>C0603C182J5GACAUTO</td>
+<td>CAP, CER, 1800PF, 5%, C0G/NP0, 50V, 0603</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Kemet</td>
+<td>C0603C182J5GACAUTO</td>
+<td>CAP, CER, 1800PF, 5%, C0G/NP0, 50V, 0603</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>520-60168-01</td>
+<td>IND, FERRITE, 60 OHM, 3.5A, 0805</td>
+<td>01</td>
+<td>In Production</td>
+<td>FERRITE BEAD INDUCTOR</td>
+<td>IND, FERRITE, 60 OHM, 3.5A, 0805</td>
+<td>each</td>
+<td></td>
+<td>3</td>
+<td>L1,L7,L8</td>
+<td></td>
+<td>Murata</td>
+<td>BLM21PG600SN1D</td>
+<td>IND, FERRITE, 60 OHM, 3.5A, 0805</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Murata</td>
+<td>BLM21PG600SN1D</td>
+<td>IND, FERRITE, 60 OHM, 3.5A, 0805</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>520-60169-01</td>
+<td>IND, FERRITE, 470 OHM, 1A, 0603</td>
+<td>01</td>
+<td>In Production</td>
+<td>FERRITE BEAD INDUCTOR</td>
+<td>IND, FERRITE, 470 OHM, 1A, 0603</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>FB5</td>
+<td></td>
+<td>Murata</td>
+<td>BLM18PG471SN1D</td>
+<td>IND, FERRITE, 470 OHM, 1A, 0603</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Murata</td>
+<td>BLM18PG471SN1D</td>
+<td>IND, FERRITE, 470 OHM, 1A, 0603</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>520-60174-01</td>
+<td>IND, FERRITE, BEAD, 600E, 800MA, 0603</td>
+<td>01</td>
+<td>In Production</td>
+<td>FERRITE BEAD INDUCTOR</td>
+<td>IND, FERRITE, BEAD, 600E, 800MA, 0603</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>FL6,FL7</td>
+<td></td>
+<td>Murata</td>
+<td>BLM18HE601SN1D</td>
+<td>IND, FERRITE, BEAD, 600E, 800MA, 0603</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Murata</td>
+<td>BLM18HE601SN1D</td>
+<td>IND, FERRITE, BEAD, 600E, 800MA, 0603</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>520-60178-01</td>
+<td>FERRITE, BEAD, 30 OHM, 0805, 1LN</td>
+<td>01</td>
+<td>In Production</td>
+<td>FERRITE BEAD INDUCTOR</td>
+<td>FERRITE, BEAD, 30 OHM, 0805, 1LN</td>
+<td>each</td>
+<td></td>
+<td>5</td>
+<td>FL1,FL2,FL3,FL4,FL5</td>
+<td></td>
+<td>Murata</td>
+<td>BLM21PG300SH1D</td>
+<td>FERRITE, BEAD, 30 OHM, 0805, 1LN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Murata</td>
+<td>BLM21PG300SH1D</td>
+<td>FERRITE, BEAD, 30 OHM, 0805, 1LN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>520-60179-01</td>
+<td>IND, COMMON MODE CHOKE(CMC), 90E, 330mA, 2LN, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Inductor</td>
+<td>IND, COMMON MODE CHOKE(CMC), 90E, 330mA, 2LN, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>L3</td>
+<td></td>
+<td>Murata</td>
+<td>DLW21SN900SQ2L</td>
+<td>IND, COMMON MODE CHOKE(CMC), 90E, 330mA, 2LN, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Murata</td>
+<td>DLW21SN900SQ2L</td>
+<td>IND, COMMON MODE CHOKE(CMC), 90E, 330mA, 2LN, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>520-60203-01</td>
+<td>IND, FERRITE BEAD, 30 OHM, 0402, 1LN</td>
+<td>02</td>
+<td>In Production</td>
+<td>FERRITE BEAD INDUCTOR</td>
+<td>IND, FERRITE BEAD, 30 OHM, 0402, 1LN</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>FB3</td>
+<td></td>
+<td>TDK Corporation</td>
+<td>MPZ1005S300CTD25</td>
+<td>IND, FERRITE BEAD, 30 OHM, 0402, 1LN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TDK Corporation</td>
+<td>MPZ1005S300CTD25</td>
+<td>IND, FERRITE BEAD, 30 OHM, 0402, 1LN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>520-60204-01</td>
+<td>IND, FIXED IND, 33UH, 115MA, 3.5 OHM, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Inductor</td>
+<td>IND, FIXED IND, 33UH, 115MA, 3.5 OHM, SMD</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>L4,L5</td>
+<td></td>
+<td>Murata</td>
+<td>LQH32MN330K23L</td>
+<td>IND, FIXED IND, 33UH, 115MA, 3.5 OHM, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Murata</td>
+<td>LQH32MN330K23L</td>
+<td>IND, FIXED IND, 33UH, 115MA, 3.5 OHM, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>520-60207-01</td>
+<td>FXD IND, LPS4012, Low Profile, 4.7uH, 1.45A, 20%, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>FIXED INDUCTOR</td>
+<td>FXD IND, LPS4012, Low Profile, 4.7uH, 1.45A, 20%, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>L6</td>
+<td></td>
+<td>Coilcraft</td>
+<td>LPS4012-472MRB</td>
+<td>FXD IND, LPS4012, Low Profile, 4.7uH, 1.45A, 20%, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Coilcraft</td>
+<td>LPS4012-472MRB</td>
+<td>FXD IND, LPS4012, Low Profile, 4.7uH, 1.45A, 20%, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>520-60208-01</td>
+<td>FILTER, FERRITE, BEAD, 470 OHM, 0603, 1LN</td>
+<td>01</td>
+<td>In Production</td>
+<td>Filter</td>
+<td>FILTER, FERRITE, BEAD, 470 OHM, 0603, 1LN</td>
+<td>each</td>
+<td></td>
+<td>7</td>
+<td>FB2,FB7,FB9,FB11,FB12,FB13,FB14</td>
+<td></td>
+<td>TDK Corporation</td>
+<td>MPZ1608B471ATD25</td>
+<td>FILTER, FERRITE, BEAD, 470 OHM, 0603, 1LN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TDK Corporation</td>
+<td>MPZ1608B471ATD25</td>
+<td>FILTER, FERRITE, BEAD, 470 OHM, 0603, 1LN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>530-60144-01</td>
+<td>DIO, GEN PURP, 100V, 300MA, SOD123</td>
+<td>01</td>
+<td>In Production</td>
+<td>Diode</td>
+<td>DIO, GEN PURP, 100V, 300MA, SOD123</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>D2,D10</td>
+<td></td>
+<td>Diodes Inc</td>
+<td>1N4148W-7-F</td>
+<td>DIO, GEN PURP, 100V, 300MA, SOD123</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Diodes Inc</td>
+<td>1N4148W-7-F</td>
+<td>DIO, GEN PURP, 100V, 300MA, SOD123</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>530-60175-01</td>
+<td>DIO, TVS DIODE, 12V, 19.9V, DO214AC</td>
+<td>01</td>
+<td>In Production</td>
+<td>TVS Diode</td>
+<td>DIO, TVS DIODE, 12V, 19.9V, DO214AC</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>D3</td>
+<td></td>
+<td>MCC</td>
+<td>SMAJ12CA-TP</td>
+<td>DIO, TVS DIODE, 12V, 19.9V, DO214AC</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>MCC</td>
+<td>SMAJ12CA-TP</td>
+<td>DIO, TVS DIODE, 12V, 19.9V, DO214AC</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>530-60179-01</td>
+<td>DIO, GEN, PURP, 100V, 1A, DO41</td>
+<td>01</td>
+<td>In Production</td>
+<td>Diode</td>
+<td>DIO, GEN, PURP, 100V, 1A, DO41</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>D1</td>
+<td></td>
+<td>Diodes Inc</td>
+<td>1N4002-T</td>
+<td>DIO, GEN, PURP, 100V, 1A, DO41</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Diodes Inc</td>
+<td>1N4002-T</td>
+<td>DIO, GEN, PURP, 100V, 1A, DO41</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>530-60181-01</td>
+<td>DIO, TVS DIODE, 5V, 18V, SOD323</td>
+<td>01</td>
+<td>In Production</td>
+<td>TVS Diode</td>
+<td>DIO, TVS DIODE, 5V, 18V, SOD323</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>D8</td>
+<td></td>
+<td>LITTELFUSE</td>
+<td>SD05C-01FTG</td>
+<td>DIO, TVS DIODE, 5V, 18V, SOD323</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>LITTELFUSE</td>
+<td>SD05C-01FTG</td>
+<td>DIO, TVS DIODE, 5V, 18V, SOD323</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>530-60182-01</td>
+<td>DIO, SCHOTTKY DIODE, 20V, 1A, SMA</td>
+<td>02</td>
+<td>In Production</td>
+<td>SCHOTTKY DIODE</td>
+<td>DIO, SCHOTTKY DIODE, 20V, 1A, SMA</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>D4</td>
+<td></td>
+<td>Diodes Inc</td>
+<td>B120-13</td>
+<td>DIO, SCHOTTKY DIODE, 20V, 1A, SMA</td>
+<td>Diodes Inc</td>
+<td>B120-13-F</td>
+<td>DIO, SCHOTTKY DIODE, 20V, 1A, SMA</td>
+<td>Vishay</td>
+<td>B120-E3/61T</td>
+<td>DIO, SCHOTTKY DIODE, 20V, 1A, SMA</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Diodes Inc</td>
+<td>B120-13</td>
+<td>DIO, SCHOTTKY DIODE, 20V, 1A, SMA</td>
+<td>Diodes Inc</td>
+<td>B120-13-F</td>
+<td>DIO, SCHOTTKY DIODE, 20V, 1A, SMA</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>530-60190-01</td>
+<td>DIO, SCHOTTKY DIODE, 100V, 2A, PMDU</td>
+<td>01</td>
+<td>In Production</td>
+<td>SCHOTTKY DIODE</td>
+<td>DIO, SCHOTTKY DIODE, 100V, 2A, PMDU</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>D7</td>
+<td></td>
+<td>Rohm</td>
+<td>RB068MM100TFTR</td>
+<td>DIO, SCHOTTKY DIODE, 100V, 2A, PMDU</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Rohm</td>
+<td>RB068MM100TFTR</td>
+<td>DIO, SCHOTTKY DIODE, 100V, 2A, PMDU</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>530-60204-01</td>
+<td>DIO, TVS DIODE, 5.5V, 14V, 2X1SON</td>
+<td>01</td>
+<td>In Production</td>
+<td>TVS Diode</td>
+<td>DIO, TVS DIODE, 5.5V, 14V, 2X1SON</td>
+<td>each</td>
+<td></td>
+<td>4</td>
+<td>D11,D12,D13,D14</td>
+<td></td>
+<td>TI</td>
+<td>TPD1E10B06QDPYRQ1</td>
+<td>DIO, TVS DIODE, 5.5V, 14V, 2X1SON</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TI</td>
+<td>TPD1E10B06QDPYRQ1</td>
+<td>DIO, TVS DIODE, 5.5V, 14V, 2X1SON</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>531-60035-01</td>
+<td>TRANS, BIPOLAR, NPN, 50V, 150mA, SMT, SOT-23-3</td>
+<td>01</td>
+<td>In Production</td>
+<td>Transistor</td>
+<td>TRANS, BIPOLAR, NPN, 50V, 150mA, SMT, SOT-23-3</td>
+<td>each</td>
+<td></td>
+<td>4</td>
+<td>TR1,TR2,TR3,TR5</td>
+<td></td>
+<td>TOSHIBA</td>
+<td>2SC2712-GR,LF</td>
+<td>TRANS, BIPOLAR, NPN, 50V, 150mA, SMT, SOT-23-3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TOSHIBA</td>
+<td>2SC2712-GR,LF</td>
+<td>TRANS, BIPOLAR, NPN, 50V, 150mA, SMT, SOT-23-3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>531-60036-01</td>
+<td>TRANS, BIPOLAR, PNP, 50V, 150mA, SMT, SOT-23-3</td>
+<td>01</td>
+<td>In Production</td>
+<td>Transistor</td>
+<td>TRANS, BIPOLAR, PNP, 50V, 150mA, SMT, SOT-23-3</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>TR4,TR6</td>
+<td></td>
+<td>TOSHIBA</td>
+<td>2SA1162-GR,LF</td>
+<td>TRANS, BIPOLAR, PNP, 50V, 150mA, SMT, SOT-23-3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TOSHIBA</td>
+<td>2SA1162-GR,LF</td>
+<td>TRANS, BIPOLAR, PNP, 50V, 150mA, SMT, SOT-23-3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>534-60007-01</td>
+<td>LED, GREEN, CLEAR, 1206, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>LED</td>
+<td>LED, GREEN, CLEAR, 1206, SMD</td>
+<td>each</td>
+<td></td>
+<td>11</td>
+<td>LED1,LD1,LED2,LD2,LED3,LD3,LED4,LED5,LED6,LED7,LED8</td>
+<td></td>
+<td>Chicago Miniature</td>
+<td>CMD15-21VGC/TR8</td>
+<td>LED, GREEN, CLEAR, 1206, SMD</td>
+<td>Liteon</td>
+<td>LTST-C150GKT</td>
+<td>LED, GREEN, CLEAR, 1206, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Chicago Miniature</td>
+<td>CMD15-21VGC/TR8</td>
+<td>LED, GREEN, CLEAR, 1206, SMD</td>
+<td>Liteon</td>
+<td>LTST-C150GKT</td>
+<td>LED, GREEN, CLEAR, 1206, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>534-60121-01</td>
+<td>LED, DRVR, RGLTR, DIM, 1.1A, 10SON</td>
+<td>01</td>
+<td>In Production</td>
+<td>LED</td>
+<td>LED, DRVR, RGLTR, DIM, 1.1A, 10SON</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>U28</td>
+<td></td>
+<td>TI</td>
+<td>TPS61166DSKT</td>
+<td>LED, DRVR, RGLTR, DIM, 1.1A, 10SON</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>TI</td>
+<td>TPS61166DSKT</td>
+<td>LED, DRVR, RGLTR, DIM, 1.1A, 10SON</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>540-60014-01</td>
+<td>OSC, XTAL, XO, 24.0000MHZ, CMOS, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Oscillator</td>
+<td>OSC, XTAL, XO, 24.0000MHZ, CMOS, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>Y7</td>
+<td></td>
+<td>Abracon</td>
+<td>ASCO2-24.000MHZ-EK-T3</td>
+<td>OSC, XTAL, XO, 24.0000MHZ, CMOS, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Abracon</td>
+<td>ASCO2-24.000MHZ-EK-T3</td>
+<td>OSC, XTAL, XO, 24.0000MHZ, CMOS, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>540-60015-01</td>
+<td>OSC, XO, MEMS, 12.2880MHZ, CMOS, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Oscillator</td>
+<td>OSC, XO, MEMS, 12.2880MHZ, CMOS, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>Y8</td>
+<td></td>
+<td>Microchip</td>
+<td>DSC1001DL5-012.2880</td>
+<td>OSC, XO, MEMS, 12.2880MHZ, CMOS, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Microchip</td>
+<td>DSC1001DL5-012.2880</td>
+<td>OSC, XO, MEMS, 12.2880MHZ, CMOS, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>542-60072-01</td>
+<td>CRYSTAL, 32.7680 KHZ, 12.5PF, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Crystal</td>
+<td>CRYSTAL, 32.7680 KHZ, 12.5PF, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>Y2</td>
+<td></td>
+<td>EPSON</td>
+<td>MC-146 32.7680KA-A0:ROHS</td>
+<td>CRYSTAL, 32.7680 KHZ, 12.5PF, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>EPSON</td>
+<td>MC-146 32.7680KA-A0:ROHS</td>
+<td>CRYSTAL, 32.7680 KHZ, 12.5PF, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>542-60073-01</td>
+<td>CRYSTAL, 16.0000MHZ, 10PF, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Crystal</td>
+<td>CRYSTAL, 16.0000MHZ, 10PF, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>Y1</td>
+<td></td>
+<td>Abracon</td>
+<td>ABM10-16.000MHZ-D30-T3</td>
+<td>CRYSTAL, 16.0000MHZ, 10PF, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Abracon</td>
+<td>ABM10-16.000MHZ-D30-T3</td>
+<td>CRYSTAL, 16.0000MHZ, 10PF, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>542-60076-01</td>
+<td>CRYSTAL, XTAL, OSC, XO, 50.0000MHZ, CMOS, SMD</td>
+<td>03</td>
+<td>In Production</td>
+<td>Crystal</td>
+<td>CRYSTAL, XTAL, OSC, XO, 50.0000MHZ, CMOS, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>Y4</td>
+<td></td>
+<td>Suntsu Electronics</td>
+<td>SXO32C3A161-50.000M</td>
+<td>CRYSTAL, XTAL, OSC, XO, 50.0000MHZ, CMOS, SMD</td>
+<td>TXC CORPORATION</td>
+<td>7X-50.000MBB-T</td>
+<td>CRYSTAL, XTAL, OSC, XO, 50.0000MHZ, CMOS, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Suntsu Electronics</td>
+<td>SXO32C3A161-50.000M</td>
+<td>CRYSTAL, XTAL, OSC, XO, 50.0000MHZ, CMOS, SMD</td>
+<td>TXC CORPORATION</td>
+<td>7X-50.000MBB-T</td>
+<td>CRYSTAL, XTAL, OSC, XO, 50.0000MHZ, CMOS, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>600-60597-01</td>
+<td>PCB, BARE, CYTVII-C-2D-4M-216-CPU</td>
+<td>01</td>
+<td>In Production</td>
+<td>Printed Circuit Board</td>
+<td>PCB, BARE, CYTVII-C-2D-4M-216-CPU</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>610-60597-01</td>
+<td>DRW, FABRICATION DRAWING, CYTVII-C-2D-4M-216-CPU</td>
+<td>01</td>
+<td>In Production</td>
+<td>Fabrication Drawing</td>
+<td>DRW, FABRICATION DRAWING, CYTVII-C-2D-4M-216-CPU</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>620-60597-01</td>
+<td>DRW, ASSEMBLY DRAWING, CYTVII-C-2D-4M-216-CPU</td>
+<td>01</td>
+<td>In Production</td>
+<td>Assembly Drawing</td>
+<td>DRW, ASSEMBLY DRAWING, CYTVII-C-2D-4M-216-CPU</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>630-60597-01</td>
+<td>DRW, SCHEMATIC DRAWING, CYTVII-C-2D-4M-216-CPU</td>
+<td>01</td>
+<td>In Production</td>
+<td>Schematic Drawing</td>
+<td>DRW, SCHEMATIC DRAWING, CYTVII-C-2D-4M-216-CPU</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>700-60148-01</td>
+<td>SCREW, MACHINE SCREW, PAN PHILLIPS, 4-40</td>
+<td>01</td>
+<td>In Production</td>
+<td>Screw/Bolt</td>
+<td>SCREW, MACHINE SCREW, PAN PHILLIPS, 4-40</td>
+<td>each</td>
+<td></td>
+<td>13</td>
+<td></td>
+<td>MH1A,MH2A,MH3A,MH4A,MH5A,MH6A,MH7A,MH8A,MH9A,MH10A,MH11A,MH12A,MH13A</td>
+<td>Keystone Electronics</td>
+<td>9900</td>
+<td>SCREW, MACHINE SCREW, PAN PHILLIPS, 4-40</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Keystone Electronics</td>
+<td>9900</td>
+<td>SCREW, MACHINE SCREW, PAN PHILLIPS, 4-40</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>702-60019-01</td>
+<td>HEX, STANDOFF, #4-40, ALUM, 5/16&quot;</td>
+<td>01</td>
+<td>In Production</td>
+<td>Standoff</td>
+<td>HEX, STANDOFF, #4-40, ALUM, 5/16&quot;</td>
+<td>each</td>
+<td></td>
+<td>13</td>
+<td></td>
+<td>MH1,MH2,MH3,MH4,MH5,MH6,MH7,MH8,MH9,MH10,MH11,MH12,MH13</td>
+<td>RAF Electronic Hardware</td>
+<td>2101-440-AL</td>
+<td>HEX, STANDOFF, #4-40, ALUM, 5/16&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>RAF Electronic Hardware</td>
+<td>2101-440-AL</td>
+<td>HEX, STANDOFF, #4-40, ALUM, 5/16&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>703-60004-01</td>
+<td>WASHER, FLAT, M3, STEEL</td>
+<td>01</td>
+<td>In Production</td>
+<td>Washer</td>
+<td>WASHER, FLAT, M3, STEEL</td>
+<td>each</td>
+<td></td>
+<td>26</td>
+<td></td>
+<td>MH1B,MH2B,MH3B,MH4B,MH5B,MH6B,MH7B,MH8B,MH9B,MH10B,MH1B1,MH11B,MH12B,MH13B,MH2B1,MH3B1,MH4B1,MH5B1,MH6B1,MH7B1,MH8B1,MH9B1,MH10B1,MH11B1,MH12B1,MH13B1</td>
+<td>B&amp;F Fastener</td>
+<td>MFWZ 003</td>
+<td>WASHER, FLAT, M3, STEEL</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>B&amp;F Fastener</td>
+<td>MFWZ 003</td>
+<td>WASHER, FLAT, M3, STEEL</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>710-60030-01</td>
+<td>HDR, CONN, HEADER, MALE, 1.27mm, 10POS, GOLD, SMD</td>
+<td>02</td>
+<td>In Production</td>
+<td>Header</td>
+<td>HDR, CONN, HEADER, MALE, 1.27mm, 10POS, GOLD, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>J14</td>
+<td></td>
+<td>Samtec</td>
+<td>FTSH-105-01-L-DV-K-P-TR</td>
+<td>HDR, CONN, HEADER, MALE, 1.27mm, 10POS, GOLD, SMD</td>
+<td>Don Connex</td>
+<td>C44-10BSB1-G</td>
+<td>HDR, CONN, HEADER, MALE, 1.27mm, 10POS, GOLD, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Samtec</td>
+<td>FTSH-105-01-L-DV-K-P-TR</td>
+<td>HDR, CONN, HEADER, MALE, 1.27mm, 10POS, GOLD, SMD</td>
+<td>Don Connex</td>
+<td>C44-10BSB1-G</td>
+<td>HDR, CONN, HEADER, MALE, 1.27mm, 10POS, GOLD, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>710-60032-01</td>
+<td>HDR, CONN, HEADER, MALE, SINGLE, 2.54mm, 2POS, STRAIGHT, GOLD, TH</td>
+<td>01</td>
+<td>In Production</td>
+<td>Header</td>
+<td>HDR, CONN, HEADER, MALE, SINGLE, 2.54mm, 2POS, STRAIGHT, GOLD, TH</td>
+<td>each</td>
+<td></td>
+<td>95</td>
+<td>J1,J11,J13,R20,J21,J28,J30,J32,J34,J35,J36,J37,J38,J40,R43,J43,R44,R45,R46,R47,J47,R48,R49,R57,J60,J61,J62,J71,R82,R83,R107,R108,R109,R111,R116,R123,R128,R136,R176,R199,R293,R301,R388,R392,R395,R397,R504,R505,R514,R580,R581,R613,R614,R621,R622,R641,R642,R644,R649,R650,R651,R657,R658,R659,R660,R661,R662,R668,R669,R670,R672,R673,R674,R677,R678,R714,R715,R727,R735,R736,R737,R738,R739,R740,R741,R746,R747,R748,R749,R750,R751,R742,R743,R744,R745</td>
+<td></td>
+<td>Protectron Electromech</td>
+<td>P9101-02-12-1</td>
+<td>HDR, CONN, HEADER, MALE, SINGLE, 2.54mm, 2POS, STRAIGHT, GOLD, TH</td>
+<td>TE Connectivity</td>
+<td>5-146280-2</td>
+<td>HDR, CONN, HEADER, MALE, SINGLE, 2.54mm, 2POS, STRAIGHT, GOLD, TH</td>
+<td>Adam Technologies Inc</td>
+<td>PH1-02-UA</td>
+<td>HDR, CONN, HEADER, MALE, SINGLE, 2.54mm, 2POS, STRAIGHT, GOLD, TH</td>
+<td>Centronic Precision Electronic Company</td>
+<td>H6-PHS102GB100</td>
+<td>HDR, CONN, HEADER, MALE, SINGLE, 2.54mm, 2POS, STRAIGHT, GOLD, TH</td>
+<td>Sullins</td>
+<td>PRPC002SAAN-RC</td>
+<td>HDR, CONN, HEADER, MALE, SINGLE, 2.54mm, 2POS, STRAIGHT, GOLD, TH</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Protectron Electromech</td>
+<td>P9101-02-12-1</td>
+<td>HDR, CONN, HEADER, MALE, SINGLE, 2.54mm, 2POS, STRAIGHT, GOLD, TH</td>
+<td>TE Connectivity</td>
+<td>5-146280-2</td>
+<td>HDR, CONN, HEADER, MALE, SINGLE, 2.54mm, 2POS, STRAIGHT, GOLD, TH</td>
+<td>Adam Technologies Inc</td>
+<td>PH1-02-UA</td>
+<td>HDR, CONN, HEADER, MALE, SINGLE, 2.54mm, 2POS, STRAIGHT, GOLD, TH</td>
+<td>Centronic Precision Electronic Company</td>
+<td>H6-PHS102GB100</td>
+<td>HDR, CONN, HEADER, MALE, SINGLE, 2.54mm, 2POS, STRAIGHT, GOLD, TH</td>
+<td>Sullins</td>
+<td>PRPC002SAAN-RC</td>
+<td>HDR, CONN, HEADER, MALE, SINGLE, 2.54mm, 2POS, STRAIGHT, GOLD, TH</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60018-01</td>
+<td>CONN, HEADER, SINGLE, 2.54mm, 3POS, STRAIGHT, GOLD, TH</td>
+<td>01</td>
+<td>In Production</td>
+<td>Rectangular Connector</td>
+<td>CONN, HEADER, SINGLE, 2.54mm, 3POS, STRAIGHT, GOLD, TH</td>
+<td>each</td>
+<td></td>
+<td>41</td>
+<td>J2,J3,J4,J16,J17,J18,J26,J27,J29,J33,J63,J91,J92,J93,J94,J95,J96,J97,J98,J99,J100,J101,J102,J103,J104,J105,J106,J107,J108,J109,J110,J111,J112,J113,J114,J116,J117,J118,J119,R711,J52</td>
+<td></td>
+<td>Protectron Electromech</td>
+<td>P9101-03-12-1</td>
+<td>CONN, HEADER, SINGLE, 2.54mm, 3POS, STRAIGHT, GOLD, TH</td>
+<td>Sullins</td>
+<td>PREC003SAAN-RC</td>
+<td>CONN, HEADER, SINGLE, 2.54mm, 3POS, STRAIGHT, GOLD, TH</td>
+<td>Sullins</td>
+<td>PRPC003SAAN-RC</td>
+<td>CONN, HEADER, SINGLE, 2.54mm, 3POS, STRAIGHT, GOLD, TH</td>
+<td>TE Connectivity</td>
+<td>5-146280-3</td>
+<td>CONN, HEADER, SINGLE, 2.54mm, 3POS, STRAIGHT, GOLD, TH</td>
+<td>Centronic Precision Electronic Company</td>
+<td>PHS103GB100</td>
+<td>CONN, HEADER, SINGLE, 2.54mm, 3POS, STRAIGHT, GOLD, TH</td>
+<td>Wurth Elektronik Group</td>
+<td>61300311121</td>
+<td>CONN, HEADER, SINGLE, 2.54mm, 3POS, STRAIGHT, GOLD, TH</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Protectron Electromech</td>
+<td>P9101-03-12-1</td>
+<td>CONN, HEADER, SINGLE, 2.54mm, 3POS, STRAIGHT, GOLD, TH</td>
+<td>Sullins</td>
+<td>PREC003SAAN-RC</td>
+<td>CONN, HEADER, SINGLE, 2.54mm, 3POS, STRAIGHT, GOLD, TH</td>
+<td>Sullins</td>
+<td>PRPC003SAAN-RC</td>
+<td>CONN, HEADER, SINGLE, 2.54mm, 3POS, STRAIGHT, GOLD, TH</td>
+<td>TE Connectivity</td>
+<td>5-146280-3</td>
+<td>CONN, HEADER, SINGLE, 2.54mm, 3POS, STRAIGHT, GOLD, TH</td>
+<td>Centronic Precision Electronic Company</td>
+<td>PHS103GB100</td>
+<td>CONN, HEADER, SINGLE, 2.54mm, 3POS, STRAIGHT, GOLD, TH</td>
+<td>Wurth Elektronik Group</td>
+<td>61300311121</td>
+<td>CONN, HEADER, SINGLE, 2.54mm, 3POS, STRAIGHT, GOLD, TH</td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60070-01</td>
+<td>CONN, POWER JACK, 3PIN, R/A, TH</td>
+<td>01</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, POWER JACK, 3PIN, R/A, TH</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>J12</td>
+<td></td>
+<td>SWITCHCRAFT</td>
+<td>RAPC722X</td>
+<td>CONN, POWER JACK, 3PIN, R/A, TH</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SWITCHCRAFT</td>
+<td>RAPC722X</td>
+<td>CONN, POWER JACK, 3PIN, R/A, TH</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60106-01</td>
+<td>CONN, DB9, MALE, 0.318&quot;, R/A, 9POS, GOLD, TH</td>
+<td>01</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, DB9, MALE, 0.318&quot;, R/A, 9POS, GOLD, TH</td>
+<td>each</td>
+<td></td>
+<td>3</td>
+<td>P1,P6,P11</td>
+<td></td>
+<td>Norcomp Inc.</td>
+<td>182-009-113R531</td>
+<td>CONN, DB9, MALE, 0.318&quot;, R/A, 9POS, GOLD, TH</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Norcomp Inc.</td>
+<td>182-009-113R531</td>
+<td>CONN, DB9, MALE, 0.318&quot;, R/A, 9POS, GOLD, TH</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60126-01</td>
+<td>CONN, USB - mini B, RECEPT, 5POS, R/A</td>
+<td>01</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, USB -&nbsp;mini B, RECEPT, 5POS, R/A</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>J48</td>
+<td></td>
+<td>Molex</td>
+<td>0548190519</td>
+<td>CONN, USB - mini B, RECEPT, 5POS, R/A</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Molex</td>
+<td>0548190519</td>
+<td>CONN, USB - mini B, RECEPT, 5POS, R/A</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60452-01</td>
+<td>CONN, HDR, SHROUDED, 2X10 PIN, PTH</td>
+<td>02</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, HDR, SHROUDED, 2X10 PIN, PTH</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>J7</td>
+<td></td>
+<td>Hirose</td>
+<td>HIF3FC-20PA-2.54DSA(71)</td>
+<td>CONN, HDR, SHROUDED, 2X10 PIN, PTH</td>
+<td>Molex</td>
+<td>0702462002</td>
+<td>CONN, HDR, SHROUDED, 2X10 PIN, PTH</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Hirose</td>
+<td>HIF3FC-20PA-2.54DSA(71)</td>
+<td>CONN, HDR, SHROUDED, 2X10 PIN, PTH</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60466-01</td>
+<td>CONN, JUMPER, SHORTING, .100&quot;, GOLD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, JUMPER, SHORTING, .100&quot;, GOLD</td>
+<td>each</td>
+<td></td>
+<td>110</td>
+<td></td>
+<td>J29(1-2),J30,J28,J21,J27(1-2),J38,J36,J37,J33(1-2),J26(1-2),J34,J40,J35, R136,R614,R613,R83,R82,R111,R621,R622,R109,R128,R644,R580, R176,R581,J32,J43,J47,R108,R735,R736,R737,R738,R739,R740,R741,R199,R514,J3(2-3),J4(2-3),J18(1-2),R43,R44,R49,R46,R20,R57,R47,R48, R45,J16(2-3),R746,R747,R748,R749,R750,R751,R742,R743,R744,R745,J112(1-2),R123,R116,R672,R677,R678,R641,R642,R714,R715,R727,R711(2-3),J91(1-2),J92(1-2),J93(1-2), J94(1-2),J95(2-3),J96(2-3),J97(1-2),J98(1-2),J99(1-2),J100(1-2),J107(1-2),J108(1-2),J109(1-2),J110(1-2), J111(1-2),R649,R650,R651,J101(2-3),J102(2-3),J103(2-3),J104(2-3),J105(2-3),J106(2-3),J113(2-3),R668, R669,R670,J116(1-2),J117(1-2),J63(1-2),R293,J11,J71,J114(2-3)</td>
+<td>Sullins</td>
+<td>QPC02SXGN-RC</td>
+<td>CONN, JUMPER, SHORTING, .100&quot;, GOLD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Sullins</td>
+<td>QPC02SXGN-RC</td>
+<td>CONN, JUMPER, SHORTING, .100&quot;, GOLD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60484-01</td>
+<td>CONN, UNSHROUDED, HDR, 20POS, .05&quot;</td>
+<td>01</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, UNSHROUDED, HDR, 20POS, .05&quot;</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>J8</td>
+<td></td>
+<td>Samtec</td>
+<td>FTSH-110-01-L-DV-K-P-TR</td>
+<td>CONN, UNSHROUDED, HDR, 20POS, .05&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Samtec</td>
+<td>FTSH-110-01-L-DV-K-P-TR</td>
+<td>CONN, UNSHROUDED, HDR, 20POS, .05&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60496-01</td>
+<td>CONN, HEADER, 30POS, 1.25MM, SMD</td>
+<td>03</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, HEADER, 30POS, 1.25MM, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>J10</td>
+<td></td>
+<td>Hirose</td>
+<td>Hirose DF13EA-30DP-1.25V(51)</td>
+<td>CONN, HEADER, 30POS, 1.25MM, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Hirose</td>
+<td>DF13EA-30DP-1.25V(51)</td>
+<td>CONN, HEADER, 30POS, 1.25MM, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60497-01</td>
+<td>CONN, HEADER, 3.5MM, 2POS, R/A, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, HEADER, 3.5MM, 2POS, R/A, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>J68</td>
+<td></td>
+<td>JST</td>
+<td>SM02B-BHSS-1-TB(LF)(SN)</td>
+<td>CONN, HEADER, 3.5MM, 2POS, R/A, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>JST</td>
+<td>SM02B-BHSS-1-TB(LF)(SN)</td>
+<td>CONN, HEADER, 3.5MM, 2POS, R/A, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60498-01</td>
+<td>CONN, SOCKET, F4S, .4MM, 30POS, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, SOCKET, F4S, .4MM, 30POS, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>J42</td>
+<td></td>
+<td>Panasonic</td>
+<td>AXT530124</td>
+<td>CONN, SOCKET, F4S, .4MM, 30POS, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Panasonic</td>
+<td>AXT530124</td>
+<td>CONN, SOCKET, F4S, .4MM, 30POS, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60499-01</td>
+<td>CONN, JACK, STEREO, 3.5MM, SMD, R/A</td>
+<td>01</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, JACK, STEREO, 3.5MM, SMD, R/A</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>J51</td>
+<td></td>
+<td>CUI Inc</td>
+<td>SJ-3523-SMT-TR</td>
+<td>CONN, JACK, STEREO, 3.5MM, SMD, R/A</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>CUI Inc</td>
+<td>SJ-3523-SMT-TR</td>
+<td>CONN, JACK, STEREO, 3.5MM, SMD, R/A</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60500-01</td>
+<td>CONN, HEADER, 40POS, 1.27MM, SMD</td>
+<td>01</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, HEADER, 40POS, 1.27MM, SMD</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>J66</td>
+<td></td>
+<td>Samtec</td>
+<td>FTSH-120-01-L-DV-K-P-TR</td>
+<td>CONN, HEADER, 40POS, 1.27MM, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Samtec</td>
+<td>FTSH-120-01-L-DV-K-P-TR</td>
+<td>CONN, HEADER, 40POS, 1.27MM, SMD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60501-01</td>
+<td>CONN, FFC, FPC, 40POS, 0.50MM, R/A</td>
+<td>01</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, FFC, FPC, 40POS, 0.50MM, R/A</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>J67</td>
+<td></td>
+<td>Omron</td>
+<td>XF3M-4015-1B</td>
+<td>CONN, FFC, FPC, 40POS, 0.50MM, R/A</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Omron</td>
+<td>XF3M-4015-1B</td>
+<td>CONN, FFC, FPC, 40POS, 0.50MM, R/A</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60502-01</td>
+<td>CONN, HDR, 18POS, 0.1, GOLD, PCB</td>
+<td>02</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, HDR, 18POS, 0.1, GOLD, PCB</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>PP1,PP2</td>
+<td></td>
+<td>Sullins</td>
+<td>PPPC181LFBN-RC</td>
+<td>CONN, HDR, 18POS, 0.1, GOLD, PCB</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Sullins</td>
+<td>PPPC181LFBN-RC</td>
+<td>CONN, HDR, 18POS, 0.1, GOLD, PCB</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60515-01</td>
+<td>CONN, JACK, 1PORT, 100, BASE-T, PCB</td>
+<td>01</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, JACK, 1PORT, 100, BASE-T, PCB</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>J64</td>
+<td></td>
+<td>Wurth Elektronik Group</td>
+<td>74990101212</td>
+<td>CONN, JACK, 1PORT, 100, BASE-T, PCB</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Wurth Elektronik Group</td>
+<td>74990101212</td>
+<td>CONN, JACK, 1PORT, 100, BASE-T, PCB</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>720-60516-01</td>
+<td>CONN, HEADER, VERT, 8POS, 2.54MM</td>
+<td>01</td>
+<td>In Production</td>
+<td>Connector</td>
+<td>CONN, HEADER, VERT, 8POS, 2.54MM</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>J90</td>
+<td></td>
+<td>Sullins</td>
+<td>PEC08SAAN</td>
+<td>CONN, HEADER, VERT, 8POS, 2.54MM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Sullins</td>
+<td>PEC08SAAN</td>
+<td>CONN, HEADER, VERT, 8POS, 2.54MM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>760-60029-01</td>
+<td>FUSE, PTC, RESET, FUSE, 12V, 1.6A, 1812</td>
+<td>01</td>
+<td>In Production</td>
+<td>Fuse</td>
+<td>FUSE, PTC, RESET, FUSE, 12V, 1.6A, 1812</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>F1</td>
+<td></td>
+<td>LITTELFUSE</td>
+<td>1812L160/12DR</td>
+<td>FUSE, PTC, RESET, FUSE, 12V, 1.6A, 1812</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>LITTELFUSE</td>
+<td>1812L160/12DR</td>
+<td>FUSE, PTC, RESET, FUSE, 12V, 1.6A, 1812</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>770-60112-01</td>
+<td>SW, SLIDE SWITCH, SPDT, 5A, 120V, TH</td>
+<td>02</td>
+<td>In Production</td>
+<td>Slide Switch</td>
+<td>SW, SLIDE SWITCH, SPDT, 5A, 120V, TH</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>SW1</td>
+<td></td>
+<td>E-Switch</td>
+<td>500SSP1S2M2QEA</td>
+<td>SW, SLIDE SWITCH, SPDT, 5A, 120V, TH</td>
+<td>E-Switch</td>
+<td>500SSP1S1M2QEA</td>
+<td>SW, SLIDE SWITCH, SPDT, 5A, 120V, TH</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>E-Switch</td>
+<td>500SSP1S2M2QEA</td>
+<td>SW, SLIDE SWITCH, SPDT, 5A, 120V, TH</td>
+<td>E-Switch</td>
+<td>500SSP1S1M2QEA</td>
+<td>SW, SLIDE SWITCH, SPDT, 5A, 120V, TH</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>770-60113-01</td>
+<td>SW, TACTILE SWITCH, SPST-NO, 0.05A, 16V</td>
+<td>01</td>
+<td>In Production</td>
+<td>Tact Switch</td>
+<td>SW, TACTILE SWITCH, SPST-NO, 0.05A, 16V</td>
+<td>each</td>
+<td></td>
+<td>4</td>
+<td>SW2,SW3,SW5,SW6</td>
+<td></td>
+<td>C&amp;K Components</td>
+<td>PTS810 SJG 250 SMTR LFS</td>
+<td>SW, TACTILE SWITCH, SPST-NO, 0.05A, 16V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>C&amp;K Components</td>
+<td>PTS810 SJG 250 SMTR LFS</td>
+<td>SW, TACTILE SWITCH, SPST-NO, 0.05A, 16V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>853-60265-01</td>
+<td>FT KIT, TST PROCEDURE, SW &amp; FW, CYTVII-C-2D-4M-216-CPU Traveo II Cluster Board</td>
+<td>06</td>
+<td>In Production</td>
+<td>FT KIT</td>
+<td>FT KIT, TST PROCEDURE, SW &amp; FW, CYTVII-C-2D-4M-216-CPU Traveo II Cluster Board</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>2</td>
+<td>002-32902</td>
+<td>DOC, TEST PROCEDURE, CYTVII-C-2D-4M-216-CPU</td>
+<td>*B</td>
+<td>In Production</td>
+<td>Manufacturing Documentation</td>
+<td>DOC, TEST PROCEDURE, CYTVII-C-2D-4M-216-CPU</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>2</td>
+<td>101-60416-01</td>
+<td>FW, CYTVII-C-2D-4M-216-CPU Traveo II Cluster Board</td>
+<td>04</td>
+<td>In Production</td>
+<td>FW</td>
+<td>FW, CYTVII-C-2D-4M-216-CPU Traveo II Cluster Board  Checksum : 1316C797572BE727360446D3433165B7 *FW_101-60416-01_Rev-04.zip</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>2</td>
+<td>150-60317-01</td>
+<td>SW, CYTVII-C-2D-4M-216-CPU Traveo II Cluster Board</td>
+<td>01</td>
+<td>In Production</td>
+<td>Software</td>
+<td>SW, CYTVII-C-2D-4M-216-CPU Traveo II Cluster Board  Checksum: 44CCAC8D17C15860104B9A4E52E41E93 *SW.zip</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>CY7C65213-28PVXIT</td>
+<td>IC, CYPRESS, USB TO UART, BRIDGE, 28SSOP</td>
+<td>01</td>
+<td>In Production</td>
+<td>CY_Parts</td>
+<td>IC, CYPRESS, USB TO UART, BRIDGE, 28SSOP</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>U8</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>CYT3DLABHBES</td>
+<td>IC, CYPRESS, MCU TRAVEO II, Cluster, 4M-216 A2</td>
+<td>02</td>
+<td>In Production</td>
+<td>CY_Parts</td>
+<td>IC, CYPRESS, MCU TRAVEO II, Cluster, 4M-216 A2</td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>U37</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>S25HL512TFAMHM010</td>
+<td>IC, CYPRESS, Semper FLASH, QSPI NOR, 512Mbit, 166MHz, 2.7V-3.6V, 16-SOIC</td>
+<td>02</td>
+<td>In Production</td>
+<td>CY_Parts</td>
+<td>IC, CYPRESS, Semper FLASH, QSPI NOR, 512Mbit, 166MHz, 2.7V-3.6V, 16-SOIC</td>
+<td>each</td>
+<td></td>
+<td>2</td>
+<td>U30, U31</td>
+<td></td>
+<td>Cypress</td>
+<td>S25HL512TFAMHM010</td>
+<td>IC, CYPRESS, Semper FLASH, QSPI NOR, 512Mbit, 166MHz, 2.7V-3.6V, 16-SOIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Cypress</td>
+<td>S25HL512TFAMHM010</td>
+<td>IC, CYPRESS, Semper FLASH, QSPI NOR, 512Mbit, 166MHz, 2.7V-3.6V, 16-SOIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr><tr style="font-size:10pt; background:transparent" valign="top">
+<td>1</td>
+<td>S26HL512TFPBHI010</td>
+<td>IC, SEMPER FLASH, 3.0V, 512 Mbit, 166MHz, FBGA 6x8mm</td>
+<td>02</td>
+<td>In Production</td>
+<td>CY_Parts</td>
+<td></td>
+<td>each</td>
+<td></td>
+<td>1</td>
+<td>U19</td>
+<td></td>
+<td>Infineon Technologies</td>
+<td>S26HL512TFPBHI010</td>
+<td>IC, SEMPER FLASH, 3.0V, 512 Mbit, 166MHz, FBGA 6x8mm</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infineon Technologies</td>
+<td>S26HL512TFPBHI010</td>
+<td>IC, SEMPER FLASH, 3.0V, 512 Mbit, 166MHz, FBGA 6x8mm</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr></table><br/>
+<br/><span id="footer" style="font-size:8pt">Generated for <strong>Dev Kits Production</strong> by <strong>Arena</strong>. All information contained in this document is proprietary and confidential.</span></body></html>

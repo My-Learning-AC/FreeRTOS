@@ -1,0 +1,2755 @@
+###############################################################################
+#
+# IAR ELF Linker V9.32.1.338/W64 for ARM                  20/Dec/2024  13:50:36
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Exe\cm7_0.out
+#    Map file     =
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\List\cm7_0.map
+#    Command line =
+#        -f
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Exe\cm7_0.out.rsp
+#        (C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\mtp\adc_pot.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\mtp\canfd.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\adc\cy_adc.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\axidma\cy_axidma.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\button\cy_button.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\canfd\cy_canfd.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\cpu\cy_cpu.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\crypto\cy_crypto_config.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\audio\cy_cs42448.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\cxpi\cy_cxpi.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\audioss\cy_dac.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\eth_phy\cy_dp83848q_q1.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\ethernet\cy_ethif.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\evtgen\cy_evtgen.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\flash\cy_flash.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\fpdlink\cy_fpdlink.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\gfx_env\cy_gfx_env.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\gpio\cy_gpio.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\audioss\cy_i2s.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\interrupts\rev_a\cy_interrupt_map.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\ipc\cy_ipc_drv.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\ipc\cy_ipc_pipe.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\ipc\cy_ipc_sema.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\lin\cy_lin.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\lvd\cy_lvd.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\mcwdt\cy_mcwdt.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\dma\cy_mdma.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\mipi_sensor\cy_mipi_sensor.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\mipicsi2\cy_mipicsi2.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\audioss\cy_mixer.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\mpu\cy_mpu.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\flash\cy_mw_flash.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\dma\cy_pdma.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\power\cy_power.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\prot\cy_prot.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\audioss\cy_pwm.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\scb\cy_scb_common.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\scb\cy_scb_ezi2c.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\scb\cy_scb_i2c.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\scb\cy_scb_spi.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\scb\cy_scb_uart.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\semihosting\cy_semihosting.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\audioss\cy_sg.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\smartio\cy_smartio.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\smif\cy_smif.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\smif_mem\cy_smif_device_common.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\smif_mem\cy_smif_hb_flash.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\smif\cy_smif_memslot.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\smif_mem\cy_smif_s25fl.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\smif_mem\cy_smif_s25fs.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\smif_mem\cy_smif_semp.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\smif\cy_smif_ver_specific.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\srom\cy_srom.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\sw_timer\cy_sw_tmr.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\sysclk\cy_sysclk.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\sysflt\cy_sysflt.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\sysint\cy_sysint.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\syslib\cy_syslib.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\syslib\cy_syslib_iar.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\syspm\cy_syspm.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\syspmic\cy_syspmic.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\sysreset\cy_sysreset.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\sysrtc\cy_sysrtc.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\systick\cy_systick.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\syswdt\cy_syswdt.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\tcpwm\cy_tcpwm.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\tcpwm\cy_tcpwm_counter.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\tcpwm\cy_tcpwm_pwm.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\tcpwm\cy_tcpwm_quaddec.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\tcpwm\cy_tcpwm_sr.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\audioss\cy_tdm.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\trigmux\cy_trigmux.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\ethernet\edd.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\ethernet\edd_rx.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\ethernet\edd_tx.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\mtp\fpd_display.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\mtp\GigEth_Test.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\mtp\lin.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\main_cm7_0.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\mtp\silicon_details.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\mtp\smif_hflash.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\mtp\smif_hram.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\startup\startup.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\startup\startup_cm7.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\system\rev_a\system_tviic2d4m_cm7.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\mtp\tdm.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\mtp\user_button.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\mtp\user_led.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\mtp\wco.o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\mtp\workflash.o
+#        --no_out_extension -o
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Exe\cm7_0.out
+#        --config_def _CORE_cm7_0_=0 --config_def _LINK_flash_=0 --map
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\List\cm7_0.map
+#        --config
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\..\..\linker_directives_tviic2d4m.icf
+#        --semihosting
+#        C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\..\..\..\..\src\drivers\crypto\libs\libcrypto_client_cm7_0_iar.a
+#        --entry __iar_program_start --vfe --text_out locale --cpu=Cortex-M7
+#        --fpu=VFPv5_d16)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at start of [from 0x1008'0000 to 0x1040'ffff] { section .intvec };
+"P1":  place in [from 0x1008'0000 to 0x1040'ffff] { ro };
+"P2":  place in [from 0x2802'0000 to 0x2805'ffff] { rw };
+define block HEAP with size = 1K, alignment = 8 { };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP_STACK { block HEAP, last block CSTACK };
+"A1":  place at end of [from 0x2802'0000 to 0x2805'ffff] { block HEAP_STACK };
+do not initialize { section .intvec_ram };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section .sflash_app_prot  in "P6"
+  ro section .sflash_nar       in "P4"
+  ro section .sflash_pkey      in "P5"
+  ro section .sflash_toc2      in "P7"
+  ro section .sflash_uf_rows   in "P3"
+  ro section .work_flash       in "P8"
+
+
+  Section            Kind         Address      Size  Object
+  -------            ----         -------      ----  ------
+"A0":                                          0x80
+  .intvec            ro code  0x1008'0000      0x80  startup_cm7.o [50]
+                            - 0x1008'0080      0x80
+
+"P1":                                      0x3'ade7
+  .rodata            const    0x1008'0080  0x1'0000  smif_hflash.o [1]
+  .rodata            const    0x1009'0080  0x1'0000  smif_hram.o [1]
+  .text              ro code  0x100a'0080    0x411c  edd.o [11]
+  .text              ro code  0x100a'419c     0x13c  cy_syslib.o [30]
+  .text              ro code  0x100a'42d8     0xeb6  edd_tx.o [11]
+  .text              ro code  0x100a'518e      0x7e  lz77_init_single.o [54]
+  .text              ro code  0x100a'520c    0x3350  edd_rx.o [11]
+  .text              ro code  0x100a'855c      0x66  ABImemset.o [54]
+  .text              ro code  0x100a'85c2      0x1e  xsscin.o [52]
+  .text              ro code  0x100a'85e0      0xa6  ABImemcpy.o [54]
+  .text              ro code  0x100a'8690      0x1e  cy_syslib_iar.o [30]
+  .text              ro code  0x100a'86ae       0x2  cy_syslib.o [30]
+  .text              ro code  0x100a'86b0    0x12a8  cy_ethif.o [11]
+  .text              ro code  0x100a'9958      0x70  strncpy.o [54]
+  .text              ro code  0x100a'99c8    0x102c  cy_sysclk.o [27]
+  .text              ro code  0x100a'a9f4      0x22  I64Shl.o [54]
+  .text              ro code  0x100a'aa16       0xa  xsprout.o [52]
+  .text              ro code  0x100a'aa20     0x230  I64DivMod.o [54]
+  .text              ro code  0x100a'ac50       0x8  abs.o [52]
+  .text              ro code  0x100a'ac58      0x1e  U64Shr.o [54]
+  .rodata            const    0x100a'ac76       0x2  cy_gfx_env.o [44]
+  .text              ro code  0x100a'ac78       0x2  I64DivZer.o [54]
+  .rodata            const    0x100a'ac7a       0x2  GigEth_Test.o [1]
+  .text              ro code  0x100a'ac7c    0x1024  cy_gfx_env.o [44]
+  .text              ro code  0x100a'bca0     0x178  cy_sw_tmr.o [49]
+  .text              ro code  0x100a'be18     0x2c0  cy_semihosting.o [47]
+  .text              ro code  0x100a'c0d8     0x154  cy_button.o [41]
+  .text              ro code  0x100a'c22c     0x22c  cy_mpu.o [21]
+  .text              ro code  0x100a'c458     0x138  cy_fpdlink.o [14]
+  .text              ro code  0x100a'c590     0xf68  cy_smif.o [25]
+  .text              ro code  0x100a'd4f8     0x1f8  cy_smif_semp.o [48]
+  .text              ro code  0x100a'd6f0       0x6  ABImemclr4.o [54]
+  .rodata            const    0x100a'd6f6       0x2  GigEth_Test.o [1]
+  .text              ro code  0x100a'd6f8     0x3cc  cy_smif_ver_specific.o [25]
+  .text              ro code  0x100a'dac4     0xaee  cy_smif_hb_flash.o [48]
+  .rodata            const    0x100a'e5b2       0x2  GigEth_Test.o [1]
+  .text              ro code  0x100a'e5b4     0x244  cy_systick.o [35]
+  .text              ro code  0x100a'e7f8     0x314  cy_scb_uart.o [23]
+  .text              ro code  0x100a'eb0c     0x428  cy_smif_device_common.o [48]
+  .text              ro code  0x100a'ef34      0x32  ABImemset48.o [54]
+  .rodata            const    0x100a'ef66       0x2  GigEth_Test.o [1]
+  .text              ro code  0x100a'ef68      0x68  memcmp.o [54]
+  .text              ro code  0x100a'efd0     0xec6  cy_scb_i2c.o [23]
+  .text              ro code  0x100a'fe96     0x178  cy_scb_common.o [23]
+  .rodata            const    0x100b'000e       0x2  GigEth_Test.o [1]
+  .text              ro code  0x100b'0010     0xeae  xprintffull_nomb.o [52]
+  .rodata            const    0x100b'0ebe       0x2  smif_hflash.o [1]
+  .text              ro code  0x100b'0ec0      0x16  strchr.o [54]
+  .rodata            const    0x100b'0ed6       0x2  smif_hflash.o [1]
+  .text              ro code  0x100b'0ed8      0x40  xfail_s.o [52]
+  .text              ro code  0x100b'0f18      0x36  strlen.o [54]
+  .rodata            const    0x100b'0f4e       0x2  smif_hram.o [1]
+  .text              ro code  0x100b'0f50      0x58  memchr.o [54]
+  .text              ro code  0x100b'0fa8      0x70  frexp.o [53]
+  .text              ro code  0x100b'1018      0x34  DblCmpLe.o [53]
+  .text              ro code  0x100b'104c      0x34  DblCmpGe.o [53]
+  .text              ro code  0x100b'1080     0x104  ldexp.o [53]
+  .text              ro code  0x100b'1184       0xe  DblToS32.o [53]
+  .text              ro code  0x100b'1192       0xe  S32ToDbl.o [53]
+  .text              ro code  0x100b'11a0      0x12  DblSub.o [53]
+  .text              ro code  0x100b'11b2      0x12  DblDiv.o [53]
+  .text              ro code  0x100b'11c4       0xe  DblToU32.o [53]
+  .text              ro code  0x100b'11d2       0xe  U32ToDbl.o [53]
+  .text              ro code  0x100b'11e0      0x12  DblMul.o [53]
+  .text              ro code  0x100b'11f2       0x6  abort.o [52]
+  .text              ro code  0x100b'11f8      0x14  exit.o [55]
+  .text              ro code  0x100b'120c     0xe68  main_cm7_0.o [2]
+  .text              ro code  0x100b'2074      0x6c  cy_sysint.o [29]
+  .text              ro code  0x100b'20e0     0x1a0  cy_tcpwm_counter.o [37]
+  .text              ro code  0x100b'2280      0x34  vsprintf.o [52]
+  .text              ro code  0x100b'22b4      0x16  cy_tcpwm.o [37]
+  .rodata            const    0x100b'22ca       0x1  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'22cb       0x1  cy_smif_s25fs.o [48]
+  .text              ro code  0x100b'22cc      0x28  sscanf.o [52]
+  .text              ro code  0x100b'22f4     0x1e0  cy_gpio.o [15]
+  .text              ro code  0x100b'24d4      0xb0  workflash.o [1]
+  .text              ro code  0x100b'2584      0xa8  user_led.o [1]
+  .text              ro code  0x100b'262c     0x190  user_button.o [1]
+  .text              ro code  0x100b'27bc     0x3ac  adc_pot.o [1]
+  .text              ro code  0x100b'2b68     0xaf0  smif_hflash.o [1]
+  .text              ro code  0x100b'3658     0x6d4  smif_hram.o [1]
+  .text              ro code  0x100b'3d2c     0x45c  canfd.o [1]
+  .text              ro code  0x100b'4188     0x4b8  lin.o [1]
+  .text              ro code  0x100b'4640     0x684  cy_sysrtc.o [34]
+  .text              ro code  0x100b'4cc4     0x150  system_tviic2d4m_cm7.o [51]
+  .text              ro code  0x100b'4e14     0x150  wco.o [1]
+  .text              ro code  0x100b'4f64     0x328  silicon_details.o [1]
+  .text              ro code  0x100b'528c     0x644  xscanfsmall_nomb.o [52]
+  .text              ro code  0x100b'58d0     0x3b8  cy_flash.o [13]
+  .text              ro code  0x100b'5c88     0x3a4  cy_adc.o [3]
+  .text              ro code  0x100b'602c     0xd40  cy_canfd.o [6]
+  .text              ro code  0x100b'6d6c     0x324  cy_lin.o [17]
+  .text              ro code  0x100b'7090       0x2  cy_sysrtc.o [34]
+  .text              ro code  0x100b'7092       0x2  cy_sysrtc.o [34]
+  .text              ro code  0x100b'7094       0x8  startup_cm7.o [50]
+  .text              ro code  0x100b'709c       0x6  startup_cm7.o [50]
+  .rodata            const    0x100b'70a2       0x1  cy_smif_semp.o [48]
+  .rodata            const    0x100b'70a3       0x1  cy_smif_semp.o [48]
+  .text              ro code  0x100b'70a4     0x14a  iar_Stoulx.o [52]
+  .text              ro code  0x100b'71ee      0x96  iar_Stolx.o [52]
+  .text              ro code  0x100b'7284     0x184  cy_srom.o [26]
+  .text              ro code  0x100b'7408      0x60  cy_ipc_drv.o [16]
+  .text              ro code  0x100b'7468     0x468  GigEth_Test.o [1]
+  .text              ro code  0x100b'78d0     0x42c  tdm.o [1]
+  .text              ro code  0x100b'7cfc     0x3d0  cy_cs42448.o [40]
+  .text              ro code  0x100b'80cc     0x268  cy_tdm.o [4]
+  .rodata            const    0x100b'8334     0x408  cy_gfx_env.o [44]
+  .rodata            const    0x100b'873c     0x258  GigEth_Test.o [1]
+  .text              ro code  0x100b'8994     0x204  startup.o [50]
+  .text              ro code  0x100b'8b98     0x198  cy_interrupt_map.o [39]
+  .rodata            const    0x100b'8d30     0x130  cy_smif_semp.o [48]
+  .rodata            const    0x100b'8e60      0xf0  canfd.o [1]
+  .rodata            const    0x100b'8f50      0xe0  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'9030      0xb0  cy_smif_s25fs.o [48]
+  .text              ro code  0x100b'90e0      0xb0  startup_cm7.o [50]
+  .rodata            const    0x100b'9190      0x78  lin.o [1]
+  .rodata            const    0x100b'9208      0x60  cy_gfx_env.o [44]
+  .rodata            const    0x100b'9268      0x5c  smif_hflash.o [1]
+  .rodata            const    0x100b'92c4      0x58  smif_hram.o [1]
+  .rodata            const    0x100b'931c      0x58  system_tviic2d4m_cm7.o [51]
+  .rodata            const    0x100b'9374      0x50  cy_ethif.o [11]
+  .rodata            const    0x100b'93c4      0x50  cy_smif_hb_flash.o [48]
+  .rodata            const    0x100b'9414      0x50  iar_Stoulx.o [52]
+  .rodata            const    0x100b'9464      0x4c  cy_gfx_env.o [44]
+  .rodata            const    0x100b'94b0      0x4c  cy_semihosting.o [47]
+  .rodata            const    0x100b'94fc      0x4c  cy_smif.o [25]
+  .rodata            const    0x100b'9548      0x4c  cy_sysclk.o [27]
+  .rodata            const    0x100b'9594      0x4c  cy_sysclk.o [27]
+  .rodata            const    0x100b'95e0      0x4c  cy_systick.o [35]
+  .rodata            const    0x100b'962c      0x48  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'9674      0x48  cy_smif_semp.o [48]
+  .rodata            const    0x100b'96bc      0x44  GigEth_Test.o [1]
+  .rodata            const    0x100b'9700      0x44  main_cm7_0.o [2]
+  .rodata            const    0x100b'9744      0x44  silicon_details.o [1]
+  .rodata            const    0x100b'9788      0x44  smif_hflash.o [1]
+  .rodata            const    0x100b'97cc      0x44  smif_hram.o [1]
+  .rodata            const    0x100b'9810      0x40  adc_pot.o [1]
+  .rodata            const    0x100b'9850      0x40  cy_smif_hb_flash.o [48]
+  .rodata            const    0x100b'9890      0x40  main_cm7_0.o [2]
+  .rodata            const    0x100b'98d0      0x40  silicon_details.o [1]
+  .rodata            const    0x100b'9910      0x3c  silicon_details.o [1]
+  .rodata            const    0x100b'994c      0x3c  tdm.o [1]
+  .rodata            const    0x100b'9988      0x38  cy_gfx_env.o [44]
+  .rodata            const    0x100b'99c0      0x38  main_cm7_0.o [2]
+  .text              ro code  0x100b'99f8      0x38  zero_init3.o [54]
+  .rodata            const    0x100b'9a30      0x34  GigEth_Test.o [1]
+  .rodata            const    0x100b'9a64      0x34  wco.o [1]
+  .rodata            const    0x100b'9a98      0x30  cy_smif_semp.o [48]
+  .rodata            const    0x100b'9ac8      0x30  cy_sysclk.o [27]
+  .rodata            const    0x100b'9af8      0x30  cy_sysclk.o [27]
+  .rodata            const    0x100b'9b28      0x30  cy_sysclk.o [27]
+  .rodata            const    0x100b'9b58      0x30  cy_sysclk.o [27]
+  .rodata            const    0x100b'9b88      0x30  GigEth_Test.o [1]
+  .rodata            zero     0x100b'9bb8      0x30  wco.o [1]
+  .rodata            const    0x100b'9be8      0x2c  silicon_details.o [1]
+  .text              ro code  0x100b'9c14      0x2c  fpd_display.o [1]
+  .rodata            const    0x100b'9c40      0x28  cy_smif.o [25]
+  .rodata            const    0x100b'9c68      0x28  cy_smif.o [25]
+  .rodata            const    0x100b'9c90      0x28  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'9cb8      0x28  cy_smif_s25fs.o [48]
+  .rodata            const    0x100b'9ce0      0x28  GigEth_Test.o [1]
+  .rodata            const    0x100b'9d08      0x28  main_cm7_0.o [2]
+  .text              ro code  0x100b'9d30      0x28  data_init.o [54]
+  .rodata            const    0x100b'9d58      0x24  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'9d7c      0x24  main_cm7_0.o [2]
+  .rodata            const    0x100b'9da0      0x24  main_cm7_0.o [2]
+  .rodata            const    0x100b'9dc4      0x24  main_cm7_0.o [2]
+  .rodata            const    0x100b'9de8      0x24  wco.o [1]
+  .rodata            const    0x100b'9e0c      0x24  xscanfsmall_nomb.o [52]
+  .text              ro code  0x100b'9e30      0x22  fpinit_M.o [53]
+  .iar.init_table    const    0x100b'9e54      0x20  - Linker created -
+  .rodata            const    0x100b'9e74       0x1  smif_hflash.o [1]
+  .rodata            const    0x100b'9e75       0x1  smif_hflash.o [1]
+  .rodata            const    0x100b'9e78      0x20  adc_pot.o [1]
+  .rodata            const    0x100b'9e98      0x20  cy_smif_s25fs.o [48]
+  .rodata            const    0x100b'9eb8      0x20  cy_smif_semp.o [48]
+  .rodata            const    0x100b'9ed8      0x20  GigEth_Test.o [1]
+  .rodata            const    0x100b'9ef8      0x20  main_cm7_0.o [2]
+  .rodata            const    0x100b'9f18      0x20  main_cm7_0.o [2]
+  .rodata            const    0x100b'9f38      0x20  main_cm7_0.o [2]
+  .rodata            const    0x100b'9f58      0x20  silicon_details.o [1]
+  .rodata            const    0x100b'9f78      0x20  silicon_details.o [1]
+  .rodata            const    0x100b'9f98      0x20  silicon_details.o [1]
+  .rodata            const    0x100b'9fb8      0x20  silicon_details.o [1]
+  .text              ro code  0x100b'9fd8      0x20  startup_cm7.o [50]
+  .text              ro code  0x100b'9ff8      0x1e  cmain.o [54]
+  .rodata            const    0x100b'a016       0x1  smif_hflash.o [1]
+  .rodata            const    0x100b'a017       0x1  tdm.o [1]
+  .text              ro code  0x100b'a018       0x4  startup_cm7.o [50]
+  .text              ro code  0x100b'a01c       0x4  exit.o [52]
+  .text              ro code  0x100b'a020       0xa  cexit.o [54]
+  .rodata            const    0x100b'a02a       0x1  tdm.o [1]
+  .rodata            const    0x100b'a02b       0x1  tdm.o [1]
+  .rodata            const    0x100b'a02c      0x1c  main_cm7_0.o [2]
+  .rodata            const    0x100b'a048      0x1c  main_cm7_0.o [2]
+  .rodata            const    0x100b'a064      0x1c  main_cm7_0.o [2]
+  .text              ro code  0x100b'a080      0x1c  startup_cm7.o [50]
+  .text              ro code  0x100b'a09c      0x1c  cstartup_M.o [54]
+  .rodata            const    0x100b'a0b8      0x18  cy_gfx_env.o [44]
+  .rodata            const    0x100b'a0d0      0x18  cy_smif_hb_flash.o [48]
+  .rodata            const    0x100b'a0e8      0x18  cy_smif_hb_flash.o [48]
+  .rodata            const    0x100b'a100      0x18  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a118      0x18  cy_smif_s25fs.o [48]
+  .rodata            const    0x100b'a130      0x18  main_cm7_0.o [2]
+  .rodata            const    0x100b'a148      0x18  main_cm7_0.o [2]
+  .rodata            const    0x100b'a160      0x18  silicon_details.o [1]
+  .rodata            const    0x100b'a178      0x18  silicon_details.o [1]
+  .rodata            const    0x100b'a190      0x18  silicon_details.o [1]
+  .rodata            const    0x100b'a1a8      0x18  silicon_details.o [1]
+  .rodata            const    0x100b'a1c0      0x18  silicon_details.o [1]
+  .rodata            const    0x100b'a1d8      0x18  silicon_details.o [1]
+  .rodata            const    0x100b'a1f0      0x18  silicon_details.o [1]
+  .rodata            const    0x100b'a208      0x18  silicon_details.o [1]
+  .rodata            const    0x100b'a220      0x18  silicon_details.o [1]
+  .rodata            const    0x100b'a238      0x18  silicon_details.o [1]
+  .rodata            const    0x100b'a250      0x18  startup.o [50]
+  .rodata            const    0x100b'a268      0x18  system_tviic2d4m_cm7.o [51]
+  .rodata            const    0x100b'a280      0x14  cy_flash.o [13]
+  .rodata            const    0x100b'a294      0x14  cy_smif_s25fs.o [48]
+  .rodata            const    0x100b'a2a8      0x14  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a2bc      0x14  silicon_details.o [1]
+  .rodata            const    0x100b'a2d0      0x14  silicon_details.o [1]
+  .rodata            const    0x100b'a2e4      0x14  silicon_details.o [1]
+  .rodata            const    0x100b'a2f8      0x14  silicon_details.o [1]
+  .rodata            const    0x100b'a30c      0x10  canfd.o [1]
+  .rodata            const    0x100b'a31c      0x10  cy_gfx_env.o [44]
+  .rodata            const    0x100b'a32c      0x10  cy_gfx_env.o [44]
+  .rodata            const    0x100b'a33c      0x10  cy_gfx_env.o [44]
+  .rodata            const    0x100b'a34c      0x10  cy_smif_s25fs.o [48]
+  .rodata            const    0x100b'a35c      0x10  cy_smif_s25fs.o [48]
+  .rodata            const    0x100b'a36c      0x10  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a37c      0x10  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a38c      0x10  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a39c      0x10  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a3ac      0x10  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a3bc      0x10  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a3cc      0x10  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a3dc      0x10  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a3ec      0x10  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a3fc      0x10  cy_smif_ver_specific.o [25]
+  .rodata            const    0x100b'a40c      0x10  main_cm7_0.o [2]
+  .rodata            const    0x100b'a41c      0x10  main_cm7_0.o [2]
+  .rodata            const    0x100b'a42c      0x10  main_cm7_0.o [2]
+  .rodata            const    0x100b'a43c      0x10  main_cm7_0.o [2]
+  .rodata            const    0x100b'a44c      0x10  smif_hflash.o [1]
+  .rodata            const    0x100b'a45c      0x10  smif_hflash.o [1]
+  .rodata            const    0x100b'a46c      0x10  smif_hflash.o [1]
+  .rodata            const    0x100b'a47c      0x10  smif_hram.o [1]
+  .rodata            const    0x100b'a48c      0x10  smif_hram.o [1]
+  .rodata            const    0x100b'a49c      0x10  smif_hram.o [1]
+  .rodata            const    0x100b'a4ac       0xc  cy_smif_hb_flash.o [48]
+  .rodata            const    0x100b'a4b8       0xc  cy_smif_hb_flash.o [48]
+  .rodata            const    0x100b'a4c4       0xc  cy_smif_hb_flash.o [48]
+  .rodata            const    0x100b'a4d0       0xc  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a4dc       0xc  cy_smif_s25fs.o [48]
+  .rodata            const    0x100b'a4e8       0xc  cy_smif_s25fs.o [48]
+  .rodata            const    0x100b'a4f4       0xc  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a500       0xc  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a50c       0xc  cy_sysrtc.o [34]
+  .rodata            const    0x100b'a518       0xc  GigEth_Test.o [1]
+  .rodata            const    0x100b'a524       0xc  GigEth_Test.o [1]
+  .rodata            const    0x100b'a530       0xc  smif_hflash.o [1]
+  .rodata            const    0x100b'a53c       0xc  smif_hram.o [1]
+  .text              ro code  0x100b'a548       0xc  cy_syslib.o [30]
+  .rodata            const    0x100b'a554       0x8  adc_pot.o [1]
+  .rodata            const    0x100b'a55c       0x8  adc_pot.o [1]
+  .rodata            const    0x100b'a564       0x8  adc_pot.o [1]
+  .rodata            const    0x100b'a56c       0x8  canfd.o [1]
+  .rodata            const    0x100b'a574       0x8  canfd.o [1]
+  .rodata            const    0x100b'a57c       0x8  canfd.o [1]
+  .rodata            const    0x100b'a584       0x8  cy_canfd.o [6]
+  .rodata            const    0x100b'a58c       0x8  cy_fpdlink.o [14]
+  .rodata            const    0x100b'a594       0x8  cy_smif_hb_flash.o [48]
+  .rodata            const    0x100b'a5a0       0x8  cy_smif_hb_flash.o [48]
+  .rodata            const    0x100b'a5a8       0x8  cy_smif_hb_flash.o [48]
+  .rodata            const    0x100b'a5b0       0x8  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a5b8       0x8  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a5c0       0x8  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a5c8       0x8  cy_smif_s25fs.o [48]
+  .rodata            const    0x100b'a5d0       0x8  cy_smif_s25fs.o [48]
+  .rodata            const    0x100b'a5d8       0x8  cy_smif_s25fs.o [48]
+  .rodata            const    0x100b'a5e0       0x8  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a5e8       0x8  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a5f0       0x8  cy_sysclk.o [27]
+  .rodata            const    0x100b'a5f8       0x8  GigEth_Test.o [1]
+  .rodata            const    0x100b'a600       0x8  GigEth_Test.o [1]
+  .rodata            const    0x100b'a608       0x8  GigEth_Test.o [1]
+  .rodata            const    0x100b'a610       0x8  GigEth_Test.o [1]
+  .rodata            const    0x100b'a618       0x8  GigEth_Test.o [1]
+  .rodata            const    0x100b'a620       0x8  lin.o [1]
+  .rodata            const    0x100b'a628       0x8  lin.o [1]
+  .rodata            const    0x100b'a630       0x8  main_cm7_0.o [2]
+  .rodata            const    0x100b'a638       0x8  workflash.o [1]
+  .rodata            const    0x100b'a640       0x4  cy_adc.o [3]
+  .rodata            const    0x100b'a644       0x4  cy_adc.o [3]
+  .rodata            const    0x100b'a648       0x4  cy_adc.o [3]
+  .rodata            const    0x100b'a64c       0x4  cy_adc.o [3]
+  .rodata            const    0x100b'a650       0x4  cy_adc.o [3]
+  .rodata            const    0x100b'a654       0x4  cy_adc.o [3]
+  .rodata            const    0x100b'a658       0x4  cy_adc.o [3]
+  .rodata            const    0x100b'a65c       0x4  cy_adc.o [3]
+  .rodata            const    0x100b'a660       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a664       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a668       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a66c       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a670       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a674       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a678       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a67c       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a680       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a684       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a688       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a68c       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a690       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a694       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a698       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a69c       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a6a0       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a6a4       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a6a8       0x4  cy_canfd.o [6]
+  .rodata            const    0x100b'a6ac       0x4  cy_ethif.o [11]
+  .rodata            const    0x100b'a6b0       0x4  cy_interrupt_map.o [39]
+  .rodata            const    0x100b'a6b4       0x4  cy_interrupt_map.o [39]
+  .rodata            const    0x100b'a6b8       0x4  cy_interrupt_map.o [39]
+  .rodata            const    0x100b'a6bc       0x4  cy_interrupt_map.o [39]
+  .rodata            const    0x100b'a6c0       0x4  cy_interrupt_map.o [39]
+  .rodata            const    0x100b'a6c4       0x4  cy_interrupt_map.o [39]
+  .rodata            const    0x100b'a6c8       0x4  cy_interrupt_map.o [39]
+  .rodata            const    0x100b'a6cc       0x4  cy_interrupt_map.o [39]
+  .rodata            const    0x100b'a6d0       0x4  cy_ipc_drv.o [16]
+  .rodata            const    0x100b'a6d4       0x4  cy_lin.o [17]
+  .rodata            const    0x100b'a6d8       0x4  cy_lin.o [17]
+  .rodata            const    0x100b'a6dc       0x4  cy_lin.o [17]
+  .rodata            const    0x100b'a6e0       0x4  cy_scb_i2c.o [23]
+  .rodata            const    0x100b'a6e4       0x4  cy_scb_i2c.o [23]
+  .rodata            const    0x100b'a6e8       0x4  cy_scb_i2c.o [23]
+  .rodata            const    0x100b'a6ec       0x4  cy_scb_i2c.o [23]
+  .rodata            const    0x100b'a6f0       0x4  cy_scb_i2c.o [23]
+  .rodata            const    0x100b'a6f4       0x4  cy_scb_uart.o [23]
+  .rodata            const    0x100b'a6f8       0x4  cy_scb_uart.o [23]
+  .rodata            const    0x100b'a6fc       0x4  cy_scb_uart.o [23]
+  .rodata            const    0x100b'a700       0x4  cy_scb_uart.o [23]
+  .rodata            const    0x100b'a704       0x4  cy_scb_uart.o [23]
+  .rodata            const    0x100b'a708       0x4  cy_scb_uart.o [23]
+  .rodata            const    0x100b'a70c       0x4  cy_scb_uart.o [23]
+  .rodata            const    0x100b'a710       0x4  cy_scb_uart.o [23]
+  .rodata            const    0x100b'a714       0x4  cy_scb_uart.o [23]
+  .rodata            const    0x100b'a718       0x4  cy_scb_uart.o [23]
+  .rodata            const    0x100b'a71c       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a720       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a724       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a728       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a72c       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a730       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a734       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a738       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a73c       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a740       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a744       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a748       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a74c       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a750       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a754       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a758       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a75c       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a760       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a764       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a768       0x4  cy_smif.o [25]
+  .rodata            const    0x100b'a76c       0x4  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a770       0x4  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a774       0x4  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a778       0x4  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a77c       0x4  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a780       0x4  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a784       0x4  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a788       0x4  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a78c       0x4  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a790       0x4  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a794       0x4  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a798       0x4  cy_smif_s25fl.o [48]
+  .rodata            const    0x100b'a79c       0x4  cy_smif_s25fs.o [48]
+  .rodata            const    0x100b'a7a0       0x4  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a7a4       0x4  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a7a8       0x4  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a7ac       0x4  cy_smif_semp.o [48]
+  .rodata            const    0x100b'a7b0       0x4  cy_sysint.o [29]
+  .rodata            const    0x100b'a7b4       0x4  cy_tcpwm_counter.o [37]
+  .rodata            const    0x100b'a7b8       0x4  cy_tcpwm_counter.o [37]
+  .rodata            const    0x100b'a7bc       0x4  cy_tcpwm_counter.o [37]
+  .rodata            const    0x100b'a7c0       0x4  cy_tcpwm_counter.o [37]
+  .rodata            const    0x100b'a7c4       0x4  cy_tcpwm_counter.o [37]
+  .rodata            const    0x100b'a7c8       0x4  cy_tdm.o [4]
+  .rodata            const    0x100b'a7cc       0x4  cy_tdm.o [4]
+  .rodata            const    0x100b'a7d0       0x4  cy_tdm.o [4]
+  .rodata            const    0x100b'a7d4       0x4  cy_tdm.o [4]
+  .rodata            const    0x100b'a7d8       0x4  GigEth_Test.o [1]
+  .text              ro code  0x100b'a7dc       0x4  startup_cm7.o [50]
+  .text              ro code  0x100b'a7e0       0x4  startup_cm7.o [50]
+  .text              ro code  0x100b'a7e4       0x4  startup_cm7.o [50]
+  .text              ro code  0x100b'a7e8       0x4  startup_cm7.o [50]
+  .text              ro code  0x100b'a7ec       0x4  startup_cm7.o [50]
+  .text              ro code  0x100b'a7f0       0x4  startup_cm7.o [50]
+  .text              ro code  0x100b'a7f4       0x4  startup_cm7.o [50]
+  .text              ro code  0x100b'a7f8       0x4  startup_cm7.o [50]
+  .text              ro code  0x100b'a7fc       0x4  startup_cm7.o [50]
+  .text              ro code  0x100b'a800       0x4  startup_cm7.o [50]
+  .text              ro code  0x100b'a804       0x4  startup_cm7.o [50]
+  .text              ro code  0x100b'a808       0x4  startup_cm7.o [50]
+  .text              ro code  0x100b'a80c       0x4  startup_cm7.o [50]
+  .text              ro code  0x100b'a810       0x4  startup_cm7.o [50]
+  .text              ro code  0x100b'a814       0x4  startup_cm7.o [50]
+  .rodata            const    0x100b'a818       0x1  tdm.o [1]
+  .rodata            const    0x100b'a819       0x1  tdm.o [1]
+  .rodata            const    0x100b'a81a       0x1  tdm.o [1]
+  .rodata            const    0x100b'a81b       0x1  tdm.o [1]
+  .rodata            const    0x100b'a81c       0x1  tdm.o [1]
+  .rodata            const    0x100b'a81d       0x0  zero_init3.o [54]
+  .rodata            const    0x100b'a81d       0x0  lz77_init_single.o [54]
+  Initializer bytes  const    0x100b'a81d     0x64a  <for P2-1>
+                            - 0x100b'ae67  0x3'ade7
+
+"P2", part 1 of 3:                           0x195f
+  P2-1                        0x2802'0000    0x195f  <Init block>
+    .data            inited   0x2802'0000      0x50  canfd.o [1]
+    .data            inited   0x2802'0050      0x50  canfd.o [1]
+    .data            inited   0x2802'00a0      0x60  cy_canfd.o [6]
+    .data            inited   0x2802'0100       0x8  cy_cs42448.o [40]
+    .data            inited   0x2802'0108       0xc  cy_cs42448.o [40]
+    .data            inited   0x2802'0114      0x48  cy_ethif.o [11]
+    .data            inited   0x2802'015c       0x4  cy_fpdlink.o [14]
+    .data            inited   0x2802'0160       0x4  cy_fpdlink.o [14]
+    .data            inited   0x2802'0164      0x14  cy_gfx_env.o [44]
+    .data            inited   0x2802'0178      0x14  cy_gfx_env.o [44]
+    .data            inited   0x2802'018c       0x4  cy_gfx_env.o [44]
+    .data            inited   0x2802'0190      0x18  cy_gfx_env.o [44]
+    .data            inited   0x2802'01a8     0xc78  cy_interrupt_map.o [39]
+    .data            inited   0x2802'0e20       0x4  cy_interrupt_map.o [39]
+    .data            inited   0x2802'0e24      0x24  cy_smif_s25fl.o [48]
+    .data            inited   0x2802'0e48       0x4  cy_smif_s25fl.o [48]
+    .data            inited   0x2802'0e4c       0x4  cy_smif_s25fs.o [48]
+    .data            inited   0x2802'0e50       0x4  cy_smif_s25fs.o [48]
+    .data            inited   0x2802'0e54       0x8  cy_smif_semp.o [48]
+    .data            inited   0x2802'0e5c       0x4  cy_smif_semp.o [48]
+    .data            inited   0x2802'0e60      0x18  cy_smif_semp.o [48]
+    .data            inited   0x2802'0e78     0x348  edd.o [11]
+    .data            inited   0x2802'11c0       0xc  fpd_display.o [1]
+    .data            inited   0x2802'11cc      0x10  fpd_display.o [1]
+    .data            inited   0x2802'11dc      0x18  lin.o [1]
+    .data            inited   0x2802'11f4       0x8  lin.o [1]
+    .data            inited   0x2802'11fc      0x4c  main_cm7_0.o [2]
+    .data            inited   0x2802'1248      0x50  main_cm7_0.o [2]
+    .data            inited   0x2802'1298       0x8  main_cm7_0.o [2]
+    .data            inited   0x2802'12a0     0x168  main_cm7_0.o [2]
+    .data            inited   0x2802'1408      0x14  smif_hflash.o [1]
+    .data            inited   0x2802'141c      0x90  smif_hflash.o [1]
+    .data            inited   0x2802'14ac      0x90  smif_hflash.o [1]
+    .data            inited   0x2802'153c      0x10  smif_hflash.o [1]
+    .data            inited   0x2802'154c      0x14  smif_hram.o [1]
+    .data            inited   0x2802'1560      0x9c  smif_hram.o [1]
+    .data            inited   0x2802'15fc      0x90  smif_hram.o [1]
+    .data            inited   0x2802'168c      0x60  tdm.o [1]
+    .data            inited   0x2802'16ec     0x1e0  tdm.o [1]
+    .data            inited   0x2802'18cc      0x2c  tdm.o [1]
+    .data            inited   0x2802'18f8       0x8  tdm.o [1]
+    .data            inited   0x2802'1900       0x8  tdm.o [1]
+    .data            inited   0x2802'1908      0x34  user_button.o [1]
+    .data            inited   0x2802'193c       0x8  user_button.o [1]
+    .data            inited   0x2802'1944       0x4  workflash.o [1]
+    .data            inited   0x2802'1948       0x4  workflash.o [1]
+    .data            inited   0x2802'194c      0x10  workflash.o [1]
+    .data            inited   0x2802'195c       0x2  GigEth_Test.o [1]
+    .data            inited   0x2802'195e       0x1  main_cm7_0.o [2]
+                            - 0x2802'195f    0x195f
+
+"P2", part 2 of 3:                         0x3'4ed8
+  .bss               zero     0x2802'1960  0x1'0000  smif_hflash.o [1]
+  .bss               zero     0x2803'1960  0x1'0000  smif_hram.o [1]
+  .bss               zero     0x2804'1960    0xd800  cy_ethif.o [11]
+  .bss               zero     0x2804'f160    0x6000  cy_ethif.o [11]
+  .bss               zero     0x2805'5160     0x708  cy_ethif.o [11]
+  .bss               zero     0x2805'5868     0x270  cy_ethif.o [11]
+  .bss               zero     0x2805'5ad8     0x200  cy_smif.o [25]
+  .bss               zero     0x2805'5cd8     0x1b0  cy_ethif.o [11]
+  .bss               zero     0x2805'5e88     0x140  cy_ethif.o [11]
+  .bss               zero     0x2805'5fc8     0x100  cy_smif_hb_flash.o [48]
+  .bss               zero     0x2805'60c8      0xc0  cy_ethif.o [11]
+  .bss               zero     0x2805'6188      0xc0  cy_gfx_env.o [44]
+  .bss               zero     0x2805'6248      0xa0  cy_ethif.o [11]
+  .bss               zero     0x2805'62e8      0x98  cy_ethif.o [11]
+  .bss               zero     0x2805'6380      0x80  main_cm7_0.o [2]
+  .bss               zero     0x2805'6400      0x80  main_cm7_0.o [2]
+  .bss               zero     0x2805'6480      0x70  cy_syslib.o [30]
+  .bss               zero     0x2805'64f0      0x6c  cy_button.o [41]
+  .bss               zero     0x2805'655c      0x50  cy_sw_tmr.o [49]
+  .bss               zero     0x2805'65ac      0x4c  cy_cs42448.o [40]
+  .bss               zero     0x2805'65f8      0x38  main_cm7_0.o [2]
+  .bss               zero     0x2805'6630      0x34  cy_cs42448.o [40]
+  .bss               zero     0x2805'6664      0x28  smif_hflash.o [1]
+  .bss               zero     0x2805'668c      0x28  smif_hram.o [1]
+  .bss               zero     0x2805'66b4      0x24  wco.o [1]
+  .bss               zero     0x2805'66d8      0x18  cy_gfx_env.o [44]
+  .bss               zero     0x2805'66f0      0x18  cy_sysclk.o [27]
+  .bss               zero     0x2805'6708      0x18  cy_syslib.o [30]
+  .bss               zero     0x2805'6720      0x14  cy_ethif.o [11]
+  .bss               zero     0x2805'6734      0x14  cy_systick.o [35]
+  .bss               zero     0x2805'6748      0x10  cy_cs42448.o [40]
+  .bss               zero     0x2805'6758      0x10  cy_ethif.o [11]
+  .bss               zero     0x2805'6780      0x10  cy_srom.o [26]
+  .bss               zero     0x2805'6790      0x10  workflash.o [1]
+  .bss               zero     0x2805'67a0       0xc  user_button.o [1]
+  .bss               zero     0x2805'67ac       0x8  cy_canfd.o [6]
+  .bss               zero     0x2805'67b4       0x8  cy_ethif.o [11]
+  .bss               zero     0x2805'67bc       0x8  cy_ethif.o [11]
+  .bss               zero     0x2805'67c4       0x4  adc_pot.o [1]
+  .bss               zero     0x2805'67c8       0x8  cy_sw_tmr.o [49]
+  .bss               zero     0x2805'67d0       0x8  GigEth_Test.o [1]
+  .bss               zero     0x2805'67d8       0x4  cy_button.o [41]
+  .bss               zero     0x2805'67dc       0x4  cy_ethif.o [11]
+  .bss               zero     0x2805'67e0       0x4  cy_ethif.o [11]
+  .bss               zero     0x2805'67e4       0x4  cy_ethif.o [11]
+  .bss               zero     0x2805'67e8       0x4  cy_ethif.o [11]
+  .bss               zero     0x2805'67ec       0x4  cy_gfx_env.o [44]
+  .bss               zero     0x2805'67f0       0x4  cy_semihosting.o [47]
+  .bss               zero     0x2805'67f4       0x4  cy_semihosting.o [47]
+  .bss               zero     0x2805'67f8       0x4  cy_srom.o [26]
+  .bss               zero     0x2805'67fc       0x4  cy_syslib.o [30]
+  .bss               zero     0x2805'6800       0x4  system_tviic2d4m_cm7.o [51]
+  .bss               zero     0x2805'6804       0x4  system_tviic2d4m_cm7.o [51]
+  .bss               zero     0x2805'6808       0x4  system_tviic2d4m_cm7.o [51]
+  .bss               zero     0x2805'680c       0x4  system_tviic2d4m_cm7.o [51]
+  .bss               zero     0x2805'6810       0x4  system_tviic2d4m_cm7.o [51]
+  .bss               zero     0x2805'6814       0x4  tdm.o [1]
+  .bss               zero     0x2805'6818       0x4  xfail_s.o [52]
+  .bss               zero     0x2805'681c       0x2  adc_pot.o [1]
+  .bss               zero     0x2805'681e       0x2  GigEth_Test.o [1]
+  .bss               zero     0x2805'6820       0x1  adc_pot.o [1]
+  .bss               zero     0x2805'6821       0x1  adc_pot.o [1]
+  .bss               zero     0x2805'6822       0x1  canfd.o [1]
+  .bss               zero     0x2805'6823       0x1  canfd.o [1]
+  .bss               zero     0x2805'6824       0x1  cy_button.o [41]
+  .bss               zero     0x2805'6825       0x1  cy_sw_tmr.o [49]
+  .bss               zero     0x2805'6826       0x1  cy_sysclk.o [27]
+  .bss               zero     0x2805'6827       0x1  cy_systick.o [35]
+  .bss               zero     0x2805'6828       0x1  GigEth_Test.o [1]
+  .bss               zero     0x2805'6829       0x1  GigEth_Test.o [1]
+  .bss               zero     0x2805'682a       0x1  GigEth_Test.o [1]
+  .bss               zero     0x2805'682b       0x1  lin.o [1]
+  .bss               zero     0x2805'682c       0x1  lin.o [1]
+  .bss               zero     0x2805'682d       0x1  lin.o [1]
+  .bss               zero     0x2805'682e       0x1  main_cm7_0.o [2]
+  .bss               zero     0x2805'682f       0x1  main_cm7_0.o [2]
+  .bss               zero     0x2805'6830       0x1  main_cm7_0.o [2]
+  .bss               zero     0x2805'6831       0x1  main_cm7_0.o [2]
+  .bss               zero     0x2805'6832       0x1  main_cm7_0.o [2]
+  .bss               zero     0x2805'6833       0x1  main_cm7_0.o [2]
+  .bss               zero     0x2805'6834       0x1  main_cm7_0.o [2]
+  .bss               zero     0x2805'6835       0x1  main_cm7_0.o [2]
+  .bss               zero     0x2805'6836       0x1  main_cm7_0.o [2]
+  .bss               zero     0x2805'6837       0x1  wco.o [1]
+                            - 0x2805'6838  0x3'4ed8
+
+"P2", part 3 of 3:                             0x80
+  .intvec_ram        uninit   0x2805'6880      0x80  startup_cm7.o [50]
+                            - 0x2805'6900      0x80
+
+"A1":                                        0x2000
+  HEAP_STACK                  0x2805'e000    0x2000  <Block>
+    CSTACK                    0x2805'e000    0x2000  <Block>
+      CSTACK         uninit   0x2805'e000    0x2000  <Block tail>
+                            - 0x2806'0000    0x2000
+
+Unused ranges:
+
+         From           To       Size
+         ----           --       ----
+  0x100b'ae67  0x1040'ffff  0x35'5199
+  0x2802'195f  0x2802'195f        0x1
+  0x2805'6838  0x2805'687f       0x48
+  0x2805'6900  0x2805'dfff     0x7700
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x3'4ed8:
+          0x2802'1960  0x3'4ed8
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x64a (24% of destination):
+          0x100b'a81d     0x64a
+    1 destination range, total size 0x195f:
+          0x2802'0000    0x195f
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                   ro code  ro data  rw data
+    ------                   -------  -------  -------
+command line/config:
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\mtp: [1]
+    GigEth_Test.o              1'128      918       15
+    adc_pot.o                    940      120        8
+    canfd.o                    1'116      319      162
+    fpd_display.o                 44        7       28
+    lin.o                      1'208      144       35
+    silicon_details.o            808      684
+    smif_hflash.o              2'800   65'843   65'900
+    smif_hram.o                1'748   65'833   65'896
+    tdm.o                      1'068      226      640
+    user_button.o                400       15       72
+    user_led.o                   168
+    wco.o                        336       88       85
+    workflash.o                  176       14       40
+    --------------------------------------------------
+    Total:                    11'940  134'211  132'881
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src: [2]
+    main_cm7_0.o               3'688      767      846
+    --------------------------------------------------
+    Total:                     3'688      767      846
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\adc: [3]
+    cy_adc.o                     932       32
+    --------------------------------------------------
+    Total:                       932       32
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\audioss: [4]
+    cy_tdm.o                     616       16
+    --------------------------------------------------
+    Total:                       616       16
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\axidma: [5]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\canfd: [6]
+    cy_canfd.o                 3'392      108      104
+    --------------------------------------------------
+    Total:                     3'392      108      104
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\cpu: [7]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\crypto: [8]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\cxpi: [9]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\dma: [10]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\ethernet: [11]
+    cy_ethif.o                 4'776      102   83'692
+    edd.o                     16'668      208      840
+    edd_rx.o                  13'136
+    edd_tx.o                   3'766
+    --------------------------------------------------
+    Total:                    38'346      310   84'532
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\evtgen: [12]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\flash: [13]
+    cy_flash.o                   952       20
+    --------------------------------------------------
+    Total:                       952       20
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\fpdlink: [14]
+    cy_fpdlink.o                 312       10        8
+    --------------------------------------------------
+    Total:                       312       10        8
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\gpio: [15]
+    cy_gpio.o                    480
+    --------------------------------------------------
+    Total:                       480
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\ipc: [16]
+    cy_ipc_drv.o                  96        4
+    --------------------------------------------------
+    Total:                        96        4
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\lin: [17]
+    cy_lin.o                     804       12
+    --------------------------------------------------
+    Total:                       804       12
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\lvd: [18]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\mcwdt: [19]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\mipicsi2: [20]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\mpu: [21]
+    cy_mpu.o                     556
+    --------------------------------------------------
+    Total:                       556
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\prot: [22]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\scb: [23]
+    cy_scb_common.o              376
+    cy_scb_i2c.o               3'782       20
+    cy_scb_uart.o                788       40
+    --------------------------------------------------
+    Total:                     4'946       60
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\smartio: [24]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\smif: [25]
+    cy_smif.o                  3'944      236      512
+    cy_smif_ver_specific.o       972       16
+    --------------------------------------------------
+    Total:                     4'916      252      512
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\srom: [26]
+    cy_srom.o                    388                20
+    --------------------------------------------------
+    Total:                       388                20
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\sysclk: [27]
+    cy_sysclk.o                4'140      352       25
+    --------------------------------------------------
+    Total:                     4'140      352       25
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\sysflt: [28]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\sysint: [29]
+    cy_sysint.o                  108        4
+    --------------------------------------------------
+    Total:                       108        4
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\syslib: [30]
+    cy_syslib.o                  330               140
+    cy_syslib_iar.o               30
+    --------------------------------------------------
+    Total:                       360               140
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\syspm: [31]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\syspmic: [32]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\sysreset: [33]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\sysrtc: [34]
+    cy_sysrtc.o                1'672       12
+    --------------------------------------------------
+    Total:                     1'672       12
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\systick: [35]
+    cy_systick.o                 580       76       21
+    --------------------------------------------------
+    Total:                       580       76       21
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\syswdt: [36]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\tcpwm: [37]
+    cy_tcpwm.o                    22
+    cy_tcpwm_counter.o           416       20
+    --------------------------------------------------
+    Total:                       438       20
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\trigmux: [38]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\interrupts\rev_a: [39]
+    cy_interrupt_map.o           408      824    3'196
+    --------------------------------------------------
+    Total:                       408      824    3'196
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\audio: [40]
+    cy_cs42448.o                 976        5      164
+    --------------------------------------------------
+    Total:                       976        5      164
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\button: [41]
+    cy_button.o                  340               113
+    --------------------------------------------------
+    Total:                       340               113
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\eth_phy: [42]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\flash: [43]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\gfx_env: [44]
+    cy_gfx_env.o               4'132    1'351      288
+    --------------------------------------------------
+    Total:                     4'132    1'351      288
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\mipi_sensor: [45]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\power: [46]
+    --------------------------------------------------
+    Total:
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\semihosting: [47]
+    cy_semihosting.o             704       76        8
+    --------------------------------------------------
+    Total:                       704       76        8
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\smif_mem: [48]
+    cy_smif_device_common.o    1'064
+    cy_smif_hb_flash.o         2'798      252      256
+    cy_smif_s25fl.o                       491       40
+    cy_smif_s25fs.o                       379        8
+    cy_smif_semp.o               504      687       36
+    --------------------------------------------------
+    Total:                     4'366    1'809      340
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\sw_timer: [49]
+    cy_sw_tmr.o                  376                89
+    --------------------------------------------------
+    Total:                       376                89
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\startup: [50]
+    startup.o                    516       24
+    startup_cm7.o                442               128
+    --------------------------------------------------
+    Total:                       958       24      128
+
+C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\system\rev_a: [51]
+    system_tviic2d4m_cm7.o       336      112       20
+    --------------------------------------------------
+    Total:                       336      112       20
+
+dl7M_tln.a: [52]
+    abort.o                        6
+    abs.o                          8
+    exit.o                         4
+    iar_Stolx.o                  150
+    iar_Stoulx.o                 330       80
+    sscanf.o                      40
+    vsprintf.o                    52
+    xfail_s.o                     64                 4
+    xprintffull_nomb.o         3'758
+    xscanfsmall_nomb.o         1'604       36
+    xsprout.o                     10
+    xsscin.o                      30
+    --------------------------------------------------
+    Total:                     6'056      116        4
+
+m7M_tlv.a: [53]
+    DblCmpGe.o                    52
+    DblCmpLe.o                    52
+    DblDiv.o                      18
+    DblMul.o                      18
+    DblSub.o                      18
+    DblToS32.o                    14
+    DblToU32.o                    14
+    S32ToDbl.o                    14
+    U32ToDbl.o                    14
+    fpinit_M.o                    34
+    frexp.o                      112
+    ldexp.o                      260
+    --------------------------------------------------
+    Total:                       620
+
+rt7M_tl.a: [54]
+    ABImemclr4.o                   6
+    ABImemcpy.o                  166
+    ABImemset.o                  102
+    ABImemset48.o                 50
+    I64DivMod.o                  560
+    I64DivZer.o                    2
+    I64Shl.o                      34
+    U64Shr.o                      30
+    cexit.o                       10
+    cmain.o                       30
+    cstartup_M.o                  28
+    data_init.o                   40
+    lz77_init_single.o           126
+    memchr.o                      88
+    memcmp.o                     104
+    strchr.o                      22
+    strlen.o                      54
+    strncpy.o                    112
+    zero_init3.o                  56
+    --------------------------------------------------
+    Total:                     1'620
+
+shb_l.a: [55]
+    exit.o                        20
+    --------------------------------------------------
+    Total:                        20
+
+    Gaps                          10        8       24
+    Linker created                         32    8'192
+------------------------------------------------------
+    Grand Total:             100'584  140'623  231'655
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address      Size  Type      Object
+-----                       -------      ----  ----      ------
+.iar.init_table$$Base   0x100b'9e54             --   Gb  - Linker created -
+.iar.init_table$$Limit  0x100b'9e74             --   Gb  - Linker created -
+?main                   0x100b'9ff9            Code  Gb  cmain.o [54]
+AdcIntHandler           0x100b'297f      0x52  Code  Gb  adc_pot.o [1]
+AudioSSInterruptHandlerRx
+                        0x100b'79e3      0x46  Code  Gb  tdm.o [1]
+AudioSSInterruptHandlerTx
+                        0x100b'79c9      0x1a  Code  Gb  tdm.o [1]
+BusFault_Handler        0x100b'a7e5            Code  Wk  startup_cm7.o [50]
+ButtonInterruptHandler1
+                        0x100b'267d      0x1a  Code  Gb  user_button.o [1]
+ButtonInterruptHandler2
+                        0x100b'2697      0x1a  Code  Gb  user_button.o [1]
+ButtonInterruptHandler3
+                        0x100b'26b1      0x1a  Code  Gb  user_button.o [1]
+CAN_Chanel0_Receive     0x2805'6822       0x1  Data  Gb  canfd.o [1]
+CAN_Chanel1_Receive     0x2805'6823       0x1  Data  Gb  canfd.o [1]
+CAN_RxMsgCallback_Ch0   0x100b'40cb      0x26  Code  Lc  canfd.o [1]
+CAN_RxMsgCallback_Ch1   0x100b'40f1      0x36  Code  Lc  canfd.o [1]
+CEDI_GetInstance        0x100a'4195       0x4  Code  Gb  edd.o [11]
+CPS_UncachedRead32      0x100a'0081      0x10  Code  Gb  edd.o [11]
+CPS_UncachedWrite32     0x100a'0091       0xc  Code  Gb  edd.o [11]
+CSTACK$$Base            0x2805'e000             --   Gb  - Linker created -
+CSTACK$$Limit           0x2806'0000             --   Gb  - Linker created -
+CY_SMIF_GetDelayTapsNumber
+                        0x100a'ca73      0x60  Code  Gb  cy_smif.o [25]
+CY_SMIF_GetDeviceNumber
+                        0x100a'ca13      0x60  Code  Gb  cy_smif.o [25]
+CY_SMIF_GetXIP_Address  0x100a'cb37      0x64  Code  Gb  cy_smif.o [25]
+CY_SMIF_GetXIP_Mask     0x100a'cad3      0x64  Code  Gb  cy_smif.o [25]
+CY_SMIF_HbFlash_LoadVolatileConfigReg
+                        0x100a'e51f      0x26  Code  Gb  cy_smif_hb_flash.o [48]
+CY_SMIF_HbFlash_LoadVolatileConfigReg2
+                        0x100a'e545      0x26  Code  Gb  cy_smif_hb_flash.o [48]
+CY_SMIF_HbFlash_Poll    0x100a'e459      0x2e  Code  Gb  cy_smif_hb_flash.o [48]
+CY_SMIF_HbFlash_ProgramBufferToFlashCmd
+                        0x100a'e441       0xc  Code  Gb  cy_smif_hb_flash.o [48]
+CY_SMIF_HbFlash_ReadVolatileConfigReg
+                        0x100a'e56b      0x24  Code  Gb  cy_smif_hb_flash.o [48]
+CY_SMIF_HbFlash_ReadVolatileConfigReg2
+                        0x100a'e58f      0x24  Code  Gb  cy_smif_hb_flash.o [48]
+CY_SMIF_HbFlash_SectorEraseCmd
+                        0x100a'e3e3      0x3e  Code  Gb  cy_smif_hb_flash.o [48]
+CY_SMIF_HbFlash_SectorEraseOp
+                        0x100a'e4f5      0x2a  Code  Gb  cy_smif_hb_flash.o [48]
+CY_SMIF_HbFlash_StatusRegReadCmd
+                        0x100a'e44d       0xc  Code  Gb  cy_smif_hb_flash.o [48]
+CY_SMIF_HbFlash_WriteBufferProgramOp
+                        0x100a'e487      0x6e  Code  Gb  cy_smif_hb_flash.o [48]
+CY_SMIF_HbFlash_WriteToBufferCmd
+                        0x100a'e421      0x20  Code  Gb  cy_smif_hb_flash.o [48]
+CY_SMIF_ReadHYPERRAM_REG
+                        0x100a'e335      0x48  Code  Gb  cy_smif_hb_flash.o [48]
+CY_SMIF_WriteHYPERRAM_REG
+                        0x100a'e37d      0x66  Code  Gb  cy_smif_hb_flash.o [48]
+CalcTSUIncValue         0x100b'77ff      0x54  Code  Lc  GigEth_Test.o [1]
+CalibrateDelayLineSelect
+                        0x100b'3bfd      0xce  Code  Gb  smif_hram.o [1]
+CalibrateDelayLineSelect1
+                        0x100b'32cd      0xce  Code  Gb  smif_hflash.o [1]
+CalibrateDelayLineSelect1::minDelayPerTapInNs
+                        0x100b'a46c      0x10  Data  Lc  smif_hflash.o [1]
+CalibrateDelayLineSelect::minDelayPerTapInNs
+                        0x100b'a49c      0x10  Data  Lc  smif_hram.o [1]
+CallbackFromSysTick     0x100a'bd39      0xd4  Code  Lc  cy_sw_tmr.o [49]
+CanfdInterruptHandler_Ch0
+                        0x100b'4129       0xa  Code  Lc  canfd.o [1]
+CanfdInterruptHandler_Ch1
+                        0x100b'4135       0xa  Code  Lc  canfd.o [1]
+ChangePLLFrequency      0x100b'2bc9      0xd4  Code  Lc  smif_hflash.o [1]
+ChangePLLFrequency      0x100b'36b9      0xd4  Code  Lc  smif_hram.o [1]
+ChangeSmifExtClock      0x100a'b475      0xee  Code  Lc  cy_gfx_env.o [44]
+Check_DP83848Q_Q1_LinkStatus
+                        0x100b'77dd      0x22  Code  Lc  GigEth_Test.o [1]
+ConfigureHyperFlash     0x100a'bb51      0xa2  Code  Lc  cy_gfx_env.o [44]
+ConfigureHyperRam       0x100a'bbf5      0xac  Code  Lc  cy_gfx_env.o [44]
+CopyVectorTable         0x100b'8b35      0x34  Code  Lc  startup.o [50]
+CpuUserInt0_Handler     0x100b'8bb5      0x26  Code  Gb  cy_interrupt_map.o [39]
+CpuUserInt10_Handler    0x100b'a801            Code  Wk  startup_cm7.o [50]
+CpuUserInt11_Handler    0x100b'a805            Code  Wk  startup_cm7.o [50]
+CpuUserInt12_Handler    0x100b'a809            Code  Wk  startup_cm7.o [50]
+CpuUserInt13_Handler    0x100b'a80d            Code  Wk  startup_cm7.o [50]
+CpuUserInt14_Handler    0x100b'a811            Code  Wk  startup_cm7.o [50]
+CpuUserInt15_Handler    0x100b'a815            Code  Wk  startup_cm7.o [50]
+CpuUserInt1_Handler     0x100b'8bdb      0x26  Code  Gb  cy_interrupt_map.o [39]
+CpuUserInt2_Handler     0x100b'8c01      0x26  Code  Gb  cy_interrupt_map.o [39]
+CpuUserInt3_Handler     0x100b'8c27      0x26  Code  Gb  cy_interrupt_map.o [39]
+CpuUserInt4_Handler     0x100b'8c4d      0x26  Code  Gb  cy_interrupt_map.o [39]
+CpuUserInt5_Handler     0x100b'8c73      0x26  Code  Gb  cy_interrupt_map.o [39]
+CpuUserInt6_Handler     0x100b'8c99      0x26  Code  Gb  cy_interrupt_map.o [39]
+CpuUserInt7_Handler     0x100b'8cbf      0x26  Code  Gb  cy_interrupt_map.o [39]
+CpuUserInt8_Handler     0x100b'a7f9            Code  Wk  startup_cm7.o [50]
+CpuUserInt9_Handler     0x100b'a7fd            Code  Wk  startup_cm7.o [50]
+Cy_Adc_Channel_ClearInterruptStatus
+                        0x100b'5f43      0x7c  Code  Gb  cy_adc.o [3]
+Cy_Adc_Channel_Disable  0x100b'5e75       0xc  Code  Gb  cy_adc.o [3]
+Cy_Adc_Channel_Enable   0x100b'5e69       0xc  Code  Gb  cy_adc.o [3]
+Cy_Adc_Channel_GetInterruptMaskedStatus
+                        0x100b'5fbf      0x48  Code  Gb  cy_adc.o [3]
+Cy_Adc_Channel_GetResult
+                        0x100b'5e8d      0x3a  Code  Gb  cy_adc.o [3]
+Cy_Adc_Channel_Init     0x100b'5d15     0x154  Code  Gb  cy_adc.o [3]
+Cy_Adc_Channel_SetInterruptMask
+                        0x100b'5ec7      0x7c  Code  Gb  cy_adc.o [3]
+Cy_Adc_Channel_SoftwareTrigger
+                        0x100b'5e81       0xc  Code  Gb  cy_adc.o [3]
+Cy_Adc_Init             0x100b'5c89      0x8c  Code  Gb  cy_adc.o [3]
+Cy_AudioTDM_ClearRxInterrupt
+                        0x100b'7925       0xa  Code  Lc  tdm.o [1]
+Cy_AudioTDM_ClearTxInterrupt
+                        0x100b'7909       0xa  Code  Lc  tdm.o [1]
+Cy_AudioTDM_DeInit      0x100b'82db      0x14  Code  Gb  cy_tdm.o [4]
+Cy_AudioTDM_GetRxInterrupt
+                        0x100b'792f       0x6  Code  Lc  tdm.o [1]
+Cy_AudioTDM_GetRxInterruptStatusMasked
+                        0x100b'7935       0x6  Code  Lc  tdm.o [1]
+Cy_AudioTDM_GetTxInterruptStatusMasked
+                        0x100b'7913       0x6  Code  Lc  tdm.o [1]
+Cy_AudioTDM_Init        0x100b'80cd      0x34  Code  Gb  cy_tdm.o [4]
+Cy_AudioTDM_RX_DeInit   0x100b'8307      0x18  Code  Gb  cy_tdm.o [4]
+Cy_AudioTDM_RX_Init     0x100b'81f1      0xea  Code  Gb  cy_tdm.o [4]
+Cy_AudioTDM_ReadRxData  0x100b'7903       0x6  Code  Lc  tdm.o [1]
+Cy_AudioTDM_SetTxTriggerInterruptMask
+                        0x100b'7919       0xc  Code  Lc  tdm.o [1]
+Cy_AudioTDM_StartTx     0x100b'78f7       0xc  Code  Lc  tdm.o [1]
+Cy_AudioTDM_StopTx      0x100b'1525       0xc  Code  Lc  main_cm7_0.o [2]
+Cy_AudioTDM_TX_DeInit   0x100b'82ef      0x18  Code  Gb  cy_tdm.o [4]
+Cy_AudioTDM_TX_Init     0x100b'8101      0xf0  Code  Gb  cy_tdm.o [4]
+Cy_AudioTDM_WriteTxData
+                        0x100b'78ef       0x8  Code  Lc  tdm.o [1]
+Cy_Button_Init          0x100a'c0e3      0xd6  Code  Gb  cy_button.o [41]
+Cy_CANFD_CalcRxBufAdrs  0x100b'60bb      0x3a  Code  Lc  cy_canfd.o [6]
+Cy_CANFD_CalcRxFifoAdrs
+                        0x100b'612f      0x5e  Code  Lc  cy_canfd.o [6]
+Cy_CANFD_CalcTxBufAdrs  0x100b'60f5      0x3a  Code  Lc  cy_canfd.o [6]
+Cy_CANFD_CalculateChannelIdx
+                        0x100b'618d      0x1a  Code  Lc  cy_canfd.o [6]
+Cy_CANFD_DeInit         0x100b'6ad1      0xe8  Code  Gb  cy_canfd.o [6]
+Cy_CANFD_ErrorHandling  0x100b'61a7      0xa2  Code  Lc  cy_canfd.o [6]
+Cy_CANFD_ExtractMsgFromRXBuffer
+                        0x100b'6249      0x8a  Code  Gb  cy_canfd.o [6]
+Cy_CANFD_GetContext     0x100b'608f      0x2c  Code  Lc  cy_canfd.o [6]
+Cy_CANFD_GetMsgramOffset
+                        0x100b'602d      0x62  Code  Lc  cy_canfd.o [6]
+Cy_CANFD_Init           0x100b'6529     0x5a8  Code  Gb  cy_canfd.o [6]
+Cy_CANFD_IrqHandler     0x100b'62d3     0x256  Code  Gb  cy_canfd.o [6]
+Cy_CANFD_UpdateAndTransmitMsgBuffer
+                        0x100b'6bc5     0x13c  Code  Gb  cy_canfd.o [6]
+Cy_Cs42448_DefaultConfig
+                        0x100b'7a29     0x21a  Code  Gb  tdm.o [1]
+Cy_Cs42448_Init         0x100b'7f55      0xa2  Code  Gb  cy_cs42448.o [40]
+Cy_Cs42448_ReadCtrReg   0x100b'8029      0x64  Code  Gb  cy_cs42448.o [40]
+Cy_Cs42448_Scb_I2C_IntrISR
+                        0x100b'7ee5       0xc  Code  Lc  cy_cs42448.o [40]
+Cy_Cs42448_Scb_I2C_MasterEvent
+                        0x100b'7f31      0x24  Code  Lc  cy_cs42448.o [40]
+Cy_Cs42448_SetPeripheFracDiv24_5
+                        0x100b'7ef1      0x40  Code  Lc  cy_cs42448.o [40]
+Cy_Cs42448_WriteCtrReg  0x100b'7ff7      0x32  Code  Gb  cy_cs42448.o [40]
+Cy_EthIf00_DecodeEvent  0x100a'9077      0x10  Code  Gb  cy_ethif.o [11]
+Cy_EthIf_AssignMemory   0x100a'8fbf      0xb8  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_Callbacks      0x2802'0114      0x48  Data  Gb  cy_ethif.o [11]
+Cy_EthIf_DisableQueues  0x100a'893d      0xf6  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EnableInterrupts
+                        0x100a'8acb     0x172  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EventAn        0x100a'93f9       0x2  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EventExternalInt
+                        0x100a'94ad       0x2  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EventLinkChange
+                        0x100a'93fb       0x2  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EventLpPageRx  0x100a'93f7       0x2  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EventLpi       0x100a'94b1       0x2  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EventPauseFrame
+                        0x100a'94a9       0x2  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EventPhyManComplete
+                        0x100a'93f3       0x2  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EventPtp       0x100a'94ab       0x2  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EventRxError   0x100a'93f1       0x2  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EventRxFrame   0x100a'9249     0x1a4  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EventTsu       0x100a'93fd      0xa8  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EventTx        0x100a'9097      0xc6  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EventTxError   0x100a'9161      0xd2  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EventWol       0x100a'94af       0x2  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_EventhrespError
+                        0x100a'93f5       0x2  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_FreeOneReleasedRxBuffer
+                        0x100a'9621      0x3c  Code  Gb  cy_ethif.o [11]
+Cy_EthIf_FreeOneReleasedTxBuffer
+                        0x100a'95e5      0x3c  Code  Gb  cy_ethif.o [11]
+Cy_EthIf_GetEthInstanceByIdx
+                        0x100a'98d5      0x14  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_GetEtherInstanceIndex
+                        0x100a'98e9      0x1e  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_GetFreeRxBuffer
+                        0x100a'9591      0x4a  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_GetFreeRxBuffer::rxBufIdx
+                        0x2805'67e8       0x4  Data  Lc  cy_ethif.o [11]
+Cy_EthIf_GetFreeTxBuffer
+                        0x100a'9531      0x56  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_GetFreeTxBuffer::txBufIdx
+                        0x2805'67e4       0x4  Data  Lc  cy_ethif.o [11]
+Cy_EthIf_GetPhysAddr    0x100a'985d      0x5c  Code  Gb  cy_ethif.o [11]
+Cy_EthIf_GetPrivateDataIndex
+                        0x100a'9907      0x22  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_GetTxBufferIndexFromAddress
+                        0x100a'9087      0x10  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_IPDisable      0x100a'8931       0xc  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_IPEnable       0x100a'8925       0xc  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_Init           0x100a'86b1     0x200  Code  Gb  cy_ethif.o [11]
+Cy_EthIf_InitializeBuffers
+                        0x100a'94b3      0x7e  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_PhyRegRead     0x100a'8eeb      0x82  Code  Gb  cy_ethif.o [11]
+Cy_EthIf_PhyRegWrite    0x100a'8f6d      0x52  Code  Gb  cy_ethif.o [11]
+Cy_EthIf_PrepareConfiguration
+                        0x100a'8c3d     0x2ae  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_ProvideTxBuffer
+                        0x100a'965d      0x52  Code  Gb  cy_ethif.o [11]
+Cy_EthIf_SetPhysAddr    0x100a'9801      0x5c  Code  Gb  cy_ethif.o [11]
+Cy_EthIf_TSUInit        0x100a'8a33      0x98  Code  Lc  cy_ethif.o [11]
+Cy_EthIf_TransmitTrigger
+                        0x100a'96b5     0x144  Code  Gb  cy_ethif.o [11]
+Cy_EthIf_WrapperConfig  0x100a'88b1      0x74  Code  Lc  cy_ethif.o [11]
+Cy_Ethx_InterruptHandler
+                        0x100b'7609       0x8  Code  Lc  GigEth_Test.o [1]
+Cy_Flash_BoundsCheck    0x100b'5ad1      0x24  Code  Gb  cy_flash.o [13]
+Cy_Flash_CallSromApiForFlashWrite
+                        0x100b'5901      0x6a  Code  Lc  cy_flash.o [13]
+Cy_Flash_EraseSector    0x100b'5bb3      0x68  Code  Gb  cy_flash.o [13]
+Cy_Flash_MainBoundsCheck
+                        0x100b'5a67      0x6a  Code  Gb  cy_flash.o [13]
+Cy_Flash_ProcessOpcode  0x100b'5af5      0xbe  Code  Gb  cy_flash.o [13]
+Cy_Flash_ProgramRow     0x100b'596b      0x92  Code  Gb  cy_flash.o [13]
+Cy_Flash_WorkBoundsCheck
+                        0x100b'59fd      0x6a  Code  Gb  cy_flash.o [13]
+Cy_Flashc_GetMainBankMode
+                        0x100b'58df       0xe  Code  Lc  cy_flash.o [13]
+Cy_Flashc_GetWorkBankMode
+                        0x100b'58d1       0xe  Code  Lc  cy_flash.o [13]
+Cy_Flashc_InvalidateFlashCacheBuffer
+                        0x100b'58ed      0x14  Code  Lc  cy_flash.o [13]
+Cy_Flashc_MainWriteEnable
+                        0x100b'24d5       0xc  Code  Lc  workflash.o [1]
+Cy_Flashc_WorkWriteEnable
+                        0x100b'24e1       0xc  Code  Lc  workflash.o [1]
+Cy_Fpdlink_FastInit     0x100a'c459      0x1a  Code  Gb  cy_fpdlink.o [14]
+Cy_Fpdlink_Init         0x100a'c473      0x6e  Code  Gb  cy_fpdlink.o [14]
+Cy_Fpdlink_IsPllLocked  0x100a'c4e1      0x16  Code  Gb  cy_fpdlink.o [14]
+Cy_GPIO_ClearInterrupt  0x100b'23d7       0xe  Code  Lc  cy_gpio.o [15]
+Cy_GPIO_ClearInterrupt  0x100b'2665       0xe  Code  Lc  user_button.o [1]
+Cy_GPIO_Clr             0x100b'1271       0xa  Code  Lc  main_cm7_0.o [2]
+Cy_GPIO_Clr             0x100b'2585       0xa  Code  Lc  user_led.o [1]
+Cy_GPIO_GetInterruptStatusMasked
+                        0x100b'2673       0xa  Code  Lc  user_button.o [1]
+Cy_GPIO_Inv             0x100b'258f       0xa  Code  Lc  user_led.o [1]
+Cy_GPIO_Multi_Pin_Init  0x100b'2491      0x38  Code  Gb  cy_gpio.o [15]
+Cy_GPIO_Pin_FastInit    0x100a'ac7d      0x2c  Code  Lc  cy_gfx_env.o [44]
+Cy_GPIO_Pin_FastInit    0x100a'be19      0x2c  Code  Lc  cy_semihosting.o [47]
+Cy_GPIO_Pin_Init        0x100b'241f      0x72  Code  Gb  cy_gpio.o [15]
+Cy_GPIO_Read            0x100a'c0d9       0xa  Code  Lc  cy_button.o [41]
+Cy_GPIO_SetDriveSel     0x100b'23b7      0x20  Code  Lc  cy_gpio.o [15]
+Cy_GPIO_SetDrivemode    0x100a'ad19      0x1e  Code  Lc  cy_gfx_env.o [44]
+Cy_GPIO_SetDrivemode    0x100b'2361      0x1e  Code  Lc  cy_gpio.o [15]
+Cy_GPIO_SetDrivemode    0x100a'beb5      0x1e  Code  Lc  cy_semihosting.o [47]
+Cy_GPIO_SetHSIOM        0x100a'aca9      0x58  Code  Lc  cy_gfx_env.o [44]
+Cy_GPIO_SetHSIOM        0x100b'22f5      0x54  Code  Lc  cy_gpio.o [15]
+Cy_GPIO_SetHSIOM        0x100a'be45      0x58  Code  Lc  cy_semihosting.o [47]
+Cy_GPIO_SetInterruptEdge
+                        0x100b'2401      0x1e  Code  Lc  cy_gpio.o [15]
+Cy_GPIO_SetInterruptMask
+                        0x100b'23e5      0x1c  Code  Lc  cy_gpio.o [15]
+Cy_GPIO_SetSlewRate     0x100b'239b      0x1c  Code  Lc  cy_gpio.o [15]
+Cy_GPIO_SetVtrip        0x100b'237f      0x1c  Code  Lc  cy_gpio.o [15]
+Cy_GPIO_Write           0x100a'ad01      0x18  Code  Lc  cy_gfx_env.o [44]
+Cy_GPIO_Write           0x100b'2349      0x18  Code  Lc  cy_gpio.o [15]
+Cy_GPIO_Write           0x100a'be9d      0x18  Code  Lc  cy_semihosting.o [47]
+Cy_GfxEnv_EnableTestImage
+                        0x100a'aea7     0x52a  Code  Gb  cy_gfx_env.o [44]
+Cy_GfxEnv_Init          0x100a'addd      0xca  Code  Gb  cy_gfx_env.o [44]
+Cy_IPC_Drv_AcquireNotify
+                        0x100b'7409       0xc  Code  Lc  cy_ipc_drv.o [16]
+Cy_IPC_Drv_IsLockAcquired
+                        0x100b'7285       0x8  Code  Lc  cy_srom.o [26]
+Cy_IPC_Drv_LockAcquire  0x100b'741d      0x10  Code  Gb  cy_ipc_drv.o [16]
+Cy_IPC_Drv_SendMsgWord_2
+                        0x100b'742d      0x34  Code  Gb  cy_ipc_drv.o [16]
+Cy_IPC_Drv_WriteData1Value
+                        0x100b'7419       0x4  Code  Lc  cy_ipc_drv.o [16]
+Cy_IPC_Drv_WriteDataValue
+                        0x100b'7415       0x4  Code  Lc  cy_ipc_drv.o [16]
+Cy_Lin_ClearInterrupt   0x100b'706b      0x12  Code  Gb  cy_lin.o [17]
+Cy_Lin_Disable          0x100b'6f17      0x16  Code  Gb  cy_lin.o [17]
+Cy_Lin_Enable           0x100b'6f01      0x16  Code  Gb  cy_lin.o [17]
+Cy_Lin_GetInterruptMaskedStatus
+                        0x100b'7053      0x18  Code  Gb  cy_lin.o [17]
+Cy_Lin_Init             0x100b'6d6d      0x82  Code  Gb  cy_lin.o [17]
+Cy_Lin_ReadData         0x100b'6def      0x8e  Code  Gb  cy_lin.o [17]
+Cy_Lin_SetChecksumType  0x100b'6f2d      0x1a  Code  Gb  cy_lin.o [17]
+Cy_Lin_SetCmd           0x100b'6f73      0x5e  Code  Gb  cy_lin.o [17]
+Cy_Lin_SetDataLength    0x100b'6f47      0x2c  Code  Gb  cy_lin.o [17]
+Cy_Lin_SetHeader        0x100b'6fd1      0x70  Code  Gb  cy_lin.o [17]
+Cy_Lin_SetInterruptMask
+                        0x100b'7041      0x12  Code  Gb  cy_lin.o [17]
+Cy_Lin_WriteData        0x100b'6e7d      0x84  Code  Gb  cy_lin.o [17]
+Cy_MPU_Disable          0x100a'c3f7      0x18  Code  Gb  cy_mpu.o [21]
+Cy_MPU_GetGlobalControlBits
+                        0x100a'c40f      0x18  Code  Gb  cy_mpu.o [21]
+Cy_MPU_GetRegion        0x100a'c395      0x62  Code  Gb  cy_mpu.o [21]
+Cy_MPU_SetGlobalControlBits
+                        0x100a'c427      0x1c  Code  Gb  cy_mpu.o [21]
+Cy_MPU_SetRegion        0x100a'c329      0x6c  Code  Gb  cy_mpu.o [21]
+Cy_MPU_Setup            0x100a'c22d      0xfc  Code  Gb  cy_mpu.o [21]
+Cy_RestoreIRQ           0x100b'709d            Code  Gb  startup_cm7.o [50]
+Cy_Rtc_Alarm1Interrupt  0x100b'4ebd      0x10  Code  Gb  wco.o [1]
+Cy_Rtc_Alarm2Interrupt  0x100b'7091       0x2  Code  Wk  cy_sysrtc.o [34]
+Cy_Rtc_CenturyInterrupt
+                        0x100b'7093       0x2  Code  Wk  cy_sysrtc.o [34]
+Cy_Rtc_ClearInterrupt   0x100b'4aab       0x8  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_ConstructAlarmTimeDate
+                        0x100b'4b65      0xd4  Code  Lc  cy_sysrtc.o [34]
+Cy_Rtc_ConstructTimeDate
+                        0x100b'4af3      0x72  Code  Lc  cy_sysrtc.o [34]
+Cy_Rtc_ConvertDayOfWeek
+                        0x100b'47cd      0x44  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_DaysInMonth      0x100b'483f      0x20  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_DstInterrupt     0x100b'49c7      0xdc  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_GetDateAndTime   0x100b'46d9      0x5e  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_GetDstStatus     0x100b'495d      0x6a  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_GetHoursFormat   0x100b'48dd       0xe  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_GetInterruptStatusMasked
+                        0x100b'4aa3       0x8  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_GetSyncStatus    0x100b'48d1       0xc  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_Init             0x100b'4641      0x12  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_Interrupt        0x100b'4ab9      0x3a  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_IsLeapYear       0x100b'4811      0x2e  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_RelativeToFixed  0x100b'4c39      0x56  Code  Lc  cy_sysrtc.o [34]
+Cy_Rtc_SetAlarmDateAndTime
+                        0x100b'4737      0x96  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_SetDateAndTime   0x100b'4663      0x76  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_SetInterruptMask
+                        0x100b'4ab3       0x6  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_SetNextDstTime   0x100b'48eb      0x72  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_SyncRegisters    0x100b'485f      0x30  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_WriteEnable      0x100b'488f      0x42  Code  Gb  cy_sysrtc.o [34]
+Cy_Rtc_clock_source     0x100b'4653      0x10  Code  Gb  cy_sysrtc.o [34]
+Cy_SCB_ClearI2CInterrupt
+                        0x100a'f0c9       0xa  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_ClearMasterInterrupt
+                        0x100a'f09d       0xa  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_ClearRxFifo      0x100a'efef      0x1e  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_ClearRxInterrupt
+                        0x100a'f065       0xa  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_ClearRxInterrupt
+                        0x100b'12bd       0xa  Code  Lc  main_cm7_0.o [2]
+Cy_SCB_ClearSlaveInterrupt
+                        0x100a'f0b3       0xa  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_ClearTxFifo      0x100a'f035      0x1e  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_ClearTxInterrupt
+                        0x100a'f081       0xa  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_FwBlockReset     0x100a'f0e5      0x20  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_GetFifoSize      0x100a'feb7      0x12  Code  Lc  cy_scb_common.o [23]
+Cy_SCB_GetFifoSize      0x100a'f0d3      0x12  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_GetI2CInterruptStatusMasked
+                        0x100a'f0c3       0x6  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_GetInterruptCause
+                        0x100a'f053       0x6  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_GetMasterInterruptStatus
+                        0x100a'f08b       0x6  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_GetMasterInterruptStatusMasked
+                        0x100a'f097       0x6  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_GetNumInRxFifo   0x100a'fe9d       0xa  Code  Lc  cy_scb_common.o [23]
+Cy_SCB_GetNumInRxFifo   0x100a'efe5       0xa  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_GetNumInTxFifo   0x100a'fead       0xa  Code  Lc  cy_scb_common.o [23]
+Cy_SCB_GetNumInTxFifo   0x100a'f021       0xa  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_GetNumInTxFifo   0x100b'1281       0xa  Code  Lc  main_cm7_0.o [2]
+Cy_SCB_GetRxFifoLevel   0x100a'f105       0xa  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_GetRxInterruptStatus
+                        0x100b'12b7       0x6  Code  Lc  main_cm7_0.o [2]
+Cy_SCB_GetRxInterruptStatusMasked
+                        0x100a'f05f       0x6  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_GetSlaveInterruptStatusMasked
+                        0x100a'f0ad       0x6  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_GetTxInterruptStatusMasked
+                        0x100a'f07b       0x6  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_GetTxSrValid     0x100a'f02b       0xa  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_GetTxSrValid     0x100b'128b       0xa  Code  Lc  main_cm7_0.o [2]
+Cy_SCB_I2C_Enable       0x100b'7d1b       0xa  Code  Lc  cy_cs42448.o [40]
+Cy_SCB_I2C_GetDataRate  0x100a'f3a5      0x72  Code  Gb  cy_scb_i2c.o [23]
+Cy_SCB_I2C_Init         0x100a'f12b     0x150  Code  Gb  cy_scb_i2c.o [23]
+Cy_SCB_I2C_Interrupt    0x100a'f621      0x14  Code  Gb  cy_scb_i2c.o [23]
+Cy_SCB_I2C_MasterGetStatus
+                        0x100a'f417       0x4  Code  Gb  cy_scb_i2c.o [23]
+Cy_SCB_I2C_MasterRead   0x100a'f41b      0xf2  Code  Gb  cy_scb_i2c.o [23]
+Cy_SCB_I2C_MasterSetHighPhaseDutyCycle
+                        0x100a'f11d       0xe  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_I2C_MasterSetLowPhaseDutyCycle
+                        0x100a'f10f       0xe  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_I2C_MasterWrite  0x100a'f50d      0xbe  Code  Gb  cy_scb_i2c.o [23]
+Cy_SCB_I2C_RegisterEventCallback
+                        0x100b'7d25       0x4  Code  Lc  cy_cs42448.o [40]
+Cy_SCB_I2C_SetDataRate  0x100a'f27b     0x12a  Code  Gb  cy_scb_i2c.o [23]
+Cy_SCB_IsRxDataWidthByte
+                        0x100a'fec9      0x16  Code  Lc  cy_scb_common.o [23]
+Cy_SCB_IsTxComplete     0x100b'1295      0x22  Code  Lc  main_cm7_0.o [2]
+Cy_SCB_IsTxDataWidthByte
+                        0x100a'fedf      0x16  Code  Lc  cy_scb_common.o [23]
+Cy_SCB_ReadArray        0x100a'ff2f      0x24  Code  Gb  cy_scb_common.o [23]
+Cy_SCB_ReadArrayNoCheck
+                        0x100a'fef5      0x3a  Code  Gb  cy_scb_common.o [23]
+Cy_SCB_ReadRxFifo       0x100a'fe97       0x6  Code  Lc  cy_scb_common.o [23]
+Cy_SCB_ReadRxFifo       0x100a'efd1       0x6  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_ReadRxFifo       0x100b'127b       0x6  Code  Lc  main_cm7_0.o [2]
+Cy_SCB_SetI2CInterruptMask
+                        0x100a'f0bd       0x6  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_SetMasterInterruptMask
+                        0x100a'f091       0x6  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_SetRxFifoLevel   0x100a'efd7       0xe  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_SetRxInterrupt   0x100a'f06f       0x6  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_SetRxInterruptMask
+                        0x100a'f059       0x6  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_SetSlaveInterruptMask
+                        0x100a'f0a7       0x6  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_SetTxFifoLevel   0x100a'f013       0xe  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_SetTxInterruptMask
+                        0x100a'f075       0x6  Code  Lc  cy_scb_i2c.o [23]
+Cy_SCB_UART_ClearRxFifoStatus
+                        0x100b'12e7       0x8  Code  Lc  main_cm7_0.o [2]
+Cy_SCB_UART_DeInit      0x100a'ea7d      0x5c  Code  Gb  cy_scb_uart.o [23]
+Cy_SCB_UART_Enable      0x100a'bed3       0xa  Code  Lc  cy_semihosting.o [47]
+Cy_SCB_UART_Enable      0x100b'12c7       0xa  Code  Lc  main_cm7_0.o [2]
+Cy_SCB_UART_Get         0x100b'12d1       0x8  Code  Lc  main_cm7_0.o [2]
+Cy_SCB_UART_GetRxFifoStatus
+                        0x100b'12d9       0xe  Code  Lc  main_cm7_0.o [2]
+Cy_SCB_UART_Init        0x100a'e7f9     0x284  Code  Gb  cy_scb_uart.o [23]
+Cy_SCB_UART_IsTxComplete
+                        0x100b'12f7       0x8  Code  Lc  main_cm7_0.o [2]
+Cy_SCB_UART_PutArray    0x100b'12ef       0x8  Code  Lc  main_cm7_0.o [2]
+Cy_SCB_WriteArray       0x100a'ff8d      0x34  Code  Gb  cy_scb_common.o [23]
+Cy_SCB_WriteArrayNoCheck
+                        0x100a'ff53      0x3a  Code  Gb  cy_scb_common.o [23]
+Cy_SCB_WriteDefaultArray
+                        0x100a'ffdb      0x34  Code  Gb  cy_scb_common.o [23]
+Cy_SCB_WriteDefaultArrayNoCheck
+                        0x100a'ffc1      0x1a  Code  Gb  cy_scb_common.o [23]
+Cy_SCB_WriteTxFifo      0x100a'fea7       0x6  Code  Lc  cy_scb_common.o [23]
+Cy_SCB_WriteTxFifo      0x100a'f00d       0x6  Code  Lc  cy_scb_i2c.o [23]
+Cy_SMIF_CacheDisable    0x100a'd231      0x4e  Code  Gb  cy_smif.o [25]
+Cy_SMIF_CacheEnable     0x100a'd1db      0x4e  Code  Gb  cy_smif.o [25]
+Cy_SMIF_CacheInvalidate
+                        0x100a'd2d9      0x5a  Code  Gb  cy_smif.o [25]
+Cy_SMIF_CachePrefetchingEnable
+                        0x100a'd285      0x4e  Code  Gb  cy_smif.o [25]
+Cy_SMIF_DeInit          0x100a'd7e5      0x40  Code  Gb  cy_smif_ver_specific.o [25]
+Cy_SMIF_Deselect        0x100a'd195      0x28  Code  Gb  cy_smif.o [25]
+Cy_SMIF_DeviceCryptoDisable
+                        0x100a'c5c5       0xe  Code  Gb  cy_smif.o [25]
+Cy_SMIF_DeviceEnable    0x100a'c5a9       0xe  Code  Gb  cy_smif.o [25]
+Cy_SMIF_DeviceSetDataSelect
+                        0x100a'c599      0x10  Code  Gb  cy_smif.o [25]
+Cy_SMIF_DeviceTotalTimeoutDisable
+                        0x100a'c605       0xe  Code  Gb  cy_smif.o [25]
+Cy_SMIF_DeviceTotalTimeoutEnable
+                        0x100a'c5f3      0x12  Code  Gb  cy_smif.o [25]
+Cy_SMIF_DeviceTransferMergingDisable
+                        0x100a'c5e5       0xe  Code  Gb  cy_smif.o [25]
+Cy_SMIF_DeviceTransferMergingEnable
+                        0x100a'c5d3      0x12  Code  Gb  cy_smif.o [25]
+Cy_SMIF_DeviceWriteEnable
+                        0x100a'c5b7       0xe  Code  Gb  cy_smif.o [25]
+Cy_SMIF_Disable         0x100a'c85b       0xe  Code  Gb  cy_smif.o [25]
+Cy_SMIF_Enable          0x100a'd1cd       0xe  Code  Gb  cy_smif.o [25]
+Cy_SMIF_GetCmdFifoStatus
+                        0x100a'c869       0x8  Code  Gb  cy_smif.o [25]
+Cy_SMIF_GetDeviceBasePtrFromSmifBasePtrAndDeviceNumber
+                        0x100a'd3d3       0xe  Code  Gb  cy_smif.o [25]
+Cy_SMIF_GetDeviceBasePtrFromSmifBasePtrAndSlaveSelect
+                        0x100a'd3b9      0x1a  Code  Gb  cy_smif.o [25]
+Cy_SMIF_GetMode         0x100a'c591       0x8  Code  Gb  cy_smif.o [25]
+Cy_SMIF_GetRxFifoStatus
+                        0x100a'c871       0xa  Code  Gb  cy_smif.o [25]
+Cy_SMIF_GetSlaveSelectFromDeviceBasePtr
+                        0x100a'd389      0x14  Code  Gb  cy_smif.o [25]
+Cy_SMIF_GetSlaveSelectFromDeviceNumber
+                        0x100a'd39d      0x1c  Code  Gb  cy_smif.o [25]
+Cy_SMIF_GetSmifBasePtrFromAnySmifPtr
+                        0x100a'd371       0x6  Code  Gb  cy_smif.o [25]
+Cy_SMIF_GetTxFifoStatus
+                        0x100a'd99d       0xa  Code  Gb  cy_smif_ver_specific.o [25]
+Cy_SMIF_Get_DelayLineSel
+                        0x100a'd91b      0x18  Code  Gb  cy_smif_ver_specific.o [25]
+Cy_SMIF_Get_DelayTapSel
+                        0x100a'd96f      0x16  Code  Gb  cy_smif_ver_specific.o [25]
+Cy_SMIF_HB_CalculateTotalTimeoutCyclesForHyperRAM
+                        0x100a'e005      0x20  Code  Gb  cy_smif_hb_flash.o [48]
+Cy_SMIF_HB_CalibrateDelay
+                        0x100a'dddb     0x17a  Code  Gb  cy_smif_hb_flash.o [48]
+Cy_SMIF_HB_CalibrateDelay::isMatch
+                        0x2805'5fc8     0x100  Data  Lc  cy_smif_hb_flash.o [48]
+Cy_SMIF_HB_CalibrationDataPattern
+                        0x100b'a4c4       0xc  Data  Gb  cy_smif_hb_flash.o [48]
+Cy_SMIF_HB_CheckOrPrepareCalibrationDataPattern
+                        0x100a'dd01      0xda  Code  Gb  cy_smif_hb_flash.o [48]
+Cy_SMIF_HB_GetOptimalLatencyCode
+                        0x100a'df55      0xb0  Code  Gb  cy_smif_hb_flash.o [48]
+Cy_SMIF_HB_LatencyCodeToCycle
+                        0x100a'e2d7      0x1c  Code  Gb  cy_smif_hb_flash.o [48]
+Cy_SMIF_HB_MMIO_Read    0x100a'e025     0x154  Code  Gb  cy_smif_hb_flash.o [48]
+Cy_SMIF_HB_MMIO_Write   0x100a'e179     0x15e  Code  Gb  cy_smif_hb_flash.o [48]
+Cy_SMIF_HB_SetDummyCycles
+                        0x100a'dc69      0x98  Code  Gb  cy_smif_hb_flash.o [48]
+Cy_SMIF_Init            0x100a'd6f9      0xec  Code  Gb  cy_smif_ver_specific.o [25]
+Cy_SMIF_InitDeviceHyperBus
+                        0x100a'dac5     0x1a4  Code  Gb  cy_smif_hb_flash.o [48]
+Cy_SMIF_InitExMemContext
+                        0x100a'eb0d     0x156  Code  Gb  cy_smif_device_common.o [48]
+Cy_SMIF_IsBusy          0x100a'c87b       0x8  Code  Gb  cy_smif.o [25]
+Cy_SMIF_MaskValueToSizeInByte
+                        0x100a'cb9b       0x6  Code  Gb  cy_smif.o [25]
+Cy_SMIF_PUSH_TX_Command
+                        0x100a'd3e1      0xcc  Code  Lc  cy_smif.o [25]
+Cy_SMIF_PUSH_TX_Command::TxCmdBuf
+                        0x2805'5ad8     0x200  Data  Lc  cy_smif.o [25]
+Cy_SMIF_PackBytesArray  0x100a'c9b1      0x20  Code  Gb  cy_smif.o [25]
+Cy_SMIF_PopRxFifo       0x100a'c883     0x12e  Code  Gb  cy_smif.o [25]
+Cy_SMIF_PushCmdFifo     0x100a'd9a7      0x16  Code  Gb  cy_smif_ver_specific.o [25]
+Cy_SMIF_PushTxFifo      0x100a'd9bd     0x108  Code  Gb  cy_smif_ver_specific.o [25]
+Cy_SMIF_ReceiveData     0x100a'cfa5      0x9e  Code  Gb  cy_smif.o [25]
+Cy_SMIF_ReceiveDataBlocking
+                        0x100a'd051      0xbe  Code  Gb  cy_smif.o [25]
+Cy_SMIF_Reverse4ByteEndian
+                        0x100a'cba1      0x1c  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SEMP_EnableHyperBusInterface
+                        0x100a'd61b      0xb0  Code  Gb  cy_smif_semp.o [48]
+Cy_SMIF_SEMP_ReadAnyVolatileRegister
+                        0x100a'd535      0x6a  Code  Gb  cy_smif_semp.o [48]
+Cy_SMIF_SEMP_ReadAnyVolatileRegister::rdCmdArray
+                        0x100b'a3bc      0x10  Data  Lc  cy_smif_semp.o [48]
+Cy_SMIF_SEMP_ReadId     0x100a'd4f9      0x3c  Code  Gb  cy_smif_semp.o [48]
+Cy_SMIF_SEMP_ReadId::rdCmdArray
+                        0x100b'a3ac      0x10  Data  Lc  cy_smif_semp.o [48]
+Cy_SMIF_SEMP_WriteAnyRegister
+                        0x100a'd5bf      0x5c  Code  Gb  cy_smif_semp.o [48]
+Cy_SMIF_SEMP_WriteAnyRegister::wtCmdArray
+                        0x100b'a3dc      0x10  Data  Lc  cy_smif_semp.o [48]
+Cy_SMIF_SEMP_WriteEnable
+                        0x100a'd59f      0x20  Code  Gb  cy_smif_semp.o [48]
+Cy_SMIF_SEMP_WriteEnable::rdCmdArray
+                        0x100b'a3cc      0x10  Data  Lc  cy_smif_semp.o [48]
+Cy_SMIF_SendDummyCycles
+                        0x100a'd11d      0x70  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetDelayLineForFreq
+                        0x100a'd825      0xd0  Code  Gb  cy_smif_ver_specific.o [25]
+Cy_SMIF_SetDelayLineForFreq::minDelayPerTapInNs
+                        0x100b'a3fc      0x10  Data  Lc  cy_smif_ver_specific.o [25]
+Cy_SMIF_SetMode         0x100a'd333      0x30  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetReadAddrCtl  0x100a'c699      0x1a  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetReadBoundCtl
+                        0x100a'c813      0x48  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetReadCmdCtl   0x100a'c635      0x32  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetReadCrcCtl   0x100a'c7cf      0x44  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetReadDataCtl  0x100a'c79b      0x1a  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetReadDummyCtl
+                        0x100a'c731      0x32  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetReadModeCtl  0x100a'c6cd      0x32  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetWriteAddrCtl
+                        0x100a'c6b3      0x1a  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetWriteCmdCtl  0x100a'c667      0x32  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetWriteDataCtl
+                        0x100a'c7b5      0x1a  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetWriteDummyCtl
+                        0x100a'c763      0x38  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetWriteModeCtl
+                        0x100a'c6ff      0x32  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetXIPAddrCtl   0x100a'c61f      0x16  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetXIPAddressSize
+                        0x100a'c61b       0x4  Code  Gb  cy_smif.o [25]
+Cy_SMIF_SetXIPBaseAddress
+                        0x100a'c613       0x8  Code  Gb  cy_smif.o [25]
+Cy_SMIF_Set_DelayLineSel
+                        0x100a'd8f5      0x26  Code  Gb  cy_smif_ver_specific.o [25]
+Cy_SMIF_Set_DelayTapSel
+                        0x100a'd933      0x3c  Code  Gb  cy_smif_ver_specific.o [25]
+Cy_SMIF_TX_CMD          0x100a'ec63      0x58  Code  Gb  cy_smif_device_common.o [48]
+Cy_SMIF_TX_CmdAddrDum   0x100a'ee49      0xe2  Code  Lc  cy_smif_device_common.o [48]
+Cy_SMIF_TX_READ         0x100a'ecbb      0x72  Code  Gb  cy_smif_device_common.o [48]
+Cy_SMIF_TX_WRITE        0x100a'ed2d      0x70  Code  Gb  cy_smif_device_common.o [48]
+Cy_SMIF_TimeoutRun      0x100a'c9eb      0x28  Code  Gb  cy_smif.o [25]
+Cy_SMIF_TransmitCommand
+                        0x100a'cbbd     0x26a  Code  Gb  cy_smif.o [25]
+Cy_SMIF_TransmitData    0x100a'ce27      0xae  Code  Gb  cy_smif.o [25]
+Cy_SMIF_TransmitDataBlocking
+                        0x100a'ced5      0xd0  Code  Gb  cy_smif.o [25]
+Cy_SMIF_UnPackByteArray
+                        0x100a'c9d1      0x1a  Code  Gb  cy_smif.o [25]
+Cy_SaveIRQ              0x100b'7095            Code  Gb  startup_cm7.o [50]
+Cy_Semihosting_Init     0x100a'bfc3      0x4a  Code  Gb  cy_semihosting.o [47]
+Cy_Semihosting_InitAll  0x100a'c00d      0xa8  Code  Gb  cy_semihosting.o [47]
+Cy_Srom_CallApi         0x100b'728d      0xb8  Code  Gb  cy_srom.o [26]
+Cy_Srom_CallApi_NonBlock
+                        0x100b'7345      0x66  Code  Gb  cy_srom.o [26]
+Cy_Srom_ConvertRespToStatus
+                        0x100b'73db      0x1e  Code  Gb  cy_srom.o [26]
+Cy_Srom_GetResponseType
+                        0x100b'73ab      0x30  Code  Gb  cy_srom.o [26]
+Cy_SwTmr_Init           0x100a'bca1      0x22  Code  Gb  cy_sw_tmr.o [49]
+Cy_SwTmr_Start          0x100a'bcc3      0x30  Code  Gb  cy_sw_tmr.o [49]
+Cy_SysClk_CheckDividerExisting
+                        0x100b'281b      0x2a  Code  Lc  adc_pot.o [1]
+Cy_SysClk_CheckDividerExisting
+                        0x100b'3db3      0x2c  Code  Lc  canfd.o [1]
+Cy_SysClk_CheckDividerExisting
+                        0x100b'7d4b      0x2a  Code  Lc  cy_cs42448.o [40]
+Cy_SysClk_CheckDividerExisting
+                        0x100a'bedd      0x2a  Code  Lc  cy_semihosting.o [47]
+Cy_SysClk_CheckDividerExisting
+                        0x100a'9cef      0x2c  Code  Lc  cy_sysclk.o [27]
+Cy_SysClk_CheckDividerExisting
+                        0x100b'41cf      0x2c  Code  Lc  lin.o [1]
+Cy_SysClk_CheckDividerExisting
+                        0x100b'12ff      0x2c  Code  Lc  main_cm7_0.o [2]
+Cy_SysClk_ClkPathGetSource
+                        0x100a'9d81      0x54  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_ClkPathSetSource
+                        0x100a'9d1b      0x64  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_EcoGetStatus  0x100a'99c9      0x1a  Code  Lc  cy_sysclk.o [27]
+Cy_SysClk_Fast0ClkGetDivider
+                        0x100a'9cc1      0x16  Code  Lc  cy_sysclk.o [27]
+Cy_SysClk_FllGetConfiguration
+                        0x100a'9ddd      0x7e  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_FllGetLockStatus
+                        0x100a'99e3       0xc  Code  Lc  cy_sysclk.o [27]
+Cy_SysClk_GetClkMemFrequency
+                        0x100a'a823      0x2e  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetClkPeriFrequency
+                        0x100a'a7f3      0x30  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetClockGroup
+                        0x100b'28c3       0x8  Code  Lc  adc_pot.o [1]
+Cy_SysClk_GetClockGroup
+                        0x100b'3e5d       0x8  Code  Lc  canfd.o [1]
+Cy_SysClk_GetClockGroup
+                        0x100b'7e29       0x8  Code  Lc  cy_cs42448.o [40]
+Cy_SysClk_GetClockGroup
+                        0x100a'bf07       0x8  Code  Lc  cy_semihosting.o [47]
+Cy_SysClk_GetClockGroup
+                        0x100b'427d       0x8  Code  Lc  lin.o [1]
+Cy_SysClk_GetClockGroup
+                        0x100b'1465       0x8  Code  Lc  main_cm7_0.o [2]
+Cy_SysClk_GetCoreFrequency
+                        0x100a'a851      0x1a  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetEcoFrequency
+                        0x100a'a339      0x32  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetExtFrequency
+                        0x100a'a36d      0x1e  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetFast0Frequency
+                        0x100a'a79d      0x56  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetFllInputFrequency
+                        0x100a'a48d       0xc  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetFllOutputFrequency
+                        0x100a'a4b5      0x78  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetHfClkFrequency
+                        0x100a'a71b      0x7a  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetIlo0Frequency
+                        0x100a'a38b      0x32  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetIlo1Frequency
+                        0x100a'a3bd      0x32  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetImoFrequency
+                        0x100a'a307      0x32  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetPathFrequency
+                        0x100a'a6e9      0x32  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetPathSourceFrequency
+                        0x100a'a429      0x64  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetPll400MNo  0x100a'ad73      0x14  Code  Lc  cy_gfx_env.o [44]
+Cy_SysClk_GetPll400MNo  0x100a'9a2d      0x14  Code  Lc  cy_sysclk.o [27]
+Cy_SysClk_GetPll400MNo  0x100b'2b69      0x14  Code  Lc  smif_hflash.o [1]
+Cy_SysClk_GetPll400MNo  0x100b'3659      0x14  Code  Lc  smif_hram.o [1]
+Cy_SysClk_GetPllInputFrequency
+                        0x100a'a499      0x1c  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetPllNo      0x100a'ad37      0x12  Code  Lc  cy_gfx_env.o [44]
+Cy_SysClk_GetPllNo      0x100a'99f1      0x12  Code  Lc  cy_sysclk.o [27]
+Cy_SysClk_GetPllOutputFrequency
+                        0x100a'a539     0x1a0  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_GetWcoFrequency
+                        0x100a'a3ef      0x32  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_HfClkEnable   0x100b'3d91      0x22  Code  Lc  canfd.o [1]
+Cy_SysClk_HfClkEnable   0x100b'7d29      0x22  Code  Lc  cy_cs42448.o [40]
+Cy_SysClk_HfClkEnable   0x100b'2ba7      0x22  Code  Lc  smif_hflash.o [1]
+Cy_SysClk_HfClkEnable   0x100b'3697      0x22  Code  Lc  smif_hram.o [1]
+Cy_SysClk_HfClockGetDivider
+                        0x100a'9c7f      0x42  Code  Lc  cy_sysclk.o [27]
+Cy_SysClk_HfClockGetSource
+                        0x100a'9c2b      0x54  Code  Lc  cy_sysclk.o [27]
+Cy_SysClk_HfClockSetDivider
+                        0x100a'adb1      0x2c  Code  Lc  cy_gfx_env.o [44]
+Cy_SysClk_InitGetFreqParams
+                        0x100a'a2ed      0x1a  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_MemClkGetDivider
+                        0x100a'9cd7       0xc  Code  Lc  cy_sysclk.o [27]
+Cy_SysClk_PeriClkGetDivider
+                        0x100a'9ce3       0xc  Code  Lc  cy_sysclk.o [27]
+Cy_SysClk_PeriphAssignDivider
+                        0x100b'28cb      0x68  Code  Lc  adc_pot.o [1]
+Cy_SysClk_PeriphAssignDivider
+                        0x100b'3e65      0x68  Code  Lc  canfd.o [1]
+Cy_SysClk_PeriphAssignDivider
+                        0x100b'7e31      0x68  Code  Lc  cy_cs42448.o [40]
+Cy_SysClk_PeriphAssignDivider
+                        0x100a'bf0f      0x68  Code  Lc  cy_semihosting.o [47]
+Cy_SysClk_PeriphAssignDivider
+                        0x100b'4285      0x68  Code  Lc  lin.o [1]
+Cy_SysClk_PeriphAssignDivider
+                        0x100b'146d      0x6a  Code  Lc  main_cm7_0.o [2]
+Cy_SysClk_PeriphEnableDivider
+                        0x100b'2933      0x4c  Code  Lc  adc_pot.o [1]
+Cy_SysClk_PeriphEnableDivider
+                        0x100b'3ecd      0x4c  Code  Lc  canfd.o [1]
+Cy_SysClk_PeriphEnableDivider
+                        0x100b'7e99      0x4c  Code  Lc  cy_cs42448.o [40]
+Cy_SysClk_PeriphEnableDivider
+                        0x100a'bf77      0x4c  Code  Lc  cy_semihosting.o [47]
+Cy_SysClk_PeriphEnableDivider
+                        0x100b'42ed      0x4c  Code  Lc  lin.o [1]
+Cy_SysClk_PeriphEnableDivider
+                        0x100b'14d7      0x4e  Code  Lc  main_cm7_0.o [2]
+Cy_SysClk_PeriphSetDivider
+                        0x100b'2845      0x7e  Code  Lc  adc_pot.o [1]
+Cy_SysClk_PeriphSetDivider
+                        0x100b'3ddf      0x7e  Code  Lc  canfd.o [1]
+Cy_SysClk_PeriphSetDivider
+                        0x100b'41fb      0x82  Code  Lc  lin.o [1]
+Cy_SysClk_PeriphSetDivider
+                        0x100b'132b      0x82  Code  Lc  main_cm7_0.o [2]
+Cy_SysClk_PeriphSetFracDivider
+                        0x100b'7d75      0xb4  Code  Lc  cy_cs42448.o [40]
+Cy_SysClk_PeriphSetFracDivider
+                        0x100b'13ad      0xb8  Code  Lc  main_cm7_0.o [2]
+Cy_SysClk_PeriphSetFracDividerAuto
+                        0x100a'a871     0x152  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_Pll400MConfigure
+                        0x100a'a06d      0xac  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_Pll400MDisable
+                        0x100a'ad87      0x2a  Code  Lc  cy_gfx_env.o [44]
+Cy_SysClk_Pll400MDisable
+                        0x100b'2b7d      0x2a  Code  Lc  smif_hflash.o [1]
+Cy_SysClk_Pll400MDisable
+                        0x100b'366d      0x2a  Code  Lc  smif_hram.o [1]
+Cy_SysClk_Pll400MEnable
+                        0x100a'a27f      0x5c  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_Pll400MGetConfiguration
+                        0x100a'a1fb      0x84  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_Pll400MGetLockStatus
+                        0x100a'9a41      0x2a  Code  Lc  cy_sysclk.o [27]
+Cy_SysClk_Pll400MManualConfigure
+                        0x100a'a119      0xe2  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_PllCalucDividers
+                        0x100a'9a6d     0x1b0  Code  Lc  cy_sysclk.o [27]
+Cy_SysClk_PllConfigure  0x100a'9e65      0x8c  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_PllDisable    0x100a'ad49      0x2a  Code  Lc  cy_gfx_env.o [44]
+Cy_SysClk_PllEnable     0x100a'9ffd      0x5e  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_PllGetConfiguration
+                        0x100a'9fb1      0x48  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_PllGetLockStatus
+                        0x100a'9a03      0x28  Code  Lc  cy_sysclk.o [27]
+Cy_SysClk_PllManualConfigure
+                        0x100a'9efd      0xb0  Code  Gb  cy_sysclk.o [27]
+Cy_SysClk_WcoEnable     0x100b'4e71      0x32  Code  Lc  wco.o [1]
+Cy_SysClk_WcoOkay       0x100a'9c1d       0xe  Code  Lc  cy_sysclk.o [27]
+Cy_SysClk_WcoOkay       0x100b'4ea3       0xc  Code  Lc  wco.o [1]
+Cy_SysInt_InitIRQ       0x100b'2075      0x44  Code  Gb  cy_sysint.o [29]
+Cy_SysInt_SetSystemIrqVector
+                        0x100b'20b9      0x12  Code  Gb  cy_sysint.o [29]
+Cy_SysInt_SystemIrqUserTableRamPointer
+                        0x2802'0e20       0x4  Data  Gb  cy_interrupt_map.o [39]
+Cy_SysLib_CleanCoreDCacheByAddr
+                        0x100a'428d      0x24  Code  Gb  cy_syslib.o [30]
+Cy_SysLib_Delay         0x100a'419d      0x28  Code  Gb  cy_syslib.o [30]
+Cy_SysLib_DelayCycles   0x100a'8691            Code  Gb  cy_syslib_iar.o [30]
+Cy_SysLib_DelayUs       0x100a'41c5      0x10  Code  Gb  cy_syslib.o [30]
+Cy_SysLib_EnterCriticalSection
+                        0x100a'86a1            Code  Gb  cy_syslib_iar.o [30]
+Cy_SysLib_ExitCriticalSection
+                        0x100a'86a9            Code  Gb  cy_syslib_iar.o [30]
+Cy_SysLib_FaultHandler  0x100a'41d9      0x90  Code  Gb  cy_syslib.o [30]
+Cy_SysLib_Halt          0x100a'41d5       0x4  Code  Gb  cy_syslib.o [30]
+Cy_SysLib_InvalidateCoreDCacheByAddr
+                        0x100a'4269      0x24  Code  Gb  cy_syslib.o [30]
+Cy_SysLib_ProcessingFault
+                        0x100a'86af       0x2  Code  Wk  cy_syslib.o [30]
+Cy_SysLib_SvcHandler    0x100b'a549       0xc  Code  Wk  cy_syslib.o [30]
+Cy_SysTick_Callbacks    0x2805'6734      0x14  Data  Lc  cy_systick.o [35]
+Cy_SysTick_Clear        0x100a'e6c9       0x8  Code  Gb  cy_systick.o [35]
+Cy_SysTick_DelayCoreCycle
+                        0x100a'e6fb      0x86  Code  Gb  cy_systick.o [35]
+Cy_SysTick_DelayCoreCycle::isThisBeingCalled
+                        0x2805'6827       0x1  Data  Lc  cy_systick.o [35]
+Cy_SysTick_DelayInUs    0x100a'e781      0x3c  Code  Gb  cy_systick.o [35]
+Cy_SysTick_Enable       0x100a'e627      0x12  Code  Gb  cy_systick.o [35]
+Cy_SysTick_EnableInterrupt
+                        0x100a'e639       0xc  Code  Gb  cy_systick.o [35]
+Cy_SysTick_GetCountFlag
+                        0x100a'e6bf       0xa  Code  Gb  cy_systick.o [35]
+Cy_SysTick_Init         0x100a'e5b5      0x72  Code  Gb  cy_systick.o [35]
+Cy_SysTick_ServiceCallbacks
+                        0x100a'e6d5      0x26  Code  Lc  cy_systick.o [35]
+Cy_SysTick_SetCallback  0x100a'e64f      0x32  Code  Gb  cy_systick.o [35]
+Cy_SysTick_SetClockSource
+                        0x100a'e681      0x3e  Code  Gb  cy_systick.o [35]
+Cy_SysTick_SetReload    0x100a'e645       0xa  Code  Gb  cy_systick.o [35]
+Cy_SystemInitFpuEnable  0x100b'4db5      0x1e  Code  Gb  system_tviic2d4m_cm7.o [51]
+Cy_SystemIrqUserTable   0x2802'01a8     0xc78  Data  Gb  cy_interrupt_map.o [39]
+Cy_Tcpwm_ClearInterrupt
+                        0x100b'22c1       0x6  Code  Gb  cy_tcpwm.o [37]
+Cy_Tcpwm_Counter_Disable
+                        0x100b'226b       0xa  Code  Gb  cy_tcpwm_counter.o [37]
+Cy_Tcpwm_Counter_Enable
+                        0x100b'2261       0xa  Code  Gb  cy_tcpwm_counter.o [37]
+Cy_Tcpwm_Counter_Init   0x100b'20e1     0x16c  Code  Gb  cy_tcpwm_counter.o [37]
+Cy_Tcpwm_Counter_SetCompare0
+                        0x100b'2275       0x4  Code  Gb  cy_tcpwm_counter.o [37]
+Cy_Tcpwm_Counter_SetCounter
+                        0x100b'2279       0x4  Code  Gb  cy_tcpwm_counter.o [37]
+Cy_Tcpwm_Counter_SetPeriod
+                        0x100b'227d       0x4  Code  Gb  cy_tcpwm_counter.o [37]
+Cy_Tcpwm_GetInterruptStatusMasked
+                        0x100b'22c7       0x4  Code  Gb  cy_tcpwm.o [37]
+Cy_Tcpwm_TriggerStart   0x100b'22b5       0xc  Code  Gb  cy_tcpwm.o [37]
+Cy_u32StartupStackEndAddress
+                        0x100b'918c            Data  Gb  startup_cm7.o [50]
+Cy_u32StartupStackStartAddress
+                        0x100b'9188            Data  Gb  startup_cm7.o [50]
+Data_Received           0x2805'682b       0x1  Data  Gb  lin.o [1]
+DebugMon_Handler        0x100b'a7ed            Code  Wk  startup_cm7.o [50]
+DetectVolatileRegLantency
+                        0x100b'341b     0x126  Code  Lc  smif_hflash.o [1]
+EmacDrv                 0x2802'0e78     0x348  Data  Gb  edd.o [11]
+EnterHyperBusMode       0x100b'3549      0x9c  Code  Lc  smif_hflash.o [1]
+EthTest                 0x100b'74af     0x158  Code  Gb  GigEth_Test.o [1]
+EthTest::TransmitCount  0x2805'6829       0x1  Data  Lc  GigEth_Test.o [1]
+EthType                 0x2805'681e       0x2  Data  Gb  GigEth_Test.o [1]
+EthernetTest            0x2805'6828       0x1  Data  Gb  GigEth_Test.o [1]
+Ethx_RxFrameCB          0x100b'7611      0x26  Code  Lc  GigEth_Test.o [1]
+Ethx_RxFrameCB::ReceiveCount
+                        0x2805'682a       0x1  Data  Lc  GigEth_Test.o [1]
+FPD_Link_Display        0x100b'9c15      0x2c  Code  Gb  fpd_display.o [1]
+FlashErase              0x100b'24f9      0x2e  Code  Gb  workflash.o [1]
+FlashInit               0x100b'24ed       0xc  Code  Gb  workflash.o [1]
+GetSine1KData           0x100b'793b      0x26  Code  Lc  tdm.o [1]
+GetSine1KData::txBufPoint
+                        0x2805'6814       0x4  Data  Lc  tdm.o [1]
+HEAP_STACK$$Base        0x2805'e000             --   Gb  - Linker created -
+HEAP_STACK$$Limit       0x2806'0000             --   Gb  - Linker created -
+HardFault_Handler       0x100b'9fd9            Code  Wk  startup_cm7.o [50]
+HyperFlashEraseOpInMMIO
+                        0x100b'2f0b     0x134  Code  Gb  smif_hflash.o [1]
+HyperFlashReadStatusOpInMMIO
+                        0x100b'2e99      0x72  Code  Gb  smif_hflash.o [1]
+HyperFlashWordProgramOpInMMIO
+                        0x100b'303f      0xe2  Code  Gb  smif_hflash.o [1]
+InitExtMem              0x100a'b563     0x1d4  Code  Lc  cy_gfx_env.o [44]
+InitPHY_DP83848Q_Q1     0x100b'7637     0x1a6  Code  Lc  GigEth_Test.o [1]
+InitPortPins            0x100a'b3d1      0xa4  Code  Lc  cy_gfx_env.o [44]
+InitRamEcc              0x100b'8a23     0x100  Code  Lc  startup.o [50]
+InitRamEccClearArea     0x100b'8b23      0x12  Code  Lc  startup.o [50]
+InitSmifAtSafeFreq      0x100a'b73d     0x144  Code  Lc  cy_gfx_env.o [44]
+InitSmifAtTargetFreq    0x100a'ba8d      0x74  Code  Lc  cy_gfx_env.o [44]
+InitSmifDeviceAtSafeFreq
+                        0x100a'b8a9     0x14c  Code  Lc  cy_gfx_env.o [44]
+InitSmifDeviceAtTargetFreq
+                        0x100a'bb01      0x4e  Code  Lc  cy_gfx_env.o [44]
+Init_CAN_Channels       0x100b'3f19      0xf2  Code  Gb  canfd.o [1]
+Init_n_Test_TDM         0x100b'7c43      0x62  Code  Gb  tdm.o [1]
+LIN_Init                0x100b'4339      0x72  Code  Gb  lin.o [1]
+LIN_M_IntHandler        0x100b'43e5      0xb8  Code  Lc  lin.o [1]
+LIN_M_TickHandler       0x100b'44b9      0xfa  Code  Lc  lin.o [1]
+LIN_Status              0x100b'45b3      0x3e  Code  Gb  lin.o [1]
+MTP_Test                0x100b'1b19     0x3d2  Code  Gb  main_cm7_0.o [2]
+MTP_Test_Procedure      0x100b'1839     0x2d2  Code  Gb  main_cm7_0.o [2]
+MasterHandleComplete    0x100a'fd47     0x104  Code  Lc  cy_scb_i2c.o [23]
+MasterHandleDataReceive
+                        0x100a'fbbd      0xbe  Code  Lc  cy_scb_i2c.o [23]
+MasterHandleDataTransmit
+                        0x100a'fc7b      0xcc  Code  Lc  cy_scb_i2c.o [23]
+MasterHandleStop        0x100a'fe51      0x46  Code  Lc  cy_scb_i2c.o [23]
+MasterInterrupt         0x100a'fac7      0xf6  Code  Lc  cy_scb_i2c.o [23]
+MasterSchedulerInit     0x100b'449d      0x1a  Code  Gb  lin.o [1]
+MemManage_Handler       0x100b'a7e1            Code  Wk  startup_cm7.o [50]
+NMI_Handler             0x100b'a7dd            Code  Wk  startup_cm7.o [50]
+PendSV_Handler          0x100b'a7f1            Code  Wk  startup_cm7.o [50]
+PortInit                0x100b'4091      0x3a  Code  Lc  canfd.o [1]
+PortInit                0x100b'43ab      0x3a  Code  Lc  lin.o [1]
+RTC_Handler             0x100b'4eaf       0xe  Code  Gb  wco.o [1]
+RTC_config              0x100b'9de8      0x24  Data  Gb  wco.o [1]
+RTC_dstConfig           0x100b'9bb8      0x30  Data  Gb  wco.o [1]
+RTC_rtcDstStatus        0x2805'6837       0x1  Data  Gb  wco.o [1]
+Read_DateTime           0x2805'66b4      0x24  Data  Gb  wco.o [1]
+ReceiveTdmData          0x100b'799d      0x2c  Code  Gb  tdm.o [1]
+Region$$Table$$Base     0x100b'9e54             --   Gb  - Linker created -
+Region$$Table$$Limit    0x100b'9e74             --   Gb  - Linker created -
+Reset_Handler           0x100b'90e1            Code  Wk  startup_cm7.o [50]
+SVC_Handler             0x100b'a081            Code  Wk  startup_cm7.o [50]
+ScanTimerCallback       0x100a'c1b9      0x66  Code  Lc  cy_button.o [41]
+SendCANData             0x100b'400b      0x86  Code  Gb  canfd.o [1]
+SetModeWithBusyCheck    0x100b'2e83      0x16  Code  Lc  smif_hflash.o [1]
+SetModeWithBusyCheck    0x100b'3a47      0x16  Code  Lc  smif_hram.o [1]
+SetSmifFrequencyWithDelayLineTapNumCalibrationForHRAM
+                        0x100b'3a5d     0x19e  Code  Gb  smif_hram.o [1]
+SetSmifFrequencyWithDelayLineTapNumCalibration_HFLASH
+                        0x100b'3121     0x1aa  Code  Gb  smif_hflash.o [1]
+SetTimer                0x100b'15d7      0x3e  Code  Gb  main_cm7_0.o [2]
+SlaveHandleAddress      0x100a'f713     0x136  Code  Lc  cy_scb_i2c.o [23]
+SlaveHandleDataReceive  0x100a'f849      0xac  Code  Lc  cy_scb_i2c.o [23]
+SlaveHandleDataTransmit
+                        0x100a'f8f5      0xfa  Code  Lc  cy_scb_i2c.o [23]
+SlaveHandleStop         0x100a'f9ef      0xd8  Code  Lc  cy_scb_i2c.o [23]
+SlaveInterrupt          0x100a'f635      0xde  Code  Lc  cy_scb_i2c.o [23]
+SmifPortInit            0x100b'2c9d      0x52  Code  Lc  smif_hflash.o [1]
+SmifPortInit            0x100b'378d      0x52  Code  Lc  smif_hram.o [1]
+StartTimer              0x100a'bcf3      0x46  Code  Lc  cy_sw_tmr.o [49]
+Startup_Init            0x100b'8995      0x8e  Code  Gb  startup.o [50]
+StopTimer               0x100b'1615       0xc  Code  Gb  main_cm7_0.o [2]
+SysTick_Handler         0x100b'a7f5            Code  Wk  startup_cm7.o [50]
+SystemCoreClock         0x2805'6800       0x4  Data  Gb  system_tviic2d4m_cm7.o [51]
+SystemCoreClockUpdate   0x100b'4d21      0x94  Code  Gb  system_tviic2d4m_cm7.o [51]
+SystemInit              0x100b'4cc5      0x5c  Code  Gb  system_tviic2d4m_cm7.o [51]
+Term_Printf             0x100b'15a1      0x36  Code  Gb  main_cm7_0.o [2]
+Test_Elements_str       0x2802'12a0     0x168  Data  Gb  main_cm7_0.o [2]
+Timeout                 0x2805'682e       0x1  Data  Gb  main_cm7_0.o [2]
+TimerISR                0x100b'1621      0x56  Code  Gb  main_cm7_0.o [2]
+Timer_Init              0x100b'1531      0x70  Code  Gb  main_cm7_0.o [2]
+Tmr_IRQ_cfg             0x2802'1298       0x8  Data  Gb  main_cm7_0.o [2]
+TransmitTdmData         0x100b'7961      0x3c  Code  Gb  tdm.o [1]
+UART_RX_IRQ             0x100b'1677      0xf0  Code  Gb  main_cm7_0.o [2]
+UART_RX_IRQ::command_idx
+                        0x2805'6836       0x1  Data  Lc  main_cm7_0.o [2]
+UsageFault_Handler      0x100b'a7e9            Code  Wk  startup_cm7.o [50]
+WaitDeviceBecomesReady  0x100b'339b      0x26  Code  Lc  smif_hflash.o [1]
+WriteRegisterSequence   0x100b'33c1      0x5a  Code  Lc  smif_hflash.o [1]
+_GetstrSmallNoMb        0x100b'5781      0xf8  Code  Lc  xscanfsmall_nomb.o [52]
+_LC                     0x100b'0011       0x6  Code  Lc  xprintffull_nomb.o [52]
+_LitobFullNoMb          0x100b'0cdd     0x114  Code  Lc  xprintffull_nomb.o [52]
+_PrintfFullNoMb         0x100b'0017     0xc98  Code  Gb  xprintffull_nomb.o [52]
+_PutcharsFullNoMb       0x100b'0e49      0x2e  Code  Lc  xprintffull_nomb.o [52]
+_SProut                 0x100a'aa17       0xa  Code  Gb  xsprout.o [52]
+_SScin                  0x100a'85c3      0x1e  Code  Gb  xsscin.o [52]
+_ScanfSmallNoMb         0x100b'52a7     0x4d4  Code  Gb  xscanfsmall_nomb.o [52]
+_UngetN                 0x100b'528d      0x1a  Code  Lc  xscanfsmall_nomb.o [52]
+__NVIC_ClearPendingIRQ  0x100b'27db      0x1c  Code  Lc  adc_pot.o [1]
+__NVIC_ClearPendingIRQ  0x100b'3d4b      0x1e  Code  Lc  canfd.o [1]
+__NVIC_ClearPendingIRQ  0x100b'8b99      0x1c  Code  Lc  cy_interrupt_map.o [39]
+__NVIC_ClearPendingIRQ  0x100b'122b      0x1e  Code  Lc  main_cm7_0.o [2]
+__NVIC_ClearPendingIRQ  0x100b'2649      0x1c  Code  Lc  user_button.o [1]
+__NVIC_ClearPendingIRQ  0x100b'4e31      0x1c  Code  Lc  wco.o [1]
+__NVIC_EnableIRQ        0x100b'27bd      0x1e  Code  Lc  adc_pot.o [1]
+__NVIC_EnableIRQ        0x100b'3d2d      0x1e  Code  Lc  canfd.o [1]
+__NVIC_EnableIRQ        0x100b'7cfd      0x1e  Code  Lc  cy_cs42448.o [40]
+__NVIC_EnableIRQ        0x100b'7469      0x1e  Code  Lc  GigEth_Test.o [1]
+__NVIC_EnableIRQ        0x100b'4189      0x1e  Code  Lc  lin.o [1]
+__NVIC_EnableIRQ        0x100b'120d      0x1e  Code  Lc  main_cm7_0.o [2]
+__NVIC_EnableIRQ        0x100b'78d1      0x1e  Code  Lc  tdm.o [1]
+__NVIC_EnableIRQ        0x100b'262d      0x1c  Code  Lc  user_button.o [1]
+__NVIC_EnableIRQ        0x100b'4e15      0x1c  Code  Lc  wco.o [1]
+__NVIC_SetPriority      0x100b'27f7      0x24  Code  Lc  adc_pot.o [1]
+__NVIC_SetPriority      0x100b'3d69      0x28  Code  Lc  canfd.o [1]
+__NVIC_SetPriority      0x100b'7487      0x28  Code  Lc  GigEth_Test.o [1]
+__NVIC_SetPriority      0x100b'41a7      0x28  Code  Lc  lin.o [1]
+__NVIC_SetPriority      0x100b'1249      0x28  Code  Lc  main_cm7_0.o [2]
+__NVIC_SetPriority      0x100b'4e4d      0x24  Code  Lc  wco.o [1]
+__Vectors               0x1008'0000             --   Gb  startup_cm7.o [50]
+__Vectors_End           0x1008'0080            Data  Gb  startup_cm7.o [50]
+__Vectors_Size {Abs}           0x80             --   Gb  startup_cm7.o [50]
+__aeabi_cdcmple         0x100b'1019            Code  Gb  DblCmpLe.o [53]
+__aeabi_cdrcmple        0x100b'104d            Code  Gb  DblCmpGe.o [53]
+__aeabi_d2iz            0x100b'1185       0xe  Code  Gb  DblToS32.o [53]
+__aeabi_d2uiz           0x100b'11c5       0xe  Code  Gb  DblToU32.o [53]
+__aeabi_ddiv            0x100b'11b3      0x12  Code  Gb  DblDiv.o [53]
+__aeabi_dmul            0x100b'11e1      0x12  Code  Gb  DblMul.o [53]
+__aeabi_dsub            0x100b'11a1      0x12  Code  Gb  DblSub.o [53]
+__aeabi_i2d             0x100b'1193       0xe  Code  Gb  S32ToDbl.o [53]
+__aeabi_ldiv0           0x100a'ac79            Code  Gb  I64DivZer.o [54]
+__aeabi_llsl            0x100a'a9f5            Code  Gb  I64Shl.o [54]
+__aeabi_llsr            0x100a'ac59            Code  Gb  U64Shr.o [54]
+__aeabi_memclr4         0x100a'd6f1            Code  Gb  ABImemclr4.o [54]
+__aeabi_memcpy          0x100a'85e1            Code  Gb  ABImemcpy.o [54]
+__aeabi_memcpy4         0x100a'8601            Code  Gb  ABImemcpy.o [54]
+__aeabi_memcpy8         0x100a'8601            Code  Gb  ABImemcpy.o [54]
+__aeabi_memset          0x100a'855d            Code  Gb  ABImemset.o [54]
+__aeabi_ui2d            0x100b'11d3       0xe  Code  Gb  U32ToDbl.o [53]
+__aeabi_uldivmod        0x100a'aa21            Code  Gb  I64DivMod.o [54]
+__cmain                 0x100b'9ff9            Code  Gb  cmain.o [54]
+__ecc_init_dtcm_end_address {Abs}
+                        0x2000'ffff            Data  Gb  <internal module>
+__ecc_init_dtcm_start_address {Abs}
+                        0x2000'0000            Data  Gb  <internal module>
+__ecc_init_itcm_end_address {Abs}
+                             0xffff            Data  Gb  <internal module>
+__ecc_init_itcm_start_address {Abs}
+                                0x0            Data  Gb  <internal module>
+__ecc_init_sram_end_address {Abs}
+                        0x2805'ffff            Data  Gb  <internal module>
+__ecc_init_sram_start_address {Abs}
+                        0x2802'0000            Data  Gb  <internal module>
+__exit                  0x100b'11f9      0x14  Code  Gb  exit.o [55]
+__iar_Fail_s            0x100b'0ed9      0x1c  Code  Gb  xfail_s.o [52]
+__iar_Memchr            0x100b'0f51            Code  Gb  memchr.o [54]
+__iar_Memset            0x100a'855d            Code  Gb  ABImemset.o [54]
+__iar_Memset4_word      0x100a'ef35            Code  Gb  ABImemset48.o [54]
+__iar_Memset8_word      0x100a'ef35            Code  Gb  ABImemset48.o [54]
+__iar_Memset_word       0x100a'8565            Code  Gb  ABImemset.o [54]
+__iar_Stolx             0x100b'71ef      0x92  Code  Gb  iar_Stolx.o [52]
+__iar_Stoulx            0x100b'70a5     0x13e  Code  Gb  iar_Stoulx.o [52]
+__iar_Strchr            0x100b'0ec1            Code  Gb  strchr.o [54]
+__iar_data_init3        0x100b'9d31      0x28  Code  Gb  data_init.o [54]
+__iar_frexp             0x100b'0fb5            Code  Gb  frexp.o [53]
+__iar_frexpl            0x100b'0fb5            Code  Gb  frexp.o [53]
+__iar_init_vfp          0x100b'9e31            Code  Gb  fpinit_M.o [53]
+__iar_ldexp64           0x100b'1095            Code  Gb  ldexp.o [53]
+__iar_lz77_init_single3
+                        0x100a'518f      0x7e  Code  Gb  lz77_init_single.o [54]
+__iar_program_start     0x100b'a09d            Code  Gb  cstartup_M.o [54]
+__iar_scalbln64         0x100b'1095            Code  Gb  ldexp.o [53]
+__iar_scalbn64          0x100b'1095            Code  Gb  ldexp.o [53]
+__iar_softfp___iar_frexp64
+                        0x100b'0fa9            Code  Gb  frexp.o [53]
+__iar_softfp___iar_ldexp64
+                        0x100b'1081            Code  Gb  ldexp.o [53]
+__iar_softfp___iar_scalbln64
+                        0x100b'1081            Code  Gb  ldexp.o [53]
+__iar_softfp___iar_scalbn64
+                        0x100b'1081            Code  Gb  ldexp.o [53]
+__iar_softfp_frexp      0x100b'0fa9            Code  Gb  frexp.o [53]
+__iar_softfp_frexpl     0x100b'0fa9            Code  Gb  frexp.o [53]
+__iar_softfp_ldexp      0x100b'1081            Code  Gb  ldexp.o [53]
+__iar_softfp_ldexpl     0x100b'1081            Code  Gb  ldexp.o [53]
+__iar_softfp_scalbln    0x100b'1081            Code  Gb  ldexp.o [53]
+__iar_softfp_scalblnl   0x100b'1081            Code  Gb  ldexp.o [53]
+__iar_softfp_scalbn     0x100b'1081            Code  Gb  ldexp.o [53]
+__iar_softfp_scalbnl    0x100b'1081            Code  Gb  ldexp.o [53]
+__iar_zero_init3        0x100b'99f9      0x38  Code  Gb  zero_init3.o [54]
+__low_level_init        0x100b'a019            Code  Gb  startup_cm7.o [50]
+__ramVectors            0x2805'6880            Data  Gb  startup_cm7.o [50]
+__vector_table          0x1008'0000            Data  Gb  startup_cm7.o [50]
+__vector_table_0x1c     0x1008'001c            Data  Gb  startup_cm7.o [50]
+_call_main              0x100b'a005            Code  Gb  cmain.o [54]
+_exit                   0x100b'a021            Code  Gb  cexit.o [54]
+abort                   0x100b'11f3       0x6  Code  Gb  abort.o [52]
+abs                     0x100a'ac51       0x8  Code  Wk  abs.o [52]
+adc_pot_init            0x100b'29d1      0xd8  Code  Gb  adc_pot.o [1]
+adc_pot_test            0x100b'2aa9      0x52  Code  Gb  adc_pot.o [1]
+adc_pot_test::high_end  0x2805'6820       0x1  Data  Lc  adc_pot.o [1]
+adc_pot_test::low_end   0x2805'6821       0x1  Data  Lc  adc_pot.o [1]
+adc_resultBuff          0x2805'681c       0x2  Data  Gb  adc_pot.o [1]
+alarm                   0x100b'9a64      0x34  Data  Gb  wco.o [1]
+button_init             0x100b'26cb      0x9e  Code  Gb  user_button.o [1]
+button_irq_cfg          0x2802'193c       0x8  Data  Gb  user_button.o [1]
+button_test             0x100b'2769      0x28  Code  Gb  user_button.o [1]
+calcDescriptorSizes     0x100a'009d      0x3a  Code  Lc  edd.o [11]
+callbacksNullCheck      0x100a'0555     0x1f4  Code  Lc  edd.o [11]
+canCfg0                 0x2802'0000      0x50  Data  Gb  canfd.o [1]
+canCfg1                 0x2802'0050      0x50  Data  Gb  canfd.o [1]
+can_pin_cfg             0x100b'8e60      0xf0  Data  Lc  canfd.o [1]
+clearAllInterrupts      0x100a'02f9      0x74  Code  Lc  edd.o [11]
+cmdLatTbls              0x2802'0e60      0x18  Data  Gb  cy_smif_semp.o [48]
+codec_i2c_irq_cfg       0x2802'0100       0x8  Data  Lc  cy_cs42448.o [40]
+codec_i2c_port_pin_cfg  0x2805'6630      0x34  Data  Lc  cy_cs42448.o [40]
+codec_i2c_stc_config    0x2802'0108       0xc  Data  Lc  cy_cs42448.o [40]
+codec_i2c_stc_context   0x2805'65ac      0x4c  Data  Lc  cy_cs42448.o [40]
+codec_i2c_stc_master_config
+                        0x2805'6748      0x10  Data  Lc  cy_cs42448.o [40]
+command                 0x2805'6400      0x80  Data  Lc  main_cm7_0.o [2]
+config_tdm              0x2802'18cc      0x2c  Data  Gb  tdm.o [1]
+current_test            0x2805'6834       0x1  Data  Gb  main_cm7_0.o [2]
+cy_Rtc_daysInMonthTbl   0x100b'a50c       0xc  Data  Gb  cy_sysrtc.o [34]
+cy_assertFileName       0x2805'6708      0x18  Data  Gb  cy_syslib.o [30]
+cy_assertLine           0x2805'67fc       0x4  Data  Gb  cy_syslib.o [30]
+cy_delay32kMs           0x2805'6810       0x4  Data  Gb  system_tviic2d4m_cm7.o [51]
+cy_delayFreqHz          0x2805'6804       0x4  Data  Gb  system_tviic2d4m_cm7.o [51]
+cy_delayFreqKhz         0x2805'6808       0x4  Data  Gb  system_tviic2d4m_cm7.o [51]
+cy_delayFreqMhz         0x2805'680c       0x4  Data  Gb  system_tviic2d4m_cm7.o [51]
+cy_ethif_cfg            0x2805'62e8      0x98  Data  Lc  cy_ethif.o [11]
+cy_ethif_privatedata    0x2805'5160     0x708  Data  Gb  cy_ethif.o [11]
+cy_ethif_rx_desc_list   0x2805'5e88     0x140  Data  Gb  cy_ethif.o [11]
+cy_ethif_sysreq         0x2805'6758      0x10  Data  Lc  cy_ethif.o [11]
+cy_ethif_tx_desc_list   0x2805'5868     0x270  Data  Gb  cy_ethif.o [11]
+cy_faultFrame           0x2805'6480      0x70  Data  Gb  cy_syslib.o [30]
+cy_str_rxBufStatus      0x2805'60c8      0xc0  Data  Gb  cy_ethif.o [11]
+cy_str_txBufStatus      0x2805'5cd8     0x1b0  Data  Gb  cy_ethif.o [11]
+cyp_ethif_gemgxlobj     0x2805'67dc       0x4  Data  Lc  cy_ethif.o [11]
+cyp_ethif_pd            0x2805'67e0       0x4  Data  Lc  cy_ethif.o [11]
+cyp_ethif_source_addr   0x2805'67b4       0x8  Data  Lc  cy_ethif.o [11]
+cyp_ethif_statistic     0x2805'6248      0xa0  Data  Lc  cy_ethif.o [11]
+dataBufferSizeInWord    0x100b'a584       0x8  Data  Lc  cy_canfd.o [6]
+decToHex                0x100b'4f65      0x62  Code  Gb  silicon_details.o [1]
+dec_txbd                0x100a'42fb      0x3c  Code  Lc  edd_tx.o [11]
+digits                  0x100b'943c      0x28  Data  Lc  iar_Stoulx.o [52]
+disableAllInterrupts    0x100a'02bb      0x3e  Code  Lc  edd.o [11]
+divNumLocator           0x100b'a5f0       0x8  Data  Gb  cy_sysclk.o [27]
+element                 0x2805'6835       0x1  Data  Gb  main_cm7_0.o [2]
+emacAbortTx             0x100a'4d9d      0x1c  Code  Gb  edd_tx.o [11]
+emacAddRxBuf            0x100a'52c1     0x114  Code  Gb  edd_rx.o [11]
+emacAdjust1588Timer     0x100a'2d97      0x48  Code  Gb  edd.o [11]
+emacCalcMaxRxFrameSize  0x100a'520d      0xb4  Code  Gb  edd_rx.o [11]
+emacCalcMaxTxFrameSize  0x100a'4337     0x184  Code  Gb  edd_tx.o [11]
+emacClearRxStatus       0x100a'5bd7      0x34  Code  Gb  edd_rx.o [11]
+emacClearStats          0x100a'3bcd      0x2e  Code  Gb  edd.o [11]
+emacClearTxStatus       0x100a'4e65      0x58  Code  Gb  edd_tx.o [11]
+emacDeQTxBuf            0x100a'4785      0x96  Code  Gb  edd_tx.o [11]
+emacDestroy             0x100a'136d      0x1c  Code  Gb  edd.o [11]
+emacDisableCbs          0x100a'5007      0x44  Code  Gb  edd_tx.o [11]
+emacDisableRx           0x100a'5833      0x1c  Code  Gb  edd_rx.o [11]
+emacDisableSpecAddr     0x100a'6f0b     0x27a  Code  Gb  edd_rx.o [11]
+emacEnableCbs           0x100a'4f6d      0x9a  Code  Gb  edd_tx.o [11]
+emacEnableRx            0x100a'5817      0x1c  Code  Gb  edd_rx.o [11]
+emacEnableTx            0x100a'4dd1      0x1c  Code  Gb  edd_tx.o [11]
+emacFindQBaseAddr       0x100a'58f1      0x5a  Code  Gb  edd_rx.o [11]
+emacFreeTxDesc          0x100a'4847     0x162  Code  Gb  edd_tx.o [11]
+emacGet1536ByteFramesRx
+                        0x100a'23c5      0x24  Code  Gb  edd.o [11]
+emacGet1588OneStepTxSyncEnable
+                        0x100a'3167      0x2e  Code  Gb  edd.o [11]
+emacGet1588SyncStrobeTime
+                        0x100a'305b      0x4a  Code  Gb  edd.o [11]
+emacGet1588Timer        0x100a'2d19      0x7e  Code  Gb  edd.o [11]
+emacGet1588TimerInc     0x100a'2e43      0x5a  Code  Gb  edd.o [11]
+emacGetAnAdvPage        0x100a'35e9      0x56  Code  Gb  edd.o [11]
+emacGetAnComplete       0x100a'3547      0x2a  Code  Gb  edd.o [11]
+emacGetAnRemoteFault    0x100a'351d      0x2a  Code  Gb  edd.o [11]
+emacGetAutoNegEnable    0x100a'3495      0x32  Code  Gb  edd.o [11]
+emacGetCbsQSetting      0x100a'504b      0x84  Code  Gb  edd_tx.o [11]
+emacGetCollisionTest    0x100a'3f73      0x34  Code  Gb  edd.o [11]
+emacGetCopyAllFrames    0x100a'74af      0x22  Code  Gb  edd_rx.o [11]
+emacGetCopyPauseDisable
+                        0x100a'2941      0x24  Code  Gb  edd.o [11]
+emacGetDescTimeStampMode
+                        0x100a'3217      0x52  Code  Gb  edd.o [11]
+emacGetDesignConfig     0x100a'3e0d      0x20  Code  Gb  edd.o [11]
+emacGetEnableMultiPfcPauseQuantum
+                        0x100a'2a93      0x24  Code  Gb  edd.o [11]
+emacGetEventEnable      0x100a'1e73     0x216  Code  Gb  edd.o [11]
+emacGetExtTsuPortEnable
+                        0x100a'30ed      0x32  Code  Gb  edd.o [11]
+emacGetFcsRemove        0x100a'2479      0x24  Code  Gb  edd.o [11]
+emacGetFullDuplex       0x100a'258f      0x22  Code  Gb  edd.o [11]
+emacGetHashAddr         0x100a'74f7      0x30  Code  Gb  edd_rx.o [11]
+emacGetHdrDataSplit     0x100a'5c53      0x2e  Code  Gb  edd_rx.o [11]
+emacGetIfCapabilities   0x100a'2665      0x1c  Code  Gb  edd.o [11]
+emacGetIfSpeed          0x100a'215d      0x3a  Code  Gb  edd.o [11]
+emacGetIgnoreFcsRx      0x100a'25e7      0x24  Code  Gb  edd.o [11]
+emacGetIntrptModerate   0x100a'20d3      0x3c  Code  Gb  edd.o [11]
+emacGetIpgStretch       0x100a'513b      0x54  Code  Gb  edd_tx.o [11]
+emacGetJumboFrameRxMaxLen
+                        0x100a'224f      0x22  Code  Gb  edd.o [11]
+emacGetJumboFramesRx    0x100a'21cd      0x22  Code  Gb  edd.o [11]
+emacGetLenErrDiscard    0x100a'755d      0x24  Code  Gb  edd_rx.o [11]
+emacGetLinkStatus       0x100a'34f3      0x2a  Code  Gb  edd.o [11]
+emacGetLoopback         0x100a'2b6b      0x48  Code  Gb  edd.o [11]
+emacGetLpAbilityPage    0x100a'363f      0xa4  Code  Gb  edd.o [11]
+emacGetLpNextPage       0x100a'37b9      0x56  Code  Gb  edd.o [11]
+emacGetLpiStats         0x100a'3dbf      0x4e  Code  Gb  edd.o [11]
+emacGetLpiTxEnable      0x100a'3d9d      0x22  Code  Gb  edd.o [11]
+emacGetMdioEnable       0x100a'3851      0x16  Code  Gb  edd.o [11]
+emacGetMdioIdle         0x100a'390d      0x18  Code  Gb  edd.o [11]
+emacGetMdioInState      0x100a'4127      0x22  Code  Gb  edd.o [11]
+emacGetMdioReadData     0x100a'38ef      0x1e  Code  Gb  edd.o [11]
+emacGetMulticastEnable  0x100a'734d      0x22  Code  Gb  edd_rx.o [11]
+emacGetNextPageTx       0x100a'3777      0x42  Code  Gb  edd.o [11]
+emacGetNoBroadcast      0x100a'739d      0x22  Code  Gb  edd_rx.o [11]
+emacGetNumScreenRegs    0x100a'7581      0x28  Code  Gb  edd_rx.o [11]
+emacGetPageRx           0x100a'36e3      0x26  Code  Gb  edd.o [11]
+emacGetPauseEnable      0x100a'26b7      0x24  Code  Gb  edd.o [11]
+emacGetPcsReady         0x100a'3325      0x36  Code  Gb  edd.o [11]
+emacGetPfcPriorityBasedPauseRx
+                        0x100a'2997      0x22  Code  Gb  edd.o [11]
+emacGetPhyId            0x100a'380f      0x10  Code  Gb  edd.o [11]
+emacGetPtpFrameRxTime   0x100a'2f83      0x48  Code  Gb  edd.o [11]
+emacGetPtpFrameTxTime   0x100a'2f3b      0x48  Code  Gb  edd.o [11]
+emacGetPtpPeerFrameRxTime
+                        0x100a'3013      0x48  Code  Gb  edd.o [11]
+emacGetPtpPeerFrameTxTime
+                        0x100a'2fcb      0x48  Code  Gb  edd.o [11]
+emacGetPtpRxUnicastIpAddr
+                        0x100a'2c3d      0x1e  Code  Gb  edd.o [11]
+emacGetPtpTxUnicastIpAddr
+                        0x100a'2c91      0x1e  Code  Gb  edd.o [11]
+emacGetReadSnapshot     0x100a'3c81      0x36  Code  Gb  edd.o [11]
+emacGetRetryTest        0x100a'3fdd      0x24  Code  Gb  edd.o [11]
+emacGetRscEnable        0x100a'5cf1      0x56  Code  Gb  edd_rx.o [11]
+emacGetRxBackPressure   0x100a'3f01      0x22  Code  Gb  edd.o [11]
+emacGetRxBadPreamble    0x100a'2535      0x24  Code  Gb  edd.o [11]
+emacGetRxBufOffset      0x100a'236b      0x24  Code  Gb  edd.o [11]
+emacGetRxChecksumOffload
+                        0x100a'241f      0x24  Code  Gb  edd.o [11]
+emacGetRxDescSize       0x100a'57ef      0x12  Code  Gb  edd_rx.o [11]
+emacGetRxDescStat       0x100a'5683     0x16c  Code  Gb  edd_rx.o [11]
+emacGetRxDmaDataAddrMask
+                        0x100a'24d3      0x2c  Code  Gb  edd.o [11]
+emacGetRxHalfDuplexInTx
+                        0x100a'2641      0x24  Code  Gb  edd.o [11]
+emacGetRxPartialStFwd   0x100a'5df3      0x42  Code  Gb  edd_rx.o [11]
+emacGetRxPauseQuantum   0x100a'2713      0x1e  Code  Gb  edd.o [11]
+emacGetRxStatus         0x100a'5b95      0x42  Code  Gb  edd_rx.o [11]
+emacGetSpecificAddr     0x100a'67e7     0x67c  Code  Gb  edd_rx.o [11]
+emacGetSpecificAddr1Mask
+                        0x100a'6ebd      0x4e  Code  Gb  edd_rx.o [11]
+emacGetStackedVlanReg   0x100a'7453      0x26  Code  Gb  edd_rx.o [11]
+emacGetStoreRxTimeStamp
+                        0x100a'32b1      0x32  Code  Gb  edd.o [11]
+emacGetTsuTimerCompVal  0x100a'2ef7      0x44  Code  Gb  edd.o [11]
+emacGetTxChecksumOffload
+                        0x100a'2313      0x24  Code  Gb  edd.o [11]
+emacGetTxDescSize       0x100a'49e5      0x12  Code  Gb  edd_tx.o [11]
+emacGetTxDescStat       0x100a'49a9      0x3c  Code  Gb  edd_tx.o [11]
+emacGetTxEnabled        0x100a'4ded      0x16  Code  Gb  edd_tx.o [11]
+emacGetTxPartialStFwd   0x100a'4f2b      0x42  Code  Gb  edd_tx.o [11]
+emacGetTxPauseQuantum   0x100a'2853      0xc0  Code  Gb  edd.o [11]
+emacGetTxPfcPauseFrameFields
+                        0x100a'2a21      0x2a  Code  Gb  edd.o [11]
+emacGetTxStatus         0x100a'4e03      0x62  Code  Gb  edd_tx.o [11]
+emacGetType1ScreenReg   0x100a'7701     0x14c  Code  Gb  edd_rx.o [11]
+emacGetType2CompareReg  0x100a'8169     0x3f4  Code  Gb  edd_rx.o [11]
+emacGetType2EthertypeReg
+                        0x100a'7ca9      0xba  Code  Gb  edd_rx.o [11]
+emacGetType2ScreenReg   0x100a'7a57     0x18e  Code  Gb  edd_rx.o [11]
+emacGetTypeIdMatch      0x100a'722b      0x94  Code  Gb  edd_rx.o [11]
+emacGetUniDirEnable     0x100a'22a7      0x20  Code  Gb  edd.o [11]
+emacGetUnicastEnable    0x100a'72f5      0x22  Code  Gb  edd_rx.o [11]
+emacGetUnicastPtpDetect
+                        0x100a'2be5      0x22  Code  Gb  edd.o [11]
+emacGetUserInPin        0x100a'40e3      0x44  Code  Gb  edd.o [11]
+emacGetVlanOnly         0x100a'73f5      0x22  Code  Gb  edd_rx.o [11]
+emacGetWakeOnLanReg     0x100a'3d1b      0x46  Code  Gb  edd.o [11]
+emacGetWriteStatsEnable
+                        0x100a'3e75      0x2c  Code  Gb  edd.o [11]
+emacIncStatsRegs        0x100a'3ea1      0x2e  Code  Gb  edd.o [11]
+emacInit                0x100a'0fa7     0x3c6  Code  Gb  edd.o [11]
+emacIsr                 0x100a'13ed     0x71e  Code  Gb  edd.o [11]
+emacNumRxBufs           0x100a'53d5      0x2c  Code  Gb  edd_rx.o [11]
+emacNumRxUsed           0x100a'5401      0x5a  Code  Gb  edd_rx.o [11]
+emacPhyStartMdioRead    0x100a'38ad      0x42  Code  Gb  edd.o [11]
+emacPhyStartMdioWrite   0x100a'3867      0x46  Code  Gb  edd.o [11]
+emacProbe               0x100a'0e71     0x136  Code  Gb  edd.o [11]
+emacQTxBuf              0x100a'45fd     0x182  Code  Gb  edd_tx.o [11]
+emacQueueTxBuf          0x100a'44bb     0x142  Code  Gb  edd_tx.o [11]
+emacReadReg             0x100a'4149      0x28  Code  Gb  edd.o [11]
+emacReadRxBuf           0x100a'545b     0x228  Code  Gb  edd_rx.o [11]
+emacReadStats           0x100a'3925     0x2a8  Code  Gb  edd.o [11]
+emacReadUserInputs      0x100a'40b7      0x2c  Code  Gb  edd.o [11]
+emacReadUserOutputs     0x100a'402b      0x2a  Code  Gb  edd.o [11]
+emacRemoveRxBuf         0x100a'584f      0xa2  Code  Gb  edd_rx.o [11]
+emacResetPcs            0x100a'32e3      0x42  Code  Gb  edd.o [11]
+emacResetRxQ            0x100a'594b     0x242  Code  Gb  edd_rx.o [11]
+emacResetTxQ            0x100a'49f7     0x328  Code  Gb  edd_tx.o [11]
+emacRxEnabled           0x100a'5801      0x16  Code  Gb  edd_rx.o [11]
+emacSet1536ByteFramesRx
+                        0x100a'238f      0x36  Code  Gb  edd.o [11]
+emacSet1588OneStepTxSyncEnable
+                        0x100a'311f      0x48  Code  Gb  edd.o [11]
+emacSet1588Timer        0x100a'2caf      0x6a  Code  Gb  edd.o [11]
+emacSet1588TimerInc     0x100a'2ddf      0x64  Code  Gb  edd.o [11]
+emacSetAnAdvPage        0x100a'3571      0x78  Code  Gb  edd.o [11]
+emacSetAutoNegEnable    0x100a'341b      0x7a  Code  Gb  edd.o [11]
+emacSetCollisionTest    0x100a'3f23      0x50  Code  Gb  edd.o [11]
+emacSetCopyAllFrames    0x100a'7479      0x36  Code  Gb  edd_rx.o [11]
+emacSetCopyPauseDisable
+                        0x100a'2913      0x2e  Code  Gb  edd.o [11]
+emacSetDescTimeStampMode
+                        0x100a'3195      0x82  Code  Gb  edd.o [11]
+emacSetEnableMultiPfcPauseQuantum
+                        0x100a'2a4b      0x48  Code  Gb  edd.o [11]
+emacSetEventEnable      0x100a'1b0b     0x368  Code  Gb  edd.o [11]
+emacSetExtTsuPortEnable
+                        0x100a'30a5      0x48  Code  Gb  edd.o [11]
+emacSetFcsRemove        0x100a'2443      0x36  Code  Gb  edd.o [11]
+emacSetFullDuplex       0x100a'2559      0x36  Code  Gb  edd.o [11]
+emacSetHashAddr         0x100a'74d1      0x26  Code  Gb  edd_rx.o [11]
+emacSetHdrDataSplit     0x100a'5c0b      0x48  Code  Gb  edd_rx.o [11]
+emacSetIfSpeed          0x100a'210f      0x4e  Code  Gb  edd.o [11]
+emacSetIgnoreFcsRx      0x100a'25b1      0x36  Code  Gb  edd.o [11]
+emacSetIntrptModerate   0x100a'2089      0x4a  Code  Gb  edd.o [11]
+emacSetIpgStretch       0x100a'50cf      0x6c  Code  Gb  edd_tx.o [11]
+emacSetJumboFrameRxMaxLen
+                        0x100a'21ef      0x60  Code  Gb  edd.o [11]
+emacSetJumboFramesRx    0x100a'2197      0x36  Code  Gb  edd.o [11]
+emacSetLenErrDiscard    0x100a'7527      0x36  Code  Gb  edd_rx.o [11]
+emacSetLoopback         0x100a'2ab7      0xb4  Code  Gb  edd.o [11]
+emacSetLpiTxEnable      0x100a'3d61      0x3c  Code  Gb  edd.o [11]
+emacSetMdioEnable       0x100a'381f      0x32  Code  Gb  edd.o [11]
+emacSetMulticastEnable  0x100a'7317      0x36  Code  Gb  edd_rx.o [11]
+emacSetNextPageTx       0x100a'3709      0x6e  Code  Gb  edd.o [11]
+emacSetNoBroadcast      0x100a'736f      0x2e  Code  Gb  edd_rx.o [11]
+emacSetPauseEnable      0x100a'2681      0x36  Code  Gb  edd.o [11]
+emacSetPfcPriorityBasedPauseRx
+                        0x100a'2965      0x32  Code  Gb  edd.o [11]
+emacSetPtpRxUnicastIpAddr
+                        0x100a'2c07      0x36  Code  Gb  edd.o [11]
+emacSetPtpTxUnicastIpAddr
+                        0x100a'2c5b      0x36  Code  Gb  edd.o [11]
+emacSetReadSnapshot     0x100a'3c31      0x50  Code  Gb  edd.o [11]
+emacSetRetryTest        0x100a'3fa7      0x36  Code  Gb  edd.o [11]
+emacSetRscClearMask     0x100a'5d47      0x48  Code  Gb  edd_rx.o [11]
+emacSetRscEnable        0x100a'5c81      0x70  Code  Gb  edd_rx.o [11]
+emacSetRxBackPressure   0x100a'3ecf      0x32  Code  Gb  edd.o [11]
+emacSetRxBadPreamble    0x100a'24ff      0x36  Code  Gb  edd.o [11]
+emacSetRxBufOffset      0x100a'2337      0x34  Code  Gb  edd.o [11]
+emacSetRxChecksumOffload
+                        0x100a'23e9      0x36  Code  Gb  edd.o [11]
+emacSetRxDmaDataAddrMask
+                        0x100a'249d      0x36  Code  Gb  edd.o [11]
+emacSetRxHalfDuplexInTx
+                        0x100a'260b      0x36  Code  Gb  edd.o [11]
+emacSetRxPartialStFwd   0x100a'5d8f      0x64  Code  Gb  edd_rx.o [11]
+emacSetSpecificAddr     0x100a'5e35     0x9b2  Code  Gb  edd_rx.o [11]
+emacSetSpecificAddr1Mask
+                        0x100a'6e63      0x5a  Code  Gb  edd_rx.o [11]
+emacSetStackedVlanReg   0x100a'7417      0x3c  Code  Gb  edd_rx.o [11]
+emacSetStoreRxTimeStamp
+                        0x100a'3269      0x48  Code  Gb  edd.o [11]
+emacSetTsuTimerCompVal  0x100a'2e9d      0x5a  Code  Gb  edd.o [11]
+emacSetTxChecksumOffload
+                        0x100a'22c7      0x4c  Code  Gb  edd.o [11]
+emacSetTxPartialStFwd   0x100a'4ebd      0x6e  Code  Gb  edd_tx.o [11]
+emacSetTxPauseQuantum   0x100a'2731     0x122  Code  Gb  edd.o [11]
+emacSetTxPfcPauseFrameFields
+                        0x100a'29ff      0x22  Code  Gb  edd.o [11]
+emacSetType1ScreenReg   0x100a'75a9     0x158  Code  Gb  edd_rx.o [11]
+emacSetType2CompareReg  0x100a'7d63     0x406  Code  Gb  edd_rx.o [11]
+emacSetType2EthertypeReg
+                        0x100a'7be5      0xc4  Code  Gb  edd_rx.o [11]
+emacSetType2ScreenReg   0x100a'784d     0x20a  Code  Gb  edd_rx.o [11]
+emacSetTypeIdMatch      0x100a'7185      0xa6  Code  Gb  edd_rx.o [11]
+emacSetUniDirEnable     0x100a'2271      0x36  Code  Gb  edd.o [11]
+emacSetUnicastEnable    0x100a'72bf      0x36  Code  Gb  edd_rx.o [11]
+emacSetUnicastPtpDetect
+                        0x100a'2bb3      0x32  Code  Gb  edd.o [11]
+emacSetUserOutPin       0x100a'4055      0x62  Code  Gb  edd.o [11]
+emacSetVlanOnly         0x100a'73bf      0x36  Code  Gb  edd_rx.o [11]
+emacSetWakeOnLanReg     0x100a'3cb7      0x64  Code  Gb  edd.o [11]
+emacSetWriteStatsEnable
+                        0x100a'3e2d      0x48  Code  Gb  edd.o [11]
+emacStart               0x100a'1389      0x22  Code  Gb  edd.o [11]
+emacStartAutoNegotiation
+                        0x100a'335b      0xc0  Code  Gb  edd.o [11]
+emacStartTx             0x100a'4d1f      0x62  Code  Gb  edd_tx.o [11]
+emacStop                0x100a'13ab      0x42  Code  Gb  edd.o [11]
+emacStopTx              0x100a'4d81      0x1c  Code  Gb  edd_tx.o [11]
+emacTakeSnapshot        0x100a'3bfb      0x36  Code  Gb  edd.o [11]
+emacTransmitting        0x100a'4db9      0x18  Code  Gb  edd_tx.o [11]
+emacTxDescFree          0x100a'481b      0x2c  Code  Gb  edd_tx.o [11]
+emacTxPauseFrame        0x100a'26db      0x1c  Code  Gb  edd.o [11]
+emacTxPfcPriorityBasedPause
+                        0x100a'29b9      0x46  Code  Gb  edd.o [11]
+emacTxZeroQPause        0x100a'26f7      0x1c  Code  Gb  edd.o [11]
+emacWriteReg            0x100a'4171      0x24  Code  Gb  edd.o [11]
+emacWriteUserOutputs    0x100a'4001      0x2a  Code  Gb  edd.o [11]
+exit                    0x100b'a01d       0x4  Code  Gb  exit.o [52]
+extIdFilter             0x100b'a30c      0x10  Data  Lc  canfd.o [1]
+fpdlinkGenericInitInternal
+                        0x100a'c4f7      0x8c  Code  Lc  cy_fpdlink.o [14]
+fpdlink_base            0x2802'015c       0x4  Data  Lc  cy_fpdlink.o [14]
+fpdlink_ccm_trim_val_ptr
+                        0x2802'0160       0x4  Data  Lc  cy_fpdlink.o [14]
+frameType               0x2802'195c       0x2  Data  Gb  GigEth_Test.o [1]
+gEtherPorts             0x100b'873c     0x258  Data  Gb  GigEth_Test.o [1]
+gLedPortGfg             0x100b'9a30      0x34  Data  Gb  GigEth_Test.o [1]
+gMAC_DST_ADDR           0x100b'a618       0x8  Data  Gb  GigEth_Test.o [1]
+gMAC_SRC_ADDR           0x100b'a610       0x8  Data  Gb  GigEth_Test.o [1]
+gSine1Khz               0x2802'168c      0x60  Data  Lc  tdm.o [1]
+g_dummy                 0x2805'67f8       0x4  Data  Lc  cy_srom.o [26]
+g_latancyTableOfWrite   0x100b'22ca       0x1  Data  Lc  cy_smif_s25fl.o [48]
+g_latancyTableOfWrite   0x100b'70a2       0x1  Data  Gb  cy_smif_semp.o [48]
+g_latancyTableOfWrite_s25fs
+                        0x100b'22cb       0x1  Data  Gb  cy_smif_s25fs.o [48]
+g_limPll400M            0x100b'9b28      0x30  Data  Lc  cy_sysclk.o [27]
+g_limPll400MFrac        0x100b'9b58      0x30  Data  Lc  cy_sysclk.o [27]
+g_limPllLF              0x100b'9ac8      0x30  Data  Lc  cy_sysclk.o [27]
+g_limPllNORM            0x100b'9af8      0x30  Data  Lc  cy_sysclk.o [27]
+g_mpuCfg                0x2802'15fc      0x90  Data  Gb  smif_hram.o [1]
+g_mpuhflashCfg          0x2802'14ac      0x90  Data  Gb  smif_hflash.o [1]
+g_s25flLatancyTableOfDDRDIOR
+                        0x100b'a788       0x4  Data  Lc  cy_smif_s25fl.o [48]
+g_s25flLatancyTableOfDDRFR
+                        0x100b'a784       0x4  Data  Lc  cy_smif_s25fl.o [48]
+g_s25flLatancyTableOfDDRQIOR
+                        0x100b'a78c       0x4  Data  Lc  cy_smif_s25fl.o [48]
+g_s25flLatancyTableOfDIOR
+                        0x100b'a77c       0x4  Data  Lc  cy_smif_s25fl.o [48]
+g_s25flLatancyTableOfDOR
+                        0x100b'a774       0x4  Data  Lc  cy_smif_s25fl.o [48]
+g_s25flLatancyTableOfFastRead
+                        0x100b'a770       0x4  Data  Lc  cy_smif_s25fl.o [48]
+g_s25flLatancyTableOfQIOR
+                        0x100b'a780       0x4  Data  Lc  cy_smif_s25fl.o [48]
+g_s25flLatancyTableOfQOR
+                        0x100b'a778       0x4  Data  Lc  cy_smif_s25fl.o [48]
+g_s25flLatancyTableOfRead
+                        0x100b'a76c       0x4  Data  Lc  cy_smif_s25fl.o [48]
+g_s25flReadAddrTypes    0x100b'9d58      0x24  Data  Gb  cy_smif_s25fl.o [48]
+g_s25flReadCmdInfo      0x100b'8f50      0xe0  Data  Gb  cy_smif_s25fl.o [48]
+g_s25flReadCmdTypes     0x100b'a5b0       0x8  Data  Gb  cy_smif_s25fl.o [48]
+g_s25flReadDataTypes    0x100b'a4d0       0xc  Data  Gb  cy_smif_s25fl.o [48]
+g_s25flReadDummyTypes   0x100b'962c      0x48  Data  Gb  cy_smif_s25fl.o [48]
+g_s25flReadLatencyCodeToDummyCycle
+                        0x2802'0e24      0x24  Data  Gb  cy_smif_s25fl.o [48]
+g_s25flReadModeTypes    0x100b'a100      0x18  Data  Gb  cy_smif_s25fl.o [48]
+g_s25flWriteAddrTypes   0x100b'a5b8       0x8  Data  Gb  cy_smif_s25fl.o [48]
+g_s25flWriteCmdInfo     0x100b'9c90      0x28  Data  Gb  cy_smif_s25fl.o [48]
+g_s25flWriteCmdTypes    0x100b'a790       0x4  Data  Gb  cy_smif_s25fl.o [48]
+g_s25flWriteDataTypes   0x100b'a798       0x4  Data  Gb  cy_smif_s25fl.o [48]
+g_s25flWriteDummyTypes  0x100b'a5c0       0x8  Data  Gb  cy_smif_s25fl.o [48]
+g_s25flWriteLatencyCodeToDummyCycle
+                        0x2802'0e48       0x4  Data  Gb  cy_smif_s25fl.o [48]
+g_s25flWriteModeTypes   0x100b'a794       0x4  Data  Gb  cy_smif_s25fl.o [48]
+g_s25fsLatTblOtherThanOctalRead
+                        0x100b'a35c      0x10  Data  Gb  cy_smif_s25fs.o [48]
+g_s25fsReadAddrTypes    0x100b'a118      0x18  Data  Gb  cy_smif_s25fs.o [48]
+g_s25fsReadCmdInfo      0x100b'9030      0xb0  Data  Gb  cy_smif_s25fs.o [48]
+g_s25fsReadCmdTypes     0x100b'a4dc       0xc  Data  Gb  cy_smif_s25fs.o [48]
+g_s25fsReadDataTypes    0x100b'a5c8       0x8  Data  Gb  cy_smif_s25fs.o [48]
+g_s25fsReadDummyTypes   0x100b'9cb8      0x28  Data  Gb  cy_smif_s25fs.o [48]
+g_s25fsReadLatencyCodeToDummyCycle
+                        0x2802'0e4c       0x4  Data  Gb  cy_smif_s25fs.o [48]
+g_s25fsReadModeTypes    0x100b'a34c      0x10  Data  Gb  cy_smif_s25fs.o [48]
+g_s25fsWriteAddrTypes   0x100b'a294      0x14  Data  Gb  cy_smif_s25fs.o [48]
+g_s25fsWriteCmdInfo     0x100b'9e98      0x20  Data  Gb  cy_smif_s25fs.o [48]
+g_s25fsWriteCmdTypes    0x100b'a4e8       0xc  Data  Gb  cy_smif_s25fs.o [48]
+g_s25fsWriteDataTypes   0x100b'a5d8       0x8  Data  Gb  cy_smif_s25fs.o [48]
+g_s25fsWriteDummyTypes  0x100b'a5d0       0x8  Data  Gb  cy_smif_s25fs.o [48]
+g_s25fsWriteLatencyCodeToDummyCycle
+                        0x2802'0e50       0x4  Data  Gb  cy_smif_s25fs.o [48]
+g_s25fsWriteModeTypes   0x100b'a79c       0x4  Data  Gb  cy_smif_s25fs.o [48]
+g_scratch               0x2805'6780      0x10  Data  Lc  cy_srom.o [26]
+g_sempLatTblOctalRead   0x100b'a39c      0x10  Data  Gb  cy_smif_semp.o [48]
+g_sempLatTblOtherThanOctalRead
+                        0x100b'a38c      0x10  Data  Gb  cy_smif_semp.o [48]
+g_sempLatTblRegType1    0x100b'a7a4       0x4  Data  Lc  cy_smif_semp.o [48]
+g_sempLatTblRegType2    0x100b'a7a8       0x4  Data  Lc  cy_smif_semp.o [48]
+g_sempLatTblRegType3    0x100b'a7ac       0x4  Data  Lc  cy_smif_semp.o [48]
+g_sempReadAddrTypes     0x100b'9eb8      0x20  Data  Gb  cy_smif_semp.o [48]
+g_sempReadCmdInfo       0x100b'8d30     0x130  Data  Gb  cy_smif_semp.o [48]
+g_sempReadCmdTypes      0x100b'a36c      0x10  Data  Gb  cy_smif_semp.o [48]
+g_sempReadDataTypes     0x100b'a4f4       0xc  Data  Gb  cy_smif_semp.o [48]
+g_sempReadDummyTypes    0x100b'9674      0x48  Data  Gb  cy_smif_semp.o [48]
+g_sempReadLatencyCodeToDummyCycle
+                        0x2802'0e54       0x8  Data  Gb  cy_smif_semp.o [48]
+g_sempReadModeTypes     0x100b'a37c      0x10  Data  Gb  cy_smif_semp.o [48]
+g_sempWriteAddrTypes    0x100b'a2a8      0x14  Data  Gb  cy_smif_semp.o [48]
+g_sempWriteCmdInfo      0x100b'9a98      0x30  Data  Gb  cy_smif_semp.o [48]
+g_sempWriteCmdTypes     0x100b'a500       0xc  Data  Gb  cy_smif_semp.o [48]
+g_sempWriteDataTypes    0x100b'a5e8       0x8  Data  Gb  cy_smif_semp.o [48]
+g_sempWriteDummyTypes   0x100b'a5e0       0x8  Data  Gb  cy_smif_semp.o [48]
+g_sempWriteLatencyCodeToDummyCycle
+                        0x2802'0e5c       0x4  Data  Gb  cy_smif_semp.o [48]
+g_sempWriteModeTypes    0x100b'a7a0       0x4  Data  Gb  cy_smif_semp.o [48]
+g_tdm_pin_config        0x2802'16ec     0x1e0  Data  Gb  tdm.o [1]
+hflash_init             0x100b'2cef      0x7c  Code  Gb  smif_hflash.o [1]
+hflash_test             0x100b'2d6b     0x118  Code  Gb  smif_hflash.o [1]
+hflash_test::readBuf    0x2802'1960  0x1'0000  Data  Lc  smif_hflash.o [1]
+hram_init               0x100b'37df      0xa8  Code  Gb  smif_hram.o [1]
+hram_test               0x100b'3887     0x1c0  Code  Gb  smif_hram.o [1]
+hram_test::readBuf      0x2803'1960  0x1'0000  Data  Lc  smif_hram.o [1]
+inc_txbd                0x100a'42d9      0x22  Code  Lc  edd_tx.o [11]
+initAllRegs             0x100a'036d     0x1e8  Code  Lc  edd.o [11]
+initAxiMaxPipelineReg   0x100a'076b      0x7c  Code  Lc  edd.o [11]
+initDmaConfigReg        0x100a'0849      0xc0  Code  Lc  edd.o [11]
+initNetConfigReg        0x100a'0909     0x11e  Code  Lc  edd.o [11]
+initNetControlReg       0x100a'07e7      0x62  Code  Lc  edd.o [11]
+initRxDescLists         0x100a'0161      0xaa  Code  Gb  edd.o [11]
+initTxDescLists         0x100a'012f      0x32  Code  Lc  edd.o [11]
+initUpper32BuffQAddr    0x100a'0749      0x22  Code  Lc  edd.o [11]
+intFreqInitialized      0x2805'6826       0x1  Data  Gb  cy_sysclk.o [27]
+intStatus               0x2805'67a0       0xc  Data  Gb  user_button.o [1]
+internalBaseFreqInfo    0x2805'66f0      0x18  Data  Gb  cy_sysclk.o [27]
+irqCfgAudioSSRx         0x2802'1900       0x8  Data  Lc  tdm.o [1]
+irqCfgAudioSSTx         0x2802'18f8       0x8  Data  Lc  tdm.o [1]
+irq_cfg_ethx_q0         0x100b'a5f8       0x8  Data  Gb  GigEth_Test.o [1]
+irq_cfg_ethx_q1         0x100b'a600       0x8  Data  Gb  GigEth_Test.o [1]
+irq_cfg_ethx_q2         0x100b'a608       0x8  Data  Gb  GigEth_Test.o [1]
+ldexp                   0x100b'1095            Code  Gb  ldexp.o [53]
+ldexpl                  0x100b'1095            Code  Gb  ldexp.o [53]
+led_init                0x100b'2599      0x66  Code  Gb  user_led.o [1]
+led_test                0x100b'25ff      0x28  Code  Gb  user_led.o [1]
+lin_master_config       0x100b'a620       0x8  Data  Lc  lin.o [1]
+lin_master_irq_cfg      0x100b'a628       0x8  Data  Lc  lin.o [1]
+lin_master_state        0x2805'682c       0x1  Data  Gb  lin.o [1]
+lin_pin_cfg             0x100b'9190      0x78  Data  Lc  lin.o [1]
+m_aau32FpdMapping       0x100b'9988      0x38  Data  Lc  cy_gfx_env.o [44]
+m_aenLutSmifInstanceToHfClock
+                        0x100a'ac76       0x2  Data  Lc  cy_gfx_env.o [44]
+m_astcButtonCfgStatus   0x2805'64f0      0x6c  Data  Lc  cy_button.o [41]
+m_astcButtonDef         0x100b'a0b8      0x18  Data  Lc  cy_gfx_env.o [44]
+m_astcCanFDChannelDataLut
+                        0x2802'00a0      0x60  Data  Lc  cy_canfd.o [6]
+m_astcDispPresets       0x100b'9208      0x60  Data  Lc  cy_gfx_env.o [44]
+m_astcPortPinCfg        0x100b'8334     0x408  Data  Lc  cy_gfx_env.o [44]
+m_astcSmifIntCfg        0x2805'6188      0xc0  Data  Lc  cy_gfx_env.o [44]
+m_astcTimers            0x2805'655c      0x50  Data  Lc  cy_sw_tmr.o [49]
+m_au16LastErrorCode     0x2805'67ac       0x8  Data  Lc  cy_canfd.o [6]
+m_pScbInstance          0x2805'67f4       0x4  Data  Lc  cy_semihosting.o [47]
+m_pfnCallback           0x2805'67d8       0x4  Data  Lc  cy_button.o [41]
+m_pfnWatchdogCallout    0x2805'67f0       0x4  Data  Lc  cy_semihosting.o [47]
+m_stcGenericSmifCfg     0x100b'a31c      0x10  Data  Lc  cy_gfx_env.o [44]
+m_stcMpuGlobalCtrlBits  0x2802'018c       0x4  Data  Lc  cy_gfx_env.o [44]
+m_stcMpuGlobalCtrlBitsBackup
+                        0x2805'67ec       0x4  Data  Lc  cy_gfx_env.o [44]
+m_stcScbConfig          0x100b'94b0      0x4c  Data  Lc  cy_semihosting.o [47]
+m_stcSmifDevHyperFlashCfg
+                        0x2802'0164      0x14  Data  Lc  cy_gfx_env.o [44]
+m_stcSmifDevHyperRamCfg
+                        0x2802'0178      0x14  Data  Lc  cy_gfx_env.o [44]
+m_stcSmifMpuRegion      0x2802'0190      0x18  Data  Lc  cy_gfx_env.o [44]
+m_stcSmifMpuRegionBackup
+                        0x2805'66d8      0x18  Data  Lc  cy_gfx_env.o [44]
+m_u64TickCountUs        0x2805'67c8       0x8  Data  Lc  cy_sw_tmr.o [49]
+m_u8CallbackFunctionTrigger
+                        0x2805'6825       0x1  Data  Lc  cy_sw_tmr.o [49]
+m_u8NrOfButtons         0x2805'6824       0x1  Data  Lc  cy_button.o [41]
+main                    0x100b'1ef9      0x8c  Code  Gb  main_cm7_0.o [2]
+masterMsgContext        0x2802'11dc      0x18  Data  Gb  lin.o [1]
+maxHwQs                 0x100a'0211      0xaa  Code  Lc  edd.o [11]
+memchr                  0x100b'0f51            Code  Gb  memchr.o [54]
+memcmp                  0x100a'ef69            Code  Gb  memcmp.o [54]
+ndigs                   0x100b'9414      0x28  Data  Lc  iar_Stoulx.o [52]
+new_test                0x2805'682f       0x1  Data  Gb  main_cm7_0.o [2]
+numRxDescriptors        0x100a'0103      0x2c  Code  Lc  edd.o [11]
+numTxDescriptors        0x100a'00d7      0x2c  Code  Lc  edd.o [11]
+offloadsSupport         0x100a'0a71      0x32  Code  Gb  edd.o [11]
+print_silicon_details   0x100b'4fd1     0x240  Code  Gb  silicon_details.o [1]
+programData             0x1009'0080  0x1'0000  Data  Gb  smif_hram.o [1]
+programData1            0x1008'0080  0x1'0000  Data  Gb  smif_hflash.o [1]
+programRowConfig        0x2802'194c      0x10  Data  Gb  workflash.o [1]
+programSizeBytesLut     0x100b'a280      0x14  Data  Lc  cy_flash.o [13]
+readDesignConfig        0x100a'0aef     0x382  Code  Gb  edd.o [11]
+readPcsStatus           0x100a'34c7      0x2c  Code  Gb  edd.o [11]
+refernce_data           0x2802'11f4       0x8  Data  Gb  lin.o [1]
+scalbln                 0x100b'1095            Code  Gb  ldexp.o [53]
+scalblnl                0x100b'1095            Code  Gb  ldexp.o [53]
+scalbn                  0x100b'1095            Code  Gb  ldexp.o [53]
+scalbnl                 0x100b'1095            Code  Gb  ldexp.o [53]
+scale                   0x100b'0df1      0x46  Code  Lc  xprintffull_nomb.o [52]
+scheduleIdx             0x2805'682d       0x1  Data  Gb  lin.o [1]
+sec_hand                0x2805'6818       0x4  Data  Lc  xfail_s.o [52]
+setRxQBufferSizes       0x100a'0a27      0x4a  Code  Lc  edd.o [11]
+skip_test               0x2805'6831       0x1  Data  Gb  main_cm7_0.o [2]
+smifConfig              0x100b'a48c      0x10  Data  Gb  smif_hram.o [1]
+smifContext             0x2805'668c      0x28  Data  Gb  smif_hram.o [1]
+smifDevHBFlashCfg       0x2802'1408      0x14  Data  Gb  smif_hflash.o [1]
+smifDevHBSramCfg        0x2802'154c      0x14  Data  Gb  smif_hram.o [1]
+smifPortCfg             0x2802'1560      0x9c  Data  Gb  smif_hram.o [1]
+smifSpiConfig           0x2802'153c      0x10  Data  Gb  smif_hflash.o [1]
+smifhflashConfig        0x100b'a45c      0x10  Data  Gb  smif_hflash.o [1]
+smifhflashContext       0x2805'6664      0x28  Data  Gb  smif_hflash.o [1]
+smifhflashPortCfg       0x2802'141c      0x90  Data  Gb  smif_hflash.o [1]
+sromContext             0x2805'6790      0x10  Data  Gb  workflash.o [1]
+sscanf                  0x100b'22cd      0x28  Code  Gb  sscanf.o [52]
+start_test              0x2805'6830       0x1  Data  Gb  main_cm7_0.o [2]
+statusBuff              0x2805'67c4       0x4  Data  Gb  adc_pot.o [1]
+stc1588TimerInc         0x2805'67d0       0x8  Data  Gb  GigEth_Test.o [1]
+stc1588TimerValue       0x100b'a518       0xc  Data  Gb  GigEth_Test.o [1]
+stcENETConfig           0x100b'9ed8      0x20  Data  Gb  GigEth_Test.o [1]
+stcGfxEnvCfg1           0x2802'11cc      0x10  Data  Gb  fpd_display.o [1]
+stcInterruptConfig      0x100b'9b88      0x30  Data  Gb  GigEth_Test.o [1]
+stcQueueDisStatus       0x2805'67bc       0x8  Data  Lc  cy_ethif.o [11]
+stcTSUConfig            0x100b'a524       0xc  Data  Gb  GigEth_Test.o [1]
+stcWrapperConfig        0x100b'a7d8       0x4  Data  Gb  GigEth_Test.o [1]
+stccallbackfunctions    0x2805'6720      0x14  Data  Lc  cy_ethif.o [11]
+stdIdFilter             0x100b'a56c       0x8  Data  Lc  canfd.o [1]
+strchr                  0x100b'0ec1            Code  Gb  strchr.o [54]
+strlen                  0x100b'0f19            Code  Gb  strlen.o [54]
+strncpy                 0x100a'9959            Code  Gb  strncpy.o [54]
+strtol                  0x100b'7281       0x4  Code  Gb  iar_Stolx.o [52]
+strtoul                 0x100b'71e9       0x2  Code  Gb  iar_Stoulx.o [52]
+subNsTsuInc24bSupport   0x100a'0aa3      0x4c  Code  Gb  edd.o [11]
+testFail                0x2802'1948       0x4  Data  Gb  workflash.o [1]
+testPass                0x2802'1944       0x4  Data  Gb  workflash.o [1]
+test_failed             0x2805'6833       0x1  Data  Gb  main_cm7_0.o [2]
+test_passed             0x2805'6832       0x1  Data  Gb  main_cm7_0.o [2]
+test_time_multiple      0x2802'195e       0x1  Data  Gb  main_cm7_0.o [2]
+tmr_config              0x2802'1248      0x50  Data  Gb  main_cm7_0.o [2]
+u8RxBuf                 0x2804'f160    0x6000  Data  Gb  cy_ethif.o [11]
+u8TxBuf                 0x2804'1960    0xd800  Data  Gb  cy_ethif.o [11]
+uart_config             0x2802'11fc      0x4c  Data  Lc  main_cm7_0.o [2]
+uart_context            0x2805'65f8      0x38  Data  Lc  main_cm7_0.o [2]
+uart_init               0x100b'1767      0xd2  Code  Gb  main_cm7_0.o [2]
+uart_tx_buf             0x2805'6380      0x80  Data  Lc  main_cm7_0.o [2]
+user_button_port_pin_cfg
+                        0x2802'1908      0x34  Data  Gb  user_button.o [1]
+vsprintf                0x100b'2281      0x34  Code  Gb  vsprintf.o [52]
+wco_init                0x100b'4ecd      0x66  Code  Gb  wco.o [1]
+writeStatusToFlash      0x100b'2527      0x3c  Code  Gb  workflash.o [1]
+
+
+[1] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\mtp
+[2] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src
+[3] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\adc
+[4] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\audioss
+[5] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\axidma
+[6] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\canfd
+[7] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\cpu
+[8] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\crypto
+[9] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\cxpi
+[10] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\dma
+[11] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\ethernet
+[12] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\evtgen
+[13] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\flash
+[14] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\fpdlink
+[15] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\gpio
+[16] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\ipc
+[17] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\lin
+[18] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\lvd
+[19] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\mcwdt
+[20] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\mipicsi2
+[21] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\mpu
+[22] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\prot
+[23] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\scb
+[24] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\smartio
+[25] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\smif
+[26] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\srom
+[27] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\sysclk
+[28] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\sysflt
+[29] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\sysint
+[30] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\syslib
+[31] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\syspm
+[32] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\syspmic
+[33] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\sysreset
+[34] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\sysrtc
+[35] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\systick
+[36] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\syswdt
+[37] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\tcpwm
+[38] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\drivers\trigmux
+[39] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\interrupts\rev_a
+[40] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\audio
+[41] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\button
+[42] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\eth_phy
+[43] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\flash
+[44] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\gfx_env
+[45] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\mipi_sensor
+[46] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\power
+[47] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\semihosting
+[48] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\smif_mem
+[49] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\mw\sw_timer
+[50] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\startup
+[51] = C:\T2G_Sample_Driver_Library_8.1.0\tviic2d4m\tools\iar\flash\cm7_0_mc\rev_a\Obj\src\system\rev_a
+[52] = dl7M_tln.a
+[53] = m7M_tlv.a
+[54] = rt7M_tl.a
+[55] = shb_l.a
+
+  100'584 bytes of readonly  code memory
+  140'623 bytes of readonly  data memory
+  231'655 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

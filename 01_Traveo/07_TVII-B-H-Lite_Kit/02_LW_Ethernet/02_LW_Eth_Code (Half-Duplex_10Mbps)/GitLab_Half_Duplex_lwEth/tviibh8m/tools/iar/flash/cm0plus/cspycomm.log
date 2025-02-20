@@ -1,0 +1,179 @@
+oct 1/16:03:36.843 DEBUG2 : 		
+
+StartSession()
+
+oct 1/16:03:36.843 INFO   : Debug Log(info): Loading the I-jet driver
+oct 1/16:03:36.843 DEBUG2 : 		-> ConnectToHardware()
+oct 1/16:03:36.843 DEBUG2 : 		-> CreateJetTerminal()
+oct 1/16:03:36.843 DEBUG2 : 		<- CreateJetTerminal()
+oct 1/16:03:36.843 DEBUG2 : 		-> AcquireSigAPIPtr()
+oct 1/16:03:36.843 DEBUG2 : 		  SigAPISetPath('C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\jet\bin')
+oct 1/16:03:36.843 DEBUG2 : 		<- AcquireSigAPIPtr()
+oct 1/16:03:36.843 DEBUG2 : 		-> CreateSigProbe()
+oct 1/16:03:36.843 DEBUG2 : 		  SigProbe version: 1.67
+oct 1/16:03:36.843 DEBUG2 : 		<- CreateSigProbe()
+oct 1/16:03:36.843 DEBUG2 : 		-> SigProbeInit()
+oct 1/16:03:36.843 DEBUG2 : 		<- SigProbeInit()
+oct 1/16:03:36.843 INFO   : Debug Log(info): Probe: Probe SW module ver 1.67
+
+oct 1/16:03:36.843 INFO   : Probe: Probe SW module ver 1.67
+
+oct 1/16:03:36.843 INFO   : Debug Log(info): Probe: Option: trace(Auto,size_limit=100%)
+
+oct 1/16:03:36.843 INFO   : Probe: Option: trace(Auto,size_limit=100%)
+
+oct 1/16:03:36.843 DEBUG2 : 		-> ConnectToProbe()
+oct 1/16:03:36.843 DEBUG2 : 		  ISigProbe::EnumScan()
+oct 1/16:03:36.859 INFO   : Debug Log(info): Probe: Found I-jet, SN=98177
+
+oct 1/16:03:36.859 INFO   : Probe: Found I-jet, SN=98177
+
+oct 1/16:03:36.859 DEBUG2 : 		  scanning finished: found 1 probes
+oct 1/16:03:36.859 DEBUG2 : 		    connection Serial No: 98177
+oct 1/16:03:36.859 DEBUG2 : 		    connection found probes: 
+oct 1/16:03:36.875 INFO   : Debug Log(info): Probe: Opened connection to I-jet:98177
+
+oct 1/16:03:36.875 INFO   : Probe: Opened connection to I-jet:98177
+
+oct 1/16:03:36.921 INFO   : Debug Log(info): Probe: USB connection verified (7193 packets/s)
+
+oct 1/16:03:36.921 INFO   : Probe: USB connection verified (7193 packets/s)
+
+oct 1/16:03:36.921 INFO   : Debug Log(info): Probe: I-jet, FW ver 7.2, HW Ver:B
+
+oct 1/16:03:36.921 INFO   : Probe: I-jet, FW ver 7.2, HW Ver:B
+
+oct 1/16:03:36.937 INFO   : Debug Log(info): Probe: None or IJET-MIPI10 adapter detected
+
+oct 1/16:03:36.937 INFO   : Probe: None or IJET-MIPI10 adapter detected
+
+oct 1/16:03:36.937 INFO   : Debug Log(info): Probe: Versions: JTAG=1.95 SWO=1.41 A2D=1.74 Stream=1.52 SigCom=2.46
+
+oct 1/16:03:36.937 INFO   : Probe: Versions: JTAG=1.95 SWO=1.41 A2D=1.74 Stream=1.52 SigCom=2.46
+
+oct 1/16:03:36.937 DEBUG2 : 		<- ConnectToProbe()
+oct 1/16:03:36.937 DEBUG2 : 		-> CreateSigEmus()
+oct 1/16:03:36.937 DEBUG2 : 		  ISigAPI::CreateInstance('ISigEmu', 'EARM', '')
+oct 1/16:03:36.937 DEBUG2 : 		Core 0: sigEmu->LinkAttach(ISigProbe)
+oct 1/16:03:36.937 DEBUG2 : 		  core 0: IsigEmu::ParamSet('Emulator', 'ijet')
+oct 1/16:03:36.937 DEBUG2 : 		  core 0: IsigEmu::ParamSet('Processor', 'Cortex-M0+')
+oct 1/16:03:36.937 DEBUG2 : 		  core 0: IsigEmu::ParamSet('JtagHeader', 'ARM-SWD')
+oct 1/16:03:36.937 DEBUG2 : 		  core 0: IsigEmu::ParamSet('CoreSightSWJ', 'SWD')
+oct 1/16:03:36.937 DEBUG2 : 		  core 0: IsigEmu::ParamSet('JTagSpeed', 'auto')
+oct 1/16:03:36.937 DEBUG2 : 		  core 0: IsigEmu::ParamSet('BoardCfg', '-auto')
+oct 1/16:03:36.937 DEBUG2 : 		  core 0: IsigEmu::ParamSet('JtagInitDelay', '200,r:300')
+oct 1/16:03:36.937 DEBUG2 : 		  core 0: IsigEmu::ParamSet('BigEndian', '0')
+oct 1/16:03:36.937 DEBUG2 : 		  ISigEmu::LinkAttach('SigTerminalLog'...)
+oct 1/16:03:36.937 DEBUG2 : 		Core 0: sigEmu->LinkAttach(SigTerminalLog)
+oct 1/16:03:36.937 DEBUG2 : 		<- CreateSigEmus()
+oct 1/16:03:36.937 DEBUG2 : 		-> CreateInterfaceComProtocol()
+oct 1/16:03:36.937 DEBUG2 : 		  ISigProbe::AcquireInterface('ComProtocol')
+oct 1/16:03:36.937 DEBUG2 : 		<- CreateInterfaceComProtocol()
+oct 1/16:03:36.937 DEBUG2 : 		-> CollectCoreNames()
+oct 1/16:03:36.937 DEBUG2 : 		<- CollectCoreNames()
+oct 1/16:03:36.937 DEBUG2 : 		-> DoIceConnect()
+oct 1/16:03:36.937 DEBUG2 : 		  core 0: IsigEmu::ParamSet('BoardDID', '')
+oct 1/16:03:36.937 DEBUG2 : 		Core 0: IceConnect(...)
+oct 1/16:03:36.937 DEBUG2 : 		<- DoIceConnect()
+oct 1/16:03:36.937 DEBUG2 : 		-> DoIceInit()
+oct 1/16:03:36.937 DEBUG2 : 		Core 0: IceInit(...)
+oct 1/16:03:36.953 DEBUG2 : 		ISigEmu::IceVersion(204)
+oct 1/16:03:36.953 INFO   : Debug Log(info): Emulation layer version 5.16
+oct 1/16:03:36.953 DEBUG2 : 		ISigEmu::IceStatus(0)
+oct 1/16:03:36.953 DEBUG2 : 		<- DoIceInit()
+oct 1/16:03:36.953 DEBUG2 : 		-> CreateCmdInterpreter()
+oct 1/16:03:36.953 DEBUG2 : 		  ISigProbe::CreateInstance(..., 'SigCmdInterpreter', '')
+oct 1/16:03:36.953 DEBUG2 : 		<- CreateCmdInterpreter()
+oct 1/16:03:36.953 DEBUG2 : 		  ISigCmdInterpreter::LinkAttach('ISigEmu',...)
+oct 1/16:03:36.953 DEBUG2 : 		-> AcquireA2DInterface()
+oct 1/16:03:36.953 DEBUG2 : 		  ISigProbe::AcquireInterface('ISigA2D')
+oct 1/16:03:36.953 DEBUG2 : 		  ISigA2D::LinkAttach('SigEmu',...)
+oct 1/16:03:36.953 DEBUG2 : 		  ISigA2D::LinkAttach('SigTerminalLog',...)
+oct 1/16:03:36.953 DEBUG2 : 		  ISigA2D::Init('null')
+oct 1/16:03:37.282 DEBUG2 : 		  ConnectToHardware(), checking status (#1): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.282 INFO   : Debug Log(info): CPU status - NO POWER
+oct 1/16:03:37.282 DEBUG2 : 		<- AcquireA2DInterface()
+oct 1/16:03:37.282 DEBUG2 : 		-> AcquireEmuVectInterface()
+oct 1/16:03:37.282 DEBUG2 : 		  ISigEmu::AcquireInterface('ISigEmuVect') (core 0)
+oct 1/16:03:37.282 DEBUG2 : 		<- AcquireEmuVectInterface()
+oct 1/16:03:37.282 DEBUG2 : 		-> AcquireEmuWptInterface()
+oct 1/16:03:37.282 DEBUG2 : 		  ISigEmu::AcquireInterface('ISigEmuWpt')
+oct 1/16:03:37.282 DEBUG2 : 		<- AcquireEmuWptInterface()
+oct 1/16:03:37.282 DEBUG2 : 		-> AcquirePcSamplerInterface()
+oct 1/16:03:37.282 DEBUG2 : 		  ISigEmu::AcquireInterface('ISigPcSampler')
+oct 1/16:03:37.282 DEBUG2 : 		<- AcquirePcSamplerInterface()
+oct 1/16:03:37.282 DEBUG2 : 		<- ConnectToHardware()
+oct 1/16:03:37.282 DEBUG2 : 		>Calling _ExecDevicePreReset
+oct 1/16:03:37.282 DEBUG2 : 		ISigCmdInterpreter::Execute('/noerror dap.r 0x17000000 1')
+oct 1/16:03:37.282 DEBUG2 : 		<Call to _ExecDevicePreReset completed successfully
+oct 1/16:03:37.282 DEBUG2 : 		<Call to execUserPreReset: macro undefined
+oct 1/16:03:37.282 DEBUG2 : 		->   LowLevelReset(system, delay 200)
+oct 1/16:03:37.282 INFO   : Debug Log(info): LowLevelReset(system, delay 200)
+oct 1/16:03:37.282 DEBUG2 : 		  core 0: IsigEmu::ParamSet('JtagInitDelay', '200,r:300')
+oct 1/16:03:37.282 DEBUG2 : 		  core 0: IsigEmu::ParamSet('ResetStyle', 'SYSTEM')
+oct 1/16:03:37.282 DEBUG2 : 		Core 0: system reset
+oct 1/16:03:37.282 DEBUG2 : 		->   LowLevelReset(): WaitForCpuResetToComplete(core 0)
+oct 1/16:03:37.282 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.282 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.282 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.282 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.282 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.282 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.282 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.282 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.282 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.282 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.282 DEBUG2 : 		<-   LowLevelReset(): WaitForCpuResetToComplete(core 0)
+oct 1/16:03:37.501 DEBUG2 : 		->   LowLevelReset(): WaitForCpuResetToComplete(core 0)
+oct 1/16:03:37.501 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.501 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.501 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.501 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.501 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.501 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.501 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.501 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.501 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.501 DEBUG2 : 		  LowLevelReset(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.501 DEBUG2 : 		<-   LowLevelReset(): WaitForCpuResetToComplete(core 0)
+oct 1/16:03:37.501 ERROR  : LowLevelReset() returned Called in wrong context
+oct 1/16:03:37.501 DEBUG2 : 		<-   LowLevelReset(system, delay 200)
+oct 1/16:03:37.501 DEBUG2 : 		->   StartSession(): WaitForCpuResetToComplete(core 0)
+oct 1/16:03:37.501 DEBUG2 : 		  StartSession(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.501 DEBUG2 : 		  StartSession(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.501 DEBUG2 : 		  StartSession(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.501 DEBUG2 : 		  StartSession(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.501 DEBUG2 : 		  StartSession(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.517 DEBUG2 : 		  StartSession(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.517 DEBUG2 : 		  StartSession(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.517 DEBUG2 : 		  StartSession(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.517 DEBUG2 : 		  StartSession(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.517 DEBUG2 : 		  StartSession(): Core 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:37.517 DEBUG2 : 		<-   StartSession(): WaitForCpuResetToComplete(core 0)
+oct 1/16:03:37.517 DEBUG2 : 		StartSession() checking powerCore 0: CpuStatus(status = <none>) = 0
+oct 1/16:03:42.287 INFO   : Debug Log(error): Fatal error: CPU did not power up   Session aborted!
+oct 1/16:03:42.287 DEBUG2 : 		********** 'Controlled' exception (1) caught in DbBeginSession
+oct 1/16:03:42.287 INFO   : Debug Log(info): Unloaded macro file: C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/flashloader/Infineon/FlashTVII.mac
+oct 1/16:03:42.303 INFO   : Debug Log(info): Unloaded macro file: C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/debugger/Infineon/CYT4BF_M0.dmac
+oct 1/16:03:42.303 INFO   : Debug Log(info): Unloaded macro file: C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/debugger/Infineon/CYTVII_M0.dmac
+oct 1/16:03:42.303 INFO   : Debug Log(info): Unloaded macro file: C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/debugger/Infineon/CYTVII_Common.dmac
+oct 1/16:03:42.476 DEBUG2 : 		-> AboutToStopSession()
+oct 1/16:03:42.476 DEBUG2 : 		<- AboutToStopSession()
+oct 1/16:03:42.491 DEBUG2 : 		-> PrepareStopSession()
+oct 1/16:03:42.491 DEBUG2 : 		<- PrepareStopSession()
+oct 1/16:03:42.585 DEBUG2 : 		StopGui()
+oct 1/16:03:42.618 DEBUG2 : 		-> StopSession()
+oct 1/16:03:42.633 DEBUG2 : 		-> TerminateHardware()
+oct 1/16:03:42.633 DEBUG2 : 		  ISigEmu::ReleaseInterface(sigWpt)
+oct 1/16:03:42.633 DEBUG2 : 		  ISigEmu::ReleaseInterface(sigVect)
+oct 1/16:03:42.633 DEBUG2 : 		  ISigEmu::IceTerm()
+oct 1/16:03:42.633 DEBUG2 : 		  ISigA2D::Term()
+oct 1/16:03:42.633 DEBUG2 : 		  ISigProbe::ReleaseInterface(sigA2D)
+oct 1/16:03:42.633 DEBUG2 : 		Core 0: sigEmu->LinkAttach(ISigProbe)
+oct 1/16:03:42.633 DEBUG2 : 		  ISigApi::ReleaseInstance(sigEmu)
+oct 1/16:03:42.648 DEBUG2 : 		  SigAPITerm()
+oct 1/16:03:42.648 DEBUG2 : 		<- TerminateHardware()
+oct 1/16:03:42.648 DEBUG2 : 		<- StopSession()
+oct 1/16:03:42.648 DEBUG2 : 		-> ~TdJetDriver()
+oct 1/16:03:42.648 DEBUG2 : 		-> TerminateHardware()
+oct 1/16:03:42.648 DEBUG2 : 		<- TerminateHardware()
