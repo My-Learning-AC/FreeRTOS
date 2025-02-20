@@ -1,0 +1,150 @@
+APPLICATION_NAME = BareMetal_Hackathon					# Name of the Application
+SEMIHOSTING = 0											# A features that allows the application to interact with the host system during debugging, 0 = disable, 1 = enable
+
+#  Directories
+BUILD_DIR = Debug										# Build file directory
+BIN_DIR = bin											# Binary file directory
+OBJ_DIR = obj											# Object file directory
+
+# All of the sources participating in the build are defined here
+MAP_FILE = $(APPLICATION_NAME).map
+
+# OPEN OCD
+OCD = c:/Users/KumarDharani/Documents/Embedded_System_Infineon/Cohort2_Installers_Orig/Cohort2_Installers_Orig/openocd/openocd		# OpenOCD path for programming and Debugging
+OCD_Scripts = $(OCD)/scripts																										# Directory containing OpenOCD script
+OCD_Interface = $(OCD)/scripts/interface/kitprog3.cfg																				# Interface Hardware for programming
+OCD_Target = $(OCD)/scripts/target/psoc4.cfg																						# Target Hardware
+
+# Compiler
+CC = arm-none-eabi-gcc																			# GCC Compiler for ARM Cortex processor
+# Device specific flags [1]
+DFLAGS = -mcpu=cortex-m0plus -mthumb -msoft-float												# Device-specific flags
+# Compiler flags 
+CFLAGS = $(DFLAGS) -g -c -Wall -Wextra -std=gnu11 -O0 -DSEMIHOSTING=$(SEMIHOSTING)				# Compiler flags for building object files
+# Linker
+LD = arm-none-eabi-gcc																			# The GCC linker for ARM Cortex processor
+# Path to linker script
+LSCRIPT = ./../linker_script.ld																	# Specifies the linker script defining memory regions and section placement
+# Linker flags
+
+# Based on SEMIHOSTING, it chooses different flags for linking
+ifeq ($(SEMIHOSTING),0)
+	LFLAGS = $(DFLAGS) -T $(LSCRIPT) -nostartfiles --specs=nano.specs -specs=nosys.specs -Wl,-Map=$(MAP) -Wl,--gc-sections
+else
+	LFLAGS = $(DFLAGS) -T $(LSCRIPT) -nostartfiles --specs=nano.specs -specs=nosys.specs --specs=rdimon.specs -lrdimon -Wl,-Map=$(MAP)
+endif
+
+# Objecmaket copy (for converting formats)
+OBJCOPY = arm-none-eabi-objcopy							# Converts ELF files to Intel HEX format for flashing
+OFLAGS = -O ihex
+
+# List generation
+OBJDUMP = arm-none-eabi-objdump							# Display contents of object files
+DUMPFLAGS = -h -S
+
+CC_SIZE = arm-none-eabi-size							# Display memory usage (e.g., Flash and RAM)
+
+CC_SYMBOLS = arm-none-eabi-nm.exe						# Lists symbols in the binary 
+
+RM = rm -rf *.exe *.o *.elf								# Command to delete generated files
+
+#-{ Build Rules }---------------------------------------------------------------
+-include ./Application_Source/subdir.mk					#
+-include ./Device_Drivers/GPIO/subdir.mk				#
+-include ./Device_Drivers/TIMER/subdir.mk				#
+-include ./Device_Drivers/ADC/subdir.mk					#
+-include ./Device_Drivers/CLOCK/subdir.mk				#
+-include ./Device_Drivers/SYSTICK/subdir.mk				# Include sub-Makefiles for each module (e.g., Application_Source, GPIO, TIMER, etc.)
+-include ./Device_Drivers/Team1/subdir.mk				#
+-include ./Device_Drivers/Team2/subdir.mk				#
+-include ./Device_Drivers/Team3/subdir.mk				#
+-include ./Libc_Device_Support/subdir.mk				#
+-include ./Special_Libraries/subdir.mk					#
+-include ./Startup/subdir.mk							#
+
+ifeq ($(SEMIHOSTING),1)														# Excludes syscalls.o when semihosting is enabled
+	OBJS := $(filter-out ./Libc_Device_Support/syscalls.o,$(OBJS))
+endif
+
+print_variables:										# A debugging rule to print the object and source file being used
+		@echo 'Object files: $(OBJS)'
+		@echo 'Source files: $(C_SRCS)'
+
+# Final binaries
+HEX = $(BIN_DIR)/$(APPLICATION_NAME).hex				#
+ELF = $(BIN_DIR)/$(APPLICATION_NAME).elf				#
+LST = $(BIN_DIR)/$(APPLICATION_NAME).lst				# Specifies output filenames for various formates (e.g., HEX, ELF, List)
+SIZ = $(BIN_DIR)/$(APPLICATION_NAME).siz				#
+MAP = $(BIN_DIR)/$(APPLICATION_NAME).map				#
+SYMBOL = $(BIN_DIR)/$(APPLICATION_NAME).text			#
+
+#-- These rules for the finally binaries will usually not require modification
+
+# Convert the ELF into intel hex format
+$(HEX): $(ELF)											# Converts ELF file to HEX format using OBJCOPY
+	@echo 'Invoking: ARM-GCC Create Flash Image'
+	@mkdir -p $(dir $@)
+	$(OBJCOPY) $(OFLAGS) $(ELF) $(HEX)
+	@echo 'Finished building: $@'
+
+# Link all intermediate objects into a single executable
+$(ELF): $(OBJS)											# Links all object files into a single ELF executable
+	@echo 'Building target: $@'
+	@echo 'Invoking: ARM-GCC C Linker'
+	@mkdir -p $(dir $@)
+	$(LD) $(LFLAGS) $(OBJS) -o $(ELF)
+	@echo 'Finished building target: $@'
+
+$(LST): $(ELF)
+	@echo 'Invoking: ARM-GCC Create Listing'
+	$(OBJDUMP) $(DUMPFLAGS) $^ > $@
+	@echo 'Finished building: $@'
+
+$(SIZ): $(ELF)
+	@echo 'Invoking: ARM-GCC Print Size'
+	$(CC_SIZE) --format=berkeley $^
+	@echo 'Finished building: $@'
+
+$(SYMBOL): $(ELF)
+	@echo 'Invoking: ARM-GCC Print SYMBOLS'
+	$(CC_SYMBOLS) --format=berkeley $^
+	@echo 'Finished building: $@'
+
+$(MAP): $(OBJS)
+	@echo 'Invoking: ARM-GCC Create MAP'
+	$(LD) $(MAPFLAGS) $(OBJS) -o $(MAP)
+	@echo 'Finished building: $@'
+#-- These rules will vary depending on the program being built
+
+# Phonies
+.PHONY: all clean tidy												# Phony target are not actual files but commands for convenience
+
+# Build the entire program
+all: $(HEX) $(LST) $(SIZ)											# Default target that builds the entire program
+
+# Delete all of the generated files
+clean:																# Delete all generated files
+	rm -rf $(OBJS) $(HEX) $(ELF) $(LST) $(MAP) 
+	@echo 'Cleaning Completed'
+
+# Delete all intermediate object files
+tidy:
+	rm -rf $(OBJS)
+
+# OpenOCD command to program a board
+program: $(HEX)														# Program the microcontroller with the HEX file
+	$(OCD)/bin/openocd.exe -f $(OCD_Interface) -f $(OCD_Target) -c 'program $(HEX) verify reset exit'
+
+# OpenOCD command to ERASE a board
+erase:																# Erase the microcontroller's memory
+	$(OCD)/bin/openocd.exe -f $(OCD_Interface) -f $(OCD_Target) -c 'kitprog3 power_config on 3300; init; reset init; psoc4 mass_erase 0; shutdown; kitprog3 power_config off; exit'
+
+debug:																# Launches OpenOCD for debugging
+	$(OCD)/bin/openocd.exe -s $(OCD_Scripts) -c 'set PSOC4_USE_ACQUIRE 1' -c 'source $(OCD_Interface)' /
+	-c 'puts stderr {Started by GNU MCU Eclipse}' -c 'source $(OCD_Target)' /
+	-c 'psoc4.cpu configure -rtos auto -rtos-wipe-on-reset-halt 1' /
+	-c 'init; reset init'
+
+#-{ Resources }-----------------------------------------------------------------
+
+# [1]: https://gcc.gnu.org/onlinedocs/gcc-2.95.3/gcc_2.html#SEC22

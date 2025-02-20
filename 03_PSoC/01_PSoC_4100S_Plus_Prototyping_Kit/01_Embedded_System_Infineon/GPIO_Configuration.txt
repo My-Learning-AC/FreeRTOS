@@ -1,0 +1,7 @@
+1. DR
+2. PC
+3. PC2
+4. HSIOM
+
+    PORTS	NVIC	    CPU
+5. INTR_CFG --> SETENR --> PRIMASK

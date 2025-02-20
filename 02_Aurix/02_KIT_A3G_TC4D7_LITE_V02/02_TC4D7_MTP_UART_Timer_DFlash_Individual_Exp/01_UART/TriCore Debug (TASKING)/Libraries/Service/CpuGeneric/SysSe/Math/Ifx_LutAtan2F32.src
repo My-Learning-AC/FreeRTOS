@@ -1,0 +1,1982 @@
+	; Module start
+	.compiler_version	"TASKING SmartCode v10.1r1 - TriCore C compiler Build 21121068 SN-09461304"
+	.compiler_invocation	"ctc --dep-file=Ifx_LutAtan2F32.d --fp-model=c,l,n,r,S,T,z --user-mode=hypervisor -D__CPU__=tc49x -D__CPU_TC49X__ --core=tc1.8 --iso=99 -D__CPU__=tc49x -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Configurations -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ipc -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ipc\\\\Common -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ipc\\\\Tricore -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ipc\\\\Tricore\\\\ipc -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ipc\\\\Tricore\\\\ipc\\\\inc -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Sfr\\\\TC4DA -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Sfr\\\\TC4DA\\\\_Reg -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ssw\\\\TC4DA -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ssw\\\\TC4DA\\\\Tricore -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Comm -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\General -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Time -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Ap -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Ap\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Asclin -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Asclin\\\\Asc -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Asclin\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Clock -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Clock\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Egtm -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Egtm\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Port -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Port\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Src -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Src\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\_Impl -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\_PinMap -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Smu -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Smu\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Stm -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Vmt -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Vmt\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Wtu -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Wtu\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\_Lib\\\\DataHandling -g2 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.src ../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c"
+	.compiler_name		"ctc"
+	;source	'../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c'
+
+	
+$TC18
+	
+	.sdecl	'.text.Ifx_LutAtan2F32.Ifx_LutAtan2F32_init',code,cluster('Ifx_LutAtan2F32_init')
+	.sect	'.text.Ifx_LutAtan2F32.Ifx_LutAtan2F32_init'
+	.align	2
+	
+	.global	Ifx_LutAtan2F32_init
+; Function Ifx_LutAtan2F32_init
+.L57:
+Ifx_LutAtan2F32_init:	.type	func
+	ret
+.L81:
+	
+__Ifx_LutAtan2F32_init_function_end:
+	.size	Ifx_LutAtan2F32_init,__Ifx_LutAtan2F32_init_function_end-Ifx_LutAtan2F32_init
+.L70:
+	; End of function
+	
+	.sdecl	'.text.Ifx_LutAtan2F32.Ifx_LutAtan2F32_fxpAngle',code,cluster('Ifx_LutAtan2F32_fxpAngle')
+	.sect	'.text.Ifx_LutAtan2F32.Ifx_LutAtan2F32_fxpAngle'
+	.align	2
+	
+	.global	Ifx_LutAtan2F32_fxpAngle
+; Function Ifx_LutAtan2F32_fxpAngle
+.L59:
+Ifx_LutAtan2F32_fxpAngle:	.type	func
+	mov	d15,#0
+.L176:
+	cmp.f	d15,d5,d15
+	extr.u	d15,d15,#0,#1
+.L177:
+	jeq	d15,#0,.L2
+.L178:
+	mov	d15,#0
+.L179:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L180:
+	jeq	d15,#0,.L3
+.L181:
+	neg.f	d15,d5
+.L182:
+	neg.f	d0,d4
+.L183:
+	cmp.f	d15,d15,d0
+	extr.u	d15,d15,#0,#1
+.L184:
+	jeq	d15,#0,.L4
+.L185:
+	neg.f	d15,d5
+.L186:
+	neg.f	d0,d4
+.L187:
+	div.f	d15,d15,d0
+.L91:
+	movh	d0,#17536
+.L188:
+	mul.f	d15,d15,d0
+.L189:
+	ftouz	d0,d15
+.L129:
+	utof	d1,d0
+.L190:
+	sub.f	d15,d15,d1
+	ftodf	e2,d15
+.L191:
+	mov	d4,#0
+.L127:
+	mov	d5,#0
+.L128:
+	addih	d5,d5,#16352
+.L192:
+	cmp.df	d15,e2,e4
+	extr.u	d15,d15,#2,#1
+.L193:
+	jeq	d15,#0,.L5
+.L194:
+	add	d0,#1
+.L5:
+	mul	d15,d0,#4
+.L195:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_FxpAngle_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_FxpAngle_table)
+.L196:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L197:
+	j	.L6
+.L6:
+	addi	d15,d15,#-2048
+.L130:
+	j	.L7
+.L4:
+	neg.f	d15,d4
+.L198:
+	neg.f	d0,d5
+.L199:
+	div.f	d15,d15,d0
+.L97:
+	movh	d0,#17536
+.L200:
+	mul.f	d15,d15,d0
+.L201:
+	ftouz	d0,d15
+.L133:
+	utof	d1,d0
+.L202:
+	sub.f	d15,d15,d1
+	ftodf	e2,d15
+.L203:
+	mov	d4,#0
+.L131:
+	mov	d5,#0
+.L132:
+	addih	d5,d5,#16352
+.L204:
+	cmp.df	d15,e2,e4
+	extr.u	d15,d15,#2,#1
+.L205:
+	jeq	d15,#0,.L8
+.L206:
+	add	d0,#1
+.L8:
+	mul	d15,d0,#4
+.L207:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_FxpAngle_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_FxpAngle_table)
+.L208:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d0,[a15]
+.L134:
+	j	.L9
+.L9:
+	mov	d15,#-1024
+.L135:
+	sub	d15,d0
+.L7:
+	j	.L10
+.L3:
+	neg.f	d15,d5
+.L209:
+	cmp.f	d15,d15,d4
+	extr.u	d15,d15,#0,#1
+.L210:
+	jeq	d15,#0,.L11
+.L211:
+	neg.f	d15,d5
+.L212:
+	div.f	d15,d15,d4
+.L99:
+	movh	d0,#17536
+.L213:
+	mul.f	d15,d15,d0
+.L214:
+	ftouz	d0,d15
+.L138:
+	utof	d1,d0
+.L215:
+	sub.f	d15,d15,d1
+	ftodf	e2,d15
+.L216:
+	mov	d4,#0
+.L136:
+	mov	d5,#0
+.L137:
+	addih	d5,d5,#16352
+.L217:
+	cmp.df	d15,e2,e4
+	extr.u	d15,d15,#2,#1
+.L218:
+	jeq	d15,#0,.L12
+.L219:
+	add	d0,#1
+.L12:
+	mul	d15,d0,#4
+.L220:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_FxpAngle_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_FxpAngle_table)
+.L221:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L139:
+	j	.L13
+.L13:
+	rsub	d15,#0
+.L222:
+	j	.L14
+.L11:
+	neg.f	d15,d5
+.L223:
+	div.f	d15,d4,d15
+.L101:
+	movh	d0,#17536
+.L224:
+	mul.f	d15,d15,d0
+.L225:
+	ftouz	d0,d15
+.L142:
+	utof	d1,d0
+.L226:
+	sub.f	d15,d15,d1
+	ftodf	e2,d15
+.L227:
+	mov	d4,#0
+.L140:
+	mov	d5,#0
+.L141:
+	addih	d5,d5,#16352
+.L228:
+	cmp.df	d15,e2,e4
+	extr.u	d15,d15,#2,#1
+.L229:
+	jeq	d15,#0,.L15
+.L230:
+	add	d0,#1
+.L15:
+	mul	d15,d0,#4
+.L231:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_FxpAngle_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_FxpAngle_table)
+.L232:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L233:
+	j	.L16
+.L16:
+	addi	d15,d15,#-1024
+.L14:
+.L10:
+	j	.L17
+.L2:
+	mov	d15,#0
+.L234:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L235:
+	jeq	d15,#0,.L18
+.L236:
+	neg.f	d15,d4
+.L237:
+	cmp.f	d15,d5,d15
+	extr.u	d15,d15,#0,#1
+.L238:
+	jeq	d15,#0,.L19
+.L239:
+	neg.f	d15,d4
+.L240:
+	div.f	d15,d5,d15
+.L103:
+	movh	d0,#17536
+.L241:
+	mul.f	d15,d15,d0
+.L242:
+	ftouz	d0,d15
+.L145:
+	utof	d1,d0
+.L243:
+	sub.f	d15,d15,d1
+	ftodf	e2,d15
+.L244:
+	mov	d4,#0
+.L143:
+	mov	d5,#0
+.L144:
+	addih	d5,d5,#16352
+.L245:
+	cmp.df	d15,e2,e4
+	extr.u	d15,d15,#2,#1
+.L246:
+	jeq	d15,#0,.L20
+.L247:
+	add	d0,#1
+.L20:
+	mul	d15,d0,#4
+.L248:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_FxpAngle_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_FxpAngle_table)
+.L249:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d0,[a15]
+.L146:
+	j	.L21
+.L21:
+	mov	d15,#2048
+.L147:
+	sub	d15,d0
+.L250:
+	j	.L22
+.L19:
+	neg.f	d15,d4
+.L251:
+	div.f	d15,d15,d5
+.L105:
+	movh	d0,#17536
+.L252:
+	mul.f	d15,d15,d0
+.L253:
+	ftouz	d0,d15
+.L150:
+	utof	d1,d0
+.L254:
+	sub.f	d15,d15,d1
+	ftodf	e2,d15
+.L255:
+	mov	d4,#0
+.L148:
+	mov	d5,#0
+.L149:
+	addih	d5,d5,#16352
+.L256:
+	cmp.df	d15,e2,e4
+	extr.u	d15,d15,#2,#1
+.L257:
+	jeq	d15,#0,.L23
+.L258:
+	add	d0,#1
+.L23:
+	mul	d15,d0,#4
+.L259:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_FxpAngle_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_FxpAngle_table)
+.L260:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L261:
+	j	.L24
+.L24:
+	addi	d15,d15,#1024
+.L22:
+	j	.L25
+.L18:
+	cmp.f	d15,d5,d4
+	extr.u	d15,d15,#0,#1
+.L262:
+	jeq	d15,#0,.L26
+.L263:
+	div.f	d15,d5,d4
+.L107:
+	movh	d0,#17536
+.L264:
+	mul.f	d15,d15,d0
+.L265:
+	ftouz	d0,d15
+.L153:
+	utof	d1,d0
+.L266:
+	sub.f	d15,d15,d1
+	ftodf	e2,d15
+.L267:
+	mov	d4,#0
+.L151:
+	mov	d5,#0
+.L152:
+	addih	d5,d5,#16352
+.L268:
+	cmp.df	d15,e2,e4
+	extr.u	d15,d15,#2,#1
+.L269:
+	jeq	d15,#0,.L27
+.L270:
+	add	d0,#1
+.L27:
+	mul	d15,d0,#4
+.L271:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_FxpAngle_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_FxpAngle_table)
+.L272:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L154:
+	j	.L28
+.L28:
+	j	.L29
+.L26:
+	div.f	d15,d4,d5
+.L109:
+	movh	d0,#17536
+.L273:
+	mul.f	d15,d15,d0
+.L274:
+	ftouz	d0,d15
+.L157:
+	utof	d1,d0
+.L275:
+	sub.f	d15,d15,d1
+	ftodf	e2,d15
+.L276:
+	mov	d4,#0
+.L155:
+	mov	d5,#0
+.L156:
+	addih	d5,d5,#16352
+.L277:
+	cmp.df	d15,e2,e4
+	extr.u	d15,d15,#2,#1
+.L278:
+	jeq	d15,#0,.L30
+.L279:
+	add	d0,#1
+.L30:
+	mul	d15,d0,#4
+.L280:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_FxpAngle_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_FxpAngle_table)
+.L281:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d0,[a15]
+.L158:
+	j	.L31
+.L31:
+	mov	d15,#1024
+.L159:
+	sub	d15,d0
+.L29:
+.L25:
+.L17:
+	insert	d2,d15,#0,#12,#20
+.L282:
+	j	.L32
+.L32:
+	ret
+.L83:
+	
+__Ifx_LutAtan2F32_fxpAngle_function_end:
+	.size	Ifx_LutAtan2F32_fxpAngle,__Ifx_LutAtan2F32_fxpAngle_function_end-Ifx_LutAtan2F32_fxpAngle
+.L75:
+	; End of function
+	
+	.sdecl	'.text.Ifx_LutAtan2F32.Ifx_LutAtan2F32_float32',code,cluster('Ifx_LutAtan2F32_float32')
+	.sect	'.text.Ifx_LutAtan2F32.Ifx_LutAtan2F32_float32'
+	.align	2
+	
+	.global	Ifx_LutAtan2F32_float32
+; Function Ifx_LutAtan2F32_float32
+.L61:
+Ifx_LutAtan2F32_float32:	.type	func
+	mov	d15,#0
+.L287:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L288:
+	jeq	d15,#0,.L33
+.L289:
+	mov	d15,#0
+.L290:
+	cmp.f	d15,d5,d15
+	extr.u	d15,d15,#0,#1
+.L291:
+	jeq	d15,#0,.L34
+.L292:
+	neg.f	d15,d4
+.L293:
+	neg.f	d0,d5
+.L294:
+	cmp.f	d15,d15,d0
+	extr.u	d15,d15,#0,#1
+.L295:
+	jeq	d15,#0,.L35
+.L296:
+	neg.f	d15,d4
+.L297:
+	neg.f	d0,d5
+.L298:
+	div.f	d15,d15,d0
+.L116:
+	movh	d0,#17536
+.L299:
+	mul.f	d15,d15,d0
+.L300:
+	ftoiz	d15,d15
+.L301:
+	mul	d15,d15,#4
+.L302:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_table)
+.L303:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L304:
+	j	.L36
+.L36:
+	mov	d0,#4059
+	addih	d0,d0,#49225
+.L305:
+	add.f	d2,d15,d0
+.L160:
+	j	.L37
+.L35:
+	neg.f	d15,d5
+.L306:
+	neg.f	d0,d4
+.L307:
+	div.f	d15,d15,d0
+.L120:
+	movh	d0,#17536
+.L308:
+	mul.f	d15,d15,d0
+.L309:
+	ftoiz	d15,d15
+.L310:
+	mul	d15,d15,#4
+.L311:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_table)
+.L312:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L313:
+	j	.L38
+.L38:
+	mov	d0,#4059
+	addih	d0,d0,#49097
+.L314:
+	sub.f	d2,d0,d15
+.L37:
+	j	.L39
+.L34:
+	neg.f	d15,d4
+.L315:
+	cmp.f	d15,d15,d5
+	extr.u	d15,d15,#0,#1
+.L316:
+	jeq	d15,#0,.L40
+.L317:
+	neg.f	d15,d4
+.L318:
+	div.f	d15,d15,d5
+.L121:
+	movh	d0,#17536
+.L319:
+	mul.f	d15,d15,d0
+.L320:
+	ftoiz	d15,d15
+.L321:
+	mul	d15,d15,#4
+.L322:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_table)
+.L323:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L324:
+	j	.L41
+.L41:
+	neg.f	d2,d15
+.L161:
+	j	.L42
+.L40:
+	neg.f	d15,d4
+.L325:
+	div.f	d15,d5,d15
+.L122:
+	movh	d0,#17536
+.L326:
+	mul.f	d15,d15,d0
+.L327:
+	ftoiz	d15,d15
+.L328:
+	mul	d15,d15,#4
+.L329:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_table)
+.L330:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L331:
+	j	.L43
+.L43:
+	mov	d0,#4059
+	addih	d0,d0,#49097
+.L332:
+	add.f	d2,d15,d0
+.L42:
+.L39:
+	j	.L44
+.L33:
+	mov	d15,#0
+.L333:
+	cmp.f	d15,d5,d15
+	extr.u	d15,d15,#0,#1
+.L334:
+	jeq	d15,#0,.L45
+.L335:
+	neg.f	d15,d5
+.L336:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L337:
+	jeq	d15,#0,.L46
+.L338:
+	neg.f	d15,d5
+.L339:
+	div.f	d15,d4,d15
+.L123:
+	movh	d0,#17536
+.L340:
+	mul.f	d15,d15,d0
+.L341:
+	ftoiz	d15,d15
+.L342:
+	mul	d15,d15,#4
+.L343:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_table)
+.L344:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L345:
+	j	.L47
+.L47:
+	mov	d0,#4059
+	addih	d0,d0,#16457
+.L346:
+	sub.f	d2,d0,d15
+.L162:
+	j	.L48
+.L46:
+	neg.f	d15,d5
+.L347:
+	div.f	d15,d15,d4
+.L124:
+	movh	d0,#17536
+.L348:
+	mul.f	d15,d15,d0
+.L349:
+	ftoiz	d15,d15
+.L350:
+	mul	d15,d15,#4
+.L351:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_table)
+.L352:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L353:
+	j	.L49
+.L49:
+	mov	d0,#4059
+	addih	d0,d0,#16329
+.L354:
+	add.f	d2,d15,d0
+.L48:
+	j	.L50
+.L45:
+	cmp.f	d15,d4,d5
+	extr.u	d15,d15,#0,#1
+.L355:
+	jeq	d15,#0,.L51
+.L356:
+	div.f	d15,d4,d5
+.L125:
+	movh	d0,#17536
+.L357:
+	mul.f	d15,d15,d0
+.L358:
+	ftoiz	d15,d15
+.L359:
+	mul	d15,d15,#4
+.L360:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_table)
+.L361:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d2,[a15]
+.L163:
+	j	.L52
+.L52:
+	j	.L53
+.L51:
+	div.f	d15,d5,d4
+.L126:
+	movh	d0,#17536
+.L362:
+	mul.f	d15,d15,d0
+.L363:
+	ftoiz	d15,d15
+.L364:
+	mul	d15,d15,#4
+.L365:
+	movh.a	a15,#@his(Ifx_g_LutAtan2F32_table)
+	lea	a15,[a15]@los(Ifx_g_LutAtan2F32_table)
+.L366:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L367:
+	j	.L54
+.L54:
+	mov	d0,#4059
+	addih	d0,d0,#16329
+.L368:
+	sub.f	d2,d0,d15
+.L53:
+.L50:
+.L44:
+	j	.L55
+.L55:
+	ret
+.L111:
+	
+__Ifx_LutAtan2F32_float32_function_end:
+	.size	Ifx_LutAtan2F32_float32,__Ifx_LutAtan2F32_float32_function_end-Ifx_LutAtan2F32_float32
+.L80:
+	; End of function
+	
+	.calls	'Ifx_LutAtan2F32_init','',0
+	.calls	'Ifx_LutAtan2F32_fxpAngle','',0
+	.extern	Ifx_g_LutAtan2F32_FxpAngle_table
+	.extern	Ifx_g_LutAtan2F32_table
+	.calls	'Ifx_LutAtan2F32_float32','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L63:
+	.word	1236
+	.half	3
+	.word	.L64
+	.byte	4
+.L62:
+	.byte	1
+	.byte	'../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0
+	.byte	'TASKING TriCore C compiler',0
+	.byte	'C:\\Users\\KumarDharani\\Documents\\Aurix_Projects\\Projects\\UART\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L65
+	.byte	2,1,1,3
+	.word	192
+	.byte	4
+	.byte	'Ifx__jump_and_link',0,3,1,60,17,1,1,5
+	.byte	'fun',0,1,60,43
+	.word	195
+	.byte	6,0,7
+	.byte	'__fract',0,4,128,1
+.L84:
+	.byte	7
+	.byte	'float',0,4,4,8
+	.byte	'Ifx__float_to_fract',0,3,1,184,2,18
+	.word	240
+	.byte	1,1,5
+	.byte	'a',0,1,184,2,44
+	.word	252
+	.byte	6,0,7
+	.byte	'unsigned long long int',0,8,7,9
+	.byte	'void',0,3
+	.word	332
+	.byte	8
+	.byte	'__ld64',0,3,2,163,1,19
+	.word	306
+	.byte	1,1,5
+	.byte	'addr',0,2,163,1,32
+	.word	338
+	.byte	6,0,4
+	.byte	'__st64',0,3,2,171,1,17,1,1,5
+	.byte	'addr',0,2,171,1,30
+	.word	338
+	.byte	5
+	.byte	'value',0,2,171,1,43
+	.word	306
+	.byte	6,0
+.L82:
+	.byte	7
+	.byte	'long int',0,4,5
+.L90:
+	.byte	8
+	.byte	'Ifx_LutAtan2F32_fxpAnglePrivate',0,3,3,65,29
+	.word	424
+	.byte	1,1
+.L92:
+	.byte	5
+	.byte	'valf',0,3,65,69
+	.word	252
+.L94:
+	.byte	6,0
+.L115:
+	.byte	8
+	.byte	'Ifx_LutAtan2F32_float32Private',0,3,3,80,20
+	.word	252
+	.byte	1,1
+.L117:
+	.byte	5
+	.byte	'val',0,3,80,59
+	.word	252
+.L119:
+	.byte	6,0,7
+	.byte	'unsigned int',0,4,7,10
+	.word	550
+	.byte	3
+	.word	550
+	.byte	11
+	.byte	'__cmpswapw',0
+	.word	566
+	.byte	1,1,1,1,12
+	.byte	'p',0
+	.word	571
+	.byte	12
+	.byte	'value',0
+	.word	550
+	.byte	12
+	.byte	'compare',0
+	.word	550
+	.byte	0,7
+	.byte	'int',0,4,5,13
+	.word	628
+	.byte	14
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,15
+	.word	635
+	.byte	0,16
+	.word	200
+	.byte	17
+	.word	226
+	.byte	6,0,16
+	.word	261
+	.byte	17
+	.word	293
+	.byte	6,0,16
+	.word	343
+	.byte	17
+	.word	362
+	.byte	6,0,16
+	.word	378
+	.byte	17
+	.word	393
+	.byte	17
+	.word	407
+	.byte	6,0
+.L95:
+	.byte	7
+	.byte	'unsigned long int',0,4,7,16
+	.word	436
+	.byte	17
+	.word	479
+	.byte	6,0,16
+	.word	494
+	.byte	17
+	.word	536
+	.byte	6,0,7
+	.byte	'short int',0,2,5,18
+	.byte	'__wchar_t',0,3,1,1
+	.word	775
+	.byte	18
+	.byte	'__size_t',0,3,1,1
+	.word	550
+	.byte	18
+	.byte	'__ptrdiff_t',0,3,1,1
+	.word	628
+	.byte	19,1,3
+	.word	843
+	.byte	18
+	.byte	'__codeptr',0,3,1,1
+	.word	845
+	.byte	7
+	.byte	'unsigned char',0,1,8,18
+	.byte	'uint8',0,4,107,23
+	.word	868
+	.byte	7
+	.byte	'unsigned short int',0,2,7,18
+	.byte	'uint16',0,4,111,24
+	.word	899
+	.byte	18
+	.byte	'uint32',0,4,115,23
+	.word	730
+	.byte	18
+	.byte	'uint64',0,4,120,28
+	.word	306
+	.byte	7
+	.byte	'char',0,1,6,18
+	.byte	'sint8',0,4,124,21
+	.word	966
+	.byte	18
+	.byte	'sint16',0,4,128,1,15
+	.word	775
+	.byte	18
+	.byte	'sint32',0,4,133,1,14
+	.word	424
+	.byte	7
+	.byte	'long long int',0,8,5,18
+	.byte	'sint64',0,4,140,1,19
+	.word	1020
+	.byte	18
+	.byte	'float32',0,4,169,1,15
+	.word	252
+	.byte	18
+	.byte	'pvoid',0,5,79,24
+	.word	338
+	.byte	18
+	.byte	'Ifx_TickTime',0,5,101,16
+	.word	1020
+	.byte	18
+	.byte	'Ifx_Lut_FxpAngle',0,6,83,16
+	.word	424
+	.byte	20,132,32
+	.word	424
+	.byte	21,128,8,0,13
+	.word	1130
+	.byte	22
+	.byte	'Ifx_g_LutAtan2F32_FxpAngle_table',0,7,59,43
+	.word	1141
+	.byte	1,1,20,132,32
+	.word	252
+	.byte	21,128,8,0,13
+	.word	1189
+	.byte	22
+	.byte	'Ifx_g_LutAtan2F32_table',0,7,60,43
+	.word	1200
+	.byte	1,1,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L64:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
+	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
+	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,53,0,73,19,0,0,11,46
+	.byte	1,3,8,73,19,54,15,39,12,63,12,60,12,0,0,12,5,0,3,8,73,19,0,0,13,38,0,73,19,0,0,14,46,1,3,8,54,15,39,12
+	.byte	63,12,60,12,0,0,15,5,0,73,19,0,0,16,46,1,49,19,0,0,17,5,0,49,19,0,0,18,22,0,3,8,58,15,59,15,57,15,73,19
+	.byte	0,0,19,21,0,54,15,0,0,20,1,1,11,15,73,19,0,0,21,33,0,47,15,0,0,22,52,0,3,8,58,15,59,15,57,15,73,19,63
+	.byte	12,60,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L65:
+	.word	.L165-.L164
+.L164:
+	.half	3
+	.word	.L167-.L166
+.L166:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'C:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsTasking.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\Cpu\\Std\\IfxCpu_Intrinsics.h',0
+	.byte	0,0,0
+	.byte	'../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0,0,0,0
+	.byte	'C:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0
+	.byte	'..\\Libraries\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_Lut.h',0,0,0,0
+	.byte	'..\\Libraries\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_LutAtan2F32.h',0,0,0,0,0
+.L167:
+.L165:
+	.sdecl	'.debug_info',debug,cluster('Ifx_LutAtan2F32_init')
+	.sect	'.debug_info'
+.L66:
+	.word	248
+	.half	3
+	.word	.L67
+	.byte	4,1
+	.byte	'../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0
+	.byte	'TASKING TriCore C compiler',0
+	.byte	'C:\\Users\\KumarDharani\\Documents\\Aurix_Projects\\Projects\\UART\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L69,.L68
+	.byte	2
+	.word	.L62
+	.byte	3
+	.byte	'Ifx_LutAtan2F32_init',0,1,48,6,1,1,1
+	.word	.L57,.L81,.L56
+	.byte	4
+	.word	.L57,.L81
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Ifx_LutAtan2F32_init')
+	.sect	'.debug_abbrev'
+.L67:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Ifx_LutAtan2F32_init')
+	.sect	'.debug_line'
+.L68:
+	.word	.L169-.L168
+.L168:
+	.half	3
+	.word	.L171-.L170
+.L170:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0,0,0,0,0
+.L171:
+	.byte	5,1,7,0,5,2
+	.word	.L57
+	.byte	3,61,1,7,9
+	.half	.L70-.L57
+	.byte	0,1,1
+.L169:
+	.sdecl	'.debug_ranges',debug,cluster('Ifx_LutAtan2F32_init')
+	.sect	'.debug_ranges'
+.L69:
+	.word	-1,.L57,0,.L70-.L57,0,0
+	.sdecl	'.debug_info',debug,cluster('Ifx_LutAtan2F32_fxpAngle')
+	.sect	'.debug_info'
+.L71:
+	.word	765
+	.half	3
+	.word	.L72
+	.byte	4,1
+	.byte	'../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0
+	.byte	'TASKING TriCore C compiler',0
+	.byte	'C:\\Users\\KumarDharani\\Documents\\Aurix_Projects\\Projects\\UART\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L74,.L73
+	.byte	2
+	.word	.L62
+	.byte	3
+	.byte	'Ifx_LutAtan2F32_fxpAngle',0,1,86,18
+	.word	.L82
+	.byte	1,1,1
+	.word	.L59,.L83,.L58
+	.byte	4
+	.byte	'x',0,1,86,51
+	.word	.L84,.L85
+	.byte	4
+	.byte	'y',0,1,86,62
+	.word	.L84,.L86
+	.byte	5
+	.word	.L59,.L83
+	.byte	6
+	.byte	'angle',0,1,88,22
+	.word	.L82,.L87
+	.byte	6
+	.byte	'fx',0,1,89,22
+	.word	.L84,.L88
+	.byte	6
+	.byte	'fy',0,1,90,22
+	.word	.L84,.L89
+	.byte	7
+	.word	.L90,.L91,.L6
+	.byte	8
+	.word	.L92,.L93
+	.byte	9
+	.word	.L94,.L91,.L6
+	.byte	6
+	.byte	'vali',0,1,67,12
+	.word	.L95,.L96
+	.byte	0,0,7
+	.word	.L90,.L97,.L9
+	.byte	8
+	.word	.L92,.L93
+	.byte	9
+	.word	.L94,.L97,.L9
+	.byte	6
+	.byte	'vali',0,1,67,12
+	.word	.L95,.L98
+	.byte	0,0,7
+	.word	.L90,.L99,.L13
+	.byte	8
+	.word	.L92,.L93
+	.byte	9
+	.word	.L94,.L99,.L13
+	.byte	6
+	.byte	'vali',0,1,67,12
+	.word	.L95,.L100
+	.byte	0,0,7
+	.word	.L90,.L101,.L16
+	.byte	8
+	.word	.L92,.L93
+	.byte	9
+	.word	.L94,.L101,.L16
+	.byte	6
+	.byte	'vali',0,1,67,12
+	.word	.L95,.L102
+	.byte	0,0,7
+	.word	.L90,.L103,.L21
+	.byte	8
+	.word	.L92,.L93
+	.byte	9
+	.word	.L94,.L103,.L21
+	.byte	6
+	.byte	'vali',0,1,67,12
+	.word	.L95,.L104
+	.byte	0,0,7
+	.word	.L90,.L105,.L24
+	.byte	8
+	.word	.L92,.L93
+	.byte	9
+	.word	.L94,.L105,.L24
+	.byte	6
+	.byte	'vali',0,1,67,12
+	.word	.L95,.L106
+	.byte	0,0,7
+	.word	.L90,.L107,.L28
+	.byte	8
+	.word	.L92,.L93
+	.byte	9
+	.word	.L94,.L107,.L28
+	.byte	6
+	.byte	'vali',0,1,67,12
+	.word	.L95,.L108
+	.byte	0,0,7
+	.word	.L90,.L109,.L31
+	.byte	8
+	.word	.L92,.L93
+	.byte	9
+	.word	.L94,.L109,.L31
+	.byte	6
+	.byte	'vali',0,1,67,12
+	.word	.L95,.L110
+	.byte	0,0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Ifx_LutAtan2F32_fxpAngle')
+	.sect	'.debug_abbrev'
+.L72:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,29,1,49,16,17,1,18,1,0,0,8,5,0,49,16,2,6,0,0,9,11,1,49,16,17
+	.byte	1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Ifx_LutAtan2F32_fxpAngle')
+	.sect	'.debug_line'
+.L73:
+	.word	.L173-.L172
+.L172:
+	.half	3
+	.word	.L175-.L174
+.L174:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0,0,0,0,0
+.L175:
+	.byte	5,13,7,0,5,2
+	.word	.L59
+	.byte	3,219,0,1,5,11,9
+	.half	.L176-.L59
+	.byte	1,5,5,9
+	.half	.L177-.L176
+	.byte	1,5,17,7,9
+	.half	.L178-.L177
+	.byte	3,2,1,5,15,9
+	.half	.L179-.L178
+	.byte	1,5,9,9
+	.half	.L180-.L179
+	.byte	1,5,17,7,9
+	.half	.L181-.L180
+	.byte	3,2,1,5,22,9
+	.half	.L182-.L181
+	.byte	1,5,20,9
+	.half	.L183-.L182
+	.byte	1,5,13,9
+	.half	.L184-.L183
+	.byte	1,5,77,7,9
+	.half	.L185-.L184
+	.byte	3,2,1,5,83,9
+	.half	.L186-.L185
+	.byte	1,5,81,9
+	.half	.L187-.L186
+	.byte	1,5,12,9
+	.half	.L91-.L187
+	.byte	3,98,1,5,33,9
+	.half	.L188-.L91
+	.byte	1,5,12,9
+	.half	.L189-.L188
+	.byte	3,1,1,5,17,9
+	.half	.L129-.L189
+	.byte	3,2,1,5,15,9
+	.half	.L190-.L129
+	.byte	1,5,34,9
+	.half	.L191-.L190
+	.byte	1,5,32,9
+	.half	.L192-.L191
+	.byte	1,5,5,9
+	.half	.L193-.L192
+	.byte	1,5,13,7,9
+	.half	.L194-.L193
+	.byte	3,2,1,5,44,9
+	.half	.L5-.L194
+	.byte	3,3,1,5,12,9
+	.half	.L195-.L5
+	.byte	1,5,44,9
+	.half	.L196-.L195
+	.byte	1,5,5,9
+	.half	.L197-.L196
+	.byte	1,5,76,9
+	.half	.L6-.L197
+	.byte	3,22,1,5,87,9
+	.half	.L130-.L6
+	.byte	1,5,83,9
+	.half	.L4-.L130
+	.byte	3,4,1,5,89,9
+	.half	.L198-.L4
+	.byte	1,5,87,9
+	.half	.L199-.L198
+	.byte	1,5,12,9
+	.half	.L97-.L199
+	.byte	3,94,1,5,33,9
+	.half	.L200-.L97
+	.byte	1,5,12,9
+	.half	.L201-.L200
+	.byte	3,1,1,5,17,9
+	.half	.L133-.L201
+	.byte	3,2,1,5,15,9
+	.half	.L202-.L133
+	.byte	1,5,34,9
+	.half	.L203-.L202
+	.byte	1,5,32,9
+	.half	.L204-.L203
+	.byte	1,5,5,9
+	.half	.L205-.L204
+	.byte	1,5,13,7,9
+	.half	.L206-.L205
+	.byte	3,2,1,5,44,9
+	.half	.L8-.L206
+	.byte	3,3,1,5,12,9
+	.half	.L207-.L8
+	.byte	1,5,44,9
+	.half	.L208-.L207
+	.byte	1,5,5,9
+	.half	.L134-.L208
+	.byte	1,5,25,9
+	.half	.L9-.L134
+	.byte	3,26,1,5,49,9
+	.half	.L135-.L9
+	.byte	1,5,13,9
+	.half	.L7-.L135
+	.byte	3,126,1,5,17,9
+	.half	.L3-.L7
+	.byte	3,7,1,5,20,9
+	.half	.L209-.L3
+	.byte	1,5,13,9
+	.half	.L210-.L209
+	.byte	1,5,58,7,9
+	.half	.L211-.L210
+	.byte	3,2,1,5,62,9
+	.half	.L212-.L211
+	.byte	1,5,12,9
+	.half	.L99-.L212
+	.byte	3,87,1,5,33,9
+	.half	.L213-.L99
+	.byte	1,5,12,9
+	.half	.L214-.L213
+	.byte	3,1,1,5,17,9
+	.half	.L138-.L214
+	.byte	3,2,1,5,15,9
+	.half	.L215-.L138
+	.byte	1,5,34,9
+	.half	.L216-.L215
+	.byte	1,5,32,9
+	.half	.L217-.L216
+	.byte	1,5,5,9
+	.half	.L218-.L217
+	.byte	1,5,13,7,9
+	.half	.L219-.L218
+	.byte	3,2,1,5,44,9
+	.half	.L12-.L219
+	.byte	3,3,1,5,12,9
+	.half	.L220-.L12
+	.byte	1,5,44,9
+	.half	.L221-.L220
+	.byte	1,5,5,9
+	.half	.L139-.L221
+	.byte	1,5,25,9
+	.half	.L13-.L139
+	.byte	3,33,1,5,67,9
+	.half	.L222-.L13
+	.byte	1,5,88,9
+	.half	.L11-.L222
+	.byte	3,4,1,5,86,9
+	.half	.L223-.L11
+	.byte	1,5,12,9
+	.half	.L101-.L223
+	.byte	3,83,1,5,33,9
+	.half	.L224-.L101
+	.byte	1,5,12,9
+	.half	.L225-.L224
+	.byte	3,1,1,5,17,9
+	.half	.L142-.L225
+	.byte	3,2,1,5,15,9
+	.half	.L226-.L142
+	.byte	1,5,34,9
+	.half	.L227-.L226
+	.byte	1,5,32,9
+	.half	.L228-.L227
+	.byte	1,5,5,9
+	.half	.L229-.L228
+	.byte	1,5,13,7,9
+	.half	.L230-.L229
+	.byte	3,2,1,5,44,9
+	.half	.L15-.L230
+	.byte	3,3,1,5,12,9
+	.half	.L231-.L15
+	.byte	1,5,44,9
+	.half	.L232-.L231
+	.byte	1,5,5,9
+	.half	.L233-.L232
+	.byte	1,5,82,9
+	.half	.L16-.L233
+	.byte	3,37,1,5,9,9
+	.half	.L10-.L16
+	.byte	3,120,1,5,17,9
+	.half	.L2-.L10
+	.byte	3,14,1,5,15,9
+	.half	.L234-.L2
+	.byte	1,5,9,9
+	.half	.L235-.L234
+	.byte	1,5,21,7,9
+	.half	.L236-.L235
+	.byte	3,2,1,5,19,9
+	.half	.L237-.L236
+	.byte	1,5,13,9
+	.half	.L238-.L237
+	.byte	1,5,81,7,9
+	.half	.L239-.L238
+	.byte	3,2,1,5,79,9
+	.half	.L240-.L239
+	.byte	1,5,12,9
+	.half	.L103-.L240
+	.byte	3,73,1,5,33,9
+	.half	.L241-.L103
+	.byte	1,5,12,9
+	.half	.L242-.L241
+	.byte	3,1,1,5,17,9
+	.half	.L145-.L242
+	.byte	3,2,1,5,15,9
+	.half	.L243-.L145
+	.byte	1,5,34,9
+	.half	.L244-.L243
+	.byte	1,5,32,9
+	.half	.L245-.L244
+	.byte	1,5,5,9
+	.half	.L246-.L245
+	.byte	1,5,13,7,9
+	.half	.L247-.L246
+	.byte	3,2,1,5,44,9
+	.half	.L20-.L247
+	.byte	3,3,1,5,12,9
+	.half	.L248-.L20
+	.byte	1,5,44,9
+	.half	.L249-.L248
+	.byte	1,5,5,9
+	.half	.L146-.L249
+	.byte	1,5,25,9
+	.half	.L21-.L146
+	.byte	3,47,1,5,42,9
+	.half	.L147-.L21
+	.byte	1,5,85,9
+	.half	.L250-.L147
+	.byte	1,5,82,9
+	.half	.L19-.L250
+	.byte	3,4,1,5,86,9
+	.half	.L251-.L19
+	.byte	1,5,12,9
+	.half	.L105-.L251
+	.byte	3,69,1,5,33,9
+	.half	.L252-.L105
+	.byte	1,5,12,9
+	.half	.L253-.L252
+	.byte	3,1,1,5,17,9
+	.half	.L150-.L253
+	.byte	3,2,1,5,15,9
+	.half	.L254-.L150
+	.byte	1,5,34,9
+	.half	.L255-.L254
+	.byte	1,5,32,9
+	.half	.L256-.L255
+	.byte	1,5,5,9
+	.half	.L257-.L256
+	.byte	1,5,13,7,9
+	.half	.L258-.L257
+	.byte	3,2,1,5,44,9
+	.half	.L23-.L258
+	.byte	3,3,1,5,12,9
+	.half	.L259-.L23
+	.byte	1,5,44,9
+	.half	.L260-.L259
+	.byte	1,5,5,9
+	.half	.L261-.L260
+	.byte	1,5,81,9
+	.half	.L24-.L261
+	.byte	3,51,1,5,13,9
+	.half	.L22-.L24
+	.byte	3,126,1,5,19,9
+	.half	.L18-.L22
+	.byte	3,7,1,5,13,9
+	.half	.L262-.L18
+	.byte	1,5,60,7,9
+	.half	.L263-.L262
+	.byte	3,2,1,5,12,9
+	.half	.L107-.L263
+	.byte	3,190,127,1,5,33,9
+	.half	.L264-.L107
+	.byte	1,5,12,9
+	.half	.L265-.L264
+	.byte	3,1,1,5,17,9
+	.half	.L153-.L265
+	.byte	3,2,1,5,15,9
+	.half	.L266-.L153
+	.byte	1,5,34,9
+	.half	.L267-.L266
+	.byte	1,5,32,9
+	.half	.L268-.L267
+	.byte	1,5,5,9
+	.half	.L269-.L268
+	.byte	1,5,13,7,9
+	.half	.L270-.L269
+	.byte	3,2,1,5,44,9
+	.half	.L27-.L270
+	.byte	3,3,1,5,12,9
+	.half	.L271-.L27
+	.byte	1,5,44,9
+	.half	.L272-.L271
+	.byte	1,5,5,9
+	.half	.L154-.L272
+	.byte	1,5,65,9
+	.half	.L28-.L154
+	.byte	3,58,1,5,85,9
+	.half	.L26-.L28
+	.byte	3,4,1,5,12,9
+	.half	.L109-.L26
+	.byte	3,186,127,1,5,33,9
+	.half	.L273-.L109
+	.byte	1,5,12,9
+	.half	.L274-.L273
+	.byte	3,1,1,5,17,9
+	.half	.L157-.L274
+	.byte	3,2,1,5,15,9
+	.half	.L275-.L157
+	.byte	1,5,34,9
+	.half	.L276-.L275
+	.byte	1,5,32,9
+	.half	.L277-.L276
+	.byte	1,5,5,9
+	.half	.L278-.L277
+	.byte	1,5,13,7,9
+	.half	.L279-.L278
+	.byte	3,2,1,5,44,9
+	.half	.L30-.L279
+	.byte	3,3,1,5,12,9
+	.half	.L280-.L30
+	.byte	1,5,44,9
+	.half	.L281-.L280
+	.byte	1,5,5,9
+	.half	.L158-.L281
+	.byte	1,5,43,9
+	.half	.L31-.L158
+	.byte	3,62,1,5,48,9
+	.half	.L159-.L31
+	.byte	1,5,18,9
+	.half	.L17-.L159
+	.byte	3,5,1,5,5,9
+	.half	.L282-.L17
+	.byte	1,5,1,9
+	.half	.L32-.L282
+	.byte	3,1,1,7,9
+	.half	.L75-.L32
+	.byte	0,1,1
+.L173:
+	.sdecl	'.debug_ranges',debug,cluster('Ifx_LutAtan2F32_fxpAngle')
+	.sect	'.debug_ranges'
+.L74:
+	.word	-1,.L59,0,.L75-.L59,0,0
+	.sdecl	'.debug_info',debug,cluster('Ifx_LutAtan2F32_float32')
+	.sect	'.debug_info'
+.L76:
+	.word	594
+	.half	3
+	.word	.L77
+	.byte	4,1
+	.byte	'../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0
+	.byte	'TASKING TriCore C compiler',0
+	.byte	'C:\\Users\\KumarDharani\\Documents\\Aurix_Projects\\Projects\\UART\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L79,.L78
+	.byte	2
+	.word	.L62
+	.byte	3
+	.byte	'Ifx_LutAtan2F32_float32',0,1,147,1,9
+	.word	.L84
+	.byte	1,1,1
+	.word	.L61,.L111,.L60
+	.byte	4
+	.byte	'y',0,1,147,1,41
+	.word	.L84,.L112
+	.byte	4
+	.byte	'x',0,1,147,1,52
+	.word	.L84,.L113
+	.byte	5
+	.word	.L61,.L111
+	.byte	6
+	.byte	'angle',0,1,149,1,13
+	.word	.L84,.L114
+	.byte	7
+	.word	.L115,.L116,.L36
+	.byte	8
+	.word	.L117,.L118
+	.byte	9
+	.word	.L119,.L116,.L36
+	.byte	0,7
+	.word	.L115,.L120,.L38
+	.byte	8
+	.word	.L117,.L118
+	.byte	9
+	.word	.L119,.L120,.L38
+	.byte	0,7
+	.word	.L115,.L121,.L41
+	.byte	8
+	.word	.L117,.L118
+	.byte	9
+	.word	.L119,.L121,.L41
+	.byte	0,7
+	.word	.L115,.L122,.L43
+	.byte	8
+	.word	.L117,.L118
+	.byte	9
+	.word	.L119,.L122,.L43
+	.byte	0,7
+	.word	.L115,.L123,.L47
+	.byte	8
+	.word	.L117,.L118
+	.byte	9
+	.word	.L119,.L123,.L47
+	.byte	0,7
+	.word	.L115,.L124,.L49
+	.byte	8
+	.word	.L117,.L118
+	.byte	9
+	.word	.L119,.L124,.L49
+	.byte	0,7
+	.word	.L115,.L125,.L52
+	.byte	8
+	.word	.L117,.L118
+	.byte	9
+	.word	.L119,.L125,.L52
+	.byte	0,7
+	.word	.L115,.L126,.L54
+	.byte	8
+	.word	.L117,.L118
+	.byte	9
+	.word	.L119,.L126,.L54
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Ifx_LutAtan2F32_float32')
+	.sect	'.debug_abbrev'
+.L77:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,29,1,49,16,17,1,18,1,0,0,8,5,0,49,16,2,6,0,0,9,11,0,49,16,17
+	.byte	1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Ifx_LutAtan2F32_float32')
+	.sect	'.debug_line'
+.L78:
+	.word	.L284-.L283
+.L283:
+	.half	3
+	.word	.L286-.L285
+.L285:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c',0,0,0,0,0
+.L286:
+	.byte	5,13,7,0,5,2
+	.word	.L61
+	.byte	3,150,1,1,5,11,9
+	.half	.L287-.L61
+	.byte	1,5,5,9
+	.half	.L288-.L287
+	.byte	1,5,17,7,9
+	.half	.L289-.L288
+	.byte	3,2,1,5,15,9
+	.half	.L290-.L289
+	.byte	1,5,9,9
+	.half	.L291-.L290
+	.byte	1,5,17,7,9
+	.half	.L292-.L291
+	.byte	3,2,1,5,22,9
+	.half	.L293-.L292
+	.byte	1,5,20,9
+	.half	.L294-.L293
+	.byte	1,5,13,9
+	.half	.L295-.L294
+	.byte	1,5,66,7,9
+	.half	.L296-.L295
+	.byte	3,2,1,5,71,9
+	.half	.L297-.L296
+	.byte	1,5,69,9
+	.half	.L298-.L297
+	.byte	1,5,48,9
+	.half	.L116-.L298
+	.byte	3,181,127,1,5,46,9
+	.half	.L299-.L116
+	.byte	1,5,36,9
+	.half	.L300-.L299
+	.byte	1,5,35,9
+	.half	.L301-.L300
+	.byte	1,5,12,9
+	.half	.L302-.L301
+	.byte	1,5,35,9
+	.half	.L303-.L302
+	.byte	1,5,5,9
+	.half	.L304-.L303
+	.byte	1,5,25,9
+	.half	.L36-.L304
+	.byte	3,203,0,1,5,65,9
+	.half	.L305-.L36
+	.byte	1,5,74,9
+	.half	.L160-.L305
+	.byte	1,5,72,9
+	.half	.L35-.L160
+	.byte	3,4,1,5,77,9
+	.half	.L306-.L35
+	.byte	1,5,75,9
+	.half	.L307-.L306
+	.byte	1,5,48,9
+	.half	.L120-.L307
+	.byte	3,177,127,1,5,46,9
+	.half	.L308-.L120
+	.byte	1,5,36,9
+	.half	.L309-.L308
+	.byte	1,5,35,9
+	.half	.L310-.L309
+	.byte	1,5,12,9
+	.half	.L311-.L310
+	.byte	1,5,35,9
+	.half	.L312-.L311
+	.byte	1,5,5,9
+	.half	.L313-.L312
+	.byte	1,5,25,9
+	.half	.L38-.L313
+	.byte	3,207,0,1,5,39,9
+	.half	.L314-.L38
+	.byte	1,5,13,9
+	.half	.L37-.L314
+	.byte	3,126,1,5,17,9
+	.half	.L34-.L37
+	.byte	3,7,1,5,20,9
+	.half	.L315-.L34
+	.byte	1,5,13,9
+	.half	.L316-.L315
+	.byte	1,5,57,7,9
+	.half	.L317-.L316
+	.byte	3,2,1,5,60,9
+	.half	.L318-.L317
+	.byte	1,5,48,9
+	.half	.L121-.L318
+	.byte	3,170,127,1,5,46,9
+	.half	.L319-.L121
+	.byte	1,5,36,9
+	.half	.L320-.L319
+	.byte	1,5,35,9
+	.half	.L321-.L320
+	.byte	1,5,12,9
+	.half	.L322-.L321
+	.byte	1,5,35,9
+	.half	.L323-.L322
+	.byte	1,5,5,9
+	.half	.L324-.L323
+	.byte	1,5,25,9
+	.half	.L41-.L324
+	.byte	3,214,0,1,5,64,9
+	.half	.L161-.L41
+	.byte	1,5,76,9
+	.half	.L40-.L161
+	.byte	3,4,1,5,74,9
+	.half	.L325-.L40
+	.byte	1,5,48,9
+	.half	.L122-.L325
+	.byte	3,166,127,1,5,46,9
+	.half	.L326-.L122
+	.byte	1,5,36,9
+	.half	.L327-.L326
+	.byte	1,5,35,9
+	.half	.L328-.L327
+	.byte	1,5,12,9
+	.half	.L329-.L328
+	.byte	1,5,35,9
+	.half	.L330-.L329
+	.byte	1,5,5,9
+	.half	.L331-.L330
+	.byte	1,5,25,9
+	.half	.L43-.L331
+	.byte	3,218,0,1,5,71,9
+	.half	.L332-.L43
+	.byte	1,5,9,9
+	.half	.L39-.L332
+	.byte	3,120,1,5,17,9
+	.half	.L33-.L39
+	.byte	3,14,1,5,15,9
+	.half	.L333-.L33
+	.byte	1,5,9,9
+	.half	.L334-.L333
+	.byte	1,5,21,7,9
+	.half	.L335-.L334
+	.byte	3,2,1,5,19,9
+	.half	.L336-.L335
+	.byte	1,5,13,9
+	.half	.L337-.L336
+	.byte	1,5,69,7,9
+	.half	.L338-.L337
+	.byte	3,2,1,5,67,9
+	.half	.L339-.L338
+	.byte	1,5,48,9
+	.half	.L123-.L339
+	.byte	3,156,127,1,5,46,9
+	.half	.L340-.L123
+	.byte	1,5,36,9
+	.half	.L341-.L340
+	.byte	1,5,35,9
+	.half	.L342-.L341
+	.byte	1,5,12,9
+	.half	.L343-.L342
+	.byte	1,5,35,9
+	.half	.L344-.L343
+	.byte	1,5,5,9
+	.half	.L345-.L344
+	.byte	1,5,25,9
+	.half	.L47-.L345
+	.byte	3,228,0,1,5,32,9
+	.half	.L346-.L47
+	.byte	1,5,72,9
+	.half	.L162-.L346
+	.byte	1,5,71,9
+	.half	.L46-.L162
+	.byte	3,4,1,5,74,9
+	.half	.L347-.L46
+	.byte	1,5,48,9
+	.half	.L124-.L347
+	.byte	3,152,127,1,5,46,9
+	.half	.L348-.L124
+	.byte	1,5,36,9
+	.half	.L349-.L348
+	.byte	1,5,35,9
+	.half	.L350-.L349
+	.byte	1,5,12,9
+	.half	.L351-.L350
+	.byte	1,5,35,9
+	.half	.L352-.L351
+	.byte	1,5,5,9
+	.half	.L353-.L352
+	.byte	1,5,33,9
+	.half	.L49-.L353
+	.byte	3,232,0,1,5,70,9
+	.half	.L354-.L49
+	.byte	1,5,13,9
+	.half	.L48-.L354
+	.byte	3,126,1,5,19,9
+	.half	.L45-.L48
+	.byte	3,7,1,5,13,9
+	.half	.L355-.L45
+	.byte	1,5,58,7,9
+	.half	.L356-.L355
+	.byte	3,2,1,5,48,9
+	.half	.L125-.L356
+	.byte	3,145,127,1,5,46,9
+	.half	.L357-.L125
+	.byte	1,5,36,9
+	.half	.L358-.L357
+	.byte	1,5,35,9
+	.half	.L359-.L358
+	.byte	1,5,12,9
+	.half	.L360-.L359
+	.byte	1,5,35,9
+	.half	.L361-.L360
+	.byte	1,5,5,9
+	.half	.L163-.L361
+	.byte	1,5,62,9
+	.half	.L52-.L163
+	.byte	3,239,0,1,5,73,9
+	.half	.L51-.L52
+	.byte	3,4,1,5,48,9
+	.half	.L126-.L51
+	.byte	3,141,127,1,5,46,9
+	.half	.L362-.L126
+	.byte	1,5,36,9
+	.half	.L363-.L362
+	.byte	1,5,35,9
+	.half	.L364-.L363
+	.byte	1,5,12,9
+	.half	.L365-.L364
+	.byte	1,5,35,9
+	.half	.L366-.L365
+	.byte	1,5,5,9
+	.half	.L367-.L366
+	.byte	1,5,33,9
+	.half	.L54-.L367
+	.byte	3,243,0,1,5,38,9
+	.half	.L368-.L54
+	.byte	1,5,5,9
+	.half	.L44-.L368
+	.byte	3,5,1,5,1,9
+	.half	.L55-.L44
+	.byte	3,1,1,7,9
+	.half	.L80-.L55
+	.byte	0,1,1
+.L284:
+	.sdecl	'.debug_ranges',debug,cluster('Ifx_LutAtan2F32_float32')
+	.sect	'.debug_ranges'
+.L79:
+	.word	-1,.L61,0,.L80-.L61,0,0
+	.sdecl	'.debug_loc',debug,cluster('Ifx_LutAtan2F32_float32')
+	.sect	'.debug_loc'
+.L60:
+	.word	-1,.L61,0,.L111-.L61
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L114:
+	.word	-1,.L61,.L160-.L61,.L35-.L61
+	.half	1
+	.byte	82
+	.word	.L37-.L61,.L34-.L61
+	.half	1
+	.byte	82
+	.word	.L161-.L61,.L40-.L61
+	.half	1
+	.byte	82
+	.word	.L39-.L61,.L33-.L61
+	.half	1
+	.byte	82
+	.word	.L162-.L61,.L46-.L61
+	.half	1
+	.byte	82
+	.word	.L48-.L61,.L45-.L61
+	.half	1
+	.byte	82
+	.word	.L163-.L61,.L51-.L61
+	.half	1
+	.byte	82
+	.word	.L44-.L61,.L111-.L61
+	.half	1
+	.byte	82
+	.word	0,0
+.L118:
+	.word	0,0
+.L113:
+	.word	-1,.L61,0,.L111-.L61
+	.half	1
+	.byte	85
+	.word	0,0
+.L112:
+	.word	-1,.L61,0,.L111-.L61
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Ifx_LutAtan2F32_fxpAngle')
+	.sect	'.debug_loc'
+.L58:
+	.word	-1,.L59,0,.L83-.L59
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L87:
+	.word	-1,.L59,.L130-.L59,.L4-.L59
+	.half	1
+	.byte	95
+	.word	.L135-.L59,.L3-.L59
+	.half	1
+	.byte	95
+	.word	.L139-.L59,.L11-.L59
+	.half	1
+	.byte	95
+	.word	.L10-.L59,.L2-.L59
+	.half	1
+	.byte	95
+	.word	.L147-.L59,.L19-.L59
+	.half	1
+	.byte	95
+	.word	.L22-.L59,.L18-.L59
+	.half	1
+	.byte	95
+	.word	.L154-.L59,.L26-.L59
+	.half	1
+	.byte	95
+	.word	.L159-.L59,.L83-.L59
+	.half	1
+	.byte	95
+	.word	0,0
+.L88:
+	.word	0,0
+.L89:
+	.word	0,0
+.L93:
+	.word	0,0
+.L96:
+	.word	-1,.L59,.L129-.L59,.L4-.L59
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L98:
+	.word	-1,.L59,.L133-.L59,.L134-.L59
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L100:
+	.word	-1,.L59,.L138-.L59,.L11-.L59
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L102:
+	.word	-1,.L59,.L142-.L59,.L10-.L59
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L104:
+	.word	-1,.L59,.L145-.L59,.L146-.L59
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L106:
+	.word	-1,.L59,.L150-.L59,.L22-.L59
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L108:
+	.word	-1,.L59,.L153-.L59,.L26-.L59
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L110:
+	.word	-1,.L59,.L157-.L59,.L158-.L59
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L85:
+	.word	-1,.L59,0,.L127-.L59
+	.half	1
+	.byte	84
+	.word	.L4-.L59,.L131-.L59
+	.half	1
+	.byte	84
+	.word	.L3-.L59,.L136-.L59
+	.half	1
+	.byte	84
+	.word	.L11-.L59,.L140-.L59
+	.half	1
+	.byte	84
+	.word	.L2-.L59,.L143-.L59
+	.half	1
+	.byte	84
+	.word	.L19-.L59,.L148-.L59
+	.half	1
+	.byte	84
+	.word	.L18-.L59,.L151-.L59
+	.half	1
+	.byte	84
+	.word	.L26-.L59,.L155-.L59
+	.half	1
+	.byte	84
+	.word	0,0
+.L86:
+	.word	-1,.L59,0,.L128-.L59
+	.half	1
+	.byte	85
+	.word	.L4-.L59,.L132-.L59
+	.half	1
+	.byte	85
+	.word	.L3-.L59,.L137-.L59
+	.half	1
+	.byte	85
+	.word	.L11-.L59,.L141-.L59
+	.half	1
+	.byte	85
+	.word	.L2-.L59,.L144-.L59
+	.half	1
+	.byte	85
+	.word	.L19-.L59,.L149-.L59
+	.half	1
+	.byte	85
+	.word	.L18-.L59,.L152-.L59
+	.half	1
+	.byte	85
+	.word	.L26-.L59,.L156-.L59
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Ifx_LutAtan2F32_init')
+	.sect	'.debug_loc'
+.L56:
+	.word	-1,.L57,0,.L81-.L57
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L369:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Ifx_LutAtan2F32_init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L369,.L57,.L81-.L57
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('Ifx_LutAtan2F32_fxpAngle')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L369,.L59,.L83-.L59
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('Ifx_LutAtan2F32_float32')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L369,.L61,.L111-.L61
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	; Module end

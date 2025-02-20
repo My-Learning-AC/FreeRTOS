@@ -1,0 +1,174 @@
+x====================================================x
+x                                                    x
+x          KIT_TC4D_ZONE_GW_BTX_APP v2.0 Test        x
+x                Tested on: Aug  2 2024              x
+x                   Time: 18:41:10                   x
+x                                                    x
+x====================================================x
+
+=====================================================
+        ADCs and Power Good Signal Information       
+=====================================================
+******************************************
+*    ADC Measurements of Supply Rails    *
+******************************************
+Input Supply                      : 12.000 V
+Power Distribution Input Supply   : 12.183 V
+5V TLS4125                        : 5.006 V
+5V IO TLF PMIC                    : 5.040 V
+3V3 LMQ66430                      : 3.255 V
+3V3 IO TLF PMIC                   : 3.298 V
+1.8V LDO GETH                     : 1.781 V
+1.8V HSIF TLF PMIC                : 1.797 V
+0.95V IR3883 GETH0 P0             : 0.955 V
+0.95V IR3883 GETH0 P1             : 0.956 V
+5V_STB TBS7B84 LDO                : 4.984 V
+
+******************************************
+*          Current Consumption           *
+******************************************
+Input Current                     : 0.6291 A
+3V3 Buck Output Current           : 0.9524 A
+5V0 Buck Output Current           : 0.3059 A
+
+******************************************
+*          Power Good Signals            *
+******************************************
+5V  PG Status          : Good
+3V3 PG Status          : Good
+1V8 PG Status          : Good
+0V95 GETH0 P0 PG Status: Good
+0V95 GETH0 P1 PG Status: Good
+******************************************
+=====================================================
+                  User Button Test                   
+=====================================================
+Button Test started
+Press the User Button P33.7 on the DUT
+Button press detected!
+User Button test passed
+=====================================================
+                      LED Test                       
+=====================================================
+LED Test started
+Check if the LEDs are toggling
+Press the Button (P33.7) if the LEDs are toggled
+LEDs are working as expected!
+LED test passed
+=====================================================
+                   I2C EEPROM Test                   
+=====================================================
+EEPROM Test started
+MAC ID read from EEPROM: 
+0x0 : 0x4 : 0xa3 : 0xb : 0x1 : 0x31
+MAC ID EEPROM test passed
+=====================================================
+                       TPM Test                      
+=====================================================
+TPM Test started
+TPM capability information:
+TPM_PT_FAMILY_INDICATOR:        2.0
+TPM_PT_LEVEL:                   0
+TPM_PT_REVISION:                138
+TPM_PT_DAY_OF_YEAR:             8
+TPM_PT_YEAR:                    2018
+TPM_PT_MANUFACTURER:            IFX
+TPM_PT_VENDOR_STRING:           SLB9670
+TPM_PT_VENDOR_TPM_TYPE:         0
+TPM test passed
+=====================================================
+                     H-FLASH Test                    
+=====================================================
+Hyper-Flash Test started
+-----------------------------------------------------
+                 Hyper-Flash Details                 
+-----------------------------------------------------
+Device Manufacturer: Infineon
+Device Model: S26HS_T
+Device Size 512Mb
+-----------------------------------------------------
+Reading address 0x00
+Read value: 0x091
+Erasing address 0x00
+Reading address 0x00
+Read value after erase: 0xffff
+Programming address 0x00
+Reading address 0x00
+Programmed data: 0x091
+Hyper-Flash test passed
+=====================================================
+                  Power Distribution Test            
+=====================================================
+BTS Power Switch Connector Test started
+Switching ON each channel one by one on the extension board
+Check if the each Channel LED is turned on..
+Press and the button (P33.7) if all 6 channels LEDs are turned ON
+Power Distribution Channels are working as expected!
+Body Extension Connector test passed
+=====================================================
+                  Lite-Ethernet Test                 
+=====================================================
+Press the User Button P33.7 on the DUT to start the test
+Lite-Ethernet Test started
+Lite-Ethernet interfaces initialized
+Lite-Ethernet test passed
+=====================================================
+                     CAN Test                    
+=====================================================
+Press the User Button P33.7 on the DUT to start the test
+CAN Test started
+CAN Node 0 TX completed
+CAN Node 1 TX complete
+CAN Node 2 TX complete
+CAN Node 3 TX complete
+CAN Node 4 TX complete
+CAN Node 5 TX complete
+CAN Node 6 TX complete
+CAN Node 7 Tx complete
+CAN Node 8 Tx complete
+CAN Node 9 Tx complete
+CAN Node 10 TX completed
+CAN Node 11 TX completed
+CAN test passed
+=====================================================
+                     LIN Test                    
+=====================================================
+Press the User Button P33.7 on the DUT to start the test
+LIN Test started
+LIN Node 0 Frame sent! 
+LIN Node 1 Frame sent! 
+LIN Node 2 Frame sent! 
+LIN Node 3 Frame sent! 
+LIN test passed
+=====================================================
+                     PCIe RC Test                    
+=====================================================
+Press the User Button P33.7 on the DUT to start the test
+PCIe RC Mode Test started
+Reset the board on the other end of the connector..
+PCIe-RC Mode test passed
+Switching to EP Mode....
+=====================================================
+                     PCIe EP Test                    
+=====================================================
+Press the User Button P33.7 on the DUT to start the test
+PCIe EP Mode Test started
+Reset the board on the other end of the connector..
+PCIe-EP Mode test passed
+=====================================================
+Disabling BTS Input Supply....
+Disabling Standby Supply for CAN Node...
+Disabling LIN Nodes...
+Changing back to default RC mode...
+Board set to default state!
+======================================================
+      KIT_TC4D_ZONE_GW_BTX_APP v2.0 Test Completed    
+======================================================
+
+*****************************************
+*      TC4D9 Zone Gateway GETH Test     *
+*      1G/2.5G/5G Basic Send/Receive    *
+*         Date: Aug  3 2024             *
+*****************************************
+GETH Init = SUCCESS
+GETH Tx/Rx Test Pass

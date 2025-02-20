@@ -1,0 +1,122 @@
+	; Module start
+	.compiler_version	"TASKING SmartCode v10.1r1 - TriCore C compiler Build 21121068 SN-09461304"
+	.compiler_invocation	"ctc --dep-file=CompilerGcc.d --fp-model=c,l,n,r,S,T,z --user-mode=hypervisor -D__CPU__=tc49x -D__CPU_TC49X__ --core=tc1.8 --iso=99 -D__CPU__=tc49x -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Configurations -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Infra -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Infra\\\\Ipc -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Infra\\\\Ipc\\\\Common -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Infra\\\\Ipc\\\\Tricore -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Infra\\\\Ipc\\\\Tricore\\\\ipc -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Infra\\\\Ipc\\\\Tricore\\\\ipc\\\\inc -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Infra\\\\Sfr\\\\TC4DA -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Infra\\\\Sfr\\\\TC4DA\\\\_Reg -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Infra\\\\Ssw\\\\TC4DA -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Infra\\\\Ssw\\\\TC4DA\\\\Tricore -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Service -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Comm -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\General -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Time -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Ap -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Ap\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Clock -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Clock\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Port -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Port\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Src -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Src\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\_Impl -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Flash -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Flash\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Smu -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Smu\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Stm -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Vmt -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Vmt\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Wtu -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Wtu\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\_Impl -g2 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.src ../Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.c"
+	.compiler_name		"ctc"
+	;source	'../Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.c'
+
+	
+$TC18
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	680
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'../Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.c',0
+	.byte	'TASKING TriCore C compiler',0
+	.byte	'C:\\Users\\KumarDharani\\Documents\\Aurix_Projects\\Projects\\FLASH_Program_TC4D7_Exp\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L5
+	.byte	2
+	.byte	'unsigned int',0,4,7,3
+	.word	210
+	.byte	4
+	.word	210
+	.byte	5
+	.byte	'__cmpswapw',0
+	.word	226
+	.byte	1,1,1,1,6
+	.byte	'p',0
+	.word	231
+	.byte	6
+	.byte	'value',0
+	.word	210
+	.byte	6
+	.byte	'compare',0
+	.word	210
+	.byte	0,2
+	.byte	'int',0,4,5,7
+	.word	288
+	.byte	8
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,9
+	.word	295
+	.byte	0,2
+	.byte	'short int',0,2,5,10
+	.byte	'__wchar_t',0,1,1,1
+	.word	337
+	.byte	10
+	.byte	'__size_t',0,1,1,1
+	.word	210
+	.byte	10
+	.byte	'__ptrdiff_t',0,1,1,1
+	.word	288
+	.byte	11,1,4
+	.word	405
+	.byte	10
+	.byte	'__codeptr',0,1,1,1
+	.word	407
+	.byte	2
+	.byte	'unsigned char',0,1,8,10
+	.byte	'uint8',0,2,107,23
+	.word	430
+	.byte	2
+	.byte	'unsigned short int',0,2,7,10
+	.byte	'uint16',0,2,111,24
+	.word	461
+	.byte	2
+	.byte	'unsigned long int',0,4,7,10
+	.byte	'uint32',0,2,115,23
+	.word	498
+	.byte	10
+	.byte	'sint16',0,2,128,1,15
+	.word	337
+	.byte	2
+	.byte	'long int',0,4,5,10
+	.byte	'sint32',0,2,133,1,14
+	.word	550
+	.byte	2
+	.byte	'long long int',0,8,5,10
+	.byte	'sint64',0,2,140,1,19
+	.word	578
+	.byte	2
+	.byte	'float',0,4,4,10
+	.byte	'float32',0,2,169,1,15
+	.word	611
+	.byte	12
+	.byte	'void',0,4
+	.word	637
+	.byte	10
+	.byte	'pvoid',0,3,79,24
+	.word	643
+	.byte	10
+	.byte	'Ifx_TickTime',0,3,101,16
+	.word	578
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,53,0,73,19,0,0,4,15,0,73,19
+	.byte	0,0,5,46,1,3,8,73,19,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,73,19,0,0,7,38,0,73,19,0,0,8,46,1,3,8,54,15
+	.byte	39,12,63,12,60,12,0,0,9,5,0,73,19,0,0,10,22,0,3,8,58,15,59,15,57,15,73,19,0,0,11,21,0,54,15,0,0,12,59
+	.byte	0,3,8,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L7-.L6
+.L6:
+	.half	3
+	.word	.L9-.L8
+.L8:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.c',0,0,0,0
+	.byte	'C:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\FLASH_Program_TC4D7_Exp\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0,0
+.L9:
+.L7:
+	; Module end

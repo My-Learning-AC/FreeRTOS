@@ -1,0 +1,343 @@
+	; Module start
+	.compiler_version	"TASKING SmartCode v10.1r1 - TriCore C compiler Build 21121068 SN-09461304"
+	.compiler_invocation	"ctc --dep-file=Ifx_LutLSincosF32.d --fp-model=c,l,n,r,S,T,z --user-mode=hypervisor -D__CPU__=tc49x -D__CPU_TC49X__ --core=tc1.8 --iso=99 -D__CPU__=tc49x -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Configurations -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ipc -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ipc\\\\Common -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ipc\\\\Tricore -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ipc\\\\Tricore\\\\ipc -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ipc\\\\Tricore\\\\ipc\\\\inc -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Sfr\\\\TC4DA -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Sfr\\\\TC4DA\\\\_Reg -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ssw\\\\TC4DA -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Infra\\\\Ssw\\\\TC4DA\\\\Tricore -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Comm -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\General -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Time -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Ap -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Ap\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Asclin -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Asclin\\\\Asc -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Asclin\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Clock -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Clock\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Egtm -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Egtm\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Port -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Port\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Src -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\Src\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\_Impl -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\CpuGeneric\\\\_PinMap -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Smu -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Smu\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Stm -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Vmt -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Vmt\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Wtu -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\Wtu\\\\Std -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\\\_Lib\\\\DataHandling -g2 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutLSincosF32.src ../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutLSincosF32.c"
+	.compiler_name		"ctc"
+	;source	'../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutLSincosF32.c'
+
+	
+$TC18
+	
+	.sdecl	'.rodata.Ifx_LutLSincosF32.Ifx_g_LutLSincosF32_table',data,rom,cluster('Ifx_g_LutLSincosF32_table')
+	.sect	'.rodata.Ifx_LutLSincosF32.Ifx_g_LutLSincosF32_table'
+	.global	Ifx_g_LutLSincosF32_table
+	.align	4
+Ifx_g_LutLSincosF32_table:	.type	object
+	.size	Ifx_g_LutLSincosF32_table,1024
+	.word	986250032
+	.space	4
+	.word	986218300,955770525,986154914,974834153
+	.word	986060026,987259924,985933864,996632195
+	.word	985776732,1003723534,985589010,1009683590
+	.word	985371148,1015402639,985123673,1019362247
+	.word	984847180,1023874651,984542335,1026923100
+	.word	984209872,1030580186,983850594,1033345157
+	.word	983465364,1035849149,983055112,1038720915
+	.word	982620825,1041082729,982163550,1042911829
+	.word	981684388,1044948266,980901853,1047197788
+	.word	979863009,1049120521,978787612,1050464768
+	.word	977678252,1051920802,976537603,1053489195
+	.word	975368411,1055169909,974173494,1056962284
+	.word	972832932,1057914824,970357578,1058920437
+	.word	967848361,1059979013,965311326,1061088965
+	.word	960815251,1062248395,955032061,1063455089
+	.word	941482440,1064706531,-1206001208,1065676558
+	.word	-1192451587,1066342648,-1186668397,1067026442
+	.word	-1182172322,1067726098,-1179635287,1068439639
+	.word	-1177126070,1069164959,-1174650716,1069899830
+	.word	-1173310154,1070641905,-1172115237,1071388728
+	.word	-1170946045,1072137742,-1169805396,1072886293
+	.word	-1168696036,1073631644,-1167620639,1074056402
+	.word	-1166581795,1074421620,-1165799260,1074780919
+	.word	-1165320098,1075132803,-1164862823,1075475760
+	.word	-1164428536,1075808260,-1164018284,1076128770
+	.word	-1163633054,1076435750,-1163273776,1076727664
+	.word	-1162941313,1077002984,-1162636468,1077260197
+	.word	-1162359975,1077497808,-1162112500,1077714349
+	.word	-1161894638,1077908382,-1161706916,1078078506
+	.word	-1161549784,1078223361,-1161423622,1078341638
+	.word	-1161328734,1078432079,-1161265348,1078493484
+	.word	-1161233616,1078524720,-1161233616,1078524720
+	.word	-1161265348,1078492492,-1161328734,1078427125
+	.word	-1161423622,1078327789,-1161549784,1078193742
+	.word	-1161706916,1078024335,-1161894638,1077819013
+	.word	-1162112500,1077577323,-1162359975,1077298913
+	.word	-1162636468,1076983538,-1162941313,1076631061
+	.word	-1163273776,1076241457,-1163633054,1075814813
+	.word	-1164018284,1075351334,-1164428536,1074851339
+	.word	-1164862823,1074315266,-1165320098,1073743673
+	.word	-1165799260,1072532643,-1166581795,1071251665
+	.word	-1167620639,1069904415,-1168696036,1068492956
+	.word	-1169805396,1067019588,-1170946045,1065486840
+	.word	-1172115237,1062441724,-1173310154,1059155701
+	.word	-1174650716,1054572983,-1177126070,1046646099
+	.word	-1179635287,1007462665,-1182172322,-1101673059
+	.word	-1186668397,-1092854014,-1192451587,-1087905550
+	.word	-1206001208,-1084070486,941482440,-1081160405
+	.word	955032061,-1079202504,960815251,-1077231569
+	.word	965311326,-1075252543,967848361,-1073506154
+	.word	970357578,-1072516190,972832932,-1071529916
+	.word	974173494,-1070549997,975368411,-1069579126
+	.word	976537603,-1068620024,977678252,-1067675423
+	.word	978787612,-1066748068,979863009,-1065840702
+	.word	980901853,-1065154639,981684388,-1064725042
+	.word	982163550,-1064309519,982620825,-1063909404
+	.word	983055112,-1063526010,983465364,-1063160629
+	.word	983850594,-1062814524,984209872,-1062488928
+	.word	984542335,-1062185037,984847180,-1061904008
+	.word	985123673,-1061646955,985371148,-1061414947
+	.word	985589010,-1061209000,985776732,-1061030077
+	.word	985933864,-1060879083,986060026,-1060756864
+	.word	986154914,-1060664200,986218300,-1060601804
+	.word	986250032,-1060570320
+	.sdecl	'.rodata.Ifx_LutLSincosF32.Ifx_g_LutLSincosF32',data,rom,cluster('Ifx_g_LutLSincosF32')
+	.sect	'.rodata.Ifx_LutLSincosF32.Ifx_g_LutLSincosF32'
+	.global	Ifx_g_LutLSincosF32
+	.align	4
+Ifx_g_LutLSincosF32:	.type	object
+	.size	Ifx_g_LutLSincosF32,8
+	.half	128
+	.byte	5
+	.space	1
+	.word	Ifx_g_LutLSincosF32_table
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	1162
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutLSincosF32.c',0
+	.byte	'TASKING TriCore C compiler',0
+	.byte	'C:\\Users\\KumarDharani\\Documents\\Aurix_Projects\\Projects\\UART\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L5
+	.byte	2,1,1,3
+	.word	194
+	.byte	4
+	.byte	'Ifx__jump_and_link',0,3,1,60,17,1,1,5
+	.byte	'fun',0,1,60,43
+	.word	197
+	.byte	6,0,7
+	.byte	'__fract',0,4,128,1,7
+	.byte	'float',0,4,4,8
+	.byte	'Ifx__float_to_fract',0,3,1,184,2,18
+	.word	242
+	.byte	1,1,5
+	.byte	'a',0,1,184,2,44
+	.word	254
+	.byte	6,0,7
+	.byte	'unsigned long long int',0,8,7,9
+	.byte	'void',0,3
+	.word	334
+	.byte	8
+	.byte	'__ld64',0,3,2,163,1,19
+	.word	308
+	.byte	1,1,5
+	.byte	'addr',0,2,163,1,32
+	.word	340
+	.byte	6,0,4
+	.byte	'__st64',0,3,2,171,1,17,1,1,5
+	.byte	'addr',0,2,171,1,30
+	.word	340
+	.byte	5
+	.byte	'value',0,2,171,1,43
+	.word	308
+	.byte	6,0,7
+	.byte	'unsigned int',0,4,7,10
+	.word	426
+	.byte	3
+	.word	426
+	.byte	11
+	.byte	'__cmpswapw',0
+	.word	442
+	.byte	1,1,1,1,12
+	.byte	'p',0
+	.word	447
+	.byte	12
+	.byte	'value',0
+	.word	426
+	.byte	12
+	.byte	'compare',0
+	.word	426
+	.byte	0,7
+	.byte	'int',0,4,5,13
+	.word	504
+	.byte	14
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,15
+	.word	511
+	.byte	0,16
+	.word	202
+	.byte	17
+	.word	228
+	.byte	6,0,16
+	.word	263
+	.byte	17
+	.word	295
+	.byte	6,0,16
+	.word	345
+	.byte	17
+	.word	364
+	.byte	6,0,16
+	.word	380
+	.byte	17
+	.word	395
+	.byte	17
+	.word	409
+	.byte	6,0,7
+	.byte	'short int',0,2,5,18
+	.byte	'__wchar_t',0,3,1,1
+	.word	606
+	.byte	18
+	.byte	'__size_t',0,3,1,1
+	.word	426
+	.byte	18
+	.byte	'__ptrdiff_t',0,3,1,1
+	.word	504
+	.byte	19,1,3
+	.word	674
+	.byte	18
+	.byte	'__codeptr',0,3,1,1
+	.word	676
+	.byte	7
+	.byte	'unsigned char',0,1,8,18
+	.byte	'uint8',0,4,107,23
+	.word	699
+	.byte	7
+	.byte	'unsigned short int',0,2,7,18
+	.byte	'uint16',0,4,111,24
+	.word	730
+	.byte	7
+	.byte	'unsigned long int',0,4,7,18
+	.byte	'uint32',0,4,115,23
+	.word	767
+	.byte	18
+	.byte	'uint64',0,4,120,28
+	.word	308
+	.byte	7
+	.byte	'char',0,1,6,18
+	.byte	'sint8',0,4,124,21
+	.word	818
+	.byte	18
+	.byte	'sint16',0,4,128,1,15
+	.word	606
+	.byte	7
+	.byte	'long int',0,4,5,18
+	.byte	'sint32',0,4,133,1,14
+	.word	856
+	.byte	7
+	.byte	'long long int',0,8,5,18
+	.byte	'sint64',0,4,140,1,19
+	.word	884
+	.byte	18
+	.byte	'float32',0,4,169,1,15
+	.word	254
+	.byte	18
+	.byte	'pvoid',0,5,79,24
+	.word	340
+	.byte	18
+	.byte	'Ifx_TickTime',0,5,101,16
+	.word	884
+	.byte	20,6,56,9,8,21
+	.byte	'gain',0
+	.word	254
+	.byte	4,2,35,0,21
+	.byte	'offset',0
+	.word	254
+	.byte	4,2,35,4,0,18
+	.byte	'Ifx_LutIndexedLinearF32_Item',0,6,60,3
+	.word	969
+	.byte	13
+	.word	969
+	.byte	3
+	.word	1042
+	.byte	20,6,62,9,8,21
+	.byte	'segmentCount',0
+	.word	730
+	.byte	2,2,35,0,21
+	.byte	'shift',0
+	.word	818
+	.byte	1,2,35,2,21
+	.byte	'segments',0
+	.word	1047
+	.byte	4,2,35,4,0,18
+	.byte	'Ifx_LutIndexedLinearF32',0,6,67,3
+	.word	1052
+	.byte	22,128,8
+	.word	969
+	.byte	23,127,0
+.L10:
+	.byte	13
+	.word	1145
+.L11:
+	.byte	13
+	.word	1052
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
+	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
+	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,53,0,73,19,0,0,11,46
+	.byte	1,3,8,73,19,54,15,39,12,63,12,60,12,0,0,12,5,0,3,8,73,19,0,0,13,38,0,73,19,0,0,14,46,1,3,8,54,15,39,12
+	.byte	63,12,60,12,0,0,15,5,0,73,19,0,0,16,46,1,49,19,0,0,17,5,0,49,19,0,0,18,22,0,3,8,58,15,59,15,57,15,73,19
+	.byte	0,0,19,21,0,54,15,0,0,20,19,1,58,15,59,15,57,15,11,15,0,0,21,13,0,3,8,73,19,11,15,56,9,0,0,22,1,1,11,15
+	.byte	73,19,0,0,23,33,0,47,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L13-.L12
+.L12:
+	.half	3
+	.word	.L15-.L14
+.L14:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'C:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsTasking.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\Cpu\\Std\\IfxCpu_Intrinsics.h',0
+	.byte	0,0,0
+	.byte	'../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutLSincosF32.c',0,0,0,0
+	.byte	'C:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\KumarDharani\\\\Documents\\\\Aurix_Projects\\\\Projects\\\\UART\\\\Libraries\\\\iLLD\\\\TC4DA\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0
+	.byte	'..\\Libraries\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_LutIndexedLinearF32.h',0,0,0,0,0
+.L15:
+.L13:
+	.sdecl	'.debug_info',debug,cluster('Ifx_g_LutLSincosF32_table')
+	.sect	'.debug_info'
+.L6:
+	.word	233
+	.half	3
+	.word	.L7
+	.byte	4,1
+	.byte	'../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutLSincosF32.c',0
+	.byte	'TASKING TriCore C compiler',0
+	.byte	'C:\\Users\\KumarDharani\\Documents\\Aurix_Projects\\Projects\\UART\\TriCore Debug (TASKING)\\',0,12,1
+	.byte	2
+	.word	.L2
+	.byte	3
+	.byte	'Ifx_g_LutLSincosF32_table',0,3,62,36
+	.word	.L10
+	.byte	1,5,3
+	.word	Ifx_g_LutLSincosF32_table
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Ifx_g_LutLSincosF32_table')
+	.sect	'.debug_abbrev'
+.L7:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Ifx_g_LutLSincosF32')
+	.sect	'.debug_info'
+.L8:
+	.word	228
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'../Libraries/Service/CpuGeneric/SysSe/Math/Ifx_LutLSincosF32.c',0
+	.byte	'TASKING TriCore C compiler',0
+	.byte	'C:\\Users\\KumarDharani\\Documents\\Aurix_Projects\\Projects\\UART\\TriCore Debug (TASKING)\\',0,12,1
+	.byte	2
+	.word	.L2
+	.byte	3
+	.byte	'Ifx_g_LutLSincosF32',0,3,193,1,36
+	.word	.L11
+	.byte	1,5,3
+	.word	Ifx_g_LutLSincosF32
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Ifx_g_LutLSincosF32')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	; Module end
